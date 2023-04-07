@@ -1,0 +1,1281 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv=»X-UA-Compatible» content=»IE=EmulateIE6″>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Интерактивный лагерь</title>
+
+ <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script> 
+
+	<link rel="stylesheet" href="css/normalize.css">
+	<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/slick.css"/>
+	<link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
+	<link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+	<link rel="stylesheet" href="css/jquery.arcticmodal-0.3.css">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+
+<!-- Menu Collapse -->
+	<div class="menu__collapps">
+		<nav class="menu menu1 d-none menu-collapse">
+			<div class="x menu-open">
+				<a href="index.html" class="logo">
+							<img src="img/logo_green.png" alt="logo">
+						</a>
+				<img class="clouse" src="img/x.png" alt="">
+			</div>
+			<ul class="menu__item">
+				<li>
+					<a href="index.html" class="menu__link">
+						Главная
+					</a>
+				</li>
+				<li>
+					<a href="mission.html" class="menu__link">
+						Миссия 
+					</a>
+				</li>
+				<li class="dropdown">
+					<a href="#" class="menu__link dropbtn">
+						Обучение 
+						<i class="fas fa-chevron-down"></i>
+						<i class="fas fa-chevron-right"></i>
+					</a>
+					<ul class="dropdown-content">
+					  	<li>
+					  		<a href="programm.html">
+					  			Программа обучения
+					  		</a>
+					  	</li>
+					  	<li>
+					  		<a href="cost.html">
+					  			Стоимость обучения
+					  		</a>
+					  	</li>
+					  	<li>
+					  		<a href="#">
+					  		 	Наша команда
+					  		</a>
+					  	</li>  
+					</ul>
+				</li>
+				<li class="dropdown">
+					<a href="#" class="menu__link dropbtn">
+						Родителям
+						<i class="fas fa-chevron-down"></i>
+						<i class="fas fa-chevron-right"></i>
+					</a>
+					<ul class="dropdown-content">
+					  	<li>
+					  		<a href="conditions.html">
+					  			Условия приёма
+					  		</a>
+					  	</li>
+					</ul>
+				</li>
+				<li>
+					<a href="good.html" class="menu__link">
+						Добрые дела 
+					</a>
+				</li>
+				<li>
+					<a href="news.html" class="menu__link">
+						Новости
+					</a>
+				</li>
+				<li>
+					<a href="cooperation.html" class="menu__link">
+						Сотрудничество 
+					</a>
+				</li>
+				<li>
+					<a href="camp.html" class="menu__link">
+						Детский лагерь
+					</a>
+				</li>
+				<li>
+					<a href="vacancy.html" class="menu__link">
+						Вакансии
+					</a>
+				</li>
+				<li>
+					<a href="https://school-i.by/to-investors.pdf" class="menu__link">
+						Инвесторам
+					</a>
+				</li>
+			</ul>
+			<div class="contacs1">
+				<div class="contacs__call">
+					<a href="tel:+375296403474" class="call">
+						<img src="img/phone_whrite.png" alt="call">
+						+375296403474
+					</a>
+				</div>
+				<div class="contacs__email">
+					<a href="mailto:bybyschoolby@gmail.com" class="call">
+						<img src="img/email_whrite.png" alt="call">
+						byschoolby@gmail.com
+					</a>
+				</div>
+			</div>
+		</nav>
+	</div>
+<!-- End Menu Collapse -->
+
+
+<!---Header--->
+	<header id="header" class="header">
+		<div class="container-fluid">
+			<div class="container">
+				<div class="row">
+					<div class="col-9 col-sm-5 col-md-4 col-lg-3">
+						<div class="social-links">
+							<ul class="links">
+								<li class="links__item">
+									<a href="#" class="links__icon">
+										<img src="img/vk.png" alt="">
+									</a>
+								</li>
+								<li class="links__item">
+									<a href="#" class="links__icon">
+										<img src="img/instagramm.png" alt="">
+									</a>
+								</li>
+								<li class="links__item">
+									<a href="#" class="links__icon">
+										<img src="img/fasebook.png" alt="">
+									</a>
+								</li>
+								<li class="links__item">
+									<a href="#" class="links__icon">
+										<img src="img/youtube.png" alt="">
+									</a>
+								</li>
+								<li class="links__item">
+									<a href="#" class="links__icon">
+										<img src="img/chat.png" alt="">
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-3 col-sm-2 col-md-4 d-lg-none">
+                        <button class="menu-open">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                    </div>
+					<div class="col-sm-5 col-md-4 col-lg-3 ml-auto">
+						<div class="cabinet">
+							<div class="cabinet__lang">
+								<span>
+									Russian
+								</span>
+								<a href="#">
+									<i class="fas fa-chevron-down"></i>
+								</a>
+							</div>
+							<div class="d-sm-none contacs__search-mob">
+								<a href="#" class="call">
+									<img src="img/search.png" alt="search">
+								</a>
+							</div>
+							<div class="cabinet__input">
+								<a href="#" class="input">Вход</a>
+								<span>/</span>
+								<a href="#" class="reg">Регистрация</a>
+							</div>
+						</div>
+					</div>
+				</div>	
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-xl-2 col-lg-12">
+					<a href="index.html" class="logo">
+						<img src="img/logo_green.png" alt="logo">
+					</a>
+				</div>
+				<div class="col-lg-12 col-xl-10">
+					<div class="navigation">
+						<div class="contacs">
+							<div class="contacs__search">
+								<a href="#" class="call">
+									<img src="img/search.png" alt="search">
+								</a>
+							</div>
+							<div class="contacs__call">
+								<a href="tel:+375296403474" class="call">
+									<img src="img/call.png" alt="call">
+									+375296403474
+								</a>
+							</div>
+							<div class="contacs__email">
+								<a href="mailto:bybyschoolby@gmail.com" class="call">
+									<img src="img/message.png" alt="call">
+									byschoolby@gmail.com
+								</a>
+							</div>
+						</div>
+						<nav class="menu d-none d-lg-block">
+							<ul class="menu__item">
+								<li>
+									<a href="mission.html" class="menu__link">
+										Миссия 
+									</a>
+								</li>
+								<li class="dropdown">
+									<a href="#" class="menu__link dropbtn">
+										Обучение 
+										<i class="fas fa-chevron-down"></i>
+									</a>
+									<ul class="dropdown-content">
+									  	<li>
+									  		<a href="programm.html">
+									  			Программа обучения
+									  		</a>
+									  	</li>
+									  	<li>
+									  		<a href="cost.html">
+									  			Стоимость обучения
+									  		</a>
+									  	</li>
+									  	<li>
+									  		<a href="#">
+									  		 	Наша команда
+									  		</a>
+									  	</li>  
+									</ul>
+								</li>
+								<li class="dropdown">
+									<a href="#" class="menu__link dropbtn">
+										Родителям
+										<i class="fas fa-chevron-down"></i>
+									</a>
+									<ul class="dropdown-content">
+									  	<li>
+									  		<a href="conditions.html">
+									  			Условия приёма
+									  		</a>
+									  	</li>
+									</ul>
+								</li>
+								<li>
+									<a href="good.html" class="menu__link">
+										Добрые дела 
+									</a>
+								</li>
+								<li>
+									<a href="news.html" class="menu__link">
+										Новости
+									</a>
+								</li>
+								<li>
+									<a href="cooperation.html" class="menu__link">
+										Сотрудничество 
+									</a>
+								</li>
+								<li>
+									<a href="camp.html" class="menu__link">
+										Детский лагерь
+									</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+<!---End Header--->
+
+
+<!---Record-International--->
+<section id="international" class="international record-international">
+	<div class="container">
+		<div class="row">
+			<div class="col-12">
+				<h1>
+					Интерактивный онлайн лагерь
+				</h1>
+			</div>
+			<div class="col-12">
+				<div class="line-blue"></div>
+			</div>
+			<div class="col-12">
+				<h1>
+					Развивающий досуг целый день
+				</h1>
+			</div>
+			<div class="col-12">
+				<a href="#try-it2" class="rec go">
+					Записаться
+				</a>
+			</div>
+		</div>
+	</div>
+</section>
+<!---End Record-International--->
+
+
+<!---Iinvitation--->
+<section id="invitation" class="invitation">
+	<div class="container">
+		<div class="row">
+			<div class="col-12">
+				<h4 class="invitation__title">
+					Мы приглашаем детей возрастом 6-15 лет весело и полезно провести каникулы в атмосфере приключений, веселья и it!
+				</h4>
+			</div>
+			<div class="col-12">
+				<p class="invitation__text">
+					Занимайтесь своими делами, пока ваш ребенок приобретает навыки будущего и новых друзей.
+				</p>
+			</div>
+		</div>
+	</div>
+</section>
+<!---End Invitation--->
+
+
+<!---Benefit--->
+<section id="capabilities" class="capabilities benefit">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<h3 class="capabilities__title">
+					Каждый день с пользой для ребенка:
+				</h3>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-6 col-lg-4">
+				<div class="animate__animated opportunity">
+					<div class="opportunity__list">
+						<img src="img/camp_icon1.png" alt="" class="opportunity__icon">
+						<h6 class="opportunity__title">
+							Развитие
+						</h6>
+					</div>
+					<p class="animate__animated opportunity__text">
+						Интеллектуальное развитие ребенка
+					</p>
+				</div>
+			</div>
+			<div class="col-md-6 col-lg-4">
+				<div class="animate__animated opportunity">
+					<div class="opportunity__list">
+						<img src="img/camp_icon2.png" alt="" class="opportunity__icon">
+						<h6 class="animate__animated opportunity__title">
+							Педагоги
+						</h6>
+					</div>
+					<p class="animate__animated opportunity__text">
+						7 педагогов разного профиля
+					</p>
+				</div>
+			</div>
+			<div class="col-md-6 col-lg-4">
+				<div class="animate__animated opportunity">
+					<div class="opportunity__list">
+						<img src="img/camp_icon3.png" alt="" class="opportunity__icon">
+						<h6 class="animate__animated opportunity__title">
+							Активность
+						</h6>
+					</div>
+					<p class="animate__animated opportunity__text">
+						Физическая активность каждый час
+					</p>
+				</div>
+			</div>
+			<div class="col-md-6 col-lg-4">
+				<div class="animate__animated opportunity">
+					<div class="opportunity__list">
+						<img src="img/camp_icon4.png" alt="" class="opportunity__icon">
+						<h6 class="animate__animated opportunity__title">
+							Гибкость
+						</h6>
+					</div>
+					<p class="animate__animated opportunity__text">
+						Зарядка и йога
+					</p>
+				</div>
+			</div>
+			<div class="col-md-6 col-lg-4">
+				<div class="animate__animated opportunity">
+					<div class="opportunity__list">
+						<img src="img/camp_icon5.png" alt="" class="opportunity__icon">
+						<h6 class="animate__animated opportunity__title">
+							Группа
+						</h6>
+					</div>
+					<p class="animate__animated opportunity__text">
+						Дети 6-15 лет, в группе до 15 человек
+					</p>
+				</div>
+			</div>
+			<div class="col-md-6 col-lg-4">
+				<div class="animate__animated opportunity">
+					<div class="opportunity__list">
+						<img src="img/camp_icon6.png" alt="" class="opportunity__icon">
+						<h6 class="animate__animated opportunity__title">
+							Психология
+						</h6>
+					</div>
+					<p class="animate__animated opportunity__text">
+						Развитие навыков человека «будущего» с психологами
+					</p>
+				</div>
+			</div>
+			<div class="col-md-6 col-lg-4">
+				<div class="animate__animated opportunity">
+					<div class="opportunity__list">
+						<img src="img/camp_icon7.png" alt="" class="opportunity__icon">
+						<h6 class="animate__animated opportunity__title">
+							Мультипликация
+						</h6>
+					</div>
+					<p class="animate__animated opportunity__text">
+						Писательский Курс и Мультипликация
+					</p>
+				</div>
+			</div>
+			<div class="col-md-6 col-lg-4">
+				<div class="animate__animated opportunity">
+					<div class="opportunity__list">
+						<img src="img/camp_icon8.png" alt="" class="opportunity__icon">
+						<h6 class="animate__animated opportunity__title">
+							Блогинг
+						</h6>
+					</div>
+					<p class="animate__animated opportunity__text">
+						Английский и Блогинг
+					</p>
+				</div>
+			</div>
+			<div class="col-md-6 col-lg-4">
+				<div class="animate__animated opportunity">
+					<div class="opportunity__list">
+						<img src="img/camp_icon9.png" alt="" class="opportunity__icon">
+						<h6 class="animate__animated opportunity__title">
+							Творчество
+						</h6>
+					</div>
+					<p class="animate__animated opportunity__text">
+						Творческие занятия вне компьютера и перемены по 15 минут
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!---End Benefit--->
+
+
+<!---Atmosphere--->
+<section id="earnings" class="earnings atmosphere">
+	<div class="container">
+		<div class="row">
+			<div class="col-12">
+				<h3 class="good__title">
+					Атмосфера лагеря, не выходя из дома
+				</h3>
+			</div>	
+			<div class="col-lg-6">
+				<div class="animate__animated reception__desc atmosphere__desc">
+					<p class="reception__text atmosphere__text">
+						День начинается с детской йоги, а в перерывах между занятиями-обязательная разминка. Ребята занимаются шахматами,участвуют в тренингах по актерскому мастерству, работают с психологами, играют в онлайн турнире.
+					</p>
+				</div>
+			</div>	
+			<div class="col-lg-6">
+				<div class="bg-atmosphere"></div>
+			</div>
+		</div>
+	</div>
+</section>
+<!---End Atmosphere--->
+
+
+<!---Programm--->
+<section id="principle" class="principle programm">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<h3 class="animate__animated principle__title">
+					Программа Лагеря
+				</h3>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-6 col-lg-4">
+				<div class="animate__animated items">
+					<div class="items__icon color_1">
+						1
+					</div>
+					<div class="descript">
+						<h6>
+							Программирование
+						</h6>
+						<p class="items__text">
+						    Для старшей группы (9-15 лет) -за время лагеря дети создадут собственные фоны, декорации, героев и адаптируют их под Unity
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6 col-lg-4">
+				<div class="animate__animated items">
+					<div class="items__icon color_1">
+						2
+					</div>
+					<div class="descript">
+						<h6>
+							Art
+						</h6>
+						<p class="items__text">
+							Каждый день - занятия с Art, развивающие у детей у детей креативное мышление, творческие способности и свое видение прекрасного.
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6 col-lg-4">
+				<div class="animate__animated items">
+					<div class="items__icon color_1">
+						3
+					</div>
+					<div class="descript">
+						<h6>
+							Я управленец
+						</h6>
+						<p class="items__text">
+							Ваш ребенок научиться управлять предприятием, познает мир финансов, почувствует себя предпринимателем.
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6 col-lg-4">
+				<div class="animate__animated items">
+					<div class="items__icon color_2">
+						4
+					</div>
+					<div class="descript">
+						<h6>
+							STEM и Наука
+						</h6>
+						<p class="items__text">
+							Дети попробуют себя в роли ученых и проектных менеджеров. Проведут собственные эксперименты и попробуют воплотить в жизнь собственные инженерные решения
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6 col-lg-4">
+				<div class="animate__animated items">
+					<div class="items__icon color_2">
+						5
+					</div>
+					<div class="descript">
+						<h6>
+							Иностранный язык
+						</h6>
+						<p class="items__text">
+							Участники прокачают английский с носителем языка. Расширят свой словарный запас и уберут страх перед языковым барьером.
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6 col-lg-4">
+				<div class="animate__animated items">
+					<div class="items__icon color_2">
+						6
+					</div>
+					<div class="descript">
+						<h6>
+							Активность
+						</h6>
+						<p class="items__text">
+							Дети каждый день играют на свежем воздухе. Ежедневно проходят разные физические активности, турнир по теннису и супер-приз для победителя!
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6 col-lg-4">
+				<div class="animate__animated items">
+					<div class="items__icon color_3">
+						7
+					</div>
+					<div class="descript">
+						<h6>
+							Эстетика
+						</h6>
+						<p class="items__text">
+							Психологические мастер-классы на которых дети больше узнают о себе и свои эмоции, исследуют мир и свое место в нем. Научатся слышать и слушать друг друга, различать Эмоции собеседника и выходить из конфликтных ситуаций мирным путем.
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6 col-lg-4">
+				<div class="animate__animated items">
+					<div class="items__icon color_3">
+						8
+					</div>
+					<div class="descript">
+						<h6>
+							Вечеринки
+						</h6>
+						<p class="items__text">
+							Вечеринка в  фотозоне, музыкой, танцами. Кулинарные мастер классы
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6 col-lg-4">
+				<div class="animate__animated items">
+					<div class="items__icon color_3">
+						9
+					</div>
+					<div class="descript">
+						<h6>
+							Мультипликация
+						</h6>
+						<p class="items__text">
+							Напишем сценарий мультика. Научимся озвучивать на английском. Узнаем все секреты монтажа, озвучки, раскадровки.
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6 col-lg-4">
+				<div class="animate__animated items">
+					<div class="items__icon color_4">
+						10
+					</div>
+					<div class="descript">
+						<h6>
+							Блогинг
+						</h6>
+						<p class="items__text">
+							Создадим рекламу будущей премьеры в своих блогах.
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6 col-lg-4">
+				<div class="animate__animated items">
+					<div class="items__icon color_4">
+						11
+					</div>
+					<div class="descript">
+						<h6>
+							Фотография
+						</h6>
+						<p class="items__text">
+							Научимся фотографировать.
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6 col-lg-4">
+				<div class="animate__animated items">
+					<div class="items__icon color_4">
+						12
+					</div>
+					<div class="descript">
+						<h6>
+							Онлайн экскурсии
+						</h6>
+						<p class="items__text">
+							Интересные и занимательные экскурсии, познаем окружающий мир вместе.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!---End Programm--->
+
+
+<!---Parents--->
+<section id="earnings" class="earnings parents">
+	<div class="container">
+		<div class="row no-gutters">
+			<div class="col-12">
+				<h3 class="reception__title">
+					А что родители?
+				</h3>
+			</div>	
+			<div class="col-lg-6">
+				<div class="ex">
+					<ul class="animate__animated ex__list">
+						<li class="ex__item">
+							<img src="img/blue_checkmark.png" alt="">
+							<div>
+								Увидят, как в жизни ребенка обязательно случится что-то новое и интересное
+							</div>
+						</li>
+						<li class="ex__item">
+							<img src="img/blue_checkmark.png" alt="">
+							<div>
+								Будут спокойными за свободное время ребенка и знать, что вожатые и тренеры подбирают лучшие материалы для обучения и развлечения
+							</div>
+						</li>
+						<li class="ex__item">
+							<img src="img/blue_checkmark.png" alt="">
+							<div>
+								Почувствуют изменения в общении со своим ребенком
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>	
+			<div class="col-lg-6">
+				<div class="bg_Parents">
+					<img src="img/parents_img.jpg" alt="">
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!---End Parents--->
+
+
+<!---End Cost--->
+<section id="cost" class="cost">
+	<div class="container">
+		<div class="row no-gutters">
+			<div class="col-12">
+				<h3>
+					Стоимость наших пакетов в он-лайн лагере в зависимости от Ваших возможностей:
+				</h3>
+			</div>
+			<div class="col-md-6 col-xl-4">
+				<div class="animate__animated package">
+					<h4 class="package__title cost_color1">
+						Мини
+					</h4>
+					<span class="package__text">
+						2 дня
+					</span>
+					<span class="package__text">
+						4 часа в день
+					</span>
+					<img src="img/cost_img1.jpg" alt="" class="package__img">
+					<span class="package__cost">
+						60 BYN
+					</span>
+					<a href="#try-it2" class="package__order order1 go">
+						Заказать
+					</a>
+				</div>
+			</div>
+			<div class="col-md-6 col-xl-4">
+				<div class="animate__animated package">
+					<h4 class="package__title cost_color2">
+						Популярный
+					</h4>
+					<span class="package__text">
+						5 дней
+					</span>
+					<span class="package__text">
+						5 часов в день
+					</span>
+					<img src="img/cost_img2.jpg" alt="" class="package__img">
+					<span class="package__cost">
+						100 BYN
+					</span>
+					<a href="#try-it2" class="package__order order2 go">
+						Заказать
+					</a>
+				</div>
+			</div>
+			<div class="col-md-6 col-xl-4">
+				<div class="animate__animated package package-recomend">
+					<div class="recomend"></div>
+					<h4 class="package__title cost_color1">
+						Рекомендуем
+					</h4>
+					<span class="package__text">
+						5 дней
+					</span>
+					<span class="package__text">
+						7 часов в день
+					</span>
+					<img src="img/cost_img3.jpg" alt="" class="package__img">
+					<span class="package__cost">
+						150 BYN
+					</span>
+					<a href="#try-it2" class="package__order order1 go">
+						Заказать
+					</a>
+				</div>
+			</div>
+			<div class="col-md-6 col-xl-4">
+				<div class="animate__animated package">
+					<h4 class="package__title cost_color3">
+						Оптимальный
+					</h4>
+					<span class="package__text">
+						7 дней
+					</span>
+					<span class="package__text">
+						7 часов в день
+					</span>
+					<img src="img/cost_img4.jpg" alt="" class="package__img">
+					<span class="package__cost">
+						250 BYN
+					</span>
+					<a href="#try-it2" class="package__order order3 go">
+						Заказать
+					</a>
+				</div>
+			</div>
+			<div class="col-md-6 col-xl-4">
+				<div class="animate__animated package">
+					<h4 class="package__title cost_color4">
+						Универсальный
+					</h4>
+					<span class="package__text">
+						10 дней
+					</span>
+					<span class="package__text">
+						7 часов в день
+					</span>
+					<img src="img/cost_img5.jpg" alt="" class="package__img">
+					<span class="package__cost">
+						300 BYN
+					</span>
+					<a href="#try-it2" class="package__order order4 go">
+						Заказать
+					</a>
+				</div>
+			</div>
+			<div class="col-md-6 col-xl-4">
+				<div class="animate__animated package">
+					<h4 class="package__title cost_color5">
+						Супер
+					</h4>
+					<span class="package__text">
+						14 дней
+					</span>
+					<span class="package__text">
+						7 часов в день
+					</span>
+					<img src="img/cost_img6.jpg" alt="" class="package__img">
+					<span class="package__cost">
+						375 BYN
+					</span>
+					<a href="#try-it2" class="package__order order5 go">
+						Заказать
+					</a>
+				</div>
+			</div>
+			<div class="col-12">
+				<p class="cost__description">
+					У вас есть возможность приобрести  отдельные дни или несколько дней участия в он-лайн лагере. А если вашему ребенку понравиться - вы сможете докупить дни до полного цикла!
+				</p>
+			</div>
+		</div>
+	</div>
+</section>
+<!---End Cost--->
+
+
+<!---Try-it--->
+<section id="try-it" class="try-it">
+	<div class="container">
+		<div class="row no-gutters">
+			<div class="col-12">
+				<h3>
+					Технические требования к занятиям:
+				</h3>
+			</div>
+			<div class="col-lg-7">
+				<div class="requirements">
+					<div class="demand">
+						<div class="demand__number cost_color3">
+							1
+						</div>
+						<p class="demand__text">
+							Ребенку требуется электронное <br> устройство с веб-камерой и микрофоном 
+						</p>
+					</div>
+					<div class="demand">
+						<div class="demand__number cost_color1">
+							2
+						</div>
+						<p class="demand__text">
+							Программа интерактивна и реализуется <br> в одной “комнате” площадке Zoom  
+						</p>
+					</div>
+					<div class="demand">
+						<div class="demand__number cost_color2">
+							3
+						</div>
+						<p class="demand__text">
+							<a href="#">
+								Скачать программу c AppStore
+							</a>
+							<a href="#">
+								Скачать программу c Google Play  
+							</a>
+							<a href="#">
+								Скачать программу для ПК
+							</a> 
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-5">
+				<img src="img/requirements_img.jpg" alt="" class="rec-img">
+			</div>
+		</div>
+	</div>
+</section>
+<!---End Try-it--->
+
+<section id="try-it2" class="try-it">
+	<div class="container container-bottom">
+		<div class="row no-gutters">
+			<div class="col-12">
+				<h2>
+					Хотите попробовать?
+				</h2>
+				<p>
+					Заполните форму и вам перезвонит администратор!
+				</p>
+			</div>
+			<div class="col-lg-5">
+				<div class="animate__animated ex">
+					<h6>
+						Что Вам еще нужно знать о лагере:
+					</h6>
+					<ul class="animate__animated ex__list">
+						<li class="animate__animated ex__item">
+							<img src="img/blue_checkmark.png" alt="">
+							<div>
+								Скучать ребенку будет некогда, если будет использоваться гаджет, то только с пользой;  
+							</div>
+						</li>
+						<li class="animate__animated ex__item">
+							<img src="img/blue_checkmark.png" alt="">
+							<div>
+								Раскроем невероятные способности современных технологий;
+							</div>
+						</li>
+						<li class="animate__animated ex__item">
+							<img src="img/blue_checkmark.png" alt="">
+							<div>
+								Наши развлечения формируют базу для перспективных профессий и прибыльных хобби;
+							</div>
+						</li>
+						<li class="animate__animated ex__item">
+							<img src="img/blue_checkmark.png" alt="">
+							<div>
+								Дети находятся при постоянной поддержке педагогов;
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-lg-6 offset-lg-1">
+				<div class="form animate__animated">
+					<input type="name" class="name" name="name" placeholder="Ваше имя">
+					<input type="tel" class="phone phone2" name="phone" placeholder="Ваш телефон">
+					<input type="email" class="email" name="email" placeholder="Ваш e-mail">
+					<a href="#" class="form__button">
+						Отправить заявку
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!---Footer--->
+<footer id="footer" class="footer">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-3">
+				<div class="footer__logo">
+					<a href="#" class="logo">
+						<img src="img/logo_green.png" alt="logo">
+					</a>
+					<p class="logo-footer__text">
+						Обеспечение жизненного опыта через образование. Обучение, которое подходит для Вашего ребенка в шаговой доступности.
+					</p>
+				</div>
+			</div>
+			<div class="col-md-6 col-lg-3 d-none d-lg-block">
+				<div class="footer-menu">
+					<nav class="menu-left">
+						<h6>
+							Гибкое обучение
+						</h6>
+						<ul class="menu-left__item">
+							<li>
+								<a href="mission.html">
+									Миссия
+								</a>
+							</li>	
+							<li>
+								<a href="cost.html">
+									Обучение для детей
+								</a>
+							</li>
+							<li>
+								<a href="cost.html">
+									Обучение для взрослых
+								</a>
+							</li>
+							<li>
+								<a href="conditions.html">
+									Как поступить
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									Оплата
+								</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+			<div class="col-md-6 col-lg-3 d-none d-lg-block">
+				<div class="footer-menu">
+					<nav class="menu-right">
+						<h6>
+							Новости
+						</h6>
+						<ul class="menu-left__item">
+							<li>
+								<a href="good.html">
+									Добрые дела
+								</a>
+							</li>	
+							<li>
+								<a href="news.html">
+									Новости
+								</a>
+							</li>
+							<li>
+								<a href="cooperation.html">
+									Сотрудничество
+								</a>
+							</li>
+							<li>
+								<a href="vacancy.html">
+									Вакансии
+								</a>
+							</li>
+							<li>
+								<a href="https://school-i.by/to-investors.pdf">
+									Инвесторам
+								</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+			<div class="d-none d-md-block col-md-12 col-lg-3">
+				<div class="map">
+					<h6>
+						Учись и путешествуй
+					</h6>
+					<img src="img/map.png" alt="">
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-6 offset-md-4 offset-lg-0 col-lg-3">
+				<div class="footer__contacs">
+					<div class="contacs__call contacs__call-footer">
+						<a href="tel:+375296403474" class="call">
+							<img src="img/call.png" alt="call">
+							+375296403474
+						</a>
+					</div>
+					<div class="contacs__email contacs__email-footer">
+						<a href="mailto:yourmail@mysite.com" class="call">
+							<img src="img/message.png" alt="call">
+							byschoolby@gmail.com
+						</a>
+					</div>
+					<div class="contacs__clock">
+						<img src="img/clock_footer.png" alt="">
+						24/7
+					</div>
+				</div>
+				<div class="footer__contacs1">
+					<div class="contacs__call contacs__call-footer">
+						<a href="#" class="call">
+							<img src="img/call.png" alt="call">
+							+375296403474
+						</a>
+						<div class="contacs__clock">
+							<img src="img/clock_footer.png" alt="">
+							24/7
+						</div>
+					</div>
+					<div class="contacs__email contacs__email-footer">
+						<a href="mailto:yourmail@mysite.com" class="call">
+							<img src="img/message.png" alt="call">
+							byschoolby@gmail.com
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="d-md-none col-md-12 col-lg-3">
+				<div class="map">
+					<h6>
+						Учись и путешествуй
+					</h6>
+					<img src="img/map.png" alt="">
+				</div>
+			</div>
+			<div class="col-lg-6">
+				<h6 class="icon-title">
+					Подписывайтесь на нас:
+				</h6>
+				<ul class="links links-footer">
+					<li class="links__item">
+						<a href="#" class="links__icon">
+							<img src="img/f-vk.png" alt="">
+						</a>
+					</li>
+					<li class="links__item">
+						<a href="#" class="links__icon">
+							<img src="img/f-inst.png" alt="">
+						</a>
+					</li>
+					<li class="links__item">
+						<a href="#" class="links__icon">
+							<img src="img/f-fac.png" alt="">
+						</a>
+					</li>
+					<li class="links__item">
+						<a href="#" class="links__icon">
+							<img src="img/f-you.png" alt="">
+						</a>
+					</li>
+					<li class="links__item">
+						<a href="#" class="links__icon">
+							<img src="img/f-chat.png" alt="">
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div class="col-lg-3">
+				<p class="logo-footer__text logo-footer__text2">
+					Все фото и видео материалы принадлежат их владельцам и использованы исключительно в целях демонстрации. Пожалуйста, не используйте их в коммерческих целях.
+				</p>
+			</div>
+		</div>
+	</div>
+</footer>
+<!---End Footer--->
+
+
+<!---Box-modal--->
+	<div style="display: none;">
+	    <div class="box-modal box-modal1" id="exampleModal-input">
+	    	<div class="menu-clouse">
+	    		<div class="box-modal_close arcticmodal-close"><img class="cl" src="img/x.png" alt=""></div>
+			</div>
+	    	<a href="index.html" class="logo">
+				<img src="img/logo_green.png" alt="logo">
+			</a>
+			<div class="buttons">
+				<a href="#" class="button__student tablink active tablink-1" onclick="openCity(event, '100')">
+					Для учениа
+				</a>
+				<a href="#" class="button__teacher tablink tablink-2" onclick="openCity(event, '200')">
+					Для учителя
+				</a>
+			</div>
+			<div id="100" class="m-form tabcontent" style="display: block">
+				<input type="email" class="mail" name="mail" placeholder="Ваш e-mail">
+				<input type="password" class="pass" name="pass" placeholder="Ваш пароль">
+				<a href="#" class="form__button">
+					Войти
+				</a>
+			</div>
+			<div id="200" class="m-form tabcontent">
+				<input type="email" class="mail" name="mail" placeholder="Ваш e-mail">
+				<input type="password" class="pass" name="pass" placeholder="Ваш пароль">
+				<a href="#" class="form__button">
+					Войти
+				</a>
+			</div>
+			<div class="pass-reg pass-reg1">
+				<a href="#" class="password">
+					Забыли пароль?
+				</a>
+				<a href="#" class="regist">
+					зарегестрироваться
+				</a>
+			</div>
+	    </div>
+	</div>
+
+	<div style="display: none;">
+	    <div class="box-modal" id="exampleModal-reg">
+	    	<div class="menu-clouse">
+	    		<div class="box-modal_close arcticmodal-close"><img class="cl" src="img/x.png" alt=""></div>
+			</div>
+	    	<a href="index.html" class="logo">
+				<img src="img/logo_green.png" alt="logo">
+			</a>
+			<div class="buttons">
+				<a href="#" class="button__student tablink active tablink-1" onclick="openCity(event, '101')">
+					Для ученика
+				</a>
+				<a href="#" class="button__teacher tablink tablink-2" onclick="openCity(event, '202')">
+					Для учителя
+				</a>
+			</div>
+			<div id="101" class="m-form tabcontent" style="display: block;">
+				<input type="email" class="mail" name="mail" placeholder="Ваш e-mail">
+				<input type="password" class="pass" name="pass" placeholder="Ваш пароль">
+				<input type="tel" class="phone tel" name="phone" placeholder="Ваш телефон">
+				<a href="#" class="form__button">
+					Зарегестрироваться
+				</a>
+			</div>
+			<div id="202" class="m-form tabcontent">
+				<input type="email" class="mail" name="mail" placeholder="Ваш e-mail">
+				<input type="password" class="pass" name="pass" placeholder="Ваш пароль">
+				<input type="tel" class="phone tel" name="phone" placeholder="Ваш телефон">
+				<a href="#" class="form__button">
+					Зарегестрироваться
+				</a>
+			</div>
+			<div class="pass-reg">
+				<a href="#" class="password">
+					Забыли пароль?
+				</a>
+			</div>
+	    </div>
+	</div>
+<!---End Box-modal--->
+
+
+
+
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/jquery.arcticmodal-0.3.min.js"></script>
+	<script src="js/arctikmodal.js"></script>
+	<script src="js/slick.min.js"></script>
+	<script src="js/tabs.js"></script>
+	<script src="js/tabs2.js"></script>
+	<script src="js/slick2.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
+
