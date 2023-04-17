@@ -4551,7 +4551,7 @@ header button {
 	font-weight: 600;
 	background-color: #4eb62e;
 	color: #fff;
-	width: 700px;
+	width: 610px;
 	margin: 0px auto;
 }
 .kids__camp_call_to_action_box_btn {
@@ -4716,6 +4716,59 @@ header button {
 	color: #f9420d;
 	line-height: 34px;
 	margin: 35px auto;
+}
+.kids-camp-box-viber-chat {
+	margin: 40px auto;
+}
+.kids__camp_box_viber_chat_block1_img {
+	width: 220px;
+}
+.kids__camp_box_viber_chat_block1_head {
+	color: tomato;
+	font-size: 30px;
+	margin: 70px auto 20px auto;
+}
+.kids__camp_box_viber_chat_block1_text {
+	font-size: 20px;
+	margin-bottom: 30px;
+}
+.kids__camp_box_viber_chat_block2_img {
+	width: 350px;
+}
+.kids-camp-box-programms {
+	margin: 40px auto;
+}
+.kids__camp_box_programms_head {
+	font-size: 35px;
+	font-weight: 700;
+	margin: 30px auto 50px auto;
+}
+.kids__camp_box_programms_block {
+	display: flex;
+	margin-bottom: 30px;
+}
+.kids__camp_box_programms_block_head {
+	font-size: 24px;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin-bottom: 25px;
+	margin-left: 30px;
+}
+.kids__camp_box_programms_block_img {
+	width: 284px;
+}
+.kids__camp_download_doc {
+
+}
+.kids__camp_download_doc_link {
+	padding: 7px 7px;
+	width: 310px;
+	font-size: 24px;
+	color: #fff;
+	font-weight: 700;
+}
+.kids__camp_download_doc_link:hover {
+	color: #000;
 }
 .kids-camp-box-transfer {
 	margin-top: 30px;
