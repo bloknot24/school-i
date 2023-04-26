@@ -507,7 +507,7 @@ include_once 'header.php'; ?>
                     </div>
                     <div class="kids__camp_about_place_block_text2">
                         <span>120 км от Минска</span>
-                        <a class="kids__camp_about_place_block_text2_link" href="https://yandex.by/maps/org/usadba_mayentak_po_doroge_na_vilnyu/1313447672/?from=tabbar&ll=25.944684%2C54.424089&mode=search&sll=25.944684%2C54.424087&source=serp_navig&text=вячкойни&z=14">см. на карте</a>
+                        <a class="kids__camp_about_place_block_text2_link" target="_blank" href="https://yandex.by/maps/geo/2117064511/?from=tabbar&ll=26.011159%2C54.471569&source=serp_navig&z=17">см. на карте</a>
                     </div>
                     <div class="kids__camp_about_place_block_text3">
                         Летний сезон по 7 и 14 дней
@@ -622,7 +622,7 @@ include_once 'header.php'; ?>
                     </div>
                     <div class="kids__camp_about_place_block_text2">
                         <span>60 км от Минска</span>
-                        <a class="kids__camp_about_place_block_text2_link" href="https://yandex.by/maps/org/berezovy_dvor/1348214132/?from=tabbar&ll=26.611694%2C54.047170&mode=search&sctx=ZAAAAAgBEAAaKAoSCXmu78NBjjtAES%2F6CtKM80pAEhIJdy6M9KL25T8RoWgewCK%2Fxj8iBgABAgMEBSgKOABAjp4GSAFqAnVhnQHNzEw9oAEAqAEAvQEXprCBwgEF9LrwggXqAQDyAQD4AQCCAirRg9GB0LDQtNGM0LHQsCDQsdC10YDQtdC30L7QstGL0Lkg0LTQstC%2B0YCKAgCSAgYyMTM5ODmaAgxkZXNrdG9wLW1hcHM%3D&sll=26.611694%2C54.047170&source=serp_navig&sspn=0.056987%2C0.023788&text=усадьба%20березовый%20двор&z=14.8">см. на карте</a>
+                        <a class="kids__camp_about_place_block_text2_link" target="_blank" href="https://yandex.by/maps/org/berezovy_dvor/1348214132/?from=tabbar&ll=26.611694%2C54.047170&mode=search&sctx=ZAAAAAgBEAAaKAoSCXmu78NBjjtAES%2F6CtKM80pAEhIJdy6M9KL25T8RoWgewCK%2Fxj8iBgABAgMEBSgKOABAjp4GSAFqAnVhnQHNzEw9oAEAqAEAvQEXprCBwgEF9LrwggXqAQDyAQD4AQCCAirRg9GB0LDQtNGM0LHQsCDQsdC10YDQtdC30L7QstGL0Lkg0LTQstC%2B0YCKAgCSAgYyMTM5ODmaAgxkZXNrdG9wLW1hcHM%3D&sll=26.611694%2C54.047170&source=serp_navig&sspn=0.056987%2C0.023788&text=усадьба%20березовый%20двор&z=14.8">см. на карте</a>
                     </div>
                     <div class="kids__camp_about_place_block_text3">
                         Летний сезон по 7 и 14 дней
@@ -852,9 +852,32 @@ include_once 'header.php'; ?>
                 <h3 class="kids__camp_box_food_head text-center">
                     СМЕНА 14 дней
                 </h3>
-                <p class="kids__camp_box_change_block_list_item_text2 text-center">
-                    23.07 — 29.07
-                </p>
+                <ul style="list-style-type: none;">
+                    <p class="kids__camp_box_change_block_list_item_text2 text-center">
+                        <li class="kids__camp_box_change_block_list_item">
+                            <div style="display: flex; justify-content: center;">
+                                <div class="kids__camp_box_change_block_list_item_circle"></div>
+                                <p class="kids__camp_box_change_block_list_item_text1">
+                                    1 смена
+                                </p>
+                            </div>
+                            <p class="kids__camp_box_change_block_list_item_text2 text-center">
+                                11.06 — 24.06
+                            </p>
+                        </li>
+                        <li class="kids__camp_box_change_block_list_item">
+                            <div style="display: flex; justify-content: center;">
+                                <div class="kids__camp_box_change_block_list_item_circle"></div>
+                                <p class="kids__camp_box_change_block_list_item_text1">
+                                    2 смена
+                                </p>
+                            </div>
+                            <p class="kids__camp_box_change_block_list_item_text2 text-center">
+                                02.07 — 15.07
+                            </p>
+                        </li>
+                    </p>
+                </ul>
             </div>
             <div class="col-12">
                 <p class="kids__camp_box_change_additionally text-center">
@@ -1329,9 +1352,9 @@ include_once 'header.php'; ?>
                         </p>
                     <? else : ?>
                         <form method="post" action="#try-it">
-                            <input type="name" class="name" name="name" placeholder="Ваше имя" value="<?=$name?>">
-                            <input type="tel" class="phone phone2" name="phone" placeholder="Ваш телефон" value="<?=$phone?>">
-                            <input type="email" class="email" name="email" placeholder="Ваш e-mail" value="<?=$email?>">
+                            <input type="name" class="name" name="name" placeholder="Ваше имя" value="<?= $name ?>">
+                            <input type="tel" class="phone phone2" name="phone" placeholder="Ваш телефон" value="<?= $phone ?>">
+                            <input type="email" class="email" name="email" placeholder="Ваш e-mail" value="<?= $email ?>">
                             <button name="formCamp" type="submit" class="camp__form_button">Оставить заявку</button>
                         </form>
                     <? endif; ?>
