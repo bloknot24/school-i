@@ -4767,7 +4767,7 @@ header button {
 }
 .kids__camp_download_doc_link {
 	padding: 7px 7px;
-	width: 290px;
+	/* width: 290px; */
 	font-size: 21px;
 	color: #fff;
 	font-weight: 700;

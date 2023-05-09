@@ -1,5 +1,5 @@
 <?php $title = 'Детский отдых - НоваШкола Я';
-$description = 'НоваШкола Я - это Частная школа и Центр дополнительного образования. Интерактивный детский лагерь. Обучение через развлечение.';
+$description = 'НоваШкола Я - это Частная школа и Центр дополнительного образования. Интерактивный детский отдых. Обучение через развлечение.';
 include_once 'header.php'; ?>
 
 <section id="international" class="kids-camp-fon-section">
@@ -209,7 +209,7 @@ include_once 'header.php'; ?>
         <div class="row">
             <div class="col-12">
                 <h2 class="kids__camp_benefit_head text-center">
-                    Что ожидает детей в лагере?
+                    Чем будут заняты дети?
                 </h2>
             </div>
             <div class="col-lg-4 col-md-6 col-sm-6">
@@ -1186,7 +1186,7 @@ include_once 'header.php'; ?>
                         А так же
                     </h3> -->
                     <p class="kids__camp_box_bonus_text2">
-                        В процессе пребывания в лагере — дети и выполняя задания получают<br>
+                        Дети и выполняя задания получают<br>
                         игровые деньги ШКОЛЯРИКИ.
                     </p>
                     <img src="img/kids-camp-sum/money-schkoliariky.png" class="kids__camp_box_bonus_img" alt="Школярики">
@@ -1237,7 +1237,7 @@ include_once 'header.php'; ?>
         <div class="row">
             <div class="col-12">
                 <h2 class="kids__camp_box_document_head text-center">
-                    Какие документы подготовить к лагерю?
+                    Необходимые документы
                 </h2>
                 <div class="kids__camp_box_document_block">
                     <ul class="kids__camp_box_document_list">
@@ -1266,7 +1266,7 @@ include_once 'header.php'; ?>
                     <p class="kids__camp_box_document_block_text">
                         * Наличие всех справок – это обязательное условие посадки для отправления. Без
                         справки ребёнок не может быть допущен к поездке. Если вы забыли справку, вы
-                        сможете самостоятельно привезти ребенка в лагерь в этот же день.
+                        сможете самостоятельно привезти ребенка в этот же день.
                     </p>
                 </div>
             </div>
@@ -1283,7 +1283,7 @@ include_once 'header.php'; ?>
         </div>
         <div class="col-lg-4 col-md-12 col-sm-12 text-center">
             <div class="kids__camp_download_doc">
-                <a href="documents/swod-pravil.pdf" target="_blank" class="kids__camp_download_doc_link text-center upper" style="background: #e9c001;">Правила поведения</a>
+                <a href="documents/spisoc-veschei.docx" target="_blank" class="kids__camp_download_doc_link text-center upper" style="background: #e9c001;">Список вещей</a>
             </div>
         </div>
         <div class="col-lg-4 col-md-12 col-sm-12 text-center">
@@ -1308,7 +1308,7 @@ include_once 'header.php'; ?>
             <div class="col-lg-6">
                 <div class="animate__animated ex">
                     <h6>
-                        Что вам еще нужно знать о лагере?
+                        Что вам еще нужно знать?
                     </h6>
                     <ul class="animate__animated ex__list">
                         <li class="animate__animated ex__item">
