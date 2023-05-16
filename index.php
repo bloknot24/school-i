@@ -10,7 +10,7 @@ include_once 'header.php';
 	  			<div class="container">
 	  				<div class="row">
 	  					<div class="col-12 d-lg-none">
-							<a href="index.html" class="logo-block">
+							<a href="/" class="logo-block">
 								<img class="logo-block-img" src="img/logo_green.png" alt="logo">
 							</a>
 						</div>
@@ -19,7 +19,7 @@ include_once 'header.php';
 						  		<h1 class="training__title1">
 						  			Обучение в НоваШколе Я!
 						  		</h1>
-						  		<a href="mission.html" class="training__batton btn">
+						  		<a href="/mission" class="training__batton btn">
 						  			Узнать подробнее
 						  		</a>
 						  	</div>
@@ -31,7 +31,7 @@ include_once 'header.php';
 		  		<div class="container">
 					<div class="row">
 						<div class="col-12 d-lg-none">
-							<a href="index.html" class="logo-block">
+							<a href="/" class="logo-block">
 								<img class="logo-block-img" src="img/logo_green.png" alt="logo">
 							</a>
 						</div>
@@ -40,7 +40,7 @@ include_once 'header.php';
 						  		<h1 class="training__title1">
 						  			Учись и путешествуй
 						  		</h1>
-						  		<a href="mission.html" class="training__batton training__batton2 btn">
+						  		<a href="/mission" class="training__batton training__batton2 btn">
 						  			Узнать подробнее
 						  		</a>
 						  	</div>
@@ -52,7 +52,7 @@ include_once 'header.php';
 		  		<div class="container">
 					<div class="row">
 						<div class="col-12 d-lg-none">
-							<a href="index.html" class="logo-block">
+							<a href="/" class="logo-block">
 								<img class="logo-block-img" src="img/logo_green.png" alt="logo">
 							</a>
 						</div>
@@ -61,7 +61,7 @@ include_once 'header.php';
 						  		<h1 class="training__title1">
 						  			Обучение в НоваШколе Я!
 						  		</h1>
-						  		<a href="mission.html" class="training__batton btn">
+						  		<a href="/mission" class="training__batton btn">
 						  			Узнать подробнее
 						  		</a>
 						  	</div>
@@ -84,7 +84,7 @@ include_once 'header.php';
 						<h5>
 							Учись и путешествуй
 						</h5>
-						<a href="mission.html">
+						<a href="/mission">
 							Читать далее
 						</a>
 					</div>
@@ -99,7 +99,7 @@ include_once 'header.php';
 						<h5>
 							Делаем добрые дела
 						</h5>
-						<a href="good.html">
+						<a href="/good">
 							Читать далее
 						</a>
 					</div>
@@ -114,7 +114,7 @@ include_once 'header.php';
 						<h5>
 							Репетиторство
 						</h5>
-						<a href="programm.html">
+						<a href="/programm">
 							Читать далее
 						</a>
 					</div>
@@ -129,7 +129,7 @@ include_once 'header.php';
 						<h5>
 							Готовимся к жизни
 						</h5>
-						<a href="mission.html">
+						<a href="/mission">
 							Читать далее
 						</a>
 					</div>
@@ -521,7 +521,7 @@ include_once 'header.php';
 						<img src="img/checkmark.png" alt="" class="chekmark">
 						Экскурсии
 					</span>
-					<a href="learn-more.html" class="bonus__btn">
+					<a href="/learn-more" class="bonus__btn">
 						Читать подробнее
 					</a>
 				</div>
@@ -549,7 +549,7 @@ include_once 'header.php';
 							Бесплатно!
 						</strong>
 					</span>
-					<a href="cost_of_education.html" class="ticket__btn">
+					<a href="/cost_of_education" class="ticket__btn">
 						Подробнее
 					</a>
 				</div>

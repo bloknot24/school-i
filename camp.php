@@ -830,8 +830,8 @@ include_once 'header.php'; ?>
                                     7 смена
                                 </p>
                             </div>
-                            <p class="kids__camp_box_change_block_list_item_text2">
-                                16.07 — 22.07
+                            <p class="kids__camp_box_change_block_list_item_text2" style="color: red; font-weight: 600;">
+                                Мест нет
                             </p>
                         </li>
                         <li class="kids__camp_box_change_block_list_item">
@@ -1064,7 +1064,8 @@ include_once 'header.php'; ?>
                         </ul>
                         <p class="kids__camp_box_price_block_text">
                             Стоимость <span class="kids__camp_box_price_block_list_item_span">390</span> рублей - Усадьба «Березовый двор»<br><br>
-                            Стоимость <span class="kids__camp_box_price_block_list_item_span">400</span> рублей - Усадьба «Вячкойни»
+                            <!-- Стоимость <span class="kids__camp_box_price_block_list_item_span">400</span> рублей - -->Усадьба «Вячкойни»<br>
+                            <span style="color: red; font-weight: 700;">Мест нет</span>
                         </p>
                     </div>
                     <div class="upper kids__camp_box_price_block_text_div_link text-center">
@@ -1105,16 +1106,17 @@ include_once 'header.php'; ?>
                             </li>
                             <hr>
                             <li class="kids__camp_box_price_block_list_item">
-                                <b>- позновательно - развлекательная программа</b>
+                                <b>- английский язык</b>
                             </li>
                             <hr>
                             <li class="kids__camp_box_price_block_list_item">
-                                <b>- подарки</b>
+                                <b>- катание на лошади</b>
                             </li>
                         </ul>
                         <p class="kids__camp_box_price_block_text">
                             Стоимость <span class="kids__camp_box_price_block_list_item_span">470</span> рублей - Усадьба «Березовый двор»<br><br>
-                            Стоимость <span class="kids__camp_box_price_block_list_item_span">490</span> рублей -Усадьба «Вячкойни»<br>
+                            <!--Стоимость <span class="kids__camp_box_price_block_list_item_span">490</span> рублей - -->Усадьба «Вячкойни»<br>
+                            <span style="color: red; font-weight: 700;">Мест нет</span>
                         </p>
                     </div>
                     <div class="upper kids__camp_box_price_block_text_div_link text-center">
@@ -1336,7 +1338,7 @@ include_once 'header.php'; ?>
                             <img src="img/blue_checkmark.png" alt="">
                             <div>
                                 Дети находятся при постоянной поддержке<br>
-                                педагогов;
+                                педагогов.
                             </div>
                         </li>
                     </ul>
@@ -1354,7 +1356,7 @@ include_once 'header.php'; ?>
                         <form method="post" action="#try-it">
                             <input type="name" class="name" name="name" placeholder="Ваше имя" value="<?= $name ?>">
                             <input type="tel" class="phone phone2" name="phone" placeholder="Ваш телефон" value="<?= $phone ?>">
-                            <input type="email" class="email" name="email" placeholder="Ваш e-mail" value="<?= $email ?>">
+                            <!-- <input type="email" class="email" name="email" placeholder="Ваш e-mail" value="<?= $email ?>"> -->
                             <button name="formCamp" type="submit" class="camp__form_button">Оставить заявку</button>
                         </form>
                     <? endif; ?>
