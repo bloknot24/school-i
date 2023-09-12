@@ -4,73 +4,95 @@ include_once 'header.php';
 ?>
 
 <!---Training--->
-	<section id="training" class="training">
-		<div class="bg-slider">
-	  		<div class="slide_1">
-	  			<div class="container">
-	  				<div class="row">
-	  					<div class="col-12 d-lg-none">
-							<a href="/" class="logo-block">
-								<img class="logo-block-img" src="img/logo_green.png" alt="logo">
+<section id="training" class="training">
+	<div class="bg-slider">
+		<div class="slide_0">
+			<div class="container">
+				<div class="row">
+					<div class="col-12 d-lg-none">
+						<a href="/" class="logo-block">
+							<img class="logo-block-img" src="img/logo_green.png" alt="logo">
+						</a>
+					</div>
+					<div class="col-12">
+						<div class="training__content">
+							<h1 class="training__title1">
+								КРУГОВОРОТ ЖЕЛАНИЙ - познавательно-развлекательный проект
+							</h1>
+							<a href="/" class="training__batton btn">
+								Узнать подробнее
 							</a>
 						</div>
-	  					<div class="col-12">
-	  						<div class="training__content">
-						  		<h1 class="training__title1">
-						  			Обучение в НоваШколе Я!
-						  		</h1>
-						  		<a href="/mission" class="training__batton btn">
-						  			Узнать подробнее
-						  		</a>
-						  	</div>
-				  		</div>
-				  	</div>		
+					</div>
 				</div>
-	  		</div>
-		  	<div class="slide_2">
-		  		<div class="container">
-					<div class="row">
-						<div class="col-12 d-lg-none">
-							<a href="/" class="logo-block">
-								<img class="logo-block-img" src="img/logo_green.png" alt="logo">
-							</a>
-						</div>
-	  					<div class="col-12">
-	  						<div class="training__content">
-						  		<h1 class="training__title1">
-						  			Учись и путешествуй
-						  		</h1>
-						  		<a href="/mission" class="training__batton training__batton2 btn">
-						  			Узнать подробнее
-						  		</a>
-						  	</div>
-				  		</div>
-				  	</div>	
-				</div>
-		  	</div>
-		  	<div class="slide_3">
-		  		<div class="container">
-					<div class="row">
-						<div class="col-12 d-lg-none">
-							<a href="/" class="logo-block">
-								<img class="logo-block-img" src="img/logo_green.png" alt="logo">
-							</a>
-						</div>
-	  					<div class="col-12">
-	  						<div class="training__content">
-						  		<h1 class="training__title1">
-						  			Обучение в НоваШколе Я!
-						  		</h1>
-						  		<a href="/mission" class="training__batton btn">
-						  			Узнать подробнее
-						  		</a>
-						  	</div>
-				  		</div>
-				  	</div>	
-				</div>
-		  	</div>
+			</div>
 		</div>
-	</section>
+		<div class="slide_1">
+			<div class="container">
+				<div class="row">
+					<div class="col-12 d-lg-none">
+						<a href="/" class="logo-block">
+							<img class="logo-block-img" src="img/logo_green.png" alt="logo">
+						</a>
+					</div>
+					<div class="col-12">
+						<div class="training__content">
+							<h1 class="training__title1">
+								НоваШкола Я - Творческая среда
+								для разностороннего развития личности
+							</h1>
+							<a href="/mission" class="training__batton btn">
+								Узнать подробнее
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="slide_2">
+			<div class="container">
+				<div class="row">
+					<div class="col-12 d-lg-none">
+						<a href="/" class="logo-block">
+							<img class="logo-block-img" src="img/logo_green.png" alt="logo">
+						</a>
+					</div>
+					<div class="col-12">
+						<div class="training__content">
+							<h1 class="training__title1">
+								Учись и путешествуй
+							</h1>
+							<a href="/mission" class="training__batton training__batton2 btn">
+								Узнать подробнее
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- <div class="slide_3">
+		  		<div class="container">
+					<div class="row">
+						<div class="col-12 d-lg-none">
+							<a href="/" class="logo-block">
+								<img class="logo-block-img" src="img/logo_green.png" alt="logo">
+							</a>
+						</div>
+	  					<div class="col-12">
+	  						<div class="training__content">
+						  		<h1 class="training__title1">
+						  			Обучение в НоваШколе Я!
+						  		</h1>
+						  		<a href="/mission" class="training__batton btn">
+						  			Узнать подробнее
+						  		</a>
+						  	</div>
+				  		</div>
+				  	</div>	
+				</div>
+		  	</div> -->
+	</div>
+</section>
 <!---End Training--->
 
 
@@ -82,9 +104,9 @@ include_once 'header.php';
 				<div class="animate__animated rectangle1">
 					<div class="rectangle__overlay1">
 						<h5>
-							Учись и путешествуй
+							Наши проекты
 						</h5>
-						<a href="/mission">
+						<a href="/">
 							Читать далее
 						</a>
 					</div>
@@ -97,9 +119,9 @@ include_once 'header.php';
 				<div class="animate__animated rectangle2">
 					<div class="rectangle__overlay2">
 						<h5>
-							Делаем добрые дела
+							Подготовка к школе
 						</h5>
-						<a href="/good">
+						<a href="/programm">
 							Читать далее
 						</a>
 					</div>
@@ -112,9 +134,9 @@ include_once 'header.php';
 				<div class="animate__animated rectangle3">
 					<div class="rectangle__overlay3">
 						<h5>
-							Репетиторство
+							Умная продленка
 						</h5>
-						<a href="/programm">
+						<a href="/">
 							Читать далее
 						</a>
 					</div>
@@ -127,7 +149,7 @@ include_once 'header.php';
 				<div class="animate__animated rectangle4">
 					<div class="rectangle__overlay4">
 						<h5>
-							Готовимся к жизни
+							Учись и путешествуй
 						</h5>
 						<a href="/mission">
 							Читать далее
@@ -157,109 +179,109 @@ include_once 'header.php';
 		<div class="row">
 			<div class="col-lg-12 col-xl-6">
 				<div class="tabs">
-				  	<div class="animate__animated tablinks tablinks-1" onmouseover="openCity(event, '1')">
-				  		<div>
-				  			<img src="img/icon_1.png" alt="">
-				  		</div>
+					<div class="animate__animated tablinks tablinks-1" onmouseover="openCity(event, '1')">
+						<div>
+							<img src="img/icon_1.png" alt="">
+						</div>
 					</div>
 					<div class="animate__animated tablinks tablinks-2" onmouseover="openCity(event, '2')">
-				  		<div>
-				  			<img src="img/icon_2.png" alt="">
-				  		</div>
+						<div>
+							<img src="img/icon_2.png" alt="">
+						</div>
 					</div>
 					<div class="animate__animated tablinks tablinks-3" onmouseover="openCity(event, '3')">
-				  		<div>
-				  			<img src="img/icon_3.png" alt="">
-				  		</div>
+						<div>
+							<img src="img/icon_3.png" alt="">
+						</div>
 					</div>
 					<div class="animate__animated tablinks tablinks-4" onmouseover="openCity(event, '4')">
-				  		<div>
-				  			<img src="img/icon_4.png" alt="">
-				  		</div>
+						<div>
+							<img src="img/icon_4.png" alt="">
+						</div>
 					</div>
 					<div class="animate__animated tablinks tablinks-5" onmouseover="openCity(event, '5')">
-				  		<div>
-				  			<img src="img/icon_5.png" alt="">
-				  		</div>
+						<div>
+							<img src="img/icon_5.png" alt="">
+						</div>
 					</div>
 					<div class="animate__animated tablinks tablinks-6" onmouseover="openCity(event, '6')">
-				  		<div>
-				  			<img src="img/icon_6.png" alt="">
-				  		</div>
+						<div>
+							<img src="img/icon_6.png" alt="">
+						</div>
 					</div>
 					<div class="animate__animated tablinks tablinks-7" onmouseover="openCity(event, '7')">
-				  		<div>
-				  			<img src="img/icon_7.png" alt="">
-				  		</div>
+						<div>
+							<img src="img/icon_7.png" alt="">
+						</div>
 					</div>
 					<div class="animate__animated tablinks tablinks-8" onmouseover="openCity(event, '8')">
-				  		<div>
-				  			<img src="img/icon_8.png" alt="">
-				  		</div>
+						<div>
+							<img src="img/icon_8.png" alt="">
+						</div>
 					</div>
 					<div id="1" class="tabcontent">
 						<h4>
-					  		Коммуникации
-					  	</h4>
-					  	<p>
-					  		Помогаем развивать коммуникативные навыки - это эффективный инструмент, помогающий успешно решать текущие задачи.
-					  	</p>
+							Коммуникации
+						</h4>
+						<p>
+							Помогаем развивать коммуникативные навыки - это эффективный инструмент, помогающий успешно решать текущие задачи.
+						</p>
 					</div>
 					<div id="2" class="tabcontent" style="display: block;">
 						<h4>
-					  		Талант
-					  	</h4>
-					  	<p>
-					  		Раскрываем  талант Вашего  ребенка и помогаем  развить таланты с учетом особенностей Вашего  ребенка
-					  	</p>
+							Талант
+						</h4>
+						<p>
+							Раскрываем талант Вашего ребенка и помогаем развить таланты с учетом особенностей Вашего ребенка
+						</p>
 					</div>
 					<div id="3" class="tabcontent">
 						<h4>
-					  		Личность
-					  	</h4>
-					  	<p>
-					  		Развивая память, мышление, сознание, логику -Ваш ребенок приобретает знания и опыт, формируя себя, как личность. 
-					  	</p>
+							Личность
+						</h4>
+						<p>
+							Развивая память, мышление, сознание, логику -Ваш ребенок приобретает знания и опыт, формируя себя, как личность.
+						</p>
 					</div>
 					<div id="4" class="tabcontent">
 						<h4>
-					  		Самостоятельность
-					  	</h4>
-					  	<p>
-					  		Самостоятельность характеризует готовность и способность человека организовывать свою жизнь. 
-					  	</p>
+							Самостоятельность
+						</h4>
+						<p>
+							Самостоятельность характеризует готовность и способность человека организовывать свою жизнь.
+						</p>
 					</div>
 					<div id="5" class="tabcontent">
 						<h4>
-					  		Ответственность
-					  	</h4>
-					  	<p>
-					  		Научим самостоятельно принимать решения. Дети решают все сами, они в нашей школе - главные.
-					  	</p>
+							Ответственность
+						</h4>
+						<p>
+							Научим самостоятельно принимать решения. Дети решают все сами, они в нашей школе - главные.
+						</p>
 					</div>
 					<div id="6" class="tabcontent">
 						<h4>
-					  		Профессия
-					  	</h4>
-					  	<p>
-					  		Выбор профессии – это шаг, который определяет взрослую жизнь каждого человека. Помогаем выбрать профессию, пройти стажировку на различных предприятиях.
-					  	</p>
+							Профессия
+						</h4>
+						<p>
+							Выбор профессии – это шаг, который определяет взрослую жизнь каждого человека. Помогаем выбрать профессию, пройти стажировку на различных предприятиях.
+						</p>
 					</div>
 					<div id="7" class="tabcontent">
 						<h4>
-					  		Достижение цели
-					  	</h4>
-					  	<p>
-					  		Научим Вашего ребенка достигать поставленных целей. Иди вверх и не останавливайся, тогда в итоге окажешься там, куда шел.
-					  	</p>
+							Достижение цели
+						</h4>
+						<p>
+							Научим Вашего ребенка достигать поставленных целей. Иди вверх и не останавливайся, тогда в итоге окажешься там, куда шел.
+						</p>
 					</div>
 					<div id="8" class="tabcontent">
 						<h4>
-					  		Семья
-					  	</h4>
-					  	<p>
-					  		Семья – это поддержка и опора, одна из главных ценностей в жизни человека. Мы воспитываем  правильное   отношения к семье.
-					  	</p>
+							Семья
+						</h4>
+						<p>
+							Семья – это поддержка и опора, одна из главных ценностей в жизни человека. Мы воспитываем правильное отношения к семье.
+						</p>
 					</div>
 				</div>
 			</div>
@@ -288,24 +310,24 @@ include_once 'header.php';
 		<div class="row">
 			<div class="col-lg-12">
 				<div class="slider-top">
-			  		<div class="animate__animated slide slide1">
-			  			<img src="img/slide_1.jpg" alt="">
-			  		</div>
-				  	<div class="animate__animated slide slide2">
-				  		<img src="img/slide_2.jpg" alt="">
-				  	</div>
-				  	<div class="animate__animated slide slide3">
-				  		<img src="img/slide_3.jpg" alt="">
-				  	</div>
-				  	<div class="slide">
-			  			<img src="img/slide_4.jpg" alt="">
-			  		</div>
-				  	<div class="slide">
-				  		<img src="img/slide_5.jpg" alt="">
-				  	</div>
-				  	<div class="slide">
-				  		<img src="img/slide_6.jpg" alt="">
-				  	</div>
+					<div class="animate__animated slide slide1">
+						<img src="img/slide_1.jpg" alt="">
+					</div>
+					<div class="animate__animated slide slide2">
+						<img src="img/slide_2.jpg" alt="">
+					</div>
+					<div class="animate__animated slide slide3">
+						<img src="img/slide_3.jpg" alt="">
+					</div>
+					<div class="slide">
+						<img src="img/slide_4.jpg" alt="">
+					</div>
+					<div class="slide">
+						<img src="img/slide_5.jpg" alt="">
+					</div>
+					<div class="slide">
+						<img src="img/slide_6.jpg" alt="">
+					</div>
 				</div>
 			</div>
 		</div>
@@ -455,7 +477,7 @@ include_once 'header.php';
 			<div class="col-lg-12">
 				<div class="free__title">
 					<h3>
-						Бесплатно для наших учащихся
+						Для наших учащихся
 					</h3>
 					<span>
 						*
@@ -472,12 +494,12 @@ include_once 'header.php';
 						Бассейн
 					</h6>
 					<p class="read-more-wrap">
-						Плавание в бессейне-укрепляет почти все системы человека, развивает мышечную ткань. Это очень полезно для развития общей 
+						Плавание в бессейне-укрепляет почти все системы человека, развивает мышечную ткань. Это очень полезно для развития общей
 						<span class="read-more-target">
 							мускулатуры тела
 						</span>
 					</p>
-				  	<label for="post-1" class="read-more-trigger"></label>
+					<label for="post-1" class="read-more-trigger"></label>
 				</div>
 			</div>
 			<div class="col-md-6 col-lg-4">
@@ -488,12 +510,12 @@ include_once 'header.php';
 						Вокал
 					</h6>
 					<p class="read-more-wrap2">
-						Все методики обучения подбираються индивидуально для каждого ученика. Мы учитываем характер каждого ребёнка, 
+						Все методики обучения подбираються индивидуально для каждого ученика. Мы учитываем характер каждого ребёнка,
 						<span class="read-more-target2">
 							музыкальные предпочтения и возможности
 						</span>
 					</p>
-				  	<label for="post-2" class="read-more-trigger2"></label>
+					<label for="post-2" class="read-more-trigger2"></label>
 				</div>
 			</div>
 			<div class="col-md-12 col-lg-4">
@@ -569,11 +591,11 @@ include_once 'header.php';
 		<div class="row">
 			<div class="col-lg-12">
 				<h3>
-					Ближайшие мероприятия
+					События
 				</h3>
 			</div>
 		</div>
-		<div class="row">
+		<!-- <div class="row">
 			<div class="col-md-6 col-lg-4">
 				<div class="photo-act">
 					<div class="scale">
@@ -625,6 +647,35 @@ include_once 'header.php';
 					</div>
 				</div>
 			</div>
+		</div> -->
+		<div class="row">
+			<div class="col-lg-12">
+				<div class="slider-news">
+					<?php $events = $viewIndex->viewEvents();
+					$i = 1;
+					foreach ($events as $event) : ?>
+						<div class="photo-act">
+							<div class="scale scale__news">
+								<img src="img/events/<?= $event['img']; ?>" alt="Событие">
+							</div>
+							<a href="#" class="photo-act__title photo-act__title<?= $i; ?>">
+								<?= $event['title']; ?>
+							</a>
+							<p class="photo-act__text">
+								<i class="far fa-clock"></i>
+								<?= date('d.m.Y', strtotime($event['date'])) ?>
+							</p>
+							<div class="photo-act__date photo-act__date<?= $i; ?>">
+								<?= date('d.m', strtotime($event['date'])) ?>
+							</div>
+						</div>
+					<?php $i++;
+						if ($i == 4) {
+							$i = 1;
+						}
+					endforeach; ?>
+				</div>
+			</div>
 		</div>
 	</div>
 </section>
@@ -660,7 +711,7 @@ include_once 'header.php';
 </section>
 <!---End Questions--->
 
-                                                                                                                                                             
+
 <!---Target--->
 <section id="target" class="target">
 	<div class="container">
@@ -722,17 +773,3 @@ include_once 'header.php';
 <!---End Target--->
 
 <?php include_once 'footer.php'; ?>
-
-
-
-
-
-
-
-
-
-
-
-
-
-

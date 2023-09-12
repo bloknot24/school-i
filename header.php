@@ -1,3 +1,4 @@
+<?php include_once('../init.php'); ?>
 <!DOCTYPE html>
 <html lang="ru">
 
@@ -46,7 +47,22 @@
                         Миссия
                     </a>
                 </li>
-                <li class="dropdown">
+                <li>
+                    <a href="/krugovorot-zhelanij" class="menu__link">
+                        Круговорот желаний
+                    </a>
+                </li>
+                <li>
+                    <a href="/umnaya-prodlenka" class="menu__link">
+                        Умная продленка
+                    </a>
+                </li>
+                <li>
+                    <a href="/podgotovka-k-shkole" class="menu__link">
+                        Подготовка к школе
+                    </a>
+                </li>
+                <!-- <li class="dropdown">
                     <a href="#" class="menu__link dropbtn">
                         Обучение
                         <i class="fas fa-chevron-down"></i>
@@ -69,7 +85,7 @@
                             </a>
                         </li>
                     </ul>
-                </li>
+                </li> -->
                 <li class="dropdown">
                     <a href="#" class="menu__link dropbtn">
                         Родителям
@@ -78,33 +94,43 @@
                     </a>
                     <ul class="dropdown-content">
                         <li>
+                            <a href="/documents/dogovor.docx">
+                                Договор
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/pay">
+                                Порядок оплаты
+                            </a>
+                        </li>
+                        <!-- <li>
                             <a href="/conditions">
                                 Условия приёма
                             </a>
-                        </li>
+                        </li> -->
                     </ul>
                 </li>
-                <li>
+                <!-- <li>
                     <a href="/good" class="menu__link">
                         Добрые дела
                     </a>
-                </li>
+                </li> -->
                 <li>
                     <a href="/news" class="menu__link">
-                        Новости
+                        События
                     </a>
                 </li>
-                <li>
+                <!-- <li>
                     <a href="/cooperation" class="menu__link">
                         Сотрудничество
                     </a>
-                </li>
+                </li> -->
                 <li>
                     <a href="/camp" class="menu__link">
                         Детский отдых
                     </a>
                 </li>
-                <li>
+                <!-- <li>
                     <a href="/vacancy" class="menu__link">
                         Вакансии
                     </a>
@@ -113,7 +139,7 @@
                     <a href="documents/to-investors.pdf" class="menu__link">
                         Инвесторам
                     </a>
-                </li>
+                </li> -->
             </ul>
             <div class="contacs1">
                 <div class="contacs__call">
@@ -240,7 +266,7 @@
                                         Миссия
                                     </a>
                                 </li>
-                                <li class="dropdown">
+                                <!-- <li class="dropdown">
                                     <a href="#" class="menu__link dropbtn">
                                         Обучение
                                         <i class="fas fa-chevron-down"></i>
@@ -262,6 +288,21 @@
                                             </a>
                                         </li>
                                     </ul>
+                                </li> -->
+                                <li>
+                                    <a href="/krugovorot-zhelanij" class="menu__link">
+                                        Круговорот желаний
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/umnaya-prodlenka" class="menu__link">
+                                        Умная продленка
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/podgotovka-k-shkole" class="menu__link">
+                                        Подготовка к школе
+                                    </a>
                                 </li>
                                 <li class="dropdown">
                                     <a href="#" class="menu__link dropbtn">
@@ -270,27 +311,37 @@
                                     </a>
                                     <ul class="dropdown-content">
                                         <li>
+                                            <a href="/documents/dogovor.docx">
+                                                Договор
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="/pay">
+                                                Порядок оплаты
+                                            </a>
+                                        </li>
+                                        <!-- <li>
                                             <a href="/conditions">
                                                 Условия приёма
                                             </a>
-                                        </li>
+                                        </li> -->
                                     </ul>
                                 </li>
-                                <li>
+                                <!-- <li>
                                     <a href="/good" class="menu__link">
                                         Добрые дела
                                     </a>
-                                </li>
+                                </li> -->
                                 <li>
                                     <a href="/news" class="menu__link">
-                                        Новости
+                                        События
                                     </a>
                                 </li>
-                                <li>
+                                <!-- <li>
                                     <a href="/cooperation" class="menu__link">
                                         Сотрудничество
                                     </a>
-                                </li>
+                                </li> -->
                                 <li>
                                     <a href="/camp" class="menu__link">
                                         Детский отдых

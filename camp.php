@@ -46,7 +46,7 @@ include_once 'header.php'; ?>
                         На базе усадьбы “ВЯЧКОЙНИ” Ошмянский район, Гродненская область
                     </p> -->
                     <p class="kids__camp_additionally_box_text4 upper">
-                        Смены по 7 и 14 дней.
+                        Смены по 7, 10 и 14 дней.
                     </p>
                 </div>
             </div>
@@ -625,7 +625,7 @@ include_once 'header.php'; ?>
                         <a class="kids__camp_about_place_block_text2_link" target="_blank" href="https://yandex.by/maps/org/berezovy_dvor/1348214132/?from=tabbar&ll=26.611694%2C54.047170&mode=search&sctx=ZAAAAAgBEAAaKAoSCXmu78NBjjtAES%2F6CtKM80pAEhIJdy6M9KL25T8RoWgewCK%2Fxj8iBgABAgMEBSgKOABAjp4GSAFqAnVhnQHNzEw9oAEAqAEAvQEXprCBwgEF9LrwggXqAQDyAQD4AQCCAirRg9GB0LDQtNGM0LHQsCDQsdC10YDQtdC30L7QstGL0Lkg0LTQstC%2B0YCKAgCSAgYyMTM5ODmaAgxkZXNrdG9wLW1hcHM%3D&sll=26.611694%2C54.047170&source=serp_navig&sspn=0.056987%2C0.023788&text=усадьба%20березовый%20двор&z=14.8">см. на карте</a>
                     </div>
                     <div class="kids__camp_about_place_block_text3">
-                        Летний сезон по 7 и 14 дней
+                        Летний сезон по 7, 10 и 14 дней
                     </div>
                 </div>
             </div>
@@ -758,8 +758,8 @@ include_once 'header.php'; ?>
                                     1 смена
                                 </p>
                             </div>
-                            <p class="kids__camp_box_change_block_list_item_text2">
-                                04.06 — 10.06
+                            <p class="kids__camp_box_change_block_list_item_text2" style="color: red; font-weight: 600;">
+                                Мест нет
                             </p>
                         </li>
                         <li class="kids__camp_box_change_block_list_item">
@@ -769,8 +769,8 @@ include_once 'header.php'; ?>
                                     2 смена
                                 </p>
                             </div>
-                            <p class="kids__camp_box_change_block_list_item_text2">
-                                11.06 — 17.06
+                            <p class="kids__camp_box_change_block_list_item_text2" style="color: red; font-weight: 600;">
+                                Мест нет
                             </p>
                         </li>
                         <li class="kids__camp_box_change_block_list_item">
@@ -780,8 +780,8 @@ include_once 'header.php'; ?>
                                     3 смена
                                 </p>
                             </div>
-                            <p class="kids__camp_box_change_block_list_item_text2">
-                                18.06 — 24.06
+                            <p class="kids__camp_box_change_block_list_item_text2" style="color: red; font-weight: 600;">
+                                Мест нет
                             </p>
                         </li>
                         <li class="kids__camp_box_change_block_list_item">
@@ -791,8 +791,8 @@ include_once 'header.php'; ?>
                                     4 смена
                                 </p>
                             </div>
-                            <p class="kids__camp_box_change_block_list_item_text2">
-                                25.06 — 01.07
+                            <p class="kids__camp_box_change_block_list_item_text2" style="color: red; font-weight: 600;">
+                                Мест нет
                             </p>
                         </li>
                     </ul>
@@ -808,8 +808,8 @@ include_once 'header.php'; ?>
                                     5 смена
                                 </p>
                             </div>
-                            <p class="kids__camp_box_change_block_list_item_text2">
-                                02.07 — 08.07
+                            <p class="kids__camp_box_change_block_list_item_text2" style="color: red; font-weight: 600;">
+                                Мест нет
                             </p>
                         </li>
                         <li class="kids__camp_box_change_block_list_item">
@@ -819,8 +819,8 @@ include_once 'header.php'; ?>
                                     6 смена
                                 </p>
                             </div>
-                            <p class="kids__camp_box_change_block_list_item_text2">
-                                09.07 — 15.07
+                            <p class="kids__camp_box_change_block_list_item_text2" style="color: red; font-weight: 600;">
+                                Мест нет
                             </p>
                         </li>
                         <li class="kids__camp_box_change_block_list_item">
@@ -850,7 +850,7 @@ include_once 'header.php'; ?>
             </div>
             <div class="col-12">
                 <h3 class="kids__camp_box_food_head text-center">
-                    СМЕНА 14 дней
+                    СМЕНА 10 дней
                 </h3>
                 <ul style="list-style-type: none;">
                     <p class="kids__camp_box_change_block_list_item_text2 text-center">
@@ -862,7 +862,27 @@ include_once 'header.php'; ?>
                                 </p>
                             </div>
                             <p class="kids__camp_box_change_block_list_item_text2 text-center">
-                                11.06 — 24.06
+                                23.07 — 01.08
+                            </p>
+                        </li>
+                    </p>
+                </ul>
+            </div>
+            <div class="col-12">
+                <h3 class="kids__camp_box_food_head text-center">
+                    СМЕНА 14 дней
+                </h3>
+                <ul style="list-style-type: none;">
+                    <p class="kids__camp_box_change_block_list_item_text2 text-center">
+                        <li class="kids__camp_box_change_block_list_item">
+                            <div style="display: flex; justify-content: center;">
+                                <div class="kids__camp_box_change_block_list_item_circle"></div>
+                                <p class="kids__camp_box_change_block_list_item_text1">
+                                    1 смена
+                                </p>
+                            </div>
+                            <p class="kids__camp_box_change_block_list_item_text2 text-center" style="color: red; font-weight: 600;">
+                                Мест нет
                             </p>
                         </li>
                         <li class="kids__camp_box_change_block_list_item">
@@ -872,8 +892,8 @@ include_once 'header.php'; ?>
                                     2 смена
                                 </p>
                             </div>
-                            <p class="kids__camp_box_change_block_list_item_text2 text-center">
-                                02.07 — 15.07
+                            <p class="kids__camp_box_change_block_list_item_text2 text-center" style="color: red; font-weight: 600;">
+                                Мест нет
                             </p>
                         </li>
                     </p>
@@ -881,8 +901,8 @@ include_once 'header.php'; ?>
             </div>
             <div class="col-12">
                 <p class="kids__camp_box_change_additionally text-center">
-                    Вы можете выбрать одну<br>
-                    или две смены (7 и 14 дней)
+                    Вы можете выбрать<br>
+                    7 или 10 дней
                 </p>
             </div>
         </div>
@@ -1063,7 +1083,7 @@ include_once 'header.php'; ?>
                             </li> -->
                         </ul>
                         <p class="kids__camp_box_price_block_text">
-                            Стоимость <span class="kids__camp_box_price_block_list_item_span">390</span> рублей - Усадьба «Березовый двор»<br><br>
+                            Стоимость <span class="kids__camp_box_price_block_list_item_span">450</span> рублей - Усадьба «Березовый двор»<br><br>
                             <!-- Стоимость <span class="kids__camp_box_price_block_list_item_span">400</span> рублей - -->Усадьба «Вячкойни»<br>
                             <span style="color: red; font-weight: 700;">Мест нет</span>
                         </p>
@@ -1114,7 +1134,7 @@ include_once 'header.php'; ?>
                             </li>
                         </ul>
                         <p class="kids__camp_box_price_block_text">
-                            Стоимость <span class="kids__camp_box_price_block_list_item_span">470</span> рублей - Усадьба «Березовый двор»<br><br>
+                            Стоимость <span class="kids__camp_box_price_block_list_item_span">520</span> рублей - Усадьба «Березовый двор»<br><br>
                             <!--Стоимость <span class="kids__camp_box_price_block_list_item_span">490</span> рублей - -->Усадьба «Вячкойни»<br>
                             <span style="color: red; font-weight: 700;">Мест нет</span>
                         </p>
@@ -1126,7 +1146,9 @@ include_once 'header.php'; ?>
             </div>
             <div class="col-12">
                 <div class="upper kids__camp_box_price_block_text_div_link text-center">
-                    <b>СТОИМОСТЬ НА <span class="kids__camp_box_price_block_list_item_span">14</span> дней – <span class="kids__camp_box_price_block_list_item_span">970</span> рублей.</b><br><br>
+                    <b>Стоимость на <span class="kids__camp_box_price_block_list_item_span">14</span> дней в <span class="kids__camp_box_price_block_list_item_span">июне</span> – <span class="kids__camp_box_price_block_list_item_span">970</span> рублей.</b><br><br>
+                    <b>Стоимость на <span class="kids__camp_box_price_block_list_item_span">14</span> дней в <span class="kids__camp_box_price_block_list_item_span">июле</span> – <span class="kids__camp_box_price_block_list_item_span">1050</span> рублей.</b><br><br>
+                    <b>Стоимость на <span class="kids__camp_box_price_block_list_item_span">10</span> дней </span> – <span class="kids__camp_box_price_block_list_item_span">750</span> рублей.</b><br><br>
                     <span class="kids__camp_box_price_block_list_item_span upper">Экскурсии в стоимость не входят и оплачиваются<br>заказчиком дополнительно.</span>
                 </div>
             </div>
