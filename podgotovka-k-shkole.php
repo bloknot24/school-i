@@ -2,6 +2,9 @@
 $description = 'НоваШкола Я - Подготовка к школе. Интерактивный детский отдых. Обучение через развлечение.';
 include_once 'header.php'; ?>
 
-<h2 style="margin: 200px auto 0px auto; text-align: center; font-size: 25px;">ПРОЕКТ В СТАДИИ РАЗРАБОТКИ</h2>
+<div style="margin: 250px auto 50px auto; text-align: center;">
+    <h2 style="font-size: 25px;">ПРОЕКТ В СТАДИИ РАЗРАБОТКИ</h2>
+    <img src="img/create_page.png" style="width: 290px; margin: 30px auto;" alt="Картинка">
+</div>
 
 <?php include_once 'footer.php'; ?>

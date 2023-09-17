@@ -59,6 +59,36 @@ $(function(){
         }
       },
     ]
+	});
+
+  $('.cycle__esires_index_slider').slick({
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		infinite: true,
+    autoplay: true,
+    autoplaySpeed: 4000,
+		dots: true,
+ 		prevArrow: '<img src="img/cycle-desires/arrow-left.svg" class="cycle__esires_index_arrow-left" style="z-index: 1;" alt="Стрелка">',
+ 		nextArrow: '<img src="img/cycle-desires/arrow-right.svg" class="cycle__esires_index_arrow-right" style="z-index:1;" alt="Стрелка">',
+     		responsive: [
+        {
+          breakpoint: 768,
+          settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          centerMode: false
+        }
+      },
+      {
+          breakpoint: 993,
+          settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+          centerMode: false
+        }
+      },
+    ]
 	});	
+  
 });
 

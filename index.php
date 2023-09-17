@@ -17,9 +17,9 @@ include_once 'header.php';
 					<div class="col-12">
 						<div class="training__content">
 							<h1 class="training__title1">
-								КРУГОВОРОТ ЖЕЛАНИЙ - познавательно-развлекательный проект
+								КРУГОВОРОТ&nbsp;&nbsp;&nbsp;ЖЕЛАНИЙ - познавательно-развлекательный проект
 							</h1>
-							<a href="/" class="training__batton btn">
+							<a href="/krugovorot-zhelanij" style="margin-top: 15px;" class="training__batton btn">
 								Узнать подробнее
 							</a>
 						</div>
@@ -38,10 +38,10 @@ include_once 'header.php';
 					<div class="col-12">
 						<div class="training__content">
 							<h1 class="training__title1">
-								НоваШкола Я - Творческая среда
+								НоваШкола Я - творческая среда
 								для разностороннего развития личности
 							</h1>
-							<a href="/mission" class="training__batton btn">
+							<a href="/mission" style="margin-top: 15px;" class="training__batton btn">
 								Узнать подробнее
 							</a>
 						</div>
@@ -62,7 +62,7 @@ include_once 'header.php';
 							<h1 class="training__title1">
 								Учись и путешествуй
 							</h1>
-							<a href="/mission" class="training__batton training__batton2 btn">
+							<a href="/mission" style="margin-top: 15px;" class="training__batton training__batton2 btn">
 								Узнать подробнее
 							</a>
 						</div>
@@ -106,7 +106,7 @@ include_once 'header.php';
 						<h5>
 							Наши проекты
 						</h5>
-						<a href="/">
+						<a href="/krugovorot-zhelanij">
 							Читать далее
 						</a>
 					</div>
@@ -121,7 +121,7 @@ include_once 'header.php';
 						<h5>
 							Подготовка к школе
 						</h5>
-						<a href="/programm">
+						<a href="/podgotovka-k-shkole">
 							Читать далее
 						</a>
 					</div>
@@ -136,7 +136,7 @@ include_once 'header.php';
 						<h5>
 							Умная продленка
 						</h5>
-						<a href="/">
+						<a href="/umnaya-prodlenka">
 							Читать далее
 						</a>
 					</div>
@@ -543,7 +543,7 @@ include_once 'header.php';
 						<img src="img/checkmark.png" alt="" class="chekmark">
 						Экскурсии
 					</span>
-					<a href="/learn-more" class="bonus__btn">
+					<a href="/krugovorot-zhelanij" class="bonus__btn">
 						Читать подробнее
 					</a>
 				</div>
@@ -571,7 +571,7 @@ include_once 'header.php';
 							Бесплатно!
 						</strong>
 					</span>
-					<a href="/cost_of_education" class="ticket__btn">
+					<a href="/krugovorot-zhelanij" class="ticket__btn">
 						Подробнее
 					</a>
 				</div>
@@ -727,7 +727,7 @@ include_once 'header.php';
 				<div class="animate__animated goals">
 					<img src="img/target_img_1.jpg" alt="" class="goals__img">
 					<p class="goals__text">
-						Подготовить Вашего ребенка к жизни
+						Готовим к самосто-<br> ятельной жизни
 					</p>
 					<div class="goals__number number1">
 						1
@@ -738,7 +738,7 @@ include_once 'header.php';
 				<div class="animate__animated goals">
 					<img src="img/target_img_2.jpg" alt="" class="goals__img">
 					<p class="goals__text">
-						Дать всестороннее развитие
+						Обучение через развлечение
 					</p>
 					<div class="goals__number  number2">
 						2
@@ -760,7 +760,7 @@ include_once 'header.php';
 				<div class="animate__animated goals">
 					<img src="img/target_img_4.jpg" alt="" class="goals__img">
 					<p class="goals__text">
-						Помочь обрести <br> друзей за рубежом
+						Помочь раскрыть талант ребенка
 					</p>
 					<div class="goals__number number4">
 						4

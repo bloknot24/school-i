@@ -21,6 +21,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
     <link rel="stylesheet" href="css/jquery.arcticmodal-0.3.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/media.css">
     <link rel="icon" href="img/icon.png">
     <link rel="shortcut icon" href="img/icon.png">
     <!-- <link rel="icon" href="img/favicon.svg" type="image/svg+xml"> -->
@@ -95,7 +96,12 @@
                     <ul class="dropdown-content">
                         <li>
                             <a href="/documents/dogovor.docx">
-                                Договор
+                                Договор обучение
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/documents/dogovor_otdih.docx">
+                                Договор детский отдых
                             </a>
                         </li>
                         <li>
@@ -103,43 +109,13 @@
                                 Порядок оплаты
                             </a>
                         </li>
-                        <!-- <li>
-                            <a href="/conditions">
-                                Условия приёма
-                            </a>
-                        </li> -->
                     </ul>
                 </li>
-                <!-- <li>
-                    <a href="/good" class="menu__link">
-                        Добрые дела
-                    </a>
-                </li> -->
-                <li>
-                    <a href="/news" class="menu__link">
-                        События
-                    </a>
-                </li>
-                <!-- <li>
-                    <a href="/cooperation" class="menu__link">
-                        Сотрудничество
-                    </a>
-                </li> -->
                 <li>
                     <a href="/camp" class="menu__link">
                         Детский отдых
                     </a>
                 </li>
-                <!-- <li>
-                    <a href="/vacancy" class="menu__link">
-                        Вакансии
-                    </a>
-                </li>
-                <li>
-                    <a href="documents/to-investors.pdf" class="menu__link">
-                        Инвесторам
-                    </a>
-                </li> -->
             </ul>
             <div class="contacs1">
                 <div class="contacs__call">
@@ -312,7 +288,12 @@
                                     <ul class="dropdown-content">
                                         <li>
                                             <a href="/documents/dogovor.docx">
-                                                Договор
+                                                Договор обучение
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="/documents/dogovor_otdyh.docx">
+                                                Договор детский отдых
                                             </a>
                                         </li>
                                         <li>
@@ -320,28 +301,8 @@
                                                 Порядок оплаты
                                             </a>
                                         </li>
-                                        <!-- <li>
-                                            <a href="/conditions">
-                                                Условия приёма
-                                            </a>
-                                        </li> -->
                                     </ul>
                                 </li>
-                                <!-- <li>
-                                    <a href="/good" class="menu__link">
-                                        Добрые дела
-                                    </a>
-                                </li> -->
-                                <li>
-                                    <a href="/news" class="menu__link">
-                                        События
-                                    </a>
-                                </li>
-                                <!-- <li>
-                                    <a href="/cooperation" class="menu__link">
-                                        Сотрудничество
-                                    </a>
-                                </li> -->
                                 <li>
                                     <a href="/camp" class="menu__link">
                                         Детский отдых

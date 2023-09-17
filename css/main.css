@@ -11,9 +11,17 @@
        url('../fonts/Georgia.svg#svgFontName') format('svg'); /* Legacy iOS */
 }
 
+@font-face {
+	font-family: 'Columbina';
+	src: url('../fonts/Columbina.eot');
+	src: url('../fonts/Columbina.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/Columbina.woff2') format('woff2'),
+		 url('../fonts/Columbina.woff') format('woff'),
+		 url('../fonts/Columbina.ttf') format('truetype'),
+		 url('../fonts/Columbina.svg#svgFontName') format('svg');
+}
 
 /*---SPECIFICATION---*/
-
 
 body {
 	font-family: 'Montserrat', sans-serif;
@@ -136,6 +144,10 @@ button {
 	text-align: center;
 }
 
+.slick-dots li {
+	height: 10px;
+	width: 30px;
+}
 
 /*Box-modal*/
 
@@ -678,7 +690,7 @@ header button {
 .menu__link {
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 600;
-	font-size: 13px;
+	font-size: 14px;
 	text-transform: uppercase;
 	height: 21px;
 }
@@ -4981,1752 +4993,670 @@ header button {
 	border: 0px;
 }
 
-/* -------- Media Queries --------- */
+/* Круговоро желаний */
 
-
-
-/* 993-1200px */
-@media screen and (max-width: 1200px) {
-	.logo {
-		text-align: center;
-	}
-	.kids__camp_benefit_box {
-		margin-bottom: 40px;
-	}
-	.kids-camp-benefit {
-		background: none;
-	}
-
-	.exchange .bg_tasks img {
-		width: 100%;
-	}
-
-	.phone, .name, .email {
-		max-width: 464px;
-		margin: 15px auto;
-	}
-
-	.subject {
-		height: 530px;
-	}
-
-	.kids-camp {
-		height: auto;
-	}
-
-	.grants .bg_tasks img {
-		width: 100%;
-	}
-
-	.box-modal .m-form__button {
-		max-width: 570px;
-	}
-
-	
-	.header .logo {
-		display: none;
-	}
-
-	.form__button {
-    	max-width: 464px;
-    	margin: 15px auto;
-	}
-
-	.international, .kids-camp-fon-section {
-	    margin-top: 338px;
-	}
-
-	.contacs {
-		justify-content: space-around;
-	}
-
-	.photo-act__title {
-		width: 100%;
-	}
-
-	.scale img {
-		width: 100%;
-		height: 100%;
-	}
-
-	.form__title {
-		font-size: 40px;
-	}
-
-	.training {
-    position: relative;
-    padding-top: 140px;
-	}
-
-	.international, .kids-camp-fon-section {
-		margin-top: 138px;
-	}
-
-	.header .container-fluid {
-		padding-bottom: 0;
-	}
-
-	.navigation {
-		margin-top: 0;
-	}
-
-	.goals img {
-		width: 100%;
-	}
-
-	.contacs {
-		margin-bottom: 20px;
-	}
-
-	.target {
-		padding-bottom: 30px;
-	}
-
-	.call {
-		font-size: 13px;
-	}
-
-	.rectangle4 {
-		margin-top: 30px;
-	}
-
-	.tabs {
-		margin: 80px auto;
-	}
-
-	.exams {
-		height: 1360px;
-	}
-
-	.exams-child {
-	    background: url(../img/child.png) no-repeat center center;
-	    height: 600px;
-	}
-
-	.ticket__title {
-		font-size: 30px;
-	}
-
-	.ticket__free span {
-		font-size: 53.5px;
-	}
-
-	.ticket__btn {
-		width: 400px;
-	}
-
-	
-
-	.form__title {
-		font-size: 36px;
-	}
-
-	.form__text {
-		font-size: 23px;
-	}
-
-	.map img {
-		width: 223px;
-	}
-
-	.footer__contacs {
-		display: -webkit-flex;
-		display: -moz-flex;
-		display: -ms-flex;
-		display: -o-flex;
-		display: flex;
-	}
-
-	.footer__contacs {
-		-webkit-flex-direction: column;
-		-moz-flex-direction: column;
-		-ms-flex-direction: column;
-		-o-flex-direction: column;
-		flex-direction: column;
-		margin-top: 35px;
-	}
-
-	.logo-footer__text {
-		margin-top: 30px;
-	}
-
-	.items {
-		text-align: center;
-	   -webkit-flex-direction: column;
-	   -moz-flex-direction: column;
-	   -ms-flex-direction: column;
-	   -o-flex-direction: column;
-	   flex-direction: column;
-	}
-
-	.items__text {
-		margin-top: 15px;
-	}
-
-	.items__icon {
-		margin: 0 auto;
-	}
-
-	.method {
-		width: auto;
-	}
-
-	.odject__items {
-		text-align: center;
-	   -webkit-flex-direction: column;
-	   -moz-flex-direction: column;
-	   -ms-flex-direction: column;
-	   -o-flex-direction: column;
-	   flex-direction: column;
-	   height: auto;
-	}
-
-	.odject__text {
-		margin-top: 15px;
-	}
-
-	.odject__icon {
-		margin: 0 auto;
-	}
-
-	.attention img {
-		width: 100%;
-	}
-
-	.prospect {
-		width: auto;
-	}
-
-	.negative {
-		width: auto;
-	}
-
-	.footer__contacs1 {
-		display: none;
-	}
-
-	.rec-img {
-		width: 100%;
-	}
-
-	.try-it .form input {
-		width: 100%;
-	}
-
-	.bg_Parents img {
-		width: 100%;
-	}
-
-	.news__activity {
-		margin-top: 157px;
-	}
-	
-	.future .form input {
-		width: 100%;
-	}
-
-	.bussines__img img {
-		width: 100%;
-	}
-
-	.photo-bussines img {
-		width: 100%;
-	}
-
-	.ex2 {
-		margin-top: 0;
-	}
-
-	.bg_work img {
-		width: 100%;
-	}
-
-	.comunication__text2 {
-		left: -42%;
-    	font-size: 14px;
-	}
-	.kids__camp_about_img img {
-		width: 284px;
-	}
-	.kids-camp-box-foto-img {
-		margin: 0px 20px;
-		width: 280px;
-	}
-	.kids__camp_box_food_block_img img {
-		width: 280px;;
-	}
-	.kids__camp_box_food_block_list ul {
-		margin: 0px 0px 0px 10px;
-	}
-	.kids__camp_box_food_block_list_item p {
-		font-size: 19px;
-	}
-	.camp__form_button {
-		max-width: 464px;
-		margin: 0px auto;
-	}
+.cycle__esires_index {
+	padding-top: 195px;
+}
+.cycle__esires_index_slider_box {
+	position: relative;
+}
+.cycle__esires_index_arrow-left {
+	position: absolute;
+	left: 37px;
+	top: 45%;
+}
+.cycle__esires_index_arrow-left:hover, .cycle__esires_index_arrow-right:hover {
+	cursor: pointer;
+} 
+.cycle__esires_index_arrow-right {
+	position: absolute;
+	right: 37px;
+	top: 45%;
+}
+.cycle__esires_index_slider_img {
+	width: 100%;
 }
 
-/* 768-992px */
-@media screen and (max-width: 992px) {
-	.menu__item {
-		flex-direction: column;
-    	text-align: center;
-    	width: 100%;
-	}
-
-	.descript h6 {
-		text-align: left;
-	}
-
-	.phone_ed {
-		width: 100% !important;
-	}
-
-	.line {
-		display: none;
-	}
-
-	.classes__info {
-		height: auto;
-		padding-bottom: 20px;
-	}
-
-	.form__button {
-
-	}
-
-	.sentence__img {
-		display: none;
-	}
-
-	.sentence {
-		-webkit-flex-direction: column;
-		-moz-flex-direction: column;
-		-ms-flex-direction: column;
-		-o-flex-direction: column;
-		flex-direction: column;
-	}
-
-	.subject {
-		height: 600px;
-	}
-
-	.prices-btn a {
-		width: auto;
-	}
-
-	.future .form {
-		margin: 0 auto;
-	}
-
-	.bg_future {
-		background: url(../img/future_img.png) no-repeat center center;
-	}
-
-	.admission__title {
-		margin-bottom: 0;
-	}
-
-	.kids__list {
-		max-width: 800px;
-	}
-
-	.kids__text {
-	    margin: auto;
-	    width: 100%;
-	    max-width: 800px;
-	    margin-bottom: 15px;
-	}
-
-	.admission {
-		padding-top: 20px;
-		padding-bottom: 0;
-	}
-
-	.develop__text {
-		font-size: 17px;
-	}
-
-	.bg_tasks {
-		display: none;
-	}
-
-	.comunication2__text {
-		margin: 0 auto;
-	}
-
-	.kids__title {
-		margin-top: 0;
-	}
-
-	.kids__list {
-		text-align: center;
-		margin: 0 auto;
-	}
-
-	.bg_tasks {
-		text-align: center;
-	}
-
-	.navigation {
-		margin-top: 0;
-	}
-
-	.bg-atmosphere {
-		background: url(../img/atmosphere_img.jpg) no-repeat center center
-	}
-
-	.atmosphere__text {
-		margin: 0 auto;
-		text-align: center;
-	}
-
-	.contacs {
-		margin-bottom: 0;
-	}
-
-	.menu__link:hover {
-	    color: #fff;
-	    border-bottom: none;
-	}
-
-	.menu__item li a {
-		display: initial;
-	}
-
-	h1 {
-		font-size: 41px;
-	}
-
-	.rectangle3, .rectangle4 {
-		margin-top: 28px;
-	}
-
-	.tabs {
-		margin: auto;
-	}
-
-	.exams {
-		height: 1312px;
-	}
-
-	.form__text {
-		font-size: 19px;
-	}
-
-	.exams-child {
-		background: url(../img/child.png) no-repeat center center;
-		height: 713px;
-	}
-
-	.exams h3 {
-		margin-bottom: 53px;
-	}
-
-	.bonus {
-		height: 370px;
-		text-align: center;
-	}
-
-	.bonus__btn {
-		margin: auto;
-	}
-
-	.ticket-bg {
-		clip-path: none;
-	}
-
-	.ticket__free {
-    	margin-top: 15px;
-        text-align: center;
-	}
-
-	.ticket__btn {
-		margin: auto;
-	}
-
-	.bg_question {
-    	background: url(../img/bg_question.png) no-repeat center center;
-	}
-
-	.form {
-		text-align: center;
-	}
-
-	.form__button {
-		margin: 0 auto;
-	}
-
-	.questions {
-		padding-bottom: 35px;
-	}
-
-	.phone_ed {
-		width: 100% !important;
-	}
-
-	.logo-footer__text {
-		text-align: center;
-	}
-
-	.map {
-		margin-top: 25px;
-		text-align: center;
-	}
-
-	.footer__contacs {
-		margin-top: 40px;
-	}
-
-	.navi__menu a {
-		height: auto;
-	}
-
-	.navi li {
-		line-height: 1.2em;
-	}
-
-	.aducation h3 {
-		margin-top: 0;
-	}
-
-	.items {
-		display: -webkit-flex;
-		display: -moz-flex;
-		display: -ms-flex;
-		display: -o-flex;
-		display: flex;
-		flex-direction: inherit;
-	}
-
-	.items__text {
-		margin-top: 0;
-		text-align: left;
-		max-width: 260px;
-	}
-
-	.items__icon {
-		margin-left: 0;
-    	margin-right: 15px;
-	}
-
-	.negative {
-		margin-left: 60px;
-	}
-
-	.odject__items {
-		display: -webkit-flex;
-		display: -moz-flex;
-		display: -ms-flex;
-		display: -o-flex;
-		display: flex;
-		flex-direction: inherit;
-		margin-top: 20px;
-	}
-
-	.odject__text {
-		margin-top: 0;
-		text-align: left;
-		max-width: 260px;
-	}
-
-	.odject__icon {
-		margin-left: 0;
-    	margin-right: 15px;
-	}
-
-	.comunication-bg {
-		clip-path: none;
-	}
-
-	.comunication__title, .comunication__text {
-		text-align: center;
-	}
-
-	.comunication__help {
-		margin: 20px auto;
-	}
-
-	.comunication__list {
-		max-width: 100%;
-	}
-
-	.training {
-	    position: relative;
-	    padding-top: 115px;
-	}
-	
-	.international, .kids-camp-fon-section {
-		margin-top: 115px;
-	}
-
-	.prospect {
-		text-align: center;
-	}
-
-	.bg_perspective {
-	    background: url(../img/bg_perspective.jpg) no-repeat center center;
-	}
-
-	.footer__contacs1 {
-		display: none;
-	}
-
-	.ticket-bg-mob {
-		background: url(../img/bg-ticket-mob.jpg) no-repeat center center;
-		background-size: cover;
-		height: 270px;
-    	margin-top: 13px;
-	}
-
-	.logo-block {
-	    display: block;
-	    margin: 0 auto;
-	    width: 150px;
-	    margin-top: 17px;
-	}
-
-	.training__title1 {
-		margin-top: 0;
-		height: 160px;
-	}
-	
-	.bg_earnings {
-		background: url(../img/earnings_img.jpg) no-repeat center;
-		margin-top: 21px;
-	}
-	
-	.teachers {
-		margin: auto;
-	}
-
-	.bg_teacher {
-    	background: url(../img/teachers_img.jpg) no-repeat center;
-	}
-
-	.news__activity {
-		margin-top: 0;
-	}
-
-	.bg-good {
-    	background: url(../img/good_img.jpg) no-repeat center center;
-	}
-
-	.good__text2 {
-		margin: 0 auto;
-	}
-
-	.reception__desc {
-		margin-top: 0;
-		text-align: center;
-	}
-
-	.good__title {
-		margin-top: 15px;
-	}
-
-	.admission__title {
-		margin-bottom: 40px;
-	}
-
-	.adm-text {
-		margin-top: 0;
-	}
-
-	.photo-bussines {
-		margin-top: 25px;
-	}
-
-	.good-bussines__title {
-		margin-bottom: 0;
-	}
-
-	.train__btn {
-		margin-top: 0;
-		margin-bottom: 15px;
-	}
-
-	.comunication__text2 {
-		left: 0;
-		top: 100%;
-    	left: 0%;
-    	width: 100%;
-	}
-
-	.tutoring-bg {
-		height: 320px;
-    	margin-top: 76px;
-	}
-	.kids__camp_about_place_block_text1 {
-		margin-top: 10px;
-	}
-	.kids__camp_box_food_block_img {
-		margin: 0px auto 20px auto;
-		text-align: center !important;
-	}
-	.kids__camp_box_food_block_list_item {
-		justify-content: center;
-	}
-	.kids__camp_box_change_block_list1, .kids__camp_box_change_block_list2 {
-		width: 310px;
-	}
-	.kids__camp_box_programms_block_img {
-		width: 200px;
-	}
-	.kids__camp_box_programms_block_text {
-		margin-bottom: 50px;
-	}
-	.kids__camp_box_document_block {
-		width: auto;
-	}
-	.kids__camp_download_doc_link {
-		margin: 10px auto;
-	}
-	.kids__camp_box_price_block1,
-	.kids__camp_box_price_block2 {
-		margin: 40px auto 20px auto;
-	}
+.cycle__esires_index_slider_box .slick-dots {
+	top: 20px;
+}
+.cycle__esires_index_slider_box .slick-dots li {
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	background-color: #fff;
+	opacity: .4;
+}
+.cycle__esires_index_slider_box .slick-dots .slick-active {
+	opacity: 1;
+}
+.cycle__esires_index_head_box {
+	width: 765px;
+	background: #FFFFFF;
+	border-radius: 30px;
+	text-align: center;
+	margin: 0px auto;
+	box-shadow: 0px 20px 50px 0px rgba(0, 0, 0, 0.05);
+	position: relative;
+	margin-top: -160px;
+}
+.cycle__esires_index_head_text {
+	font-weight: 800;
+	color: #000;
+	font-family: 'Montserrat';
+	padding-top: 25px;
+	font-size: 54px;
+	padding-bottom: 15px;
+	width: 635px;
+	border-bottom: 5px solid #80C6BB;
+	margin: 0px auto;
+}
+.cycle__esires_index_head_description {
+	font-size: 20px;
+	font-weight: 600;
+	margin-top: 15px;
+	padding-bottom: 60px;
+}
+.cycle__esires_index_link {
+	font-size: 30px;
+	font-weight: 700;
+	background: #F5410C;
+	color: #fff;
+	border-radius: 30px;
+	padding: 24px 64px;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+	display: inline-flex;
+	bottom: -45px;
+	position: absolute;
+	left: 30%;
 }
 
-/* 576-768px */
-@media screen and (max-width: 768px) {
-	.contacs__search, .contacs__call, .contacs__email {
-		margin-left: 0;
-	}
-	
-	.news .navi {
-		text-align: center;
-	}
+/* --------------- */
 
-	.box-modal {
-		width: auto;
-	}
-
-	.calendar {
-		margin: 20px auto;
-	}
-
-	.cost-tabs label {
-		font-size: 10px;
-	}
-
-	.titles2, .direct__title2, .txt-bottom {
-		text-align: center;
-		width: 100%;
-		max-width: 100%;
-	}
-
-	.titles__1, .titles__2 {
-		font-size: 17px;
-	}
-
-	.menu__link:hover {
-	    color: #fff;
-	    border-bottom: none;
-	}
-
-	.tab h4 {
-		max-width: 450px;
-	}
-
-	.navi__breach span, .navi__breach a {
-		font-size: 10px;
-	}
-
-	.free-classes h3 {
-		margin-top: 0;
-	}
-
-	.direct {
-		width: 100%;
-		text-align: center;
-	}
-
-	.rectangle1, .rectangle2, .rectangle3, .rectangle4 {
-		margin: 0 auto;
-    	margin-bottom: 30px;
-	}
-
-	h3 {
-		font-size: 29px;
-	}
-
-	.tabs {
-		width: 460px;
-		height: 460px;
-	}
-
-	/*.free__title span {
-		display: none;
-	}*/
-
-	.free__title span {
-	    padding-top: 28px;
-	}
-
-	.goals {
-    	
-	}
-
-	.footer-menu {
-		margin-left: 0;
-		text-align: center;
-	}
-
-	.footer__contacs {
-		
-	}
-
-	.slider-top {
-		width: 377px;
-		margin: 0 auto
-	}
-
-	.navi__menu {
-		
-	}
-
-	.aducation {
-		margin-top: 6px;
-	}
-
-	.negative {
-		margin-left: 0;
-	}
-
-	.lessons__list3 {
-		padding-left: 0;
-	}
-
-	.training {
-	    padding-top: 105px;
-	}
-
-	.international, .kids-camp-fon-section {
-		margin-top: 105px;
-	}
-
-	.header {
-		padding-bottom: 15px;
-	}
-
-	.footer__contacs1 {
-		display: none;
-	}
-
-	.logo-block {
-	    display: block;
-	    margin: 0 auto;
-	    width: 150px;
-	    margin-top: 17px;
-	}
-
-	.ticket-bg-mob {
-		background: url(../img/bg-ticket-mob.jpg) no-repeat center center;
-		background-size: cover;
-		height: 270px;
-    	margin-top: 13px;
-	}
-
-	.subject__title {
-		font-size: 17px;
-	}
-
-	.subject {
-		height: auto;
-		min-height: 500px;
-	}
-
-	.training__title1 {
-	    margin-top: 38px;
-	    text-align: center;
-	    height: 183px;
-	}
-	.kids__camp_box_header {
-		font-size: 25px;
-	}
-	.kids__camp_box_header_h2_additionally {
-		font-size: 22px;
-	}
-	.kids__camp_additionally_box_text4, .kids__camp_additionally_box_text2, .kids__camp_additionally_box_text1 {
-		font-size: 20px;
-	}
-	.kids__camp_benefit_head {
-		font-size: 29px;
-	}
-	.kids__camp_call_to_action_box_text1 {
-		font-size: 20px;
-	}
-	.kids__camp_call_to_action_box_text2 {
-		width: auto;
-		font-size: 20px;
-	}
-	.kids__camp_about_head, .kids__camp_box_food_head {
-		font-size: 29px;
-	}
-	.kids__camp_about_place_block_text1 {
-		margin-top: 30px;
-	}
-	.kids__camp_about_place_block_text2, .kids__camp_about_place_block_text3 {
-		margin-top: 20px;
-	}
-	.kids__camp_about_img {
-		text-align: center;
-		margin: 0px auto;
-	}
-	.kids__camp_about_place_block_text3 {
-		margin-bottom: 30px;
-	}
-	.kids-camp-box-foto {
-		margin: 0px auto 30px auto;
-		text-align: center;
-	}
-	.kids__camp_box_food_head,
-	.kids__camp_box_programms_head,
-	.kids__camp_box_transfer_head,
-	.kids__camp_box_document_head,
-	.kids__camp_box_bonus_head,
-	.kids__camp_box_price-head,
-	.kids__camp_box_price_block_conditions_head {
-		font-size: 29px;
-	}
-	.kids__camp_box_change_block_list1, .kids__camp_box_change_block_list2 {
-		margin: 0px auto 20px auto;
-	}
-	.kids__camp_box_change_additionally {
-		font-size: 22px;
-	}
-	.kids__camp_box_viber_chat_block1_img {
-		display: none;
-	}
-	.kids__camp_box_viber_chat_block1_head {
-		font-size: 26px;
-		margin: 10px auto 20px auto;
-	}
-	.kids__camp_box_viber_chat_block2 {
-		text-align: center;
-	}
-	.kids__camp_box_viber_chat_block1_text {
-		font-size: 17px;
-	}
-	.kids__camp_box_document_list_item_text,
-	.kids__camp_box_document_block_text {
-		font-size: 16px;
-	}
-	.kids__camp_box_bonus_text2 {
-		font-size: 17px;
-	}
-	.kids__camp_box_bonus_img {
-		width: 90%;
-	}
+.cycle__esires_head2 {
+	font-size: 36px;
+	font-weight: 800;
+	margin: 0px auto;
+	text-align: center;
+}
+.cycle__esires_your_child {
+	margin-top: 105px;
+}
+.cycle__esires_your_child_head {
+	margin-bottom: 50px;
 }
 
-/* 320-576px */
-@media screen and (max-width: 576px) {
-	.links {
-		width: 285px;
-    	margin: 0 auto;
-    	margin-bottom: 12px;
-	}
-
-
-
-	.kids-camp {
-		-webkit-flex-direction: column;
-		-moz-flex-direction: column;
-		-ms-flex-direction: column;
-		-o-flex-direction: column;
-		flex-direction: column;
-		margin-bottom: 0;
-	}
-
-	.section-rectangle-school .rectangle__overlay2 a {
-		margin-top: 63px;
-	}
-
-	.form__button {
-		height: auto;
-		min-height: 60px;
-	}
-
-	.txt-bottom {
-		margin-top: 0;
-	}
-
-	.logo2 {
-		text-align: center;
-	}
-
-	.titles {
-		margin-top: 15px;
-	}
-
-	.kids-camp p {
-		text-align: center;
-		font-size: 13px;
-	}
-
-	.tab h4 {
-		font-size: 16px;
-		max-width: 245px;
-	}
-
-	.tutor {
-	    background: url(../img/bg_tutoring.jpg) no-repeat center center !important;
-	    background-size: cover;
-	}
-
-	.tutoring-bg {
-		background: url(../img/scale_221200-3.jpg) no-repeat center center !important;
-	    background-size: cover;
-	}
-
-	.comunication__text2 {
-		font-size: 13px;
-	}
-
-	.prices-btn {
-		margin-bottom: 15px;
-	}
-
-	.subject {
-		padding-bottom: 50px;
-	}
-
-	.sentence__desc {
-		font-size: 13px;
-	}
-
-	.arcticmodal-container_i2 {
-		padding: 0;
-	}
-
-	.prices h3 {
-		margin: 0;
-	}
-
-	.news-photo {
-		-webkit-flex-direction: column;
-		-moz-flex-direction: column;
-		-ms-flex-direction: column;
-		-o-flex-direction: column;
-		flex-direction: column;
-	}
-
-	.box-modal {
-		max-width: 320px;
-	}
-
-	.develop {
-		height: 100%;
-	}
-
-	.develop__text {
-		font-weight: 700;
-	}
-
-	.footer__contacs1 {
-		display: block;
-	}
-
-	.navi-mission {
-		padding-bottom: 20px;
-	}
-
-	.ticket {
-		height: 490px;
-	}
-
-	.principle {
-		padding-top: 20px;
-	}
-
-	.aducation h3 {
-		margin-bottom: 10px;
-	}
-
-	.international, .kids-camp-fon-section {
-	    margin-top: 168px;
-	}
-
-	.menu__link:hover {
-	    color: #fff;
-	    border-bottom: none;
-	}
-
-	.slider-top {
-		width: 100%;
-		margin: 0 auto
-	}
-
-	.lessons__list {
-		margin-top: 0;
-	}
-
-	.lessons__list3{
-		margin-top: 0;
-	}
-
-	.attention {
-		padding-bottom: 0;
-	}
-
-	.comunication {
-		padding-bottom: 0;
-	}
-
-	.prospects {
-		padding: 0;
-	}
-
-	.prospect {
-		text-align: left;
-	}
-
-	.comunication-bg {
-		background: url('../img/qerwrwr.jpg') no-repeat center center;
-		height: 146px;
-	}
-
-	.development {
-    background: url(../img/bg-programms-mob.jpg) no-repeat center center;
-    background-size: cover;
-	}
-
-	.internship {
-		background: url(../img/internship_img.jpg) no-repeat center center;
-	}
-
-	.methodology__title {
-		margin-bottom: 0;
-	}
-
-	/*.logo {
-		display: none;
-	}*/
-
-	.logo-block {
-		display: block;
-		margin: 0 auto;
-    	width: 150px;
-        margin-top: 17px;
-	}
-
-	.training__title1 {
-		margin-top: 38px;
-		text-align: center;
-		height: 183px;
-	}
-
-	.logo-block-img {
-		width: auto;
-	}
-
-	.contacs {
-		display: none;
-	}
-
-	.header .container-fluid {
-		padding-bottom: 0;
-	    border-bottom: 0; 
-	    margin-bottom: 0; 
-	}
-
-	.header {
-		padding-bottom: 0;
-	}
-
-	.training {
-		padding-top: 135px;
-	}
-
-	.international, .kids-camp-fon-section {
-		margin-top: 97px;
-	}
-
-	.contacs {
-		flex-direction: column;
-    	text-align: center;
-	}
-
-	.contacs__call {
-		/*margin-top: 20px;
-    	margin-bottom: 20px;*/
-	}
-
-	h1 {
-		font-size: 33px;
-	}
-
-	.training__batton {
-	    font-size: 21px;
-	    padding-top: 13px;
-	}
-	.btn {
-	    width: 284px;
-	    height: 57px;
-	}
-
-	h3 {
-    	font-size: 21px;
-	}
-
-	.tabs {
-	    width: 250px;
-	    height: 250px;
-	}
-
-	.tablinks img {
-	    width: 18px;
-    	height: 18px;
-	}
-
-	.tablinks {
-	    width: 50px;
-    	height: 50px;
-	}
-
-	.tablinks div {
-	    width: 41px;
-	    height: 41px;
-	    border: 3px solid #fff;
-	    border-radius: 100%;
-	    margin: auto;
-	    padding-top: 10px;
-	}
-
-	.train__title {
-		text-align: center;
-	}
-
-	.tablinks-4, .tablinks-8 {
-		top: 40%;
-	}
-
-	.tablinks:after {
-	    width: 55px;
-	    left: -2px;
-	    top: -2px;
-	    height: 55px;
-	}
-	
-	.tabcontent h4 {
-		font-size: 20px;
-	}
-
-	.tabcontent h4 {
-		margin: -26px auto;
-		font-size: 14px;
-	}
-
-	.tabcontent p {
-		font-size: 11px;
-		width: 185px;
-		margin: 42px auto;
-	}
-
-	.tabs {
-		padding-top: 78px;	
-	}
-
-	.exams {
-    	height: 520px;
-	}
-
-	.bonus {
-		text-align: left;
-	}
-
-	.ticket__title {
-    	font-size: 30px;
-	}
-
-	.ticket__free span {
-	    font-size: 38.5px;
-	}
-
-	.ticket__btn {
-	    width: 286px;
-	    height: 46px;
-	    font-size: 21px;
-	    padding-top: 7px;
-	}
-
-	.activity {
-	    padding-bottom: 70px;
-	}
-
-	.form__title {
-	    font-size: 36px;
-	    margin-bottom: 0;
-	}
-
-	.tutoring-bg {
-		margin-top: 9em;
-	}
-
-	
-
-	.form__text {
-	    font-size: 20px;
-	}
-
-	.phone {
-	    width: 287px;
-	    height: 40px;
-	}
-
-	.form__text {
-		width: 276px;
-    	margin: 7px auto;
-	}
-
-	.goals {
-	    margin: 20px auto;
-	}
-
-	.logo-block img {
-    	display: block;
-    	width: 150px;
-    	height: 100px;
-	}
-
-	.target__title {
-		font-size: 40px;
-	}
-
-	h3 {
-		font-size: 28px;
-	}
-
-	.quantity__numeral {
-	    font-size: 40px;
-	    width: 55px;
-	    height: 54px;
-	}
-
-	.quantity__text {
-		font-size: 22px;
-	}
-
-	.aducation h3 {
-		margin-left: 0;
-		text-align: center;
-	}
-
-	.principle__text {
-		font-size: 16px;
-	}
-
-	.items__icon {
-		margin-right: 5px;
-	}
-
-	.items__text {
-		max-width: 230px;
-	}
-
-	.scale {
-		display: block;
-	}
-
-	h4 {
-		font-size: 19px;
-	}
-
-	.positive {
-		max-width: 300px;
-		margin-bottom: 30px;
-		margin-left: 0;
-	}
-
-	.develop {
-	    padding: 30px 20px 0 20px;
-	}
-
-	.develop__title {
-		margin-bottom: 5px;
-	}
-
-	.develop__text {
-		font-size: 10px;
-	}
-
-	.odj__text {
-		font-size: 15px;
-	}
-
-	.odject__text {
-		max-width: 217px;
-	}
-
-	.comunication__title {
-		font-size: 26px;
-	}
-
-	.comunication__text {
-		font-size: 13px;
-	}
-
-	.comunication__item {
-		font-size: 14px;
-	}
-
-	h5 {
-		font-size: 16px;
-	}
-
-	.prospects h3 {
-		margin: 0;
-	}
-
-	.prospects__text {
-		font-size: 17px;
-		margin-top: 0;
-	}
-
-	.prospects__text2 {
-		font-size: 17px;
-	}
-
-	.international h3 {
-		font-size: 29px;
-		margin-bottom: 0;
-	}
-
-	.training {
-	    padding-top: 80px;
-	}
-
-	.footer__contacs {
-		margin: 0;
-	}
-
-	.slide_0 {
-		background: url(../img/bg-mod-slide0.jpg) no-repeat center center;
-		background-size: cover;
-		height: 550px;
-	}
-
-	.slide_1 {
-		background: url(../img/bg-mod-slide1.jpg) no-repeat center center;
-		background-size: cover;
-		height: 550px;
-	}
-
-	.slide_2 {
-		background: url(../img/bg-mod-slide2.jpg) no-repeat center top;
-		background-size: cover;
-		height: 550px;
-	}
-
-	.slide_3 {
-		background: url(../img/bg-mod-slide3.jpg) no-repeat center center;
-		background-size: cover;
-		height: 550px;
-	}
-
-	.links__item {
-	    margin-right: 22px;
-	}
-	
-	.cabinet {
-		border-top: 1px solid #b5a5a5;
-	    padding-top: 15px;
-	}
-
-	.contacs__search-mob {
-		width: 17px;
-	}
-
-	.contacs__search-mob img {
-		width: 17px;
-	}
-
-	.exams h3 {
-	    font-size: 28px;
-	}
-
-	.top-sckool__text {
-	    font-size: 16px;
-	}
-
-	.free__title {
-		width: 269px;
-	}
-
-	.ticket-bg-mob {
-		background: url(../img/bg-ticket-mob.jpg) no-repeat center center;
-		background-size: cover;
-		height: 270px;
-    	margin-top: 13px;
-	}
-
-	.bg_question-mob {
-		height: 250px;
-		background: url(../img/bg-question-mob.jpg) no-repeat center center;
-	}
-
-	.questions {
-		padding-bottom: 0;
-	}
-
-	.header {
-		width: auto;
-	}
-
-	.footer__contacs {
-		display: none;
-	}
-	
-	.footer__contacs1 .contacs__call {
-		display: flex;
-    	justify-content: center;
-		width: 100%;
-	}
-
-	.footer__contacs1 a {
-		font-size: 18px;
-	}
-
-	.bg_perspective {
-		height: 228px;
-		background: url('../img/bg-prospects.jpg') no-repeat center center;
-	}
-
-	.footer__contacs1 .contacs__email {
-		text-align: center;
-		width: 100%;
-	}
-
-	.logo-footer__text {
-		display: none;
-	}
-
-	.logo-footer__text2 {
-		display: block;
-		margin: 0;
-	}
-
-	.map h6 {
-		display: none;
-	}
-
-	.icon-title {
-		font-size: 18px;
-		    margin-top: 7px;
-	}
-
-	.contacs__email-footer {
-		margin-bottom: 0;
-	}
-
-	.map {
-		margin-top: 6px;
-	}
-
-	.footer {
-	    padding-top: 20px;
-	    padding-bottom: 20px;
-	}
-
-	.quantity__text {
-		margin-bottom: 0;
-	}
-
-	.rec {
-		width: auto;
-	}
-
-	.atmosphere__text {
-		text-align: center;
-		font-size: 20px;
-	}
-
-	.good__title {
-		margin-bottom: 0;
-	}
-
-	.bg-atmosphere {
-		display: none;
-	}
-
-	.bg_Parents {
-		display: none;
-	}
-
-	.package {
-		height: auto;
-		width: auto;
-		margin-top: 10px;
-    	margin-bottom: 10px;
-	}
-
-	.package:hover {
-		height: auto;
-		width: auto;
-		margin-top: 10px;
-    	margin-bottom: 10px;
-	}
-
-	.demand__text {
-		font-size: 14px;
-	}
-
-	
-
-	.rec-img {
-		display: none;
-	}
-
-	.try-it h3 {
-		margin: 0;
-	}
-
-	.try-it {
-		padding-top: 10px;
-		padding-bottom: 10px;
-	}
-
-	.try-it h2 {
-		font-size: 36px;
-	}
-
-	.container-bottom{
-		margin: 0;
-	}
-
-	.bg_reception {
-		display: none;
-	}
-
-	.conditions-international {
-		background: url(../img/bg-cond_mob.jpg) no-repeat center center;
-		background-size: cover;
-	}
-
-	.quantity__numeral {
-		border-bottom: 4px solid #5fd7cc;
-	    font-weight: 900;
-	    color: #5fd7cc;
-	}
-
-	.reception__title {
-		margin: 0;
-	}
-
-	.reception__desc {
-		margin-top: 0;
-	}
-
-	.earnings {
-		padding-bottom: 20px;
-	}
-
-	.bg_question-mob {
-	    height: 190px;
-	    background: url(../img/bg_cond2_mob.png) no-repeat center center;
-	}
-
-	.bg-good {
-		display: none;
-	}
-
-	.international h3 {
-		font-size: 24px;
-	}
-
-	.good__text {
-		font-size: 21px;
-	}
-
-	.button__student, .button__teacher {
-		margin: 10px auto;
-	}
-
-	.buttons {
-	    margin-top: 20px;
-	    margin-bottom: 20px;
-	    -webkit-flex-direction: column;
-	    -moz-flex-direction: column;
-	    -ms-flex-direction: column;
-	    -o-flex-direction: column;
-	    flex-direction: column;
-    }
-
-    .box-modal {
-    	height: auto;
-    	padding-bottom: 0;
-    	padding-bottom: 10px;
-    }
-
-    .pass-reg {
-    	-webkit-flex-direction: column;
-    	-moz-flex-direction: column;
-    	-ms-flex-direction: column;
-    	-o-flex-direction: column;
-    	flex-direction: column;
-    	margin-top: 10px;
-    }
-
-    .line-blue {
-    	width: 250px;
-    	margin: 25px auto 0;
-    }
-
-    .good__text {
-    	margin-top: 25px;
-    }
-
-    .good-international {
-    	background: url(../img/bg_good_mob.jpg) no-repeat center center;
-    	background-size: cover;
-	}
-	.kids-camp-box-foto-img {
-		margin: 0px auto;
-	}
-	.kids__camp_box_change_block_list1,
-	.kids__camp_box_change_block_list2 {
-		width: 90%;
-	}
-	.kids__camp_box_viber_chat_block2_img {
-		width: 90%;
-	}
-	.kids__camp_box_programms_block_img {
-		width: 150px;
-	}
-	.kids__camp_box_transfer_head_img {
-		width: 90%;
-	}
-	.kids__camp_download_doc_link {
-		width: 270px;
-		font-size: 19px;
-	}
-	.kids__camp_box_price_block1,
-	.kids__camp_box_price_block2 {
-		width: auto;
-	}
-	.kids__camp_box_price_block1 img,
-	.kids__camp_box_price_block2 img {
-		width: 80%;
-	}
-	.kids__camp_box_price_block_conditions_text {
-		width: auto;
-	}
-	.kids__camp_box_price_block-head {
-		font-size: 22px;
-	}
-	.kids__camp_box_price_block_conditions_head {
-		width: auto;
-	}
-	.kids__camp_box_price_block_list hr {
-		width: 250px;
-	}
-	.kids__camp_box_price_block_text_link {
-		width: auto;
-	}
-	.camp__form_button {
-		width: 100%;
-	}
+/* --------------- */
+
+.cycle__esires_welcome {
+	background: #F9F9F9;
+	margin-top: 90px;
+}
+.cycle__esires_welcome_head {
+	max-width: 700px;
+	padding-top: 40px;
+}
+.cycle__esires_welcome_left_block_img {
+	width: 80%;
+	margin: 0px 0px 40px 150px;
+}
+.cycle__esires_welcome_left_block_head {
+	font-size: 35px;
+	font-weight: 700;
+	font-family: 'Georgia';
+	color: #F5410C;
+}
+.cycle__esires_welcome_left_block_head_text {
+	color: #454545;
+	font-size: 20px;
+	width: 535px;
+	font-weight: 700;
+	margin: 33px 0px 33px 0px;
+}
+.cycle__esires_welcome_left_block_head_text2 {
+	color: #2B4276;
+	font-family: Georgia;
+	font-size: 20px;
+	font-weight: 700;
+	margin-bottom: 33px;
+}
+.cycle__esires_welcome_left_block_head_text3 {
+	font-size: 30px;
+	font-weight: 700;
+	font-family: 'Georgia';
+	color: #F5410C;
+}
+.cycle__esires_welcome_right_block {
+	position: relative;
+}
+.cycle__esires_welcome_right_block_img {
+	margin-top: 40px;
+}
+.cycle__esires_welcome_shape_block {
+	position: absolute;
+	right: -50px;
+}
+
+/* --------------- */
+
+.cycle__esires_target_progect_head {
+	margin: 70px auto 30px auto;
+}
+.cycle__esires_target_progect_text {
+	width: 766px;
+	color: #454545;
+	text-align: center;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 130%;
+	margin: 0px auto;
+}
+.cycle__esires_target_progect_text_img_block {
+	margin: 40px 0px 90px 0px;
+	position: relative;
+}
+.cycle__esires_target_progect_text_img {
+	width: 100%;
+}
+.cycle__esires_target_progect_text_img2 {
+	position: absolute;
+	bottom: -40px;
+	left: -90px;
+}
+.cycle__esires_target_progect_text_img3 {
+	position: absolute;
+	top: -20px;
+	right: 0px;
+}
+
+/* --------------- */
+
+.cycle__esires_we_create {
+	background-color: #F9F9F9;
+	padding-top: 60px;
+}
+.cycle__esires_we_create_head {
+ 	width: 970px;
+	margin-bottom: 40px;
+}
+.cycle__esires_we_create_block {
+	text-align: center;
+	border-radius: 20px;
+	background: var(--color-white, #FFF);
+	box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.05);
+	margin-bottom: 35px;
+}
+.cycle__esires_we_create_block_text {
+	color: var(--typography-primary, #000);
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 130%;
+	margin-top: 10px;
+	height: 75px;
+}
+.cycle__esires_we_create_link {
+	font-size: 30px;
+	font-weight: 700;
+	background: #00CAE5;
+	border-radius: 30px;
+	padding: 24px 64px;
+	display: inline-block;
+	color: #fff;
+}
+.cycle__esires_we_create_block_link {
+	text-align: center;
+	margin: 40px auto 60px auto;
+	position: relative;
+}
+.cycle__esires_we_create_block_link_box {
+	display: flex;
+	justify-content: center;
+	padding: 10px;
+	background-color: #fff;
+	gap: 30px;
+	width: 650px;
+	border-radius: 12px;
+	margin: 40px auto 0px auto;
+}
+.cycle__esires_we_create_block_link_box2 {
+	display: flex;
+}
+.cycle__esires_we_create_block_link_text {
+	font-size: 24px;
+	font-weight: 400;
+}
+.cycle__esires_we_create_block_link_text:hover {
+	cursor: pointer;
+	color: #a5a5a5;
+}
+.cycle__esires_we_create_block_link_img {
+	width: 25px;
+	height: 25px;
+	margin-top: 5px;
+	margin-right: 15px;
+}
+.cycle__esires_we_create_block_link_img2 {
+	position: absolute;
+	left: 50px;
+	top: 40px;
+}
+.cycle__esires_we_create_block_link_img3 {
+	position: absolute;
+	top: 0px;
+	right: -15px;
+}
+
+/* --------------- */
+
+.cycle__esires_education_travel {
+	padding-top: 80px;
+	background: url('../img/cycle-desires/fon_section_education_travel.svg') no-repeat top center / auto auto;
+}
+
+.cycle__esires_education_travel_head {
+	margin-bottom: 50px;
+}
+.cycle__esires_education_travel_block {
+	width: 270px;
+	height: 272px;
+	border-radius: 20px;
+	box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.05);
+	padding: 30px;
+	text-align: center;
+	margin-bottom: 30px;
+	background: #fff;
+}
+.cycle__esires_education_travel_block_head {
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 130%;
+	margin: 18px auto 12px auto;
+}
+.cycle__esires_education_travel_block_text {
+	color: #454545;
+	text-align: center;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 130%;
+}
+.cycle__esires_education_travel_block_link {
+	text-align: center;
+	margin: 40px auto 40px auto;
+}
+.cycle__esires_education_travel_block_box {
+	margin-top: 40px;
+}
+.cycle__esires_education_travel_block_tel {
+	display: flex;
+	gap: 10px;
+	margin-top: 15px;
+	justify-content: center;
+}
+.cycle__esires_education_travel_head2 {
+	width: 770px;
+	margin: 80px auto 130px auto;
+}
+.cycle__esires_education_travel_block2_img {
+	position: relative;
+}
+.cycle__esires_education_travel_block2_img {
+	width: 100%;
+	margin-top: 70px;
+}
+.cycle__esires_education_travel_block2_img2 {
+	position: absolute;
+	left: 30px;
+	top: 90px;
+}
+.cycle__esires_education_travel_block2_img3 {
+	position: absolute;
+	right: -40px;
+	bottom: -40px;
+}
+.cycle__esires_education_travel_block2_text {
+	color: #F5410C;
+	text-align: center;
+	font-family: Georgia;
+	font-size: 80px;
+	font-weight: 700;
+	margin: 20px auto 70px auto;
+}
+
+/* --------------- */
+
+.cycle__esires_bonus {
+	background: #F9F9F9;
+	padding-top: 55px;
+}
+.cycle__esires_bonus_box {
+	text-align: center;
+	margin-bottom: 30px;
+}
+.cycle__esires_bonus_box_text {
+	font-family: Montserrat;
+	font-size: 30px;
+	font-weight: 700;
+	width: 500px;
+	margin: 0px auto;
+	line-height: normal;
+}
+.cycle__esires_bonus_box_head {
+	color: #F5410C;
+	font-family: 'Columbina';
+	font-size: 40px;
+	font-weight: 500;
+	line-height: 130%;
+	margin: 25px;
+}
+.cycle__esires_format_head {
+	margin: 60px auto 40px auto;
+}
+.cycle__esires_format_img {
+	text-align: center;
+	margin: 0px auto;
+}
+.cycle__esires_format_group_head {
+	font-size: 24px;
+	font-weight: 700;
+	margin: 70px auto 30px auto;
+}
+.cycle__esires_format_group_box {
+	display: flex;
+	gap: 30px;
+	justify-content: center;
+}
+.cycle__esires_format_group_block {
+	width: 205px;
+	padding: 16px 30px;
+	align-items: center;
+	border-radius: 8px;
+	font-size: 20px;
+	font-weight: 700;
+}
+.cycle__esires_format_group_text {
+	width: 770px;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: normal;
+	margin: 40px auto 40px auto;
+}
+.cycle__esires_format_group_text2 {
+	color: #F5410C;
+	text-align: center;
+	font-size: 60px;
+	font-weight: 700;
+	margin-bottom: 80px;
+}
+.cycle__esires_format_group_text3 {
+	width: 770px;
+	font-size: 24px;
+	font-weight: 700;
+	margin: 60px auto 20px auto;
+}
+.cycle__esires_format_group_text4 {
+	color: #F5410C;
+	font-family: Georgia;
+	font-size: 47px;
+	font-weight: 700;
+	line-height: 130%;
+	margin-top: 170px;
+}
+.cycle__esires_format_group_img_block {
+	position: relative;
+	margin-bottom: 90px;
+}
+.cycle__esires_format_group_img_block_img0 {
+	width: 100%;
+}
+.cycle__esires_format_group_img_block_img1 {
+	position: absolute;
+	top: -25px;
+	left: -20px;
+}
+.cycle__esires_format_group_img_block_img2 {
+	position: absolute;
+	right: -46px;
+	top: -46px;
+}
+.cycle__esires_format_group_img_block_img3 {
+	position: absolute;
+	bottom: -30px;
+	left: -70px;
+}
+
+/* --------------- */
+
+.cycle__esires_price {
+	background: #F9F9F9;
+	position: relative;
+}
+.cycle__esires_price_index_text {
+	color: #F5410C;
+	text-align: center;
+	font-size: 60px;
+	font-weight: 700;
+	margin-bottom: 40px;
+} 
+.cycle__esires_price_add_text {
+	color: #454545;
+	text-align: center;
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 130%;
+	width: 776px;
+	margin: 0px auto 20px auto;
+}
+.cycle__esires_price_shape1 {
+	position: absolute;
+	right: 40px;
+	top: 70px;
+}
+
+/* --------------- */
+
+.cycle__esires_price_shape2 {
+	position: absolute;
+	top: 80px;
+	left: 40px;
+}
+.cycle__esires_bonus2_head {
+	margin: 60px auto 40px auto;
+}
+.cycle__esires_bonus2_text1 {
+	color: #F5410C;
+	text-align: center;
+	font-family: Georgia;
+	font-size: 30px;
+	font-weight: 700;
+}
+.cycle__esires_bonus2_block {
+	display: flex;
+	justify-content: space-evenly;
+	margin: 50px 0px 60px 0px;
+}
+.cycle__esires_bonus2_block_img {
+	width: 100%;
+	margin-top: 20px;
+}
+.cycle__esires_bonus2_box {
+	margin-left: 40px;
+	margin-top: 50px;
+}
+.cycle__esires_bonus2_box2 {
+	display: flex;
+	justify-content: space-between;
+	margin: 30px 0px;
+}
+.cycle__esires_bonus2_box_text1 {
+	color: #F5410C;
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 130%;
+	width: 435px;
+}
+.cycle__esires_bonus2_box_text2 {
+	width: 435px;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 130%;
+	margin-top: 55px;
+}
+.cycle__esires_bonus2_box_text3 {
+	color: #454545;
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 130%;
+}
+.cycle__esires_bonus2_box_text4 {
+	width: 770px;
+	color: #000;
+	text-align: center;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 130%;
+	margin: 60px auto 20px auto;
+}
+.cycle__esires_bonus2_box_block2 {
+	position: relative;
+}
+.cycle__esires_bonus2_box_block_btn {
+	display: inline-block;
+	padding: 15px 30px;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+	border-radius: 20px;
+	background: #F5410C;
+	color: #FFF;
+	font-size: 40px;
+	font-weight: 800;
+	margin: 0px auto 80px auto;
+}
+.cycle__esires_bonus2_box_block2_shape1 {
+	position: absolute;
+	right: 30px;
+	top: 30px;
+}
+.cycle__esires_bonus2_box_block2_shape2 {
+	position: absolute;
+	left: 50px;
+}
+
+/* --------------- */
+
+.cycle__esires_question {
+	background: #F9F9F9;
+	padding-top: 50px;
+}
+.cycle__esires_question_note {
+	color: #454545;
+	text-align: center;
+	font-size: 20px;
+	font-weight: 500;
+	margin: 40px auto 40px auto;
+}
+.cycle__esires_question_note2 {
+	color: #F5410C;
+	text-align: center;
+	font-family: Georgia;
+	font-size: 30px;
+	font-weight: 700;
+	margin-bottom: 50px;
+}
+.cycle__esires_question_download_block_link_img {
+	display: block;
+	text-align: center;
+	margin: 0px auto 20px auto;
+}
+.cycle__esires_question_download_block1 {
+	margin-bottom: 50px;
+	position: relative;
+}
+.cycle__esires_question_download_block2 {
+	position: relative;
+}
+.cycle__esires_question_download_block_link {
+	text-align: center;
+	font-family: Montserrat;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 130%;
+	text-decoration-line: underline;
+}
+.cycle__esires_question_download_block_link:hover {
+	color: #b5b5b5;
+}
+.cycle__esires_question_download_block2_shape1 {
+	position: absolute;
+	left: 30px;
+	top: -130px;
+}
+.cycle__esires_question_download_block2_shape2 {
+	position: absolute;
+	right: 20px;
+	top: -110px;
+}
+
+/* --------------- */
+
+.cycle__esires_form_block1 {
+	margin-bottom: 60px;
+}
+.cycle__esires_form_block1_text {
+	color: #F5410C;
+	font-family: Georgia;
+	font-size: 30px;
+	font-weight: 700;
+	line-height: normal;
+	margin: 70px auto 50px auto;
+}
+.cycle__esires_form_block2 {
+	margin: 150px auto 0px auto;
+}
+.cycle__esires_form_block2_text1 {
+	text-align: center;
+	font-size: 40px;
+	font-weight: 700;
+}
+.cycle__esires_form_block2_text2 {
+	color: #454545;
+	text-align: center;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+}
+.cycle__esires_form_block2_input {
+	border-radius: 20px;
+	border: 2px solid #F1F1F1;
+	width: 100%;
+	height: 60px;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	padding-left: 20px;
+	margin: 20px auto;
+}
+.cycle__esires_form_block2_btn {
+	border-radius: 20px;
+	background: #F5410C;
+	width: 100%;
+	height: 60px;
+	border: 0px;
+	color: #FFF;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+}
+.cycle__esires_form_block2_btn:hover {
+	cursor: pointer;
+	color: #000;
 }

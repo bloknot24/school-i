@@ -25,23 +25,23 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="/cost">
-                                    Обучение для детей
+                                <a href="/krugovorot-zhelanij">
+                                    Круговорот желаний
                                 </a>
                             </li>
                             <li>
-                                <a href="/cost">
-                                    Обучение для взрослых
+                                <a href="/umnaya-prodlenka">
+                                    Умная продленка
                                 </a>
                             </li>
                             <li>
-                                <a href="/conditions">
-                                    Как поступить
+                                <a href="/podgotovka-k-shkole">
+                                    Подготовка к школе
                                 </a>
                             </li>
                             <li>
-                                <a href="#">
-                                    Оплата
+                                <a href="/camp">
+                                    Детский отдых
                                 </a>
                             </li>
                         </ul>
@@ -52,24 +52,24 @@
                 <div class="footer-menu">
                     <nav class="menu-right">
                         <h6>
-                            Новости
+                            Для родителей
                         </h6>
                         <ul class="menu-left__item">
                             <li>
-                                <a href="/good">
-                                    Добрые дела
+                                <a href="/pay">
+                                    Оплата
                                 </a>
                             </li>
                             <li>
-                                <a href="/news">
-                                    Новости
+                                <a href="/documents/dogovor.docx">
+                                    Договор
                                 </a>
                             </li>
-                            <li>
+                            <!-- <li>
                                 <a href="/cooperation">
                                     Сотрудничество
                                 </a>
-                            </li>
+                            </li> -->
                             <li>
                                 <a href="/vacancy">
                                     Вакансии
@@ -292,6 +292,7 @@
 <script type="text/javascript">
     (function(m, e, t, r, i, k, a) {
         m[i] = m[i]
+
         function() {
             (m[i].a = m[i].a[]).push(arguments)
         };

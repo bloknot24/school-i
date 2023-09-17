@@ -1302,7 +1302,7 @@ include_once 'header.php'; ?>
     <div class="row">
         <div class="col-lg-4 col-md-12 col-sm-12 text-center">
             <div class="kids__camp_download_doc">
-                <a href="documents/dogovor.docx" target="_blank" class="kids__camp_download_doc_link text-center upper" style="background: #b8db86;">Договор</a>
+                <a href="documents/dogovor_otdyh.docx" target="_blank" class="kids__camp_download_doc_link text-center upper" style="background: #b8db86;">Договор</a>
             </div>
         </div>
         <div class="col-lg-4 col-md-12 col-sm-12 text-center">
