@@ -1,6 +1,5 @@
 /*---FONTS---*/
 
-
 @font-face {
   font-family: 'Museo sans 100';
   src: url('../fonts/Georgia.eot'); /* IE9 Compat Modes */
@@ -10,7 +9,6 @@
        url('../fonts/Georgia.ttf')  format('truetype'), /* Safari, Android, iOS */
        url('../fonts/Georgia.svg#svgFontName') format('svg'); /* Legacy iOS */
 }
-
 @font-face {
 	font-family: 'Columbina';
 	src: url('../fonts/Columbina.eot');
@@ -29,101 +27,79 @@ body {
 	margin: 0;
 	color: #000;
 }
-
 span, a {
 	display: block;
 }
-
 div, p, form, input, a, span, button {
 	box-sizing: border-box;
 }
-
 a {
 	color: #000;
 }
-
 a:hover {
 	color: #000;
 }
-
-p {
-	
-}
-
 ul, li {
 	padding: 0;
 	margin: 0;
 	display: block;
 }
-
 li {
 	list-style-type: none; 
 }
-
 h1 {
 	font-family: 'Georgia', sans-serif;
 	font-weight: 900;
 	font-size: 60px;
 	color: #fff;
 }
-
 h2 {
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 700;
 	font-size: 48px;
 	color: #1f1f1f;
 }
-
 h3 {
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 700;
 	font-size: 36px;
 	color: #1f1f1f;
 }
-
 h4 {
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 400;
 	font-size: 24px;
 	color: #1f1f1f;
 }
-
 h5 {
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 500;
 	font-size: 20px;
 	color: #454545;
 }
-
 h6 {
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 600;
 	font-size: 20px;
 	color: #1f1f1f;
 }
-
 a, a:hover, a:active, a:focus {
 	text-decoration: none;
 	outline: none;
 }
-
 a, button, input {
 	transition: all 0.5s ease;
 }
-
 input, input:hover, input:focus, input:active,
 button, button:hover, button:focus, button:active {
 	outline: none;
 }
-
 button {
 	display: block;
 }
-
 .jcs {
 	justify-content: space-between;
 }
-
 .btn {
 	width: 370px;
 	height: 75px;
@@ -131,26 +107,18 @@ button {
 	border: none;
 	border-radius: 0;
 }
-
-.btn:hover {
-    
-}
-
 .btn:focus {
 	box-shadow: none;
 }
-
 .t-a-c {
 	text-align: center;
 }
-
 .slick-dots li {
 	height: 10px;
 	width: 30px;
 }
 
 /*Box-modal*/
-
 
 .box-modal {
 	width: 570px;
@@ -159,19 +127,15 @@ button {
 	padding: 15px 15px 50px 15px;
 	background: #fff;
 }
-
 .box-modal1 {
 	height: 545px !important;
 }
-
 .tel {
 	width: 100% !important;
 }
-
 .box-modal .logo {
 	margin: 0 auto;
 }
-
 .buttons {
 	margin-top: 30px;
 	margin-bottom: 45px;
@@ -182,7 +146,6 @@ button {
 	display: flex;
 	justify-content: space-between;
 }
-
 .button__student, .button__teacher {
 	width: 255px;
 	height: 50px;
@@ -193,22 +156,18 @@ button {
 	text-align: center;
 	padding-top: 9px;
 }
-
 .buttons .active {
 	background: #5fd7cc;
 	color: #fff;
 }
-
 .button__teacher:focus, .button__student:focus {
 	background: #5fd7cc;
 	color: #fff;
 }
-
 .button__student:hover, .button__teacher:hover {
 	background: #5fd7cc;
 	color: #fff;
 }
-
 .mail, .pass {
 	width: 100%;
     height: 60px;
@@ -221,7 +180,6 @@ button {
     border: none !important;
     padding-left: 20px;
 }
-
 .form {
 	-webkit-flex-direction: column;
 	-moz-flex-direction: column;
@@ -229,11 +187,9 @@ button {
 	-o-flex-direction: column;
 	flex-direction: column;
 }
-
 .form input {
 	display: block;
 }
-
 .form input, .m-form input {
 	border: 1px solid #dedcdc !important;
     height: 60px !important;
@@ -245,10 +201,6 @@ button {
     margin-bottom: 15px;
     padding-left: 20px !important;
 }
-
-.pass-reg1 {
-}
-
 .pass-reg {
 	display: -webkit-flex;
 	display: -moz-flex;
@@ -258,31 +210,25 @@ button {
 	margin-top: 10px;
 	justify-content: space-between;
 }
-
 .box-modal .password, .regist {
 	font-size: 16px;
 	color: #5fd7cc;
 	text-decoration: underline;
 }
-
 .password:hover, .regist:hover {
 	font-size: 16px;
 	color: #5fd7cc;
 	text-decoration: underline;
 }
-
 .buttons .tablinks {
 	opacity: 1;
 }
-
 .box-modal .tabcontent {
 	max-width: 100%;
 }
-
 .button__teacher {
 	
 }
-
 
 /*---HEADER---*/
 
@@ -704,63 +650,52 @@ header button {
 	border-bottom: 1px solid #f9420d;
 }
 
-
 /*---TRAINING---*/
-
 
 .training {
 	position: relative;
 
     padding-top: 217px;
 }
-
 .training__title1 {
 	max-width: 920px;
 	margin-top: 65px;
 	height: 220px;
 }
-
 .training__title2 {
 	max-width: 920px;
 	margin-top: 65px;
 	margin-bottom: 90px;
 }
-
 .training__title3 {
 	max-width: 920px;
 	margin-top: 65px;
 	margin-bottom: 90px;
 }
-
 .slide_0 {
 	background: url(../img/bg_slider_header0.jpg) no-repeat center center;
 	background-size: cover;
 	height: 550px;
 }
-
 .slide_1 {
 	background: url(../img/bg_slider_header.jpg) no-repeat center center;
 	background-size: cover;
 	height: 550px;
 }
-
 .slide_2 {
 	background: url(../img/img02-5.jpg) no-repeat center top;
 	background-size: cover;
 	height: 550px;
 }
-
 .slide_3 {
 	background: url(../img/bg_slider_header3.jpg) no-repeat center center;
 	background-size: cover;
 	height: 550px;
 }
-
 .training__content {
 	position: absolute;
 	top:0;
 }
-
 .training__batton {
 	box-shadow: 0 0 18px #0000004d;
 	font-family: 'Georgia', sans-serif;
@@ -768,28 +703,21 @@ header button {
 	font-size: 24px;
 	color: #000;
 	padding-top: 16px;
+	margin-top: 15px;
 }
-
-
-
 .training__batton:hover {
 	box-shadow: 0 0 57px #000000a3;
 }
-
-
 /*---SECTION-RECTANGLE---*/
-
 
 .section-rectangle {
 	padding: 50px 0;
 }
-
 .rectangle1 {
 	position: relative;
 	width: 270px;
     height: 140px;
 }
-
 .rectangle2 {
 	position: relative;
 	width: 270px;
@@ -4217,13 +4145,11 @@ header button {
 .tab input, .tab-content { 
 	display: none; 
 }
-
 .tab {
 	border: 1px solid #8ed6cb;
 	color: #1f1f1f;
 	margin-bottom: 15px;
 }
-
 .tab-title {
 	font-size: 24px;
 	padding-top: 10px;
@@ -4234,7 +4160,6 @@ header button {
 	cursor: pointer; 
 	    position: relative;
 }
-
 .tab-title::after {
 	content: url(../img/arrow_bottom.png);
     float: right;
@@ -4242,64 +4167,49 @@ header button {
     right: 16px;
     top: 6px;
 }
-
 .tab-content {
 	padding-left: 15px;
 	padding-right: 20px;
 }
-
 .tab :checked + .tab-title {
 	background-color: transparent; 
 	color: #1f1f1f; 
 }
-
 .tab :checked + .tab-title::after {
 	content: url('../img/arrow_right.png'); 
 }
-
 .tab :checked ~ .tab-content {
 	display: block;
 }
-
 .tab h4 {
 	font-size: 24px;
 	font-weight: 500;
 	margin-bottom: 10px;
 	    width: fit-content;
 }
-
 .tab :checked + .tab-title h4 {
 	padding-bottom: 10px;
 	border-bottom: 1px solid #8ed6cb;
 }
-
 .less-try-it {
 	padding-top: 0;
 }
-
 .less-try-it .container-bottom .ex__item {
     margin-bottom: 8px;
 }
-
-
-			/*Cost of education*/
 				
-
 /*question*/
-
 
 .titles__1 {
 	font-size: 26px;
 	font-weight: 700;
 	color: #8ed6cb;
 }
-
 .titles__2 {
 	font-size: 20px;
 	font-weight: 500;
 	color: #f9410c;
 }
-
 .titles {
 	display: -webkit-flex;
 	display: -moz-flex;
@@ -4309,7 +4219,6 @@ header button {
 	margin-top: 40px;
 	justify-content: space-between;
 }
-
 .titles2 {
 	margin-left: auto;
     max-width: 365px;
@@ -4319,12 +4228,10 @@ header button {
 	-o-flex-direction: column;
 	flex-direction: column;
 }
-
 .direct__title2 {
 	margin-left: auto;
     max-width: 365px;
 }
-
 .kids-camp {
 	height: 90px;
 	width: 100%;
@@ -4338,25 +4245,20 @@ header button {
 	padding-left: 10px;
 	margin-bottom: 55px;
 }
-
 .cost-of__direct {
 	position: relative;
 }
-
 .line2 {
 	left: 38px;
     margin-top: -30px;
     height: 132%;
 }
-
 .logo2 img {
 	margin-top: 8px;
 }
-
 .logo2 {
 	margin-right: 10px;
 }
-
 .kids-camp p {
 	font-size: 16px;
 	font-weight: 500;
@@ -4364,7 +4266,6 @@ header button {
 	padding-top: 23px;
 	text-transform: uppercase;
 }
-
 .cost-of .direct__item {
 	display: -webkit-flex;
 	display: -moz-flex;
@@ -4374,31 +4275,25 @@ header button {
 	max-width: 400px;
     margin-left: auto;
 }
-
 .cost-of .direct__txt {
 	font-size: 14px;
 	border-bottom: 1px solid #c6eae5;
 }
-
 .cost-of .direct__txt p {
 	margin: 0;
 }
-
 .cost-of .direct__item img {
 	height: 20px;
 	width: 20px;
 	margin-right: 15px;
 }
-
 .direct__txt {
 	color: #080808cf;
     font-weight: 500;
 }
-
 .direct__txt p {
 	color: #bebebe;
 }
-
 .txt-bottom p {
 	display: -webkit-flex;
 	display: -moz-flex;
@@ -4408,38 +4303,31 @@ header button {
 	font-size: 14px;
 	font-weight: 600;
 }
-
 .txt-bottom {
 	margin-left: auto;
     max-width: 365px;
     margin-top: 80px;
 }
-
 .txt-bottom span {
 	color: #ff0000;
 	font-weight: 700;
 	margin-right: 4px;
 }
-
 .direct__list2 .direct__txt {
 	border-bottom: none;
 }
-
 .cost-of__direct {
 	width: auto;
 }
-
 .cost-tabs { 
 	width: 100%; 
 	padding: 0px; 
 	margin: 0 auto; 
 	margin-top: 25px;
 }
-
 .cost-tabs>input { 
 	display: none; 
 }
-
 .cost-tabs>div {
     display: none;
     color: #939393;
@@ -4447,7 +4335,6 @@ header button {
     padding-left: 0;
     background: #FFFFFF;
 }
-
 .cost-tabs>label {
     display: inline-block;
     padding: 7px;
@@ -4459,7 +4346,6 @@ header button {
     background: #e8e8e8;
     cursor: pointer;
 }
-
 .cost-tabs>input:checked + label {
     color: #8ed6cb;
     font-weight: 600;
@@ -4467,7 +4353,6 @@ header button {
     border-bottom: 1px solid #d0d0d0;
     background: #FFFFFF;
 }
-
 #cost-tab_1:checked ~ #txt_1,
 #cost-tab_2:checked ~ #txt_2,
 #cost-tab_3:checked ~ #txt_3,

@@ -17,9 +17,9 @@ include_once 'header.php';
 					<div class="col-12">
 						<div class="training__content">
 							<h1 class="training__title1">
-								КРУГОВОРОТ&nbsp;&nbsp;&nbsp;ЖЕЛАНИЙ - познавательно-развлекательный проект
+								Круговорот желаний - познавательно-развлекательный проект
 							</h1>
-							<a href="/krugovorot-zhelanij" style="margin-top: 15px;" class="training__batton btn">
+							<a href="/krugovorot-zhelanij" class="training__batton btn">
 								Узнать подробнее
 							</a>
 						</div>
@@ -41,7 +41,7 @@ include_once 'header.php';
 								НоваШкола Я - творческая среда
 								для разностороннего развития личности
 							</h1>
-							<a href="/mission" style="margin-top: 15px;" class="training__batton btn">
+							<a href="/mission" class="training__batton btn">
 								Узнать подробнее
 							</a>
 						</div>
@@ -62,7 +62,7 @@ include_once 'header.php';
 							<h1 class="training__title1">
 								Учись и путешествуй
 							</h1>
-							<a href="/mission" style="margin-top: 15px;" class="training__batton training__batton2 btn">
+							<a href="/mission" class="training__batton training__batton2 btn">
 								Узнать подробнее
 							</a>
 						</div>
@@ -496,7 +496,7 @@ include_once 'header.php';
 					<p class="read-more-wrap">
 						Плавание в бессейне-укрепляет почти все системы человека, развивает мышечную ткань. Это очень полезно для развития общей
 						<span class="read-more-target">
-							мускулатуры тела
+							мускулатуры тела.
 						</span>
 					</p>
 					<label for="post-1" class="read-more-trigger"></label>
@@ -512,7 +512,7 @@ include_once 'header.php';
 					<p class="read-more-wrap2">
 						Все методики обучения подбираються индивидуально для каждого ученика. Мы учитываем характер каждого ребёнка,
 						<span class="read-more-target2">
-							музыкальные предпочтения и возможности
+							музыкальные предпочтения и возможности.
 						</span>
 					</p>
 					<label for="post-2" class="read-more-trigger2"></label>
@@ -525,19 +525,15 @@ include_once 'header.php';
 					</h6>
 					<span class="bonus__check">
 						<img src="img/checkmark.png" alt="" class="chekmark">
-						Хореография
+						Подарки
 					</span>
 					<span class="bonus__check">
 						<img src="img/checkmark.png" alt="" class="chekmark">
-						Теннис
+						Путешествия
 					</span>
 					<span class="bonus__check">
 						<img src="img/checkmark.png" alt="" class="chekmark">
-						Театр
-					</span>
-					<span class="bonus__check">
-						<img src="img/checkmark.png" alt="" class="chekmark">
-						Детский фитнес
+						Фитнес для мам
 					</span>
 					<span class="bonus__check">
 						<img src="img/checkmark.png" alt="" class="chekmark">

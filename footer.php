@@ -287,14 +287,11 @@
 <script src="js/tabs2.js"></script>
 <script src="js/slick2.js"></script>
 <script src="js/main.js"></script>
-
 <!-- Yandex.Metrika counter -->
 <script type="text/javascript">
     (function(m, e, t, r, i, k, a) {
-        m[i] = m[i]
-
-        function() {
-            (m[i].a = m[i].a[]).push(arguments)
+        m[i] = m[i] || function() {
+            (m[i].a = m[i].a || []).push(arguments)
         };
         m[i].l = 1 * new Date();
         for (var j = 0; j < document.scripts.length; j++) {

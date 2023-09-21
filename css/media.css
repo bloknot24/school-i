@@ -551,7 +551,7 @@
         margin-top: 17px;
     }
     .training__title1 {
-        margin-top: 0;
+        margin-top: 20px;
         height: 160px;
     }
     .bg_earnings {
@@ -860,6 +860,9 @@
     }
     .cycle__esires_form_block2 {
         margin: 90px auto 0px auto;
+    }
+    .training__batton {
+        margin-top: 0px;
     }
 }
 
@@ -1193,6 +1196,15 @@
     }
     .cycle__esires_question_download_block_link_img {
         width: 30%;
+    }
+    .training__batton {
+        margin: 35px auto 0px 70px;
+    }
+    .training .slick-prev {
+        display: none !important;
+    }
+    .training .slick-next {
+        display: none !important;
     }
 }   
 
@@ -1976,5 +1988,17 @@
     }
     .cycle__esires_form_block1_text {
         margin: 35px auto 25px auto;
+    }
+    .training__content {
+        text-align: center;
+    }
+    .training__batton {
+        margin: 15px auto 0px auto;
+    }
+    .training .slick-prev {
+        display: block !important;
+    }
+    .training .slick-next {
+        display: block !important;
     }
 }

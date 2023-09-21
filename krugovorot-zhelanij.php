@@ -302,7 +302,7 @@ include_once 'header.php'; ?>
                 <div class="cycle__esires_education_travel_block">
                     <img src="img/cycle-desires/frame6.svg" class="cycle__esires_education_travel_block_img" alt="Иконка">
                     <h4 class="cycle__esires_education_travel_block_head">
-                        Ментальная орифметика
+                        Ментальная арифметика
                     </h4>
                     <p class="cycle__esires_education_travel_block_text">
                         Ускорение мыслительных процессов и творческого мышления, повышение концентрации на 30%, появление уверенности в себе.
@@ -459,7 +459,7 @@ include_once 'header.php'; ?>
             </div>
             <div class="col-12 text-center">
                 <h4 class="cycle__esires_format_group_head">
-                    Возврастные группы
+                    Возрастные группы
                 </h4>
             </div>
             <div class="col-lg-3 col-md-3 col-sm-6 col-6">
@@ -503,10 +503,10 @@ include_once 'header.php'; ?>
                     Количество занятий в месяц
                 </p>
                 <p class="cycle__esires_format_group_text2">
-                    8 занятий - 45 минут каждое
+                    8 академических часов
                 </p>
                 <p class="cycle__esires_format_group_text5">
-                    8 занятий<br> 45 минут каждое
+                    8 академических часов
                 </p>
             </div>
             <div class="col-lg-6 col-md-6 col-sm-6 d-none d-lg-block d-xl-block d-xxl-block d-md-block d-sm-block">
@@ -542,7 +542,7 @@ include_once 'header.php'; ?>
                     Стоимость услуг
                 </h2>
                 <p class="cycle__esires_price_index_text">
-                    110 рублей - 8 занятий в месяц
+                    110 рублей - 8 академических часов в месяц
                 </p>
                 <p class="cycle__esires_price_add_text upper">
                     *Стоимость входных билетов в музеи и выставки оплачиваются заказчиком дополнительно.
