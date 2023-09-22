@@ -864,6 +864,15 @@
     .training__batton {
         margin-top: 0px;
     }
+    .cycle__esires_popap_head,
+    .cycle__esires_popap_head2,
+    .cycle__esires_popap_text,
+    .cycle__esires_popap_text2 {
+        font-size: 20px;
+    }
+    .cycle__esires_popap_block_lessons {
+        margin: 10px auto;
+    }
 }
 
 /* -------------- 576-768px ---------------- */

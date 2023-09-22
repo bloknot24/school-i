@@ -228,6 +228,11 @@
                                     +375296403474
                                 </a>
                             </div>
+                            <div class="d-xxl-none d-xl-none d-lg-block d-md-none d-sm-none d-none">
+                                <a href="/" class="menu_link">
+                                    <img src="img/icon.png" style="width: 40px; margin-left: 80px;" alt="call">
+                                </a>
+                            </div>
                             <div class="contacs__email">
                                 <a href="mailto:bybyschoolby@gmail.com" class="call">
                                     <img src="img/message.png" alt="call">

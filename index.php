@@ -172,7 +172,7 @@ include_once 'header.php';
 		<div class="row">
 			<div class="col-lg-12">
 				<h3 class="animate__animated">
-					Готовим детей в первую очередь к жизни, а потом к экзаменам!
+					Готовим детей к самостоятельной жизни!
 				</h3>
 			</div>
 		</div>
@@ -300,10 +300,10 @@ include_once 'header.php';
 		<div class="row">
 			<div class="col-lg-12">
 				<h3 class="animate__animated top-sckool__title">
-					Мы используем опыт лучших школ
+					Обучение через приключение
 				</h3>
 				<p class="animate__animated top-sckool__text">
-					Наши наставники  регулярно посещают лучшие школы во всем мире, откуда перенимают знания, опыт и инновационные подходы в образовании
+					Игровая форма обучения - самая эффективная
 				</p>
 			</div>
 		</div>
@@ -311,22 +311,22 @@ include_once 'header.php';
 			<div class="col-lg-12">
 				<div class="slider-top">
 					<div class="animate__animated slide slide1">
-						<img src="img/slide_1.jpg" alt="">
+						<img src="img/slide_1.png" alt="">
 					</div>
 					<div class="animate__animated slide slide2">
-						<img src="img/slide_2.jpg" alt="">
+						<img src="img/slide_2.png" alt="">
 					</div>
 					<div class="animate__animated slide slide3">
-						<img src="img/slide_3.jpg" alt="">
+						<img src="img/slide_3.png" alt="">
 					</div>
 					<div class="slide">
-						<img src="img/slide_4.jpg" alt="">
+						<img src="img/slide_4.png" alt="">
 					</div>
 					<div class="slide">
-						<img src="img/slide_5.jpg" alt="">
+						<img src="img/slide_5.png" alt="">
 					</div>
 					<div class="slide">
-						<img src="img/slide_6.jpg" alt="">
+						<img src="img/slide_6.png" alt="">
 					</div>
 				</div>
 			</div>
@@ -356,7 +356,7 @@ include_once 'header.php';
 						</h6>
 					</div>
 					<p class="animate__animated opportunity__text">
-						Повысит общую успеваемость, все занятия в игровой форме
+						Повышение успеваемости в школе.
 					</p>
 				</div>
 			</div>
@@ -369,7 +369,7 @@ include_once 'header.php';
 						</h6>
 					</div>
 					<p class="animate__animated opportunity__text">
-						Улучшит навыки самостоятельного мышления
+						Улучшит навыки самостоятельного мышления.
 					</p>
 				</div>
 			</div>
@@ -382,7 +382,7 @@ include_once 'header.php';
 						</h6>
 					</div>
 					<p class="animate__animated opportunity__text">
-						Ваш ребенок овладеет иностранным языком
+						Ваш ребенок овладеет иностранным языком.
 					</p>
 				</div>
 			</div>
@@ -395,7 +395,7 @@ include_once 'header.php';
 						</h6>
 					</div>
 					<p class="animate__animated opportunity__text">
-						Возможность путешествовать
+						Возможность путешествовать.
 					</p>
 				</div>
 			</div>
@@ -408,7 +408,7 @@ include_once 'header.php';
 						</h6>
 					</div>
 					<p class="animate__animated opportunity__text">
-						Общение с иностранными сверстниками
+						Общение с иностранными сверстниками.
 					</p>
 				</div>
 			</div>
@@ -417,11 +417,12 @@ include_once 'header.php';
 					<div class="opportunity__list">
 						<img src="img/school_icon_6.png" alt="" class="opportunity__icon">
 						<h6 class="animate__animated opportunity__title">
-							Обмен
+							Предприни&shy;мательство
 						</h6>
 					</div>
 					<p class="animate__animated opportunity__text">
-						Пребывания в иностранных семьях
+						Обучение основам менеджмента,
+						предпринимательской деятельности.
 					</p>
 				</div>
 			</div>
@@ -430,11 +431,11 @@ include_once 'header.php';
 					<div class="opportunity__list">
 						<img src="img/school_icon_7.png" alt="" class="opportunity__icon">
 						<h6 class="animate__animated opportunity__title">
-							Стажировка
+							Профориентация
 						</h6>
 					</div>
 					<p class="animate__animated opportunity__text">
-						Стажировка для школьников, возможность не только выбрать профессию, но и проверить себя
+						Знакомство с миром профессий и рынком труда.
 					</p>
 				</div>
 			</div>
@@ -443,11 +444,12 @@ include_once 'header.php';
 					<div class="opportunity__list">
 						<img src="img/school_icon_8.png" alt="" class="opportunity__icon">
 						<h6 class="animate__animated opportunity__title">
-							Гранты
+							Талант
 						</h6>
 					</div>
 					<p class="animate__animated opportunity__text">
-						Возможность получения грантов для продолжения обучения в иностранных учебных заведениях
+						Выявление профессиональных
+						интересов и талантов ребёнка.
 					</p>
 				</div>
 			</div>
@@ -456,11 +458,11 @@ include_once 'header.php';
 					<div class="opportunity__list">
 						<img src="img/school_icon_9.png" alt="" class="opportunity__icon">
 						<h6 class="animate__animated opportunity__title">
-							Оплата
+							Деньги
 						</h6>
 					</div>
 					<p class="animate__animated opportunity__text">
-						Стоимость обучения в зависимости от Ваших возможностей
+						Возможность школьнику заработать деньги.
 					</p>
 				</div>
 			</div>
@@ -491,12 +493,12 @@ include_once 'header.php';
 					<img src="img/free_img.jpg" alt="">
 					<input type="checkbox" class="read-more-state" id="post-1" />
 					<h6>
-						Бассейн
+						Детский фитнес
 					</h6>
 					<p class="read-more-wrap">
-						Плавание в бессейне-укрепляет почти все системы человека, развивает мышечную ткань. Это очень полезно для развития общей
+						Главная цель детского фитнеса – это гармоничное физическое развитие ребенка, укрепление его здоровья, формирование
 						<span class="read-more-target">
-							мускулатуры тела.
+							полезных привычек и осознанного отношения к здоровому образу жизни.
 						</span>
 					</p>
 					<label for="post-1" class="read-more-trigger"></label>
@@ -507,12 +509,12 @@ include_once 'header.php';
 					<img src="img/free_img_2.jpg" alt="">
 					<input type="checkbox" class="read-more-state2" id="post-2" />
 					<h6>
-						Вокал
+						Йога
 					</h6>
 					<p class="read-more-wrap2">
-						Все методики обучения подбираються индивидуально для каждого ученика. Мы учитываем характер каждого ребёнка,
+						Регулярные занятия помогают улучшить качество жизни ребенка. Данные упражнения направлены на развитие гибкости и силы, повышению иммунитета, улучшению осанку.
 						<span class="read-more-target2">
-							музыкальные предпочтения и возможности.
+							Дают осознание своего тела, артикуляционных укладов (гармонично развиваются правое и левое полушария мозга).
 						</span>
 					</p>
 					<label for="post-2" class="read-more-trigger2"></label>

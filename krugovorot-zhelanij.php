@@ -459,26 +459,26 @@ include_once 'header.php'; ?>
             </div>
             <div class="col-12 text-center">
                 <h4 class="cycle__esires_format_group_head">
-                    Возрастные группы
+                    Расписание занятий
                 </h4>
             </div>
             <div class="col-lg-3 col-md-3 col-sm-6 col-6">
-                <p class="cycle__esires_format_group_block" style="background: #FCD96A;">
+                <p class="cycle__esires_format_group_block" id="format_group_block1" style="background: #FCD96A;">
                     3-4 класс
                 </p>
             </div>
             <div class="col-lg-3 col-md-3 col-sm-6 col-6" style="color: #fff;">
-                <p class="cycle__esires_format_group_block" style="background: #B769F1;">
+                <p class="cycle__esires_format_group_block" id="format_group_block2" style="background: #B769F1;">
                     5-6 класс
                 </p>
             </div>
             <div class="col-lg-3 col-md-3 col-sm-6 col-6">
-                <p class="cycle__esires_format_group_block" style="background: #00E6A6;">
+                <p class="cycle__esires_format_group_block" id="format_group_block3" style="background: #00E6A6;">
                     7-8 класс
                 </p>
             </div>
             <div class="col-lg-3 col-md-3 col-sm-6 col-6" style="color: #fff;">
-                <p class="cycle__esires_format_group_block" style="background: #00C8DF;">
+                <p class="cycle__esires_format_group_block" id="format_group_block4" style="background: #00C8DF;">
                     9 класс
                 </p>
             </div>
@@ -707,5 +707,673 @@ include_once 'header.php'; ?>
         </div>
     </div>
 </section>
+
+<div style="display: none;">
+    <div class="box-modal_cycle_esires" id="cycle__esires_popap1">
+        <div class="menu-clouse">
+            <div class="box-modal_cycle_esires_close arcticmodal-close">
+                <img class="cl" src="img/cycle-desires/close.svg" alt="Закрыть">
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h3 class="cycle__esires_popap_head">
+                        Гибкое расписание занятий для Вашего ребенка
+                    </h3>
+                </div>
+                <div class="col-lg-4 col-md-12">
+                    <div class="cycle__esires_popap_block_lessons" style="border: 7px solid #FFE500;">
+                        <h4 class="cycle__esires_popap_block_lessons_head">
+                            Собрание группы<br> с наставником Оn-Line
+                        </h4>
+                        <p class="cycle__esires_popap_block_lessons_text1">
+                            Дни на выбор
+                        </p>
+                        <p class="cycle__esires_popap_block_lessons_text2">
+                            Понедельник, Вторник<br>16:00-17:00
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12">
+                    <div class="cycle__esires_popap_block_lessons" style="border: 7px solid #FFE500;">
+                        <h4 class="cycle__esires_popap_block_lessons_head">
+                            Занятия Оn-Line
+                        </h4>
+                        <p class="cycle__esires_popap_block_lessons_text1">
+                            Дни на выбор
+                        </p>
+                        <p class="cycle__esires_popap_block_lessons_text2">
+                            Среда, Четверг, Пятница<br> 16:00-17:00
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12">
+                    <div class="cycle__esires_popap_block_lessons" style="border: 7px solid #FFE500;">
+                        <h4 class="cycle__esires_popap_block_lessons_head">
+                            Занятия в классе
+                        </h4>
+                        <p class="cycle__esires_popap_block_lessons_text1">
+                            Дни на выбор
+                        </p>
+                        <p class="cycle__esires_popap_block_lessons_text2">
+                            Суббота, воскресенье<br> 11:00-14:00
+                        </p>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <h3 class="cycle__esires_popap_head2">
+                        В рамках данного проекта – Одно занятие – <b>бесплатно!</b>
+                    </h3>
+                    <p class="cycle__esires_popap_education_text">Комплексное изучение следующих направлений:</p>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                    <ul class="cycle__esires_popap_education_list">
+                        <li class="cycle__esires_popap_education_list_item">
+                            <img src="img/cycle-desires/check.svg" class="cycle__esires_popap_education_list_item_img" alt="Галочка">
+                            <p class="cycle__esires_popap_education_list_item_text">
+                                Финансовая грамотность;
+                            </p>
+                        </li>
+                        <li class="cycle__esires_popap_education_list_item">
+                            <img src="img/cycle-desires/check.svg" class="cycle__esires_popap_education_list_item_img" alt="Галочка">
+                            <p class="cycle__esires_popap_education_list_item_text">
+                                Этика социальных<br> отношений;
+                            </p>
+                        </li>
+                        <li class="cycle__esires_popap_education_list_item">
+                            <img src="img/cycle-desires/check.svg" class="cycle__esires_popap_education_list_item_img" alt="Галочка">
+                            <p class="cycle__esires_popap_education_list_item_text">
+                                Психология;
+                            </p>
+                        </li>
+                        <li class="cycle__esires_popap_education_list_item">
+                            <img src="img/cycle-desires/check.svg" class="cycle__esires_popap_education_list_item_img" alt="Галочка">
+                            <p class="cycle__esires_popap_education_list_item_text">
+                                Логика;
+                            </p>
+                        </li>
+                        <li class="cycle__esires_popap_education_list_item">
+                            <img src="img/cycle-desires/check.svg" class="cycle__esires_popap_education_list_item_img" alt="Галочка">
+                            <p class="cycle__esires_popap_education_list_item_text">
+                                Мнемотехника;
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                    <ul class="cycle__esires_popap_education_list">
+                        <li class="cycle__esires_popap_education_list_item">
+                            <img src="img/cycle-desires/check.svg" class="cycle__esires_popap_education_list_item_img" alt="Галочка">
+                            <p class="cycle__esires_popap_education_list_item_text">
+                                Ментальная арифметика;
+                            </p>
+                        </li>
+                        <li class="cycle__esires_popap_education_list_item">
+                            <img src="img/cycle-desires/check.svg" class="cycle__esires_popap_education_list_item_img" alt="Галочка">
+                            <p class="cycle__esires_popap_education_list_item_text">
+                                Юридическая грамотность; </p>
+                        </li>
+                        <li class="cycle__esires_popap_education_list_item">
+                            <img src="img/cycle-desires/check.svg" class="cycle__esires_popap_education_list_item_img" alt="Галочка">
+                            <p class="cycle__esires_popap_education_list_item_text">
+                                Профориентация;
+                            </p>
+                        </li>
+                        <li class="cycle__esires_popap_education_list_item">
+                            <img src="img/cycle-desires/check.svg" class="cycle__esires_popap_education_list_item_img" alt="Галочка">
+                            <p class="cycle__esires_popap_education_list_item_text">
+                                Менеджмент;
+                            </p>
+                        </li>
+                        <li class="cycle__esires_popap_education_list_item">
+                            <img src="img/cycle-desires/check.svg" class="cycle__esires_popap_education_list_item_img" alt="Галочка">
+                            <p class="cycle__esires_popap_education_list_item_text">
+                                Арт-терапия;
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 cpl-md-6 col-sm-12 col-12">
+                    <ul class="cycle__esires_popap_education_list">
+                        <li class="cycle__esires_popap_education_list_item">
+                            <img src="img/cycle-desires/check.svg" class="cycle__esires_popap_education_list_item_img" alt="Галочка">
+                            <p class="cycle__esires_popap_education_list_item_text">
+                                Международный язык<br> жестов и международные<br> языки в туризме;
+                            </p>
+                        </li>
+                        <li class="cycle__esires_popap_education_list_item">
+                            <img src="img/cycle-desires/check.svg" class="cycle__esires_popap_education_list_item_img" alt="Галочка">
+                            <p class="cycle__esires_popap_education_list_item_text">
+                                Туристическое<br> ориентирование;
+                            </p>
+                        </li>
+                        <li class="cycle__esires_popap_education_list_item">
+                            <img src="img/cycle-desires/check.svg" class="cycle__esires_popap_education_list_item_img" alt="Галочка">
+                            <p class="cycle__esires_popap_education_list_item_text">
+                                Журналистика;
+                            </p>
+                        </li>
+                        <li class="cycle__esires_popap_education_list_item">
+                            <img src="img/cycle-desires/check.svg" class="cycle__esires_popap_education_list_item_img" alt="Галочка">
+                            <p class="cycle__esires_popap_education_list_item_text">
+                                Актерское мастерство.
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-12">
+                    <p class="cycle__esires_popap_text">
+                        Дефиле – по желанию
+                    </p>
+                    <p class="cycle__esires_popap_text2">
+                        По окончанию проекта проводится отчетный концерт.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div style="display: none;">
+    <div class="box-modal_cycle_esires" id="cycle__esires_popap2">
+        <div class="menu-clouse">
+            <div class="box-modal_cycle_esires_close arcticmodal-close">
+                <img class="cl" src="img/cycle-desires/close.svg" alt="Закрыть">
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h3 class="cycle__esires_popap_head">
+                        Гибкое расписание занятий для Вашего ребенка
+                    </h3>
+                </div>
+                <div class="col-lg-4 col-md-12">
+                    <div class="cycle__esires_popap_block_lessons" style="border: 7px solid #B769F1;">
+                        <h4 class="cycle__esires_popap_block_lessons_head">
+                            Собрание группы<br> с наставником Оn-Line
+                        </h4>
+                        <p class="cycle__esires_popap_block_lessons_text1">
+                            Дни на выбор
+                        </p>
+                        <p class="cycle__esires_popap_block_lessons_text2">
+                            Понедельник, Вторник<br>17:00-18:00
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12">
+                    <div class="cycle__esires_popap_block_lessons" style="border: 7px solid #B769F1;">
+                        <h4 class="cycle__esires_popap_block_lessons_head">
+                            Занятия Оn-Line
+                        </h4>
+                        <p class="cycle__esires_popap_block_lessons_text1">
+                            Дни на выбор
+                        </p>
+                        <p class="cycle__esires_popap_block_lessons_text2">
+                            Среда, Четверг, Пятница<br> 17:00-18:00
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12">
+                    <div class="cycle__esires_popap_block_lessons" style="border: 7px solid #B769F1;">
+                        <h4 class="cycle__esires_popap_block_lessons_head">
+                            Занятия в классе
+                        </h4>
+                        <p class="cycle__esires_popap_block_lessons_text1">
+                            Дни на выбор
+                        </p>
+                        <p class="cycle__esires_popap_block_lessons_text2">
+                            Суббота, воскресенье<br> 13:00-19:00
+                        </p>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <h3 class="cycle__esires_popap_head2">
+                        В рамках данного проекта – Одно занятие – <b>бесплатно!</b>
+                    </h3>
+                    <p class="cycle__esires_popap_education_text">Комплексное изучение следующих направлений:</p>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                    <ul class="cycle__esires_popap_education_list">
+                        <li class="cycle__esires_popap_education_list_item">
+                            <img src="img/cycle-desires/check.svg" class="cycle__esires_popap_education_list_item_img" alt="Галочка">
+                            <p class="cycle__esires_popap_education_list_item_text">
+                                Финансовая грамотность;
+                            </p>
+                        </li>
+                        <li class="cycle__esires_popap_education_list_item">
+                            <img src="img/cycle-desires/check.svg" class="cycle__esires_popap_education_list_item_img" alt="Галочка">
+                            <p class="cycle__esires_popap_education_list_item_text">
+                                Этика социальных<br> отношений;
+                            </p>
+                        </li>
+                        <li class="cycle__esires_popap_education_list_item">
+                            <img src="img/cycle-desires/check.svg" class="cycle__esires_popap_education_list_item_img" alt="Галочка">
+                            <p class="cycle__esires_popap_education_list_item_text">
+                                Психология;
+                            </p>
+                        </li>
+                        <li class="cycle__esires_popap_education_list_item">
+                            <img src="img/cycle-desires/check.svg" class="cycle__esires_popap_education_list_item_img" alt="Галочка">
+                            <p class="cycle__esires_popap_education_list_item_text">
+                                Логика;
+                            </p>
+                        </li>
+                        <li class="cycle__esires_popap_education_list_item">
+                            <img src="img/cycle-desires/check.svg" class="cycle__esires_popap_education_list_item_img" alt="Галочка">
+                            <p class="cycle__esires_popap_education_list_item_text">
+                                Мнемотехника;
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                    <ul class="cycle__esires_popap_education_list">
+                        <li class="cycle__esires_popap_education_list_item">
+                            <img src="img/cycle-desires/check.svg" class="cycle__esires_popap_education_list_item_img" alt="Галочка">
+                            <p class="cycle__esires_popap_education_list_item_text">
+                                Ментальная арифметика;
+                            </p>
+                        </li>
+                        <li class="cycle__esires_popap_education_list_item">
+                            <img src="img/cycle-desires/check.svg" class="cycle__esires_popap_education_list_item_img" alt="Галочка">
+                            <p class="cycle__esires_popap_education_list_item_text">
+                                Юридическая грамотность; </p>
+                        </li>
+                        <li class="cycle__esires_popap_education_list_item">
+                            <img src="img/cycle-desires/check.svg" class="cycle__esires_popap_education_list_item_img" alt="Галочка">
+                            <p class="cycle__esires_popap_education_list_item_text">
+                                Профориентация;
+                            </p>
+                        </li>
+                        <li class="cycle__esires_popap_education_list_item">
+                            <img src="img/cycle-desires/check.svg" class="cycle__esires_popap_education_list_item_img" alt="Галочка">
+                            <p class="cycle__esires_popap_education_list_item_text">
+                                Менеджмент;
+                            </p>
+                        </li>
+                        <li class="cycle__esires_popap_education_list_item">
+                            <img src="img/cycle-desires/check.svg" class="cycle__esires_popap_education_list_item_img" alt="Галочка">
+                            <p class="cycle__esires_popap_education_list_item_text">
+                                Арт-терапия;
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 cpl-md-6 col-sm-12 col-12">
+                    <ul class="cycle__esires_popap_education_list">
+                        <li class="cycle__esires_popap_education_list_item">
+                            <img src="img/cycle-desires/check.svg" class="cycle__esires_popap_education_list_item_img" alt="Галочка">
+                            <p class="cycle__esires_popap_education_list_item_text">
+                                Международный язык<br> жестов и международные<br> языки в туризме;
+                            </p>
+                        </li>
+                        <li class="cycle__esires_popap_education_list_item">
+                            <img src="img/cycle-desires/check.svg" class="cycle__esires_popap_education_list_item_img" alt="Галочка">
+                            <p class="cycle__esires_popap_education_list_item_text">
+                                Туристическое<br> ориентирование;
+                            </p>
+                        </li>
+                        <li class="cycle__esires_popap_education_list_item">
+                            <img src="img/cycle-desires/check.svg" class="cycle__esires_popap_education_list_item_img" alt="Галочка">
+                            <p class="cycle__esires_popap_education_list_item_text">
+                                Журналистика;
+                            </p>
+                        </li>
+                        <li class="cycle__esires_popap_education_list_item">
+                            <img src="img/cycle-desires/check.svg" class="cycle__esires_popap_education_list_item_img" alt="Галочка">
+                            <p class="cycle__esires_popap_education_list_item_text">
+                                Актерское мастерство.
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-12">
+                    <p class="cycle__esires_popap_text">
+                        Дефиле – по желанию
+                    </p>
+                    <p class="cycle__esires_popap_text2">
+                        По окончанию проекта проводится отчетный концерт.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div style="display: none;">
+    <div class="box-modal_cycle_esires" id="cycle__esires_popap3">
+        <div class="menu-clouse">
+            <div class="box-modal_cycle_esires_close arcticmodal-close">
+                <img class="cl" src="img/cycle-desires/close.svg" alt="Закрыть">
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h3 class="cycle__esires_popap_head">
+                        Гибкое расписание занятий для Вашего ребенка
+                    </h3>
+                </div>
+                <div class="col-lg-4 col-md-12">
+                    <div class="cycle__esires_popap_block_lessons" style="border: 7px solid #00E6A6;">
+                        <h4 class="cycle__esires_popap_block_lessons_head">
+                            Собрание группы<br> с наставником Оn-Line
+                        </h4>
+                        <p class="cycle__esires_popap_block_lessons_text1">
+                            Дни на выбор
+                        </p>
+                        <p class="cycle__esires_popap_block_lessons_text2">
+                            Понедельник, Вторник<br>18:00-19:00
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12">
+                    <div class="cycle__esires_popap_block_lessons" style="border: 7px solid #00E6A6;">
+                        <h4 class="cycle__esires_popap_block_lessons_head">
+                            Занятия Оn-Line
+                        </h4>
+                        <p class="cycle__esires_popap_block_lessons_text1">
+                            Дни на выбор
+                        </p>
+                        <p class="cycle__esires_popap_block_lessons_text2">
+                            Среда, Четверг, Пятница<br> 18:00-19:00
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12">
+                    <div class="cycle__esires_popap_block_lessons" style="border: 7px solid #00E6A6;">
+                        <h4 class="cycle__esires_popap_block_lessons_head">
+                            Занятия в классе
+                        </h4>
+                        <p class="cycle__esires_popap_block_lessons_text1">
+                            Дни на выбор
+                        </p>
+                        <p class="cycle__esires_popap_block_lessons_text2">
+                            Суббота, воскресенье<br> 15:00-20:00
+                        </p>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <h3 class="cycle__esires_popap_head2">
+                        В рамках данного проекта – Одно занятие – <b>бесплатно!</b>
+                    </h3>
+                    <p class="cycle__esires_popap_education_text">Комплексное изучение следующих направлений:</p>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                    <ul class="cycle__esires_popap_education_list">
+                        <li class="cycle__esires_popap_education_list_item">
+                            <img src="img/cycle-desires/check.svg" class="cycle__esires_popap_education_list_item_img" alt="Галочка">
+                            <p class="cycle__esires_popap_education_list_item_text">
+                                Финансовая грамотность;
+                            </p>
+                        </li>
+                        <li class="cycle__esires_popap_education_list_item">
+                            <img src="img/cycle-desires/check.svg" class="cycle__esires_popap_education_list_item_img" alt="Галочка">
+                            <p class="cycle__esires_popap_education_list_item_text">
+                                Этика социальных<br> отношений;
+                            </p>
+                        </li>
+                        <li class="cycle__esires_popap_education_list_item">
+                            <img src="img/cycle-desires/check.svg" class="cycle__esires_popap_education_list_item_img" alt="Галочка">
+                            <p class="cycle__esires_popap_education_list_item_text">
+                                Психология;
+                            </p>
+                        </li>
+                        <li class="cycle__esires_popap_education_list_item">
+                            <img src="img/cycle-desires/check.svg" class="cycle__esires_popap_education_list_item_img" alt="Галочка">
+                            <p class="cycle__esires_popap_education_list_item_text">
+                                Логика;
+                            </p>
+                        </li>
+                        <li class="cycle__esires_popap_education_list_item">
+                            <img src="img/cycle-desires/check.svg" class="cycle__esires_popap_education_list_item_img" alt="Галочка">
+                            <p class="cycle__esires_popap_education_list_item_text">
+                                Мнемотехника;
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                    <ul class="cycle__esires_popap_education_list">
+                        <li class="cycle__esires_popap_education_list_item">
+                            <img src="img/cycle-desires/check.svg" class="cycle__esires_popap_education_list_item_img" alt="Галочка">
+                            <p class="cycle__esires_popap_education_list_item_text">
+                                Ментальная арифметика;
+                            </p>
+                        </li>
+                        <li class="cycle__esires_popap_education_list_item">
+                            <img src="img/cycle-desires/check.svg" class="cycle__esires_popap_education_list_item_img" alt="Галочка">
+                            <p class="cycle__esires_popap_education_list_item_text">
+                                Юридическая грамотность; </p>
+                        </li>
+                        <li class="cycle__esires_popap_education_list_item">
+                            <img src="img/cycle-desires/check.svg" class="cycle__esires_popap_education_list_item_img" alt="Галочка">
+                            <p class="cycle__esires_popap_education_list_item_text">
+                                Профориентация;
+                            </p>
+                        </li>
+                        <li class="cycle__esires_popap_education_list_item">
+                            <img src="img/cycle-desires/check.svg" class="cycle__esires_popap_education_list_item_img" alt="Галочка">
+                            <p class="cycle__esires_popap_education_list_item_text">
+                                Менеджмент;
+                            </p>
+                        </li>
+                        <li class="cycle__esires_popap_education_list_item">
+                            <img src="img/cycle-desires/check.svg" class="cycle__esires_popap_education_list_item_img" alt="Галочка">
+                            <p class="cycle__esires_popap_education_list_item_text">
+                                Арт-терапия;
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 cpl-md-6 col-sm-12 col-12">
+                    <ul class="cycle__esires_popap_education_list">
+                        <li class="cycle__esires_popap_education_list_item">
+                            <img src="img/cycle-desires/check.svg" class="cycle__esires_popap_education_list_item_img" alt="Галочка">
+                            <p class="cycle__esires_popap_education_list_item_text">
+                                Международный язык<br> жестов и международные<br> языки в туризме;
+                            </p>
+                        </li>
+                        <li class="cycle__esires_popap_education_list_item">
+                            <img src="img/cycle-desires/check.svg" class="cycle__esires_popap_education_list_item_img" alt="Галочка">
+                            <p class="cycle__esires_popap_education_list_item_text">
+                                Туристическое<br> ориентирование;
+                            </p>
+                        </li>
+                        <li class="cycle__esires_popap_education_list_item">
+                            <img src="img/cycle-desires/check.svg" class="cycle__esires_popap_education_list_item_img" alt="Галочка">
+                            <p class="cycle__esires_popap_education_list_item_text">
+                                Журналистика;
+                            </p>
+                        </li>
+                        <li class="cycle__esires_popap_education_list_item">
+                            <img src="img/cycle-desires/check.svg" class="cycle__esires_popap_education_list_item_img" alt="Галочка">
+                            <p class="cycle__esires_popap_education_list_item_text">
+                                Актерское мастерство.
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-12">
+                    <p class="cycle__esires_popap_text">
+                        Дефиле – по желанию
+                    </p>
+                    <p class="cycle__esires_popap_text2">
+                        По окончанию проекта проводится отчетный концерт.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div style="display: none;">
+    <div class="box-modal_cycle_esires" id="cycle__esires_popap4">
+        <div class="menu-clouse">
+            <div class="box-modal_cycle_esires_close arcticmodal-close">
+                <img class="cl" src="img/cycle-desires/close.svg" alt="Закрыть">
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h3 class="cycle__esires_popap_head">
+                        Гибкое расписание занятий для Вашего ребенка
+                    </h3>
+                </div>
+                <div class="col-lg-4 col-md-12">
+                    <div class="cycle__esires_popap_block_lessons" style="border: 7px solid #00C8DF;">
+                        <h4 class="cycle__esires_popap_block_lessons_head">
+                            Собрание группы<br> с наставником Оn-Line
+                        </h4>
+                        <p class="cycle__esires_popap_block_lessons_text1">
+                            Дни на выбор
+                        </p>
+                        <p class="cycle__esires_popap_block_lessons_text2">
+                            Понедельник, Вторник<br>18:00-19:00
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12">
+                    <div class="cycle__esires_popap_block_lessons" style="border: 7px solid #00C8DF;">
+                        <h4 class="cycle__esires_popap_block_lessons_head">
+                            Занятия Оn-Line
+                        </h4>
+                        <p class="cycle__esires_popap_block_lessons_text1">
+                            Дни на выбор
+                        </p>
+                        <p class="cycle__esires_popap_block_lessons_text2">
+                            Среда, Четверг, Пятница<br> 18:00-19:00
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12">
+                    <div class="cycle__esires_popap_block_lessons" style="border: 7px solid #00C8DF;">
+                        <h4 class="cycle__esires_popap_block_lessons_head">
+                            Занятия в классе
+                        </h4>
+                        <p class="cycle__esires_popap_block_lessons_text1">
+                            Дни на выбор
+                        </p>
+                        <p class="cycle__esires_popap_block_lessons_text2">
+                            Суббота, воскресенье<br> 15:00-20:00
+                        </p>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <h3 class="cycle__esires_popap_head2">
+                        В рамках данного проекта – Одно занятие – <b>бесплатно!</b>
+                    </h3>
+                    <p class="cycle__esires_popap_education_text">Комплексное изучение следующих направлений:</p>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                    <ul class="cycle__esires_popap_education_list">
+                        <li class="cycle__esires_popap_education_list_item">
+                            <img src="img/cycle-desires/check.svg" class="cycle__esires_popap_education_list_item_img" alt="Галочка">
+                            <p class="cycle__esires_popap_education_list_item_text">
+                                Финансовая грамотность;
+                            </p>
+                        </li>
+                        <li class="cycle__esires_popap_education_list_item">
+                            <img src="img/cycle-desires/check.svg" class="cycle__esires_popap_education_list_item_img" alt="Галочка">
+                            <p class="cycle__esires_popap_education_list_item_text">
+                                Этика социальных<br> отношений;
+                            </p>
+                        </li>
+                        <li class="cycle__esires_popap_education_list_item">
+                            <img src="img/cycle-desires/check.svg" class="cycle__esires_popap_education_list_item_img" alt="Галочка">
+                            <p class="cycle__esires_popap_education_list_item_text">
+                                Психология;
+                            </p>
+                        </li>
+                        <li class="cycle__esires_popap_education_list_item">
+                            <img src="img/cycle-desires/check.svg" class="cycle__esires_popap_education_list_item_img" alt="Галочка">
+                            <p class="cycle__esires_popap_education_list_item_text">
+                                Логика;
+                            </p>
+                        </li>
+                        <li class="cycle__esires_popap_education_list_item">
+                            <img src="img/cycle-desires/check.svg" class="cycle__esires_popap_education_list_item_img" alt="Галочка">
+                            <p class="cycle__esires_popap_education_list_item_text">
+                                Мнемотехника;
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                    <ul class="cycle__esires_popap_education_list">
+                        <li class="cycle__esires_popap_education_list_item">
+                            <img src="img/cycle-desires/check.svg" class="cycle__esires_popap_education_list_item_img" alt="Галочка">
+                            <p class="cycle__esires_popap_education_list_item_text">
+                                Ментальная арифметика;
+                            </p>
+                        </li>
+                        <li class="cycle__esires_popap_education_list_item">
+                            <img src="img/cycle-desires/check.svg" class="cycle__esires_popap_education_list_item_img" alt="Галочка">
+                            <p class="cycle__esires_popap_education_list_item_text">
+                                Юридическая грамотность; </p>
+                        </li>
+                        <li class="cycle__esires_popap_education_list_item">
+                            <img src="img/cycle-desires/check.svg" class="cycle__esires_popap_education_list_item_img" alt="Галочка">
+                            <p class="cycle__esires_popap_education_list_item_text">
+                                Профориентация;
+                            </p>
+                        </li>
+                        <li class="cycle__esires_popap_education_list_item">
+                            <img src="img/cycle-desires/check.svg" class="cycle__esires_popap_education_list_item_img" alt="Галочка">
+                            <p class="cycle__esires_popap_education_list_item_text">
+                                Менеджмент;
+                            </p>
+                        </li>
+                        <li class="cycle__esires_popap_education_list_item">
+                            <img src="img/cycle-desires/check.svg" class="cycle__esires_popap_education_list_item_img" alt="Галочка">
+                            <p class="cycle__esires_popap_education_list_item_text">
+                                Арт-терапия;
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 cpl-md-6 col-sm-12 col-12">
+                    <ul class="cycle__esires_popap_education_list">
+                        <li class="cycle__esires_popap_education_list_item">
+                            <img src="img/cycle-desires/check.svg" class="cycle__esires_popap_education_list_item_img" alt="Галочка">
+                            <p class="cycle__esires_popap_education_list_item_text">
+                                Международный язык<br> жестов и международные<br> языки в туризме;
+                            </p>
+                        </li>
+                        <li class="cycle__esires_popap_education_list_item">
+                            <img src="img/cycle-desires/check.svg" class="cycle__esires_popap_education_list_item_img" alt="Галочка">
+                            <p class="cycle__esires_popap_education_list_item_text">
+                                Туристическое<br> ориентирование;
+                            </p>
+                        </li>
+                        <li class="cycle__esires_popap_education_list_item">
+                            <img src="img/cycle-desires/check.svg" class="cycle__esires_popap_education_list_item_img" alt="Галочка">
+                            <p class="cycle__esires_popap_education_list_item_text">
+                                Журналистика;
+                            </p>
+                        </li>
+                        <li class="cycle__esires_popap_education_list_item">
+                            <img src="img/cycle-desires/check.svg" class="cycle__esires_popap_education_list_item_img" alt="Галочка">
+                            <p class="cycle__esires_popap_education_list_item_text">
+                                Актерское мастерство.
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-12">
+                    <p class="cycle__esires_popap_text">
+                        Дефиле – по желанию
+                    </p>
+                    <p class="cycle__esires_popap_text2">
+                        По окончанию проекта проводится отчетный концерт.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
 <?php include_once 'footer.php'; ?>

@@ -226,12 +226,8 @@ button {
 .box-modal .tabcontent {
 	max-width: 100%;
 }
-.button__teacher {
-	
-}
 
 /*---HEADER---*/
-
 
 .header {
 	padding-top: 15px;
@@ -242,15 +238,12 @@ button {
     z-index: 3;
     width: 100%;
 }
-
 header button {
 	margin: -12px auto 0;
 }
-
 .menu1 li {
 	margin-left: 10px;
 }
-
 .header {
 	position: fixed;
 	top: 0; left: 0;
@@ -260,7 +253,6 @@ header button {
 .header.out {
 	transform: translateY(-100%);
 }
-
 .header .container-fluid {
 	padding-bottom: 8px;
 	border-bottom: 1px solid #eeeeee;
@@ -268,7 +260,6 @@ header button {
 	padding-right: 0;
     padding-left: 0;
 }
-
 .links {
 	display: -webkit-flex;
 	display: -moz-flex;
@@ -276,22 +267,18 @@ header button {
 	display: -o-flex;
 	display: flex;
 }
-
 .links__item {
 	margin-right: 25px;
 }
-
 .links__icon i {
 	font-size: 19px;
     font-weight: 900;
     color: #a4a3a3;
 }
-
 .links__icon i:hover {
 	color: #6d993a;
 	transition: all 0.5s ease;
 }
-
 .cabinet {
 	display: -webkit-flex;
 	display: -moz-flex;
@@ -301,7 +288,6 @@ header button {
 	justify-content: space-between;
 	margin-bottom: 5px;
 }
-
 .cabinet__lang {
 	display: -webkit-flex;
 	display: -moz-flex;
@@ -311,22 +297,18 @@ header button {
 	border-bottom: 1px solid transparent;
 	height: 21px;
 }
-
 .cabinet__lang:hover {
 	transition: all 0.5s ease;
 	border-bottom: 1px solid #6d993a;
 	cursor: pointer;
 }
-
 .cabinet__lang span, .cabinet__lang a {
 	color: #5a5a5a;
 	height: 21px;
 }
-
 .cabinet__lang span:hover, .cabinet__lang a:hover {
 	color: #6d993a;	
 }
-
 .menu-open {
     background: none;
     border: 0;
@@ -335,7 +317,6 @@ header button {
     font-size: 33px;
     cursor: pointer;
 }
-
 .menu-opened {
   	background: #fff;
     top: 0px;
@@ -346,17 +327,14 @@ header button {
     z-index: 9999;
     box-shadow: 0 0 40px #00000073;
 }
-
 .menu__collapps {
 	padding-bottom: 20px;
     padding-left: 15px;
 }
-
 .menu.menu-opened .menu__item {
     margin-right: 0px;
     text-align: left;
 }
-
 .menu.menu-opened .menu__item a {
 	font-family: serif;
     color: #191919;
@@ -366,28 +344,23 @@ header button {
     text-transform: capitalize;
     margin-bottom: 11px;
 }
-
 .menu1 .dropdown:hover .dropdown a {
     background-color: #000;
     color: #fff;
     cursor: pointer;
 }
-
 .cl  {
 	height: 15px;
 }
-
 .dropdown {
     position: relative;
     display: inline-block;
 }
-
 .dropdown:hover .dropdown-content {
     display: block;
     list-style: none;
     z-index: 99;
 }
-
 .dropdown-content {
     display: none;
     position: absolute;
@@ -397,89 +370,73 @@ header button {
     padding-top: 10px;
     text-align: left;
 }
-
 .dropdown-content li {
 	border-bottom: 1px solid #00000017;
     padding-left: 15px;
     height: 37px;
     padding-top: 6px;
 }
-
 .menu .dropdown-content li a:hover {
 	color: #f9420d;
     border-bottom: 1px solid #f9420d;
 }
-
 .dropdown-content li a {
 	width: fit-content;
 	height: 22px;
 }
-
 .menu1 .fa-chevron-right {
 	display: none;
 }
-
 .menu1 .fa-chevron-right, .fa-chevron-down {
 	color: #5fd7cc;
 	font-size: 12px;
 }
-
 .menu1 .dropdown:hover .fa-chevron-right {
     display: inline-block;
     list-style: none;
     z-index: 99;
 }
-
 .menu1 .dropdown-content a {
 	font-family: 'Georgia', sans-serif;
 	font-size: 16px;
 	font-style: italic;
 }
-
 .menu1 .dropdown-content li a:hover {
 	color: #5fd7cc;
     border-bottom: 1px solid #5fd7cc;
     width: fit-content;
 }
-
 .menu1 .dropdown-content li a:focus {
 	color: #5fd7cc;
     border-bottom: 1px solid #5fd7cc;
     width: fit-content;
 }
-
 .menu1 .dropdown-content li a:focus-within {
 	color: #5fd7cc;
     border-bottom: 1px solid #5fd7cc;
     width: fit-content;
 }
-
 .menu1 .dropdown:hover .fa-chevron-down {
     display: none;
 }
-
 .menu1 .dropdown-content {
 	position: relative;
 	padding: 0;
 }
-
 .menu1 .menu__link {
 	width: fit-content;
     border-bottom: 1px solid transparent;
 }
-
 .menu1 .menu__link:hover {
 	color: #5fd7cc !important;
     border-bottom: 1px solid #5fd7cc;
 }
-
 .menu1 .dropdown-content li {
 	padding-left: 0;
 	padding-top: 0;
 	height: auto;
 	border: 1px solid transparent;
 }
-
 .clouse {
 	height: 15px;
 	margin-right: 10px;
@@ -488,25 +445,20 @@ header button {
 	margin-top: 5px;
     right: 0;
 }
-
 .menu1 .contacs__email {
 	margin-left: 0;
 }
-
 .menu1 .logo {
 	margin: auto;
 }
-
 .menu1 .logo img {
 	margin-left: auto;
 	width: 109px;
 	height: 73px;
 }
-
 .menu1 .menu__item a {
 	font-size: 18px !important;
 }
-
 .x {
 	display: -webkit-flex;
 	display: -moz-flex;
@@ -515,7 +467,6 @@ header button {
 	display: flex;
 	margin-top: 5px;
 }
-
 .contacs1 {
 	background: #5fd7cc;
 	color: #fff;
@@ -523,21 +474,17 @@ header button {
 	padding-top: 10px;
 	padding-left: 10px;
 }
-
 .contacs1 a {
 	font-size: 18px;
 }
-
 .menu1 .contacs__email {
 	margin-top: 10px;
 }
-
 .cabinet__lang i {
 	margin-left: 5px;
     padding-top: 4px;
     color: #000;
 }
-
 .cabinet__input {
 	display: -webkit-flex;
 	display: -moz-flex;
@@ -545,32 +492,26 @@ header button {
 	display: -o-flex;
 	display: flex;
 }
-
 .cabinet__input a {
 	color: #5a5a5a;
 	height: 21px;
 	 overflow: hidden;
 }
-
 .cabinet__input a:hover {
 	color: #6d993a;
 	border-bottom: 1px solid #6d993a;
 }
-
 .cabinet__input span {
 	margin: 0 4px;
 }
-
 .cabinet__lang, .cabinet__input {
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 400;
 	font-size: 16px;
 }
-
 .navigation {
 	margin-top: 30px;
 }
-
 .contacs {
 	display: -webkit-flex;
 	display: -moz-flex;
@@ -581,46 +522,36 @@ header button {
 	margin-bottom: 44px;
 	justify-content: flex-end;
 }
-
 .menu1 a {
 	color: #fff;
 }
-
 .contacs1 .contacs__call {
 	margin-left: 0;
 }
-
 .contacs__call {
 	margin-left: 125px;
 }
-
 .contacs__email {
 	margin-left: 100px;
 }
-
 .call {
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 400;
 	font-size: 18px;
 }
-
 .call:hover {
 	color: #6d993a;
 }
-
 .contacs__email:hover {
 	color: #6d993a;
 }
-
 .menu .fa-chevron-down {
 	color: #000;
 	font-size: 16px;
 }
-
 .menu a:hover .fa-chevron-down {
 	color: #f9420d;
 }
-
 .menu__item {
 	display: -webkit-flex;
 	display: -moz-flex;
@@ -632,7 +563,6 @@ header button {
 	margin-left: auto;
 	justify-content: space-between;
 }
-
 .menu__link {
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 600;
@@ -640,11 +570,9 @@ header button {
 	text-transform: uppercase;
 	height: 21px;
 }
-
 .menu__link a {
 	border-bottom: 1px solid transparent;
 }
-
 .menu__link:hover {
 	color: #f9420d;
 	border-bottom: 1px solid #f9420d;
@@ -5343,6 +5271,10 @@ header button {
 	margin-bottom: 80px;
 	line-height: normal;
 }
+.cycle__esires_format_group_block:hover {
+	cursor: pointer;
+	color: #b2b2b2;
+}
 .cycle__esires_bonus_box_img2 {
 	display: none;
 }
@@ -5588,4 +5520,97 @@ header button {
 .cycle__esires_form_block2_btn:hover {
 	cursor: pointer;
 	color: #000;
+}
+.cycle__esires_popap_head {
+	color: #F5410C;
+	text-align: center;
+	font-family: Montserrat;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: normal;
+	margin: 40px auto;
+}
+.cycle__esires_popap_block_lessons {
+	border-radius: 30px;
+	padding: 25px 0px;
+	text-align: center;
+	width: 270px;
+	margin: 0px auto;
+	height: 190px;
+}
+.cycle__esires_popap_block_lessons_head {
+	font-size: 16px;
+	font-weight: 700;
+	line-height: normal;
+	margin-bottom: 15px;
+}
+.cycle__esires_popap_block_lessons_text1 {
+	color: #454545;
+	font-size: 16px;
+	font-weight: 500;
+	margin-bottom: 5px;
+}
+.cycle__esires_popap_block_lessons_text2 {
+	text-align: center;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: normal;
+	margin-bottom: 0px;
+}
+.cycle__esires_popap_head2 {
+	color: #F5410C;
+	text-align: center;
+	font-family: Montserrat;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: normal;
+	margin: 50px auto 20px auto;
+}
+.cycle__esires_popap_education_text {
+	text-align: center;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: normal;
+	margin-bottom: 30px;
+}
+.cycle__esires_popap_education_list {
+	list-style-type: none;
+	width: 270px;
+	margin: 0px auto;
+}
+.cycle__esires_popap_education_list_item {
+	display: flex;
+	align-items: flex-start;
+}
+.cycle__esires_popap_education_list_item_text {
+	font-size: 16px;
+	font-weight: 500;
+	line-height: normal;
+	margin: 1px 0px 22px 12px;
+}
+.cycle__esires_popap_text {
+	text-align: center;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: normal;
+	margin: 20px auto;
+}
+.cycle__esires_popap_text2 {
+	color: #F5410C;
+	text-align: center;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: normal;
+	margin: 0px auto 30px auto;
+}
+.box-modal_cycle_esires {
+	background-color: #fff;
+	border-radius: 60px;
+	position: relative;
+}
+.box-modal_cycle_esires_close {
+	position: absolute;
+	right: 30px;
+	top: 20px;
+	z-index: 1;
 }
