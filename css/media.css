@@ -1,9 +1,11 @@
-/* -------------- 993-1200px --------------- */
+/* -------------- 2000-1300px ------------- */
 @media screen and (max-width: 1300px) {
     .cycle__esires_welcome_shape_block {
         right: -10px;
     }
 }
+
+/* -------------- 993-1200px --------------- */
 
 @media screen and (max-width: 1200px) {
     .logo {
@@ -2009,5 +2011,11 @@
     }
     .training .slick-next {
         display: block !important;
+    }
+    .read-more-state:checked~.read-more-wrap .read-more-target {
+        font-size: initial;
+    }
+    .read-more-state2:checked~.read-more-wrap2 .read-more-target2 {
+        font-size: initial;
     }
 }

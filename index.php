@@ -319,7 +319,7 @@ include_once 'header.php';
 					<div class="animate__animated slide slide3">
 						<img src="img/slide_3.png" alt="">
 					</div>
-					<div class="slide">
+					<!-- <div class="slide">
 						<img src="img/slide_4.png" alt="">
 					</div>
 					<div class="slide">
@@ -327,7 +327,7 @@ include_once 'header.php';
 					</div>
 					<div class="slide">
 						<img src="img/slide_6.png" alt="">
-					</div>
+					</div> -->
 				</div>
 			</div>
 		</div>
@@ -512,9 +512,9 @@ include_once 'header.php';
 						Йога
 					</h6>
 					<p class="read-more-wrap2">
-						Регулярные занятия помогают улучшить качество жизни ребенка. Данные упражнения направлены на развитие гибкости и силы, повышению иммунитета, улучшению осанку.
+						Регулярные занятия помогают улучшить качество жизни ребенка. Данные упражнения направлены на развитие гибкости и силы,
 						<span class="read-more-target2">
-							Дают осознание своего тела, артикуляционных укладов (гармонично развиваются правое и левое полушария мозга).
+							повышению иммунитета, улучшению осанку. Дают осознание своего тела, артикуляционных укладов (гармонично развиваются правое и левое полушария мозга).
 						</span>
 					</p>
 					<label for="post-2" class="read-more-trigger2"></label>

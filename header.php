@@ -99,7 +99,7 @@
                                 Договор обучение
                             </a>
                         </li>
-                        <li>
+                        <li style="white-space: nowrap;">
                             <a href="/documents/dogovor_otdih.docx">
                                 Договор детский отдых
                             </a>
