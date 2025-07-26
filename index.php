@@ -38,11 +38,10 @@ include_once 'header.php';
 					<div class="col-12">
 						<div class="training__content">
 							<h1 class="training__title1">
-								НоваШкола Я - творческая среда
-								для разностороннего развития личности
+								Создаём будущее вместе!
 							</h1>
-							<a href="/mission" class="training__batton btn">
-								Узнать подробнее
+							<a href="/umnaya-prodlenka" class="training__batton btn">
+								Стать участником!
 							</a>
 						</div>
 					</div>
@@ -60,10 +59,10 @@ include_once 'header.php';
 					<div class="col-12">
 						<div class="training__content">
 							<h1 class="training__title1">
-								Учись и путешествуй
+								Трудись и путешествуй
 							</h1>
-							<a href="/mission" class="training__batton training__batton2 btn">
-								Узнать подробнее
+							<a href="/umnaya-prodlenka" class="training__batton training__batton2 btn">
+								Стать участником!
 							</a>
 						</div>
 					</div>
@@ -100,11 +99,23 @@ include_once 'header.php';
 <section id="section-rectangle" class="section-rectangle">
 	<div class="container">
 		<div class="row">
+			<div class="col-12">
+				<div style="margin: 20px 0px 30px 0px;">
+					<p>
+						<strong style="color: red; display: inline;">«Первый Я»</strong> – проект, который объединяет детей,
+						родителей и педагогов. Это амбициозная платформа для всестороннего развития личности. Мы стремимся
+						стать первыми во всем: в учебе, сохранении планеты, экологии, инновациях и многих других областях.
+					</p>
+					<p>
+						Наша цель – не просто дать знания, а воспитать поколение лидеров, способных менять мир к лучшему.
+					</p>
+				</div>
+			</div>
 			<div class="col-md-6 col-lg-4 col-xl-3">
 				<div class="animate__animated rectangle1">
 					<div class="rectangle__overlay1">
 						<h5>
-							Наши проекты
+							Мечты и желания
 						</h5>
 						<a href="/krugovorot-zhelanij">
 							Читать далее
@@ -119,7 +130,7 @@ include_once 'header.php';
 				<div class="animate__animated rectangle2">
 					<div class="rectangle__overlay2">
 						<h5>
-							Подготовка к школе
+							Семья и здоровье
 						</h5>
 						<a href="/podgotovka-k-shkole">
 							Читать далее
@@ -134,7 +145,7 @@ include_once 'header.php';
 				<div class="animate__animated rectangle3">
 					<div class="rectangle__overlay3">
 						<h5>
-							Умная продленка
+							Учись и познавай
 						</h5>
 						<a href="/umnaya-prodlenka">
 							Читать далее
@@ -149,7 +160,7 @@ include_once 'header.php';
 				<div class="animate__animated rectangle4">
 					<div class="rectangle__overlay4">
 						<h5>
-							Учись и путешествуй
+							Выбор профессии
 						</h5>
 						<a href="/mission">
 							Читать далее
@@ -172,7 +183,7 @@ include_once 'header.php';
 		<div class="row">
 			<div class="col-lg-12">
 				<h3 class="animate__animated">
-					Готовим детей к самостоятельной жизни!
+					Готовим детей к ответственной жизни!
 				</h3>
 			</div>
 		</div>
@@ -300,7 +311,7 @@ include_once 'header.php';
 		<div class="row">
 			<div class="col-lg-12">
 				<h3 class="animate__animated top-sckool__title">
-					Обучение через приключение
+					Учись и познавай!
 				</h3>
 				<p class="animate__animated top-sckool__text">
 					Игровая форма обучения - самая эффективная
@@ -342,7 +353,7 @@ include_once 'header.php';
 		<div class="row">
 			<div class="col-lg-12">
 				<h3 class="capabilities__title">
-					Школа возможностей для Вашего ребенка:
+					Возможности для Вашего ребёнка:
 				</h3>
 			</div>
 		</div>
@@ -404,11 +415,11 @@ include_once 'header.php';
 					<div class="opportunity__list">
 						<img src="img/school_icon_5.png" alt="" class="opportunity__icon">
 						<h6 class="animate__animated opportunity__title">
-							Общение
+							Конфликты
 						</h6>
 					</div>
 					<p class="animate__animated opportunity__text">
-						Общение с иностранными сверстниками.
+						Решение конфликтных ситуаций.
 					</p>
 				</div>
 			</div>
@@ -462,7 +473,7 @@ include_once 'header.php';
 						</h6>
 					</div>
 					<p class="animate__animated opportunity__text">
-						Возможность школьнику заработать деньги.
+						Возможности заработка для ребёнка.
 					</p>
 				</div>
 			</div>
@@ -479,29 +490,28 @@ include_once 'header.php';
 			<div class="col-lg-12">
 				<div class="free__title">
 					<h3>
-						Для наших учащихся
+						Наши проекты
 					</h3>
-					<span>
+					<!-- <span>
 						*
-					</span>
+					</span> -->
 				</div>
 			</div>
 		</div>
 		<div class="row">
 			<div class="col-md-6 col-lg-4">
 				<div class="services">
-					<img src="img/free_img.jpg" alt="">
+					<img src="img/free_img.jpg" alt="Круговорот желаний">
 					<input type="checkbox" class="read-more-state" id="post-1" />
 					<h6>
-						Детский фитнес
+						Круговорот желаний
 					</h6>
 					<p class="read-more-wrap">
-						Главная цель детского фитнеса – это гармоничное физическое развитие ребенка, укрепление его здоровья, формирование
-						<span class="read-more-target">
-							полезных привычек и осознанного отношения к здоровому образу жизни.
-						</span>
+						Проект о том, как воплотить желания в реальность, добиваться своего
+						и идти к цели! Вас ждут увлекательные приключения в мир желаний и
+						возможностей…. а так же крутые подарки!
 					</p>
-					<label for="post-1" class="read-more-trigger"></label>
+					<a href="/krugovorot-zhelanij" class="read-more-wrap-description">Читать подробнее</a>
 				</div>
 			</div>
 			<div class="col-md-6 col-lg-4">
@@ -509,15 +519,15 @@ include_once 'header.php';
 					<img src="img/free_img_2.jpg" alt="">
 					<input type="checkbox" class="read-more-state2" id="post-2" />
 					<h6>
-						Йога
+						Детский отдых
 					</h6>
-					<p class="read-more-wrap2">
-						Регулярные занятия помогают улучшить качество жизни ребенка. Данные упражнения направлены на развитие гибкости и силы,
-						<span class="read-more-target2">
-							повышению иммунитета, улучшению осанку. Дают осознание своего тела, артикуляционных укладов (гармонично развиваются правое и левое полушария мозга).
-						</span>
+					<p class="read-more-wrap">
+						С момента заезда ребята погружаются в атмосферу таинственности и
+						загадок, находят таинственное послание и в течение смены должны
+						находят нечто особенное. Английский, учатся сами создавать квест
+						и импровизировать.
 					</p>
-					<label for="post-2" class="read-more-trigger2"></label>
+					<a href="/camp" class="read-more-wrap-description">Читать подробнее</a>
 				</div>
 			</div>
 			<div class="col-md-12 col-lg-4">
@@ -690,7 +700,7 @@ include_once 'header.php';
 			<div class="col-lg-6">
 				<div class="animate__animated form">
 					<h2 class="form__title">
-						Остались вопросы?
+						Стать участником
 					</h2>
 					<p class="form__text">
 						Введите свой телефон, мы вам перезвоним!
@@ -716,7 +726,7 @@ include_once 'header.php';
 		<div class="row">
 			<div class="col-lg-12">
 				<h3 class="target__title">
-					Наша Цель:
+					Наши ценности:
 				</h3>
 			</div>
 		</div>
@@ -725,7 +735,7 @@ include_once 'header.php';
 				<div class="animate__animated goals">
 					<img src="img/target_img_1.jpg" alt="" class="goals__img">
 					<p class="goals__text">
-						Готовим к самосто-<br> ятельной жизни
+						Созидательный<br> труд
 					</p>
 					<div class="goals__number number1">
 						1
@@ -736,7 +746,7 @@ include_once 'header.php';
 				<div class="animate__animated goals">
 					<img src="img/target_img_2.jpg" alt="" class="goals__img">
 					<p class="goals__text">
-						Обучение через развлечение
+						Крепкая<br> семья
 					</p>
 					<div class="goals__number  number2">
 						2
@@ -747,7 +757,7 @@ include_once 'header.php';
 				<div class="animate__animated goals">
 					<img src="img/target_img_3.jpg" alt="" class="goals__img">
 					<p class="goals__text">
-						Помочь выбрать профессию
+						Мечты
 					</p>
 					<div class="goals__number  number3">
 						3
@@ -758,7 +768,7 @@ include_once 'header.php';
 				<div class="animate__animated goals">
 					<img src="img/target_img_4.jpg" alt="" class="goals__img">
 					<p class="goals__text">
-						Помочь раскрыть талант ребенка
+						Взаимопомощь<br> и взаимоуважение
 					</p>
 					<div class="goals__number number4">
 						4

@@ -49,20 +49,26 @@
                     </a>
                 </li>
                 <li>
-                    <a href="/krugovorot-zhelanij" class="menu__link">
-                        Круговорот желаний
-                    </a>
-                </li>
-                <li>
                     <a href="/umnaya-prodlenka" class="menu__link">
-                        Умная продленка
+                        Участникам
                     </a>
                 </li>
                 <li>
                     <a href="/podgotovka-k-shkole" class="menu__link">
-                        Подготовка к школе
+                        Наставникам
                     </a>
                 </li>
+                <li>
+                    <a href="/pay" class="menu__link">
+                        Родителям
+                    </a>
+                </li>
+                <li>
+                    <a href="/krugovorot-zhelanij" class="menu__link">
+                        Круговорот желаний
+                    </a>
+                </li>
+
                 <!-- <li class="dropdown">
                     <a href="#" class="menu__link dropbtn">
                         Обучение
@@ -87,7 +93,7 @@
                         </li>
                     </ul>
                 </li> -->
-                <li class="dropdown">
+                <!-- <li class="dropdown">
                     <a href="#" class="menu__link dropbtn">
                         Родителям
                         <i class="fas fa-chevron-down"></i>
@@ -110,7 +116,7 @@
                             </a>
                         </li>
                     </ul>
-                </li>
+                </li> -->
                 <li>
                     <a href="/camp" class="menu__link">
                         Детский отдых
@@ -125,9 +131,9 @@
                     </a>
                 </div>
                 <div class="contacs__email">
-                    <a href="mailto:bybyschoolby@gmail.com" class="call">
+                    <a href="mailto:prime1ya@yandex.ru" class="call">
                         <img src="img/email_whrite.png" alt="call">
-                        byschoolby@gmail.com
+                        prime1ya@yandex.ru
                     </a>
                 </div>
             </div>
@@ -234,9 +240,9 @@
                                 </a>
                             </div>
                             <div class="contacs__email">
-                                <a href="mailto:bybyschoolby@gmail.com" class="call">
+                                <a href="mailto:prime1ya@yandex.ru" class="call">
                                     <img src="img/message.png" alt="call">
-                                    byschoolby@gmail.com
+                                    prime1ya@yandex.ru
                                 </a>
                             </div>
                         </div>
@@ -245,6 +251,21 @@
                                 <li>
                                     <a href="/mission" class="menu__link">
                                         Миссия
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/umnaya-prodlenka" class="menu__link">
+                                        Участникам
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/podgotovka-k-shkole" class="menu__link">
+                                        Наставникам
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/pay" class="menu__link">
+                                        Родителям
                                     </a>
                                 </li>
                                 <!-- <li class="dropdown">
@@ -270,22 +291,7 @@
                                         </li>
                                     </ul>
                                 </li> -->
-                                <li>
-                                    <a href="/krugovorot-zhelanij" class="menu__link">
-                                        Круговорот желаний
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="/umnaya-prodlenka" class="menu__link">
-                                        Умная продленка
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="/podgotovka-k-shkole" class="menu__link">
-                                        Подготовка к школе
-                                    </a>
-                                </li>
-                                <li class="dropdown">
+                                <!-- <li class="dropdown">
                                     <a href="#" class="menu__link dropbtn">
                                         Родителям
                                         <i class="fas fa-chevron-down"></i>
@@ -307,6 +313,11 @@
                                             </a>
                                         </li>
                                     </ul>
+                                </li> -->
+                                <li>
+                                    <a href="/krugovorot-zhelanij" class="menu__link">
+                                        Круговорот желаний
+                                    </a>
                                 </li>
                                 <li>
                                     <a href="/camp" class="menu__link">

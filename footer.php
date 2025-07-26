@@ -25,18 +25,18 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="/krugovorot-zhelanij">
-                                    Круговорот желаний
-                                </a>
-                            </li>
-                            <li>
                                 <a href="/umnaya-prodlenka">
-                                    Умная продленка
+                                    Участникам
                                 </a>
                             </li>
                             <li>
                                 <a href="/podgotovka-k-shkole">
-                                    Подготовка к школе
+                                    Наставникам
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/krugovorot-zhelanij">
+                                    Круговорот желаний
                                 </a>
                             </li>
                             <li>
@@ -125,9 +125,9 @@
                         </div> -->
                     </div>
                     <div class="contacs__email contacs__email-footer">
-                        <a href="mailto:yourmail@mysite.com" class="call">
+                        <a href="mailto:prime1ya@yandex.ru" class="call">
                             <img src="img/message.png" alt="call">
-                            byschoolby@gmail.com
+                            prime1ya@yandex.ru
                         </a>
                     </div>
                 </div>
