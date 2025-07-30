@@ -6,27 +6,6 @@ include_once 'header.php';
 <!---Training--->
 <section id="training" class="training">
 	<div class="bg-slider">
-		<div class="slide_0">
-			<div class="container">
-				<div class="row">
-					<div class="col-12 d-lg-none">
-						<a href="/" class="logo-block">
-							<img class="logo-block-img" src="img/logo_green.png" alt="logo">
-						</a>
-					</div>
-					<div class="col-12">
-						<div class="training__content">
-							<h1 class="training__title1">
-								Круговорот желаний - познавательно-развлекательный проект
-							</h1>
-							<a href="/krugovorot-zhelanij" class="training__batton btn">
-								Узнать подробнее
-							</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
 		<div class="slide_1">
 			<div class="container">
 				<div class="row">
@@ -69,6 +48,27 @@ include_once 'header.php';
 				</div>
 			</div>
 		</div>
+		<div class="slide_0">
+			<div class="container">
+				<div class="row">
+					<div class="col-12 d-lg-none">
+						<a href="/" class="logo-block">
+							<img class="logo-block-img" src="img/logo_green.png" alt="logo">
+						</a>
+					</div>
+					<div class="col-12">
+						<div class="training__content">
+							<h1 class="training__title1">
+								Круговорот желаний - познавательно-развлекательный проект
+							</h1>
+							<a href="/krugovorot-zhelanij" class="training__batton btn">
+								Стать участником!
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 		<!-- <div class="slide_3">
 		  		<div class="container">
 					<div class="row">
@@ -100,14 +100,14 @@ include_once 'header.php';
 	<div class="container">
 		<div class="row">
 			<div class="col-12">
-				<div style="margin: 20px 0px 30px 0px;">
+				<div style="margin: 20px 0px 30px 0px; font-size: 18px;">
 					<p>
 						<strong style="color: red; display: inline;">«Первый Я»</strong> – проект, который объединяет детей,
-						родителей и педагогов. Это амбициозная платформа для всестороннего развития личности. Мы стремимся
+						родителей и педагогов. Это амбициозная платформа для всестороннего развития личности. <b>Мы стремимся</b>
 						стать первыми во всем: в учебе, сохранении планеты, экологии, инновациях и многих других областях.
 					</p>
 					<p>
-						Наша цель – не просто дать знания, а воспитать поколение лидеров, способных менять мир к лучшему.
+						<b>Наша цель</b> – не просто дать знания, а воспитать поколение лидеров, способных <b>менять мир к лучшему</b>.
 					</p>
 				</div>
 			</div>
@@ -703,7 +703,7 @@ include_once 'header.php';
 						Стать участником
 					</h2>
 					<p class="form__text">
-						Введите свой телефон, мы вам перезвоним!
+						Укажите свой номер телефона, <br>мы свяжемся с вами!
 					</p>
 					<input type="tel" class="phone" name="phone" placeholder="Ваш телефон">
 					<a href="#" class="form__button">

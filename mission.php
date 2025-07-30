@@ -8,26 +8,26 @@ include_once 'header.php'; ?>
 		<div class="row">
 			<div class="col-lg-12">
 				<h3>
-					Обучение в НоваШколе Я!
+					Создаём будущее вместе!
 				</h3>
 			</div>
 			<div class="col-lg-3 offset-lg-1">
 				<div class="quantity">
 					<span class="quantity__numeral">
-						53
+						120
 					</span>
 					<p class="quantity__text">
-						Предмета
+						Мероприятий
 					</p>
 				</div>
 			</div>
 			<div class="col-lg-4">
 				<div class="quantity">
 					<span class="quantity__numeral">
-						13
+						20
 					</span>
 					<p class="quantity__text">
-						Программ
+						Направлений
 					</p>
 				</div>
 			</div>
@@ -37,7 +37,7 @@ include_once 'header.php'; ?>
 						10
 					</span>
 					<p class="quantity__text">
-						Мастерских
+						Программ
 					</p>
 				</div>
 			</div>
@@ -56,7 +56,7 @@ include_once 'header.php'; ?>
 						<span class="home">
 							<a href="#">
 								Главная
-							</a>					
+							</a>
 						</span>
 						/
 						<span class="mission">
@@ -67,7 +67,7 @@ include_once 'header.php'; ?>
 						Миссия
 					</h5>
 					<p class="navi__text">
-						Образовательная среда развития личности 
+						Всё, к чему стремишься, может стать реальностью
 					</p>
 					<nav class="navi__menu">
 						<ul class="navi__item">
@@ -80,7 +80,7 @@ include_once 'header.php'; ?>
 							<li>
 								<img src="img/arrow_blue.png" alt="">
 								<a class="go" href="#principle">
-									Наши принципы
+									Наши ценности
 								</a>
 							</li>
 							<li>
@@ -92,19 +92,19 @@ include_once 'header.php'; ?>
 							<li>
 								<img src="img/arrow_blue.png" alt="">
 								<a class="go" href="#methodology">
-									Методика  обучения
+									Мечты и желания
 								</a>
 							</li>
 							<li>
 								<img src="img/arrow_blue.png" alt="">
 								<a class="go" href="#object">
-									Предметы
+									Направления
 								</a>
 							</li>
 							<li>
 								<img src="img/arrow_blue.png" alt="">
 								<a class="go" href="#comunication">
-									Коммуникации
+									Возможности
 								</a>
 							</li>
 							<li>
@@ -123,19 +123,18 @@ include_once 'header.php'; ?>
 						Наша миссия
 					</h3>
 					<p class="aducation__text aducation__text-m">
-						<strong>Образование</strong>- это одна из важных составляющих успеха человека. Многие родители считают, что в обычных школах недостаточно внимания уделяют личностным характеристикам ребенка, что при построении учебного процесса не учитываются индивидуальные особенности ребенка.
+						<strong style="color: red;">«Первый Я»</strong> - объединение участников и наставников,
+						для роста поколения, способного создать <strong>достойное будущее</strong> для себя и счастливую жизнь для всех поколений страны.
 					</p>
 					<p class="aducation__text">
-						Мы придерживаемся <strong>главного принципа</strong>, благодаря которому удается достигать потрясающих результатов в работе и обучении.
+						<strong>Мы даем</strong> детям не просто знания, а <strong>ключи к успешной жизни</strong> от выбора профессии и управления
+						финансами до понимания права, истории и основ крепкой нравственности.
 					</p>
 					<p class="aducation__text">
-						<strong>Главный принцип</strong> достаточно прост: мы изначально видим в каждом нашем ученике носителя талантов.
+						<strong>Наша цель</strong> – воспитать мыслящих, ответственных и добрых лидеров завтрашнего дня, чьи действия уже <strong>сегодня меняют мир к лучшему</strong>.
 					</p>
 					<p class="aducation__text">
-						И если в обычных школах таланты детей зачастую пропадают или высмеиваются, то у нас <strong>таланты только расцветают.</strong>
-					</p>
-					<p class="aducation__text">
-						Как мы этого добиваемся? Для этого нужно всего лишь грамотно соединить воедино несколько факторов, которые и станут «почвой» для будущего роста.
+						<strong>Мы строим</strong> это <strong>будущее вместе</strong> через доверие, развитие и служение обществу.
 					</p>
 				</div>
 			</div>
@@ -151,10 +150,10 @@ include_once 'header.php'; ?>
 		<div class="row">
 			<div class="col-lg-12">
 				<h3 class="animate__animated principle__title">
-					Наши принципы
+					Наши ценности
 				</h3>
 				<p class="animate__animated principle__text">
-					Мы создали проект «НоваШкола Я», где реализуются следующие задачи:
+					От таланта и грамотности к ответственности и служению обществу:
 				</p>
 			</div>
 		</div>
@@ -165,7 +164,7 @@ include_once 'header.php'; ?>
 						1
 					</div>
 					<p class="items__text">
-						Воспитание «Личности»
+						Мечты и желания
 					</p>
 				</div>
 			</div>
@@ -175,7 +174,7 @@ include_once 'header.php'; ?>
 						2
 					</div>
 					<p class="items__text">
-						Развитие самостоятельности
+						Созидательный труд
 					</p>
 				</div>
 			</div>
@@ -185,7 +184,7 @@ include_once 'header.php'; ?>
 						3
 					</div>
 					<p class="items__text">
-						Помогаем развивать таланты каждого ребёнка
+						Жизнь и достоинство
 					</p>
 				</div>
 			</div>
@@ -195,7 +194,7 @@ include_once 'header.php'; ?>
 						4
 					</div>
 					<p class="items__text">
-						Прививаем любовь и тягу к знаниям
+						Доброта и справедливость
 					</p>
 				</div>
 			</div>
@@ -205,7 +204,7 @@ include_once 'header.php'; ?>
 						5
 					</div>
 					<p class="items__text">
-						Помогаем освоить жизненный опыт
+						Крепкая семья
 					</p>
 				</div>
 			</div>
@@ -215,7 +214,7 @@ include_once 'header.php'; ?>
 						6
 					</div>
 					<p class="items__text">
-						Подготовка к решению сложных жизненных задач
+						Дружба и верность
 					</p>
 				</div>
 			</div>
@@ -225,7 +224,7 @@ include_once 'header.php'; ?>
 						7
 					</div>
 					<p class="items__text">
-						Доступное обучение для каждого
+						Знания и критическое мышление
 					</p>
 				</div>
 			</div>
@@ -235,7 +234,7 @@ include_once 'header.php'; ?>
 						8
 					</div>
 					<p class="items__text">
-						Получение грантов на обучение в зарубежные вузы
+						Воспитание ответственной личности и лидерских качеств
 					</p>
 				</div>
 			</div>
@@ -245,7 +244,7 @@ include_once 'header.php'; ?>
 						9
 					</div>
 					<p class="items__text">
-						Возможность обмена и проживания в иностранной семье
+						Экологическая ответственность
 					</p>
 				</div>
 			</div>
@@ -255,7 +254,7 @@ include_once 'header.php'; ?>
 						10
 					</div>
 					<p class="items__text">
-						Прививаем любовь к Родине и к военной службе
+						Историческая память
 					</p>
 				</div>
 			</div>
@@ -265,7 +264,7 @@ include_once 'header.php'; ?>
 						11
 					</div>
 					<p class="items__text">
-						Возможность общения с друзьями в других странах
+						Активная гражданская позиция
 					</p>
 				</div>
 			</div>
@@ -275,7 +274,7 @@ include_once 'header.php'; ?>
 						12
 					</div>
 					<p class="items__text">
-						Программа учись и путешествуй
+						Преемственность поколений
 					</p>
 				</div>
 			</div>
@@ -291,8 +290,11 @@ include_once 'header.php'; ?>
 		<div class="row">
 			<div class="col-lg-12">
 				<h4 class="animate__animated programms__title">
-					С помощью программ обучения в школе развиваются лучшие качества и на примерах показываются отрицательные стороны личности:
+					Истинные ценности те, что связывают мечты одного человека с благополучием всего общества:
 				</h4>
+				<p class="text-center">
+					Какие качества соотносятся с нашими ценностями, а какие нет?
+				</p>
 			</div>
 		</div>
 		<div class="row">
@@ -301,31 +303,11 @@ include_once 'header.php'; ?>
 					<ul class="positive__list">
 						<li class="positive__item">
 							<img src="img/checkmark.png" alt="">
-							Уверенность в себе;
+							Честность;
 						</li>
 						<li class="positive__item">
 							<img src="img/checkmark.png" alt="">
-							Нацеленность на результат;
-						</li>
-						<li class="positive__item">
-							<img src="img/checkmark.png" alt="">
-							Самоконтроль и дисциплина;
-						</li>
-						<li class="positive__item">
-							<img src="img/checkmark.png" alt="">
-							Планирование и управление временем;
-						</li>
-						<li class="positive__item">
-							<img src="img/checkmark.png" alt="">
-							Трудоспособность;
-						</li>
-						<li class="positive__item">
-							<img src="img/checkmark.png" alt="">
-							Коммуникабельность;
-						</li>
-						<li class="positive__item">
-							<img src="img/checkmark.png" alt="">
-							Терпение;
+							Справедливость;
 						</li>
 						<li class="positive__item">
 							<img src="img/checkmark.png" alt="">
@@ -333,11 +315,35 @@ include_once 'header.php'; ?>
 						</li>
 						<li class="positive__item">
 							<img src="img/checkmark.png" alt="">
-							Независимость;
+							Милосердие;
 						</li>
 						<li class="positive__item">
 							<img src="img/checkmark.png" alt="">
-							Творческий подход и др.
+							Терпение;
+						</li>
+						<li class="positive__item">
+							<img src="img/checkmark.png" alt="">
+							Порядочность;
+						</li>
+						<li class="positive__item">
+							<img src="img/checkmark.png" alt="">
+							Доброта
+						</li>
+						<li class="positive__item">
+							<img src="img/checkmark.png" alt="">
+							Отзывчивость;
+						</li>
+						<li class="positive__item">
+							<img src="img/checkmark.png" alt="">
+							Целеустремлённость;
+						</li>
+						<li class="positive__item">
+							<img src="img/checkmark.png" alt="">
+							Жизнелюбие;
+						</li>
+						<li class="positive__item">
+							<img src="img/checkmark.png" alt="">
+							Забота о старших и младших.
 						</li>
 					</ul>
 				</div>
@@ -346,37 +352,37 @@ include_once 'header.php'; ?>
 				<div class="animate__animated negative">
 					<ul class="negative__list">
 						<li class="negative__item">
-							-Агрессивность
-						</li>
-						<li class="negative__item">
-							-Алчность
-						</li>
-						<li class="negative__item">
-							-Безразличие
+							-Эгоизм
 						</li>
 						<li class="negative__item">
 							-Безответственность
 						</li>
 						<li class="negative__item">
-							-Глупость
-						</li>
-						<li class="negative__item">
-							-Гордыня
-						</li>
-						<li class="negative__item">
-							-Грубость
+							-Безразличие
 						</li>
 						<li class="negative__item">
 							-Жадность
 						</li>
 						<li class="negative__item">
+							-Лживость
+						</li>
+						<li class="negative__item">
 							-Жестокость
 						</li>
 						<li class="negative__item">
-							-Злость
+							-Оскорбления
 						</li>
 						<li class="negative__item">
-							-Лживость и др.
+							-Нечестность
+						</li>
+						<li class="negative__item">
+							-Высокомерие
+						</li>
+						<li class="negative__item">
+							-Тщеславие
+						</li>
+						<li class="negative__item">
+							-Гордыня
 						</li>
 					</ul>
 				</div>
@@ -400,10 +406,13 @@ include_once 'header.php'; ?>
 						Развитие
 					</h3>
 					<p class="develop__text">
-						Мы создали по-настоящему творческую среду и возможности для разностороннего развития личности.
-					</p>
-					<p class="develop__text">
-						Человек формируется как личность еще в детском возрасте и огромную роль играет при этом школа. В процессе обучения каждый преподаватель вносит свой вклад в развитие школьника как личность. В нашей школе каждый преподаватель будет  не только обучать Вашего ребенка, но и наблюдать за Вашим ребенком, что позволит сделать личностный портрет Вашего ребенка.
+						«Первый Я» комплексно занимается развитием детей, помогая им раскрыть
+						таланты, выбрать профессию и овладеть жизненно важными навыками. Мы
+						уделяем особое внимание воспитанию нравственности, взаимопомощи и
+						осознанной гражданской ответственности. Наша деятельность нацелена
+						на поддержку детей в ответ на ключевые вызовы и запросы современного
+						общества. Через развитие потенциала каждого ребенка мы работаем на
+						укрепление человеческого капитала и созидательных сил страны.
 					</p>
 				</div>
 			</div>
@@ -419,57 +428,48 @@ include_once 'header.php'; ?>
 		<div class="row">
 			<div class="col-lg-12">
 				<h3 class="methodology__title">
-					Методика обучения
+					Мечты и желания
 				</h3>
 			</div>
 		</div>
 		<div class="row no-gutters">
 			<div class="col-lg-7">
 				<div class="method">
+					<p class="method__item_p">
+						У <strong>каждого человека</strong> есть желание или мечта.<br>
+						<strong>Исполнение</strong> каждого <strong>нашего</strong> желания зависит от наших же возможностей.
+						И вся <strong>наша жизнь</strong> направлена на то, чтобы получить те навыки и
+						способности, благодаря которым мы могли бы <strong>достичь своих мечт</strong>.<br>
+						<strong>Трудные времена</strong> приходят к каждому из нас. Но они приходят не для
+						того, чтобы остаться в вашей жизни навсегда, а для того, чтобы <strong>пройти
+							через них, закалить характер и стать увереннее</strong>.
+					</p>
 					<ul class="method__list">
 						<li class="method__item">
 							<img src="img/blue_checkmark.png" alt="">
-							Занятия проходят в игровой форме, с применением практических навыков
+							<strong>Твори</strong>,
 						</li>
 						<li class="method__item">
 							<img src="img/blue_checkmark.png" alt="">
-							Преподование на иностранном языке
+							<strong>Экспериментируй</strong>,
 						</li>
 						<li class="method__item">
 							<img src="img/blue_checkmark.png" alt="">
-							50 предметов, позволяют узнать окружающий мир
+							<strong>Ошибайся</strong>,
 						</li>
 						<li class="method__item">
 							<img src="img/blue_checkmark.png" alt="">
-							Классы из числа иностранных учащихся (Китай, Польша)
+							<strong>Совершенствуйся</strong>,
 						</li>
 						<li class="method__item">
 							<img src="img/blue_checkmark.png" alt="">
-							Пребывания в иностранных семьях
-						</li>
-						<li class="method__item">
-							<img src="img/blue_checkmark.png" alt="">
-							Практические навыки в шаговой  доступности  
-						</li>
-						<li class="method__item">
-							<img src="img/blue_checkmark.png" alt="">
-							Онлайн обучение, где старшие дети будут контролировать младших.
-						</li>
-						<li class="method__item" style="display: flex;">
-							<img src="img/blue_checkmark.png" alt="" style="height: 15px;margin-top: 3px;">
-							<div>
-								Обучение, занятия вокалом, уроки хореографии, уроки  плавания – ведутся в специальных оборудованных классах.
-							</div>
-						</li>
-						<li class="method__item" style="display: flex;">
-							<img src="img/blue_checkmark.png" alt="" style="height: 15px;margin-top: 3px;">
-							Стажировка для школьников —это возможность не только выбрать профессию, но и проверить себя.
-						</li>
-						<li class="method__item" style="display: flex;">
-							<img src="img/blue_checkmark.png" alt="" style="height: 15px;margin-top: 3px;">
-							Наполняемость учеников в классе, согласно «Кодекса об образовании» Республики Беларусь составляет не более -12 человек.
+							<strong>Добивайся желаемого</strong>.
 						</li>
 					</ul>
+					<p class="method__item_p">
+						В жизни возможно всё.<br>
+						<strong>На невозможное нужно чуть больше времени</strong>.
+					</p>
 				</div>
 			</div>
 			<div class="d-none d-md-block col-lg-5">
@@ -486,10 +486,10 @@ include_once 'header.php'; ?>
 		<div class="row">
 			<div class="col-lg-12">
 				<h3 class="animate__animated odj__title">
-					Предметы
+					Направления
 				</h3>
 				<p class="animate__animated odj__text">
-					Помимо пройденного материала в средней школе основных предметов (математики,химии, биологии, и т.д.) ведётся преподавание более 50 предметов (направлений), включающих следующее:
+					Создаём фундамент достойного будущего через развитие детей:
 				</p>
 			</div>
 		</div>
@@ -500,7 +500,7 @@ include_once 'header.php'; ?>
 						1
 					</div>
 					<p class="odject__text">
-						Выполнение домашних заданий в игровой форме 
+						Учись и познавай
 					</p>
 				</div>
 			</div>
@@ -510,7 +510,7 @@ include_once 'header.php'; ?>
 						2
 					</div>
 					<p class="odject__text">
-						Изучение иностранного языка
+						Труд и профессия
 					</p>
 				</div>
 			</div>
@@ -520,7 +520,7 @@ include_once 'header.php'; ?>
 						3
 					</div>
 					<p class="odject__text">
-						Этика семьи в игровой форме
+						Наука и технологии
 					</p>
 				</div>
 			</div>
@@ -530,7 +530,7 @@ include_once 'header.php'; ?>
 						4
 					</div>
 					<p class="odject__text">
-						Изучение основ военного дела
+						Культура и искусство
 					</p>
 				</div>
 			</div>
@@ -540,7 +540,7 @@ include_once 'header.php'; ?>
 						5
 					</div>
 					<p class="odject__text">
-						Школа выживания
+						Безопасный интернет
 					</p>
 				</div>
 			</div>
@@ -550,7 +550,7 @@ include_once 'header.php'; ?>
 						6
 					</div>
 					<p class="odject__text">
-						Решение логических задач
+						Спорт и достижения
 					</p>
 				</div>
 			</div>
@@ -560,7 +560,7 @@ include_once 'header.php'; ?>
 						7
 					</div>
 					<p class="odject__text">
-						Занятие театром, хореографией по интересам
+						Я и моё здоровье
 					</p>
 				</div>
 			</div>
@@ -570,7 +570,7 @@ include_once 'header.php'; ?>
 						8
 					</div>
 					<p class="odject__text">
-						Уроки эстетики
+						Я – лидер
 					</p>
 				</div>
 			</div>
@@ -580,7 +580,7 @@ include_once 'header.php'; ?>
 						9
 					</div>
 					<p class="odject__text">
-						Основы медицины
+						Азбука общения
 					</p>
 				</div>
 			</div>
@@ -590,7 +590,7 @@ include_once 'header.php'; ?>
 						10
 					</div>
 					<p class="odject__text">
-						Финансовая грамотность
+						Азбука успеха
 					</p>
 				</div>
 			</div>
@@ -600,7 +600,7 @@ include_once 'header.php'; ?>
 						11
 					</div>
 					<p class="odject__text">
-						Экономика
+						Закон и порядок
 					</p>
 				</div>
 			</div>
@@ -610,7 +610,7 @@ include_once 'header.php'; ?>
 						12
 					</div>
 					<p class="odject__text">
-						Моделирование
+						Занимательные финансы
 					</p>
 				</div>
 			</div>
@@ -620,7 +620,7 @@ include_once 'header.php'; ?>
 						13
 					</div>
 					<p class="odject__text">
-						Основы этикета
+						«Живое слово». Литературное творчество
 					</p>
 				</div>
 			</div>
@@ -630,7 +630,7 @@ include_once 'header.php'; ?>
 						14
 					</div>
 					<p class="odject__text">
-						Кулинарные мастер-классы
+						Журналистика
 					</p>
 				</div>
 			</div>
@@ -640,7 +640,7 @@ include_once 'header.php'; ?>
 						15
 					</div>
 					<p class="odject__text">
-						Креативное программирование
+						Международные отношения
 					</p>
 				</div>
 			</div>
@@ -650,7 +650,7 @@ include_once 'header.php'; ?>
 						16
 					</div>
 					<p class="odject__text">
-						Школа кино и блоггинга
+						Туризм и путешествия
 					</p>
 				</div>
 			</div>
@@ -660,7 +660,7 @@ include_once 'header.php'; ?>
 						17
 					</div>
 					<p class="odject__text">
-						Промышленый дизайн
+						Историческая память
 					</p>
 				</div>
 			</div>
@@ -670,7 +670,7 @@ include_once 'header.php'; ?>
 						18
 					</div>
 					<p class="odject__text">
-						Основы международной торговли
+						Территория добра
 					</p>
 				</div>
 			</div>
@@ -680,7 +680,7 @@ include_once 'header.php'; ?>
 						19
 					</div>
 					<p class="odject__text">
-						Правоведение
+						Семейные ценности
 					</p>
 				</div>
 			</div>
@@ -690,7 +690,7 @@ include_once 'header.php'; ?>
 						20
 					</div>
 					<p class="odject__text">
-						Маркетинг
+						Экология. Охрана природы
 					</p>
 				</div>
 			</div>
@@ -706,7 +706,7 @@ include_once 'header.php'; ?>
 		<div class="row">
 			<div class="col-lg-12">
 				<h4 class="animate__animated attention__ttile1">
-					Большое внимание уделяем подготовке школьников к Централизованному тестирванию по выбранным предметам
+					Не для школы, а для жизни
 				</h4>
 			</div>
 		</div>
@@ -715,16 +715,16 @@ include_once 'header.php'; ?>
 				<div class="lessons">
 					<ul class="animate__animated lessons__list">
 						<li class="lessons__item">
-							Русский язык
+							Критическое мышление
 						</li>
 						<li class="lessons__item">
-							Русская литература
+							Логическое мышление
 						</li>
 						<li class="lessons__item">
-							Белорусский язык
+							Память и внимание
 						</li>
 						<li class="lessons__item">
-							Белорусская литература
+							Физические навыки
 						</li>
 					</ul>
 				</div>
@@ -732,29 +732,29 @@ include_once 'header.php'; ?>
 			<div class="col-sm-6 col-md-4 col-lg-2">
 				<ul class="animate__animated lessons__list">
 					<li class="lessons__item">
-						Иностранный язык
+						Самоконтроль
 					</li>
 					<li class="lessons__item">
-						Математика
+						Ответственность
 					</li>
 					<li class="lessons__item">
-						История Беларуси
+						Коммуникативные навыки
 					</li>
 					<li class="lessons__item">
-						География
+						Разрешение конфликтов
 					</li>
 				</ul>
 			</div>
 			<div class="col-sm-6 col-md-4 col-lg-2">
 				<ul class="animate__animated lessons__list3">
 					<li class="lessons__item">
-						Биология
+						Работа в команде
 					</li>
 					<li class="lessons__item">
-						Физика
+						Планирование<br> и тайм-менеджмент
 					</li>
 					<li class="lessons__item">
-						Химия
+						Умение ставить цели и достигать их
 					</li>
 				</ul>
 			</div>
@@ -765,7 +765,7 @@ include_once 'header.php'; ?>
 		<div class="row">
 			<div class="col-lg-12">
 				<h4 class="animate__animated attention__ttile2">
-					Творческие и спортивные мастерские:
+					Знания или навыки, чему учить в школе?
 				</h4>
 			</div>
 		</div>
@@ -773,50 +773,35 @@ include_once 'header.php'; ?>
 			<div class="col-sm-6 col-md-4 col-lg-3">
 				<ul class="animate__animated lessons__list3">
 					<li class="lessons__item">
-						Театральная студия
-					</li>
-					<li class="lessons__item">
-						Студия Вокала
+						Креативное мышление
 					</li>
 				</ul>
 			</div>
 			<div class="col-sm-6 col-md-4 col-lg-2">
 				<ul class="animate__animated lessons__list3">
 					<li class="lessons__item">
-						Хореография
-					</li>
-					<li class="lessons__item">
-						Гончарное дело
+						Искусство и творчество
 					</li>
 				</ul>
 			</div>
 			<div class="col-sm-6 col-md-4 col-lg-3">
 				<ul class="animate__animated lessons__list3">
 					<li class="lessons__item">
-						Изобразительное искусство
+						Инновационное мышление
 					</li>
-					<li class="lessons__item">
-						Школа Сказки
-					</li>
-				</ul>				
+				</ul>
 			</div>
 			<div class="col-sm-6 col-md-4 col-lg-1">
 				<ul class="animate__animated lessons__list3">
 					<li class="lessons__item">
-						Бассейн
-					</li>
-					<li class="lessons__item">
-						Фитнес
+						Инициативность
 					</li>
 				</ul>
 			</div>
 			<div class="col-sm-6 col-md-4 col-lg-2 offset-lg-1">
 				<ul class="animate__animated lessons__list3">
 					<li class="animate__animated lessons__item">
-						Теннис
-					</li>
-					<li class="lessons__item">
-						Боевые искусства
+						Правильное питание и режим
 					</li>
 				</ul>
 			</div>
@@ -836,31 +821,32 @@ include_once 'header.php'; ?>
 			<div class="col-lg-5 ml-auto">
 				<div class="animate__animated comunication__list">
 					<h3 class="comunication__title">
-						Коммуникации
+						Возможности
 					</h3>
 					<p class="comunication__text">
-						Международная школа нового формата «Я»  – не просто школа. Это совокупность активностей, курсов и мероприятий для развития полезных социальных навыков и индивидуальности у детей
+						<strong>Готов к приключениям?</strong> Мы ждём тебя! <strong>«Первый Я»</strong> —
+						это не скучные собрания, а <strong>драйв, идеи и реальные дела</strong>!
 					</p>
 					<div class="comunication__help">
 						<h5>
-							Программа помогает:
+							У нас можно:
 						</h5>
 						<ul class="comunication__items">
 							<li class="comunication__item">
 								<img src="img/blue_checkmark.png" alt="">
-								развивать личность;
+								<strong>Найти друзей</strong>, которые разделяют твои интересы.
 							</li>
 							<li class="comunication__item">
 								<img src="img/blue_checkmark.png" alt="">
-								развивать уверенность в себе;
+								<strong>Прокачать навыки</strong> от публичных выступлений до основ бизнеса.
 							</li>
 							<li class="comunication__item">
 								<img src="img/blue_checkmark.png" alt="">
-								уметь делать выбор;
+								<strong>Участвовать в крутых проектах</strong> и даже получать гранты на свои идеи.
 							</li>
 							<li class="comunication__item">
 								<img src="img/blue_checkmark.png" alt="">
-								уметь планировать
+								<strong>Стать частью команды</strong>, которая не боится мечтать и действовать.
 							</li>
 						</ul>
 					</div>
@@ -889,7 +875,11 @@ include_once 'header.php'; ?>
 			<div class="col-lg-7">
 				<div class="prospect">
 					<p class="prospects__text">
-						Однажды Ваш ребенок вырастет, найдет свой путь в жизни и добьется многого. Так и будет. Это обязательно случится, ведь именно ради счастливой судьбы своего чада мы с вами прикладываем столько усилий. И каким вырастит Ваш ребенок- зависит именно от Вас.
+						Однажды Ваш ребенок вырастет, найдет свой путь в жизни
+						и добьется многого. Так и будет. Это обязательно случится,
+						ведь именно ради счастливой судьбы своего чада мы с вами
+						прикладываем столько усилий. И, каким станет Ваш ребенок,
+						зависит именно от Вас.
 					</p>
 					<p class="prospects__text2">
 						Самые лучшие инвестиции, инвестиции в своих собственных детей.
@@ -903,5 +893,34 @@ include_once 'header.php'; ?>
 	</div>
 </section>
 <!---End Prospects--->
+
+<!---Questions--->
+<section id="questions" class="questions">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="d-none d-md-block col-lg-6">
+				<div class="bg_question"></div>
+			</div>
+			<div class="col-lg-6">
+				<div class="animate__animated form">
+					<h2 class="form__title">
+						Стать участником
+					</h2>
+					<p class="form__text">
+						Укажите свой номер телефона, <br>мы свяжемся с вами!
+					</p>
+					<input type="tel" class="phone" name="phone" placeholder="Ваш телефон">
+					<a href="#" class="form__button">
+						Отправить заявку
+					</a>
+				</div>
+			</div>
+			<div class="d-md-none col-lg-6">
+				<div class="bg_question-mob"></div>
+			</div>
+		</div>
+	</div>
+</section>
+<!---End Questions--->
 
 <?php include_once 'footer.php'; ?>

@@ -54,7 +54,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="/podgotovka-k-shkole" class="menu__link">
+                    <a href="/vacancy" class="menu__link">
                         Наставникам
                     </a>
                 </li>
@@ -259,7 +259,7 @@
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="/podgotovka-k-shkole" class="menu__link">
+                                    <a href="/vacancy" class="menu__link">
                                         Наставникам
                                     </a>
                                 </li>

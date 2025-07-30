@@ -30,7 +30,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="/podgotovka-k-shkole">
+                                <a href="/vacancy">
                                     Наставникам
                                 </a>
                             </li>

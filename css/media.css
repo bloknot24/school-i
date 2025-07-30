@@ -98,7 +98,7 @@
         height: 1360px;
     }
     .exams-child {
-        background: url(../img/child.png) no-repeat center center;
+        background: url(../img/family.png) no-repeat center center;
         height: 600px;
     }
     .ticket__title {
@@ -415,7 +415,7 @@
         font-size: 19px;
     }
     .exams-child {
-        background: url(../img/child.png) no-repeat center center;
+        background: url(../img/family.png) no-repeat center center;
         height: 713px;
     }
     .exams h3 {
