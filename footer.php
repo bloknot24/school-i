@@ -56,8 +56,13 @@
                         </h6>
                         <ul class="menu-left__item">
                             <li>
+                                <a href="/good">
+                                    Добрые дела
+                                </a>
+                            </li>
+                            <li>
                                 <a href="/pay">
-                                    Оплата
+                                    Порядок оплаты
                                 </a>
                             </li>
                             <li>

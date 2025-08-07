@@ -59,7 +59,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="/pay" class="menu__link">
+                    <a href="/parents" class="menu__link">
                         Родителям
                     </a>
                 </li>
@@ -264,7 +264,7 @@
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="/pay" class="menu__link">
+                                    <a href="/parents" class="menu__link">
                                         Родителям
                                     </a>
                                 </li>

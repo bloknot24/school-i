@@ -2794,7 +2794,7 @@ header button {
 /*Try-it*/
 
 .try-it {
-	padding-top: 60px;
+	padding-top: 30px;
 	padding-bottom: 55px;
 }
 .try-it h3 {
@@ -5019,4 +5019,70 @@ header button {
 	font-size: 17px;
 	font-weight: 400;
 	margin: 20px 0px;
+}
+
+.private-school__benefits-head {
+	margin: 50px auto 30px auto;
+}
+
+.private-school__benefits-head-text {
+	font-size: 36px;
+	font-weight: 600;
+}
+
+.private-school__benefits-box {
+	display: flex;
+}
+
+.private-school__benefits-box-numeral {
+	font-size: 100px;
+	font-weight: 800;
+	margin-right: 15px;
+}
+
+.private-school__benefits-box-text {
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 20px;
+	margin-top: 37px;
+}
+
+.private-school__benefits-box-link-text {
+	background: #8ed6cb;
+	padding: 20px 30px;
+	display: inline;
+	font-size: 22px;
+	color: #ffffff;
+	font-weight: bold;
+}
+
+.private-school__benefits-box-link-text:hover {
+	background: #ffffff;
+	border: 2px solid #8ed6cb;
+	color: #8ed6cb;
+}
+
+.private-school__benefits-link {
+	margin-top: 30px;
+	padding-bottom: 60px;
+}
+
+.private-school__benefits-box-link-span {
+	display: inline;
+}
+
+.private-school__benefits-box-link-text-two {
+	background: #da91c1;;
+	padding: 20px 30px;
+	display: inline;
+	font-size: 22px;
+	color: #ffffff;
+	font-weight: bold;
+}
+
+.private-school__benefits-box-link-text-two:hover {
+	background: #ffffff;
+	border: 2px solid #da91c1;;
+	color: #da91c1;
+	padding: 18px 28px;
 }
