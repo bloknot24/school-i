@@ -8,7 +8,7 @@
                         <img src="img/logo_green.png" alt="logo">
                     </a>
                     <p class="logo-footer__text">
-                        Обеспечение жизненного опыта через образование. Обучение, которое подходит для Вашего ребенка в шаговой доступности.
+                        Обеспечение жизненного опыта через диалог поколений и взаимное уважение.
                     </p>
                 </div>
             </div>
@@ -16,7 +16,7 @@
                 <div class="footer-menu">
                     <nav class="menu-left">
                         <h6>
-                            Гибкое обучение
+                            Участникам
                         </h6>
                         <ul class="menu-left__item">
                             <li>
@@ -40,8 +40,13 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="/camp">
-                                    Детский отдых
+                                <a href="/good">
+                                    Добрые дела
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/parents">
+                                    Родителям
                                 </a>
                             </li>
                         </ul>
@@ -52,17 +57,17 @@
                 <div class="footer-menu">
                     <nav class="menu-right">
                         <h6>
-                            Для родителей
+                            Информация
                         </h6>
                         <ul class="menu-left__item">
                             <li>
-                                <a href="/good">
-                                    Добрые дела
+                                <a href="/documents/to-investors.pdf">
+                                    Инвесторам
                                 </a>
                             </li>
                             <li>
                                 <a href="/pay">
-                                    Порядок оплаты
+                                    Оплата
                                 </a>
                             </li>
                             <li>
@@ -75,16 +80,11 @@
                                     Сотрудничество
                                 </a>
                             </li> -->
-                            <li>
+                            <!-- <li>
                                 <a href="/vacancy">
                                     Вакансии
                                 </a>
-                            </li>
-                            <li>
-                                <a href="/documents/to-investors.pdf">
-                                    Инвесторам
-                                </a>
-                            </li>
+                            </li> -->
                         </ul>
                     </nav>
                 </div>
@@ -92,7 +92,7 @@
             <div class="d-none d-md-block col-md-12 col-lg-3">
                 <div class="map">
                     <h6>
-                        Учись и путешествуй
+                        Трудись и путешествуй
                     </h6>
                     <img src="img/map.png" alt="">
                 </div>
@@ -108,9 +108,9 @@
                         </a>
                     </div>
                     <div class="contacs__email contacs__email-footer">
-                        <a href="mailto:yourmail@mysite.com" class="call">
+                        <a href="mailto:prime1ya@yandex.ru" class="call">
                             <img src="img/message.png" alt="call">
-                            byschoolby@gmail.com
+                            prime1ya@yandex.ru
                         </a>
                     </div>
                     <!-- <div class="contacs__clock">

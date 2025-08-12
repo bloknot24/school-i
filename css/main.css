@@ -5086,3 +5086,33 @@ header button {
 	color: #da91c1;
 	padding: 18px 28px;
 }
+
+.block-img-1-text {
+	font-size: 44px;
+	font-weight: 600;
+	color: #fa5f37;
+	line-height: 48px;
+	margin-top: 133px;
+}
+
+.block-img-2-text {
+	font-size: 14px;
+	font-weight: 500;
+	color: #a687dc;
+}
+
+.private-school__benefits-box-link-text-three {
+	background: #86d0fa;
+	padding: 20px 30px;
+	display: inline;
+	font-size: 22px;
+	color: #ffffff;
+	font-weight: bold;
+}
+
+.private-school__benefits-box-link-text-three:hover {
+	background: #ffffff;
+	border: 2px solid #86d0fa;
+	color: #86d0fa;
+	padding: 18px 28px;
+}

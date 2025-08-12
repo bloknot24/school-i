@@ -26,7 +26,7 @@ include_once 'header.php'; ?>
                         Круговорот желаний
                     </h1>
                     <p class="cycle__esires_index_head_description">
-                        Познавательно-развлекательный проект для<br> учащихся 3-9 классов
+                        Познавательно-развлекательный проект для детей от 9 до 16 лет
                     </p>
                     <a href="#cycle__esires_form" class="cycle__esires_index_link">Записаться</a>
                 </div>
@@ -41,7 +41,7 @@ include_once 'header.php'; ?>
         <div class="row">
             <div class="col-12">
                 <h2 class="cycle__esires_head2 cycle__esires_your_child_head text-center">
-                    Ваш ребенок
+                    Ваш ребёнок
                 </h2>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-6 col-6">
@@ -162,8 +162,7 @@ include_once 'header.php'; ?>
                 <div class="cycle__esires_we_create_block">
                     <img src="img/cycle-desires/img_we_create3.png" class="cycle__esires_we_create_block_img" alt="Картинка">
                     <p class="cycle__esires_we_create_block_text">
-                        Повышение успеваемость в школе,<br> мотивация к самореализации<br> и саморазвитию
-                    </p>
+                        Повышение успеваемость в школе,<br> мотивация к самореализации<br> и саморазвитию </p>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 col-sm-12">
@@ -178,7 +177,7 @@ include_once 'header.php'; ?>
                 <div class="cycle__esires_we_create_block">
                     <img src="img/cycle-desires/img_we_create5.png" class="cycle__esires_we_create_block_img" alt="Картинка">
                     <p class="cycle__esires_we_create_block_text">
-                        Укрепление правовой грамотности
+                        Укрепление правовой грамотности<br> и этических основ
                     </p>
                 </div>
             </div>
@@ -258,10 +257,10 @@ include_once 'header.php'; ?>
                 <div class="cycle__esires_education_travel_block">
                     <img src="img/cycle-desires/frame2.svg" class="cycle__esires_education_travel_block_img" alt="Иконка">
                     <h4 class="cycle__esires_education_travel_block_head">
-                        Этика социальных отношений
+                        Этика семейных и социальных отношений
                     </h4>
                     <p class="cycle__esires_education_travel_block_text">
-                        Разрешение споров и конфликтных ситуаций, а также механизмы восприятия и взаимодействия между людьми.
+                        Разрешение споров и конфликтных ситуаций, а также механизмы восприятия и взаимодействия внутри семьи и между людьми.
                     </p>
                 </div>
             </div>
@@ -294,7 +293,7 @@ include_once 'header.php'; ?>
                         Юридическая грамотность
                     </h4>
                     <p class="cycle__esires_education_travel_block_text">
-                        Все, что нужно знать об «Интернетном» праве, правах потребителя, семейном праве и многом другом.
+                        Всё, что нужно знать об обязанностях и правах в Интернете, правах потребителя, семейном и трудовом праве и многом другом.
                     </p>
                 </div>
             </div>
@@ -324,10 +323,10 @@ include_once 'header.php'; ?>
                 <div class="cycle__esires_education_travel_block">
                     <img src="img/cycle-desires/frame8.svg" class="cycle__esires_education_travel_block_img" alt="Иконка">
                     <h4 class="cycle__esires_education_travel_block_head">
-                        Международный язык жестов и международные языки в туризме
+                        Основы работы с нейросетями
                     </h4>
                     <p class="cycle__esires_education_travel_block_text">
-                        Как не потеряться и узнать информацию в другой стране.
+                        Применение ИИ для генерации и визуализации идей и анализа информации, формирование навыков будущего.
                     </p>
                 </div>
             </div>
@@ -368,10 +367,10 @@ include_once 'header.php'; ?>
                 <div class="cycle__esires_education_travel_block">
                     <img src="img/cycle-desires/frame12.svg" class="cycle__esires_education_travel_block_img" alt="Иконка">
                     <h4 class="cycle__esires_education_travel_block_head">
-                        Туристическое ориентирование
+                        Фотография «с нуля»
                     </h4>
                     <p class="cycle__esires_education_travel_block_text">
-                        Чтение карты, изучение устройств для навигации, движение по азимуту, как найти дорогу домой.
+                        Объединяет в себе творчество, техническое мастерство и умение видеть прекрасное.
                     </p>
                 </div>
             </div>
@@ -459,34 +458,33 @@ include_once 'header.php'; ?>
             </div>
             <div class="col-12 text-center">
                 <h4 class="cycle__esires_format_group_head">
-                    Расписание занятий
+                    Расписание
                 </h4>
             </div>
             <div class="col-lg-3 col-md-3 col-sm-6 col-6">
                 <p class="cycle__esires_format_group_block" id="format_group_block1" style="background: #FCD96A;">
-                    3-4 класс
+                    9-10 лет
                 </p>
             </div>
             <div class="col-lg-3 col-md-3 col-sm-6 col-6" style="color: #fff;">
                 <p class="cycle__esires_format_group_block" id="format_group_block2" style="background: #B769F1;">
-                    5-6 класс
+                    11-12 лет
                 </p>
             </div>
             <div class="col-lg-3 col-md-3 col-sm-6 col-6">
                 <p class="cycle__esires_format_group_block" id="format_group_block3" style="background: #00E6A6;">
-                    7-8 класс
+                    13-14 лет
                 </p>
             </div>
             <div class="col-lg-3 col-md-3 col-sm-6 col-6" style="color: #fff;">
                 <p class="cycle__esires_format_group_block" id="format_group_block4" style="background: #00C8DF;">
-                    9 класс
+                    15-16 лет
                 </p>
             </div>
             <div class="col-12">
                 <p class="cycle__esires_format_group_text text-center">
-                    Предусмотрено посещение музеев, галерей, выставок
-                    и других интересных мест, а также походы и задания
-                    по ориентированию на местности.
+                    Предусмотрено посещение музеев, галерей, выставок, производственных предприятий,
+                    а также квесты и походы.
                 </p>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-6 d-none d-lg-block d-xl-block d-xxl-block d-md-block d-sm-block">
@@ -500,13 +498,13 @@ include_once 'header.php'; ?>
             </div>
             <div class="col-12">
                 <p class="cycle__esires_format_group_text3 text-center">
-                    Количество занятий в месяц
+                    Количество занятий
                 </p>
                 <p class="cycle__esires_format_group_text2">
-                    8 академических часов
+                    Одно занятие в неделю
                 </p>
                 <p class="cycle__esires_format_group_text5">
-                    8 академических часов
+                    Одно занятие в неделю
                 </p>
             </div>
             <div class="col-lg-6 col-md-6 col-sm-6 d-none d-lg-block d-xl-block d-xxl-block d-md-block d-sm-block">
@@ -539,13 +537,15 @@ include_once 'header.php'; ?>
                 <img src="img/cycle-desires/shape11.svg" class="cycle__esires_price_shape1" alt="Фигуры">
                 <img src="img/cycle-desires/shape12.svg" class="cycle__esires_price_shape2" alt=" Фигуры">
                 <h2 class="cycle__esires_head2 cycle__esires_format_head text-center">
-                    Стоимость услуг
+                    Стоимость занятий
                 </h2>
                 <p class="cycle__esires_price_index_text">
-                    110 рублей - 8 академических часов в месяц
+                    БЕСПЛАТНО
                 </p>
                 <p class="cycle__esires_price_add_text upper">
-                    *Стоимость входных билетов в музеи и выставки оплачиваются заказчиком дополнительно.
+                    *Проведение квестов и транспортные расходы оплачиваются дополнительно.<br><br>
+
+                    **Стоимость входных билетов в музеи и выставки оплачиваются заказчиком дополнительно.
                 </p>
             </div>
             <div class="col-12">
@@ -582,7 +582,7 @@ include_once 'header.php'; ?>
                 <img src="img/cycle-desires/img_bonus1.svg" class="cycle__esires_bonus2_img_bonus1" alt="Иконка">
             </div>
             <div class="col-lg-6 col-md-6 col-sm-6 col-6 text-center">
-                <img src="img/cycle-desires/img_bonus2.svg" class="cycle__esires_bonus2_img_bonus2" alt="Иконка">
+                <img src="img/cycle-desires/img_bonus2-1.svg" class="cycle__esires_bonus2_img_bonus2" alt="Иконка">
             </div>
             <div class="col-12">
                 <p class="cycle__esires_bonus2_text1">
@@ -609,7 +609,7 @@ include_once 'header.php'; ?>
                         </p>
                     </div>
                 </div>
-                <div class="col-12 text-center">
+                <!-- <div class="col-12 text-center">
                     <div class="cycle__esires_bonus2_box_block2">
                         <p class="cycle__esires_bonus2_box_text4">
                             Собери 60 наклеек и получи 7-дневный отдых в летнем
@@ -621,7 +621,7 @@ include_once 'header.php'; ?>
                         <img src="img/cycle-desires/shape13.svg" class="cycle__esires_bonus2_box_block2_shape1" alt="Фигуры">
                         <img src="img/cycle-desires/shape14.svg" class="cycle__esires_bonus2_box_block2_shape2" alt=" Фигуры">
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
 </section>
@@ -679,7 +679,8 @@ include_once 'header.php'; ?>
                         Остались вопросы?
                     </p>
                     <p class="cycle__esires_form_block2_text2 flex-row-reverse">
-                        Оставьте свой номер телефона,<br> и мы вам перезвоним!
+                        Укажите свой номер телефона,<br>
+                        и мы вам перезвоним!
                     </p>
                     <?php $headMail = 'Письмо - круговорот желаний';
                     include_once '../widgets/mail/mail-cycle-esires.php';
@@ -751,7 +752,7 @@ include_once 'header.php'; ?>
                 <div class="col-lg-4 col-md-12">
                     <div class="cycle__esires_popap_block_lessons" style="border: 7px solid #FFE500;">
                         <h4 class="cycle__esires_popap_block_lessons_head">
-                            Занятия в классе
+                            Проведение квестов
                         </h4>
                         <p class="cycle__esires_popap_block_lessons_text1">
                             Дни на выбор
@@ -763,7 +764,7 @@ include_once 'header.php'; ?>
                 </div>
                 <div class="col-12">
                     <h3 class="cycle__esires_popap_head2">
-                        В рамках данного проекта – Одно занятие – <b>бесплатно!</b>
+                        В рамках данного проекта консультация с наставником бесплатно!
                     </h3>
                     <p class="cycle__esires_popap_education_text">Комплексное изучение следующих направлений:</p>
                 </div>
@@ -784,7 +785,7 @@ include_once 'header.php'; ?>
                         <li class="cycle__esires_popap_education_list_item">
                             <img src="img/cycle-desires/check.svg" class="cycle__esires_popap_education_list_item_img" alt="Галочка">
                             <p class="cycle__esires_popap_education_list_item_text">
-                                Психология;
+                                Фотография;
                             </p>
                         </li>
                         <li class="cycle__esires_popap_education_list_item">
@@ -839,7 +840,7 @@ include_once 'header.php'; ?>
                         <li class="cycle__esires_popap_education_list_item">
                             <img src="img/cycle-desires/check.svg" class="cycle__esires_popap_education_list_item_img" alt="Галочка">
                             <p class="cycle__esires_popap_education_list_item_text">
-                                Международный язык<br> жестов и международные<br> языки в туризме;
+                                Основы работы<br> с нейросетями;
                             </p>
                         </li>
                         <li class="cycle__esires_popap_education_list_item">
@@ -863,9 +864,9 @@ include_once 'header.php'; ?>
                     </ul>
                 </div>
                 <div class="col-12">
-                    <p class="cycle__esires_popap_text">
+                    <!-- <p class="cycle__esires_popap_text">
                         Дефиле – по желанию
-                    </p>
+                    </p> -->
                     <p class="cycle__esires_popap_text2">
                         По окончанию проекта проводится отчетный концерт.
                     </p>
@@ -918,7 +919,7 @@ include_once 'header.php'; ?>
                 <div class="col-lg-4 col-md-12">
                     <div class="cycle__esires_popap_block_lessons" style="border: 7px solid #B769F1;">
                         <h4 class="cycle__esires_popap_block_lessons_head">
-                            Занятия в классе
+                            Проведение квестов
                         </h4>
                         <p class="cycle__esires_popap_block_lessons_text1">
                             Дни на выбор
@@ -930,7 +931,7 @@ include_once 'header.php'; ?>
                 </div>
                 <div class="col-12">
                     <h3 class="cycle__esires_popap_head2">
-                        В рамках данного проекта – Одно занятие – <b>бесплатно!</b>
+                        В рамках данного проекта консультация с наставником бесплатно!
                     </h3>
                     <p class="cycle__esires_popap_education_text">Комплексное изучение следующих направлений:</p>
                 </div>
@@ -951,7 +952,7 @@ include_once 'header.php'; ?>
                         <li class="cycle__esires_popap_education_list_item">
                             <img src="img/cycle-desires/check.svg" class="cycle__esires_popap_education_list_item_img" alt="Галочка">
                             <p class="cycle__esires_popap_education_list_item_text">
-                                Психология;
+                                Фотография;
                             </p>
                         </li>
                         <li class="cycle__esires_popap_education_list_item">
@@ -1006,7 +1007,7 @@ include_once 'header.php'; ?>
                         <li class="cycle__esires_popap_education_list_item">
                             <img src="img/cycle-desires/check.svg" class="cycle__esires_popap_education_list_item_img" alt="Галочка">
                             <p class="cycle__esires_popap_education_list_item_text">
-                                Международный язык<br> жестов и международные<br> языки в туризме;
+                                Основы работы<br> с нейросетями;
                             </p>
                         </li>
                         <li class="cycle__esires_popap_education_list_item">
@@ -1030,9 +1031,6 @@ include_once 'header.php'; ?>
                     </ul>
                 </div>
                 <div class="col-12">
-                    <p class="cycle__esires_popap_text">
-                        Дефиле – по желанию
-                    </p>
                     <p class="cycle__esires_popap_text2">
                         По окончанию проекта проводится отчетный концерт.
                     </p>
@@ -1085,7 +1083,7 @@ include_once 'header.php'; ?>
                 <div class="col-lg-4 col-md-12">
                     <div class="cycle__esires_popap_block_lessons" style="border: 7px solid #00E6A6;">
                         <h4 class="cycle__esires_popap_block_lessons_head">
-                            Занятия в классе
+                            Проведение квестов
                         </h4>
                         <p class="cycle__esires_popap_block_lessons_text1">
                             Дни на выбор
@@ -1097,7 +1095,7 @@ include_once 'header.php'; ?>
                 </div>
                 <div class="col-12">
                     <h3 class="cycle__esires_popap_head2">
-                        В рамках данного проекта – Одно занятие – <b>бесплатно!</b>
+                        В рамках данного проекта консультация с наставником бесплатно!
                     </h3>
                     <p class="cycle__esires_popap_education_text">Комплексное изучение следующих направлений:</p>
                 </div>
@@ -1118,7 +1116,7 @@ include_once 'header.php'; ?>
                         <li class="cycle__esires_popap_education_list_item">
                             <img src="img/cycle-desires/check.svg" class="cycle__esires_popap_education_list_item_img" alt="Галочка">
                             <p class="cycle__esires_popap_education_list_item_text">
-                                Психология;
+                                Фотография;
                             </p>
                         </li>
                         <li class="cycle__esires_popap_education_list_item">
@@ -1173,7 +1171,7 @@ include_once 'header.php'; ?>
                         <li class="cycle__esires_popap_education_list_item">
                             <img src="img/cycle-desires/check.svg" class="cycle__esires_popap_education_list_item_img" alt="Галочка">
                             <p class="cycle__esires_popap_education_list_item_text">
-                                Международный язык<br> жестов и международные<br> языки в туризме;
+                                Основы работы<br> с нейросетями;
                             </p>
                         </li>
                         <li class="cycle__esires_popap_education_list_item">
@@ -1197,9 +1195,6 @@ include_once 'header.php'; ?>
                     </ul>
                 </div>
                 <div class="col-12">
-                    <p class="cycle__esires_popap_text">
-                        Дефиле – по желанию
-                    </p>
                     <p class="cycle__esires_popap_text2">
                         По окончанию проекта проводится отчетный концерт.
                     </p>
@@ -1252,7 +1247,7 @@ include_once 'header.php'; ?>
                 <div class="col-lg-4 col-md-12">
                     <div class="cycle__esires_popap_block_lessons" style="border: 7px solid #00C8DF;">
                         <h4 class="cycle__esires_popap_block_lessons_head">
-                            Занятия в классе
+                            Проведение квестов
                         </h4>
                         <p class="cycle__esires_popap_block_lessons_text1">
                             Дни на выбор
@@ -1264,7 +1259,7 @@ include_once 'header.php'; ?>
                 </div>
                 <div class="col-12">
                     <h3 class="cycle__esires_popap_head2">
-                        В рамках данного проекта – Одно занятие – <b>бесплатно!</b>
+                        В рамках данного проекта консультация с наставником бесплатно!
                     </h3>
                     <p class="cycle__esires_popap_education_text">Комплексное изучение следующих направлений:</p>
                 </div>
@@ -1285,7 +1280,7 @@ include_once 'header.php'; ?>
                         <li class="cycle__esires_popap_education_list_item">
                             <img src="img/cycle-desires/check.svg" class="cycle__esires_popap_education_list_item_img" alt="Галочка">
                             <p class="cycle__esires_popap_education_list_item_text">
-                                Психология;
+                                Фотография;
                             </p>
                         </li>
                         <li class="cycle__esires_popap_education_list_item">
@@ -1340,7 +1335,7 @@ include_once 'header.php'; ?>
                         <li class="cycle__esires_popap_education_list_item">
                             <img src="img/cycle-desires/check.svg" class="cycle__esires_popap_education_list_item_img" alt="Галочка">
                             <p class="cycle__esires_popap_education_list_item_text">
-                                Международный язык<br> жестов и международные<br> языки в туризме;
+                                Основы работы<br> с нейросетями;
                             </p>
                         </li>
                         <li class="cycle__esires_popap_education_list_item">
@@ -1364,9 +1359,6 @@ include_once 'header.php'; ?>
                     </ul>
                 </div>
                 <div class="col-12">
-                    <p class="cycle__esires_popap_text">
-                        Дефиле – по желанию
-                    </p>
                     <p class="cycle__esires_popap_text2">
                         По окончанию проекта проводится отчетный концерт.
                     </p>

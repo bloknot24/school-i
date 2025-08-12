@@ -875,6 +875,16 @@
     .cycle__esires_popap_block_lessons {
         margin: 10px auto;
     }
+    .block-img-1 {
+        text-align: center;
+    }
+    .block-img-1-text {
+        text-align: center;
+        margin: 20px auto;
+    }
+    .block-img-2-text {
+        text-align: center;
+    }
 }
 
 /* -------------- 576-768px ---------------- */
@@ -1216,6 +1226,9 @@
     }
     .training .slick-next {
         display: none !important;
+    }
+    .block-img-1 img {
+        width: 100%;
     }
 }   
 
@@ -2017,5 +2030,8 @@
     }
     .read-more-state2:checked~.read-more-wrap2 .read-more-target2 {
         font-size: initial;
+    }
+    .block-img-1-text {
+        font-size: 30px;
     }
 }
