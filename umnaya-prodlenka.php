@@ -7,8 +7,8 @@ include_once 'header.php'; ?>
     <img src="img/create_page.png" style="width: 290px; margin: 30px auto;" alt="Картинка">
 </div> -->
 
-<!---Vacancy-International--->
-<section id="international" class="international vacancy-international">
+<!---International--->
+<section id="international" class="international">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
@@ -56,7 +56,7 @@ include_once 'header.php'; ?>
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div style="margin: 20px 0px 30px 0px; font-size: 18px; text-align: center;">
+                <div style="margin: 20px 0px 30px 0px; font-size: 18px;">
                     <p>
                         <strong style="color: red; display: inline;">«Первый Я»</strong> <b>—
                             это твоя команда</b> друзей и наставников. <b>Вместе</b> мы учимся быть <b>сильными,
@@ -92,7 +92,7 @@ include_once 'header.php'; ?>
                         <h5>
                             Семья и здоровье
                         </h5>
-                        <a href="/podgotovka-k-shkole">
+                        <a href="/mission">
                             Читать далее
                         </a>
                     </div>

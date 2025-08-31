@@ -1749,7 +1749,7 @@
         padding-bottom: 10px;
     }
     .try-it h2 {
-        font-size: 36px;
+        font-size: 29px;
     }
     .container-bottom {
         margin: 0;
@@ -1778,6 +1778,9 @@
     .bg_question-mob {
         height: 190px;
         background: url(../img/bg_cond2_mob.png) no-repeat center center;
+    }
+    .private-school__benefits-box-text {
+        font-size: 18px;
     }
     .bg-good {
         display: none;

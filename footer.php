@@ -151,28 +151,33 @@
                 </h6>
                 <ul class="links links-footer">
                     <li class="links__item">
-                        <a href="https://vk.com/novashkolaya" class="links__icon" target="_blank">
+                        <a href="https://vk.com/prime1ya?from=groups" class="links__icon" target="_blank">
                             <img src="img/f-vk.png" alt="Иконка">
                         </a>
                     </li>
                     <li class="links__item">
-                        <a href="https://www.instagram.com/novashkolaya/" class="links__icon" target="_blank">
+                        <a href="https://www.instagram.com/prime1ya/profilecard/?igsh=OXlwbjdlZHU0bnMw" class="links__icon" target="_blank">
                             <img src="img/f-inst.png" alt="Иконка">
                         </a>
                     </li>
                     <li class="links__item">
-                        <a href="https://www.facebook.com/novashkolaya" class="links__icon" target="_blank">
+                        <a href="https://www.facebook.com/share/1AqB9bygtt/" class="links__icon" target="_blank">
                             <img src="img/f-fac.png" alt="Иконка">
                         </a>
                     </li>
                     <li class="links__item">
-                        <a href="https://t.me/novashkolaya" class="links__icon" target="_blank">
+                        <a href="https://t.me/prime1ya" class="links__icon" target="_blank">
                             <img src="img/f-teleg.png" alt="Иконка">
                         </a>
                     </li>
                     <li class="links__item">
                         <a href="https://www.youtube.com/channel/UCPB2skoU5pN50DQfkWpmVCQ?view_as=subscriber" class="links__icon" target="_blank">
                             <img src="img/f-you.png" alt="Иконка">
+                        </a>
+                    </li>
+                    <li class="links__item">
+                        <a href="https://www.tiktok.com/@prime1ya?_t=ZM-8yuvczxZXEc&_r=1" class="links__icon" target="_blank">
+                            <img src="img/f-tiktok.png" alt="Иконка">
                         </a>
                     </li>
                     <!-- <li class="links__item">

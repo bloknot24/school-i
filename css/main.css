@@ -4952,7 +4952,7 @@ header button {
 	font-size: 24px;
 	font-weight: 700;
 	line-height: normal;
-	margin: 50px auto 20px auto;
+	margin: 0px auto 20px auto;
 }
 .cycle__esires_popap_education_text {
 	text-align: center;
@@ -4990,6 +4990,13 @@ header button {
 	font-weight: 700;
 	line-height: normal;
 	margin: 0px auto 30px auto;
+}
+.cycle__esires_popap_education_text_dop {
+	color: #D75AF7;
+	font-size: 16px;
+	font-weight: 600;
+	text-align: center;
+	margin-top: 15px;
 }
 .box-modal_cycle_esires {
 	background-color: #fff;
@@ -5096,8 +5103,8 @@ header button {
 }
 
 .block-img-2-text {
-	font-size: 14px;
-	font-weight: 500;
+	font-size: 19px;
+	font-weight: 600;
 	color: #a687dc;
 }
 

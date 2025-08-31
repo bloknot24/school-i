@@ -10,6 +10,8 @@
     <meta name="yandex-verification" content="ad173a64e4c20704">
     <title><?= $title; ?></title>
     <meta name="description" content="<?= $description; ?>">
+    <meta property="og:title" content="Первый Я">
+    <meta property="og:description" content="Первый Я - объединение участников и наставников, для роста поколения, способного создать достойное будущее для себя и счастливую жизнь для всех поколений страны.">
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <link rel="stylesheet" href="css/normalize.css">
     <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
@@ -118,6 +120,11 @@
                     </ul>
                 </li> -->
                 <li>
+                    <a href="/good" class="menu__link">
+                        Добрые дела
+                    </a>
+                </li>
+                <li>
                     <a href="/camp" class="menu__link">
                         Детский отдых
                     </a>
@@ -151,28 +158,33 @@
                         <div class="social-links">
                             <ul class="links">
                                 <li class="links__item">
-                                    <a href="https://vk.com/novashkolaya" target="_blank" class="links__icon">
+                                    <a href="https://vk.com/prime1ya?from=groups" target="_blank" class="links__icon">
                                         <img src="img/vk.png" alt="Иконка">
                                     </a>
                                 </li>
                                 <li class="links__item">
-                                    <a href="https://www.instagram.com/novashkolaya/" target="_blank" class="links__icon">
+                                    <a href="https://www.instagram.com/prime1ya/profilecard/?igsh=OXlwbjdlZHU0bnMw" target="_blank" class="links__icon">
                                         <img src="img/instagramm.png" alt="Иконка">
                                     </a>
                                 </li>
                                 <li class="links__item">
-                                    <a href="https://www.facebook.com/novashkolaya" target="_blank" class="links__icon">
+                                    <a href="https://www.facebook.com/share/1AqB9bygtt/" target="_blank" class="links__icon">
                                         <img src="img/fasebook.png" alt="Иконка">
                                     </a>
                                 </li>
                                 <li class="links__item">
-                                    <a href="https://t.me/novashkolaya" target="_blank" class="links__icon">
+                                    <a href="https://t.me/prime1ya" target="_blank" class="links__icon">
                                         <img src="img/teleg.png" alt="Иконка">
                                     </a>
                                 </li>
                                 <li class="links__item">
                                     <a href="https://www.youtube.com/channel/UCPB2skoU5pN50DQfkWpmVCQ?view_as=subscriber" class="links__icon" target="_blank">
                                         <img src="img/youtube.png" alt="Иконка">
+                                    </a>
+                                </li>
+                                <li class="links__item">
+                                    <a href="https://www.tiktok.com/@prime1ya?_t=ZM-8yuvczxZXEc&_r=1" class="links__icon" target="_blank">
+                                        <img src="img/tiktok.png" alt="Иконка">
                                     </a>
                                 </li>
                                 <!-- <li class="links__item">

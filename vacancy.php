@@ -4,8 +4,8 @@ include_once 'header.php';
 
 ?>
 
-<!---Vacancy-International--->
-<section id="international" class="international vacancy-international">
+<!---International--->
+<section id="international" class="international">
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-12">
@@ -170,7 +170,7 @@ include_once 'header.php';
 						<li>
 							<img src="img/blue_checkmark.png" alt="">
 							<div>
-								Высокую заработную плату;
+								Достойное вознаграждение;
 							</div>
 						</li>
 						<li>

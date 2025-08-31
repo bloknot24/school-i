@@ -2,13 +2,13 @@
 $description = 'Первый Я - Страница для родителей. Интерактивный детский отдых. Обучение через развлечение.';
 include_once 'header.php'; ?>
 
-<!---Vacancy-International--->
-<section id="international" class="international vacancy-international">
+<!---International--->
+<section id="international" class="international">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
                 <h3>
-                    Создаём будущее вместе!
+                    Создаем будущее вместе!
                 </h3>
             </div>
             <div class="col-lg-3 offset-lg-1">
@@ -51,7 +51,7 @@ include_once 'header.php'; ?>
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div style="margin: 20px 0px 30px 0px; font-size: 18px; text-align: center;">
+                <div style="margin: 20px 0px 30px 0px; font-size: 18px;">
                     <p>
                         В основе проекта <strong style="color: red; display: inline;">«Первый Я»</strong> лежит
                         идея <b>крепкой семьи</b>, где забота и уважение передаются от старших к младшим и наоборот.
@@ -85,7 +85,7 @@ include_once 'header.php'; ?>
                         <h5>
                             Семья и здоровье
                         </h5>
-                        <a href="/podgotovka-k-shkole">
+                        <a href="/mission">
                             Читать далее
                         </a>
                     </div>

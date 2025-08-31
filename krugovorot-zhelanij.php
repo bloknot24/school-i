@@ -334,10 +334,10 @@ include_once 'header.php'; ?>
                 <div class="cycle__esires_education_travel_block">
                     <img src="img/cycle-desires/frame9.svg" class="cycle__esires_education_travel_block_img" alt="Иконка">
                     <h4 class="cycle__esires_education_travel_block_head">
-                        Арт-терапия
+                        Иностранный язык
                     </h4>
                     <p class="cycle__esires_education_travel_block_text">
-                        Избавление от стресса с помощью искусства.
+                        Изучение английского и/или китайского языков.
                     </p>
                 </div>
             </div>
@@ -501,10 +501,10 @@ include_once 'header.php'; ?>
                     Количество занятий
                 </p>
                 <p class="cycle__esires_format_group_text2">
-                    Одно занятие в неделю
+                    Одно групповое занятие в неделю
                 </p>
                 <p class="cycle__esires_format_group_text5">
-                    Одно занятие в неделю
+                    Одно групповое занятие в неделю
                 </p>
             </div>
             <div class="col-lg-6 col-md-6 col-sm-6 d-none d-lg-block d-xl-block d-xxl-block d-md-block d-sm-block">
@@ -537,7 +537,7 @@ include_once 'header.php'; ?>
                 <img src="img/cycle-desires/shape11.svg" class="cycle__esires_price_shape1" alt="Фигуры">
                 <img src="img/cycle-desires/shape12.svg" class="cycle__esires_price_shape2" alt=" Фигуры">
                 <h2 class="cycle__esires_head2 cycle__esires_format_head text-center">
-                    Стоимость занятий
+                    Стоимость групповых занятий
                 </h2>
                 <p class="cycle__esires_price_index_text">
                     БЕСПЛАТНО
@@ -726,7 +726,7 @@ include_once 'header.php'; ?>
                 <div class="col-lg-4 col-md-12">
                     <div class="cycle__esires_popap_block_lessons" style="border: 7px solid #FFE500;">
                         <h4 class="cycle__esires_popap_block_lessons_head">
-                            Собрание группы<br> с наставником Оn-Line
+                            Собрание группы<br> с наставником
                         </h4>
                         <p class="cycle__esires_popap_block_lessons_text1">
                             Дни на выбор
@@ -739,7 +739,7 @@ include_once 'header.php'; ?>
                 <div class="col-lg-4 col-md-12">
                     <div class="cycle__esires_popap_block_lessons" style="border: 7px solid #FFE500;">
                         <h4 class="cycle__esires_popap_block_lessons_head">
-                            Занятия Оn-Line
+                            Групповые<br> занятия онлайн
                         </h4>
                         <p class="cycle__esires_popap_block_lessons_text1">
                             Дни на выбор
@@ -752,7 +752,7 @@ include_once 'header.php'; ?>
                 <div class="col-lg-4 col-md-12">
                     <div class="cycle__esires_popap_block_lessons" style="border: 7px solid #FFE500;">
                         <h4 class="cycle__esires_popap_block_lessons_head">
-                            Проведение квестов
+                            Проведение квестов<br> при личной встрече
                         </h4>
                         <p class="cycle__esires_popap_block_lessons_text1">
                             Дни на выбор
@@ -763,10 +763,11 @@ include_once 'header.php'; ?>
                     </div>
                 </div>
                 <div class="col-12">
+                    <p class="cycle__esires_popap_education_text_dop">*Индивидуальные занятия – по договорённости.</p>
                     <h3 class="cycle__esires_popap_head2">
                         В рамках данного проекта консультация с наставником бесплатно!
                     </h3>
-                    <p class="cycle__esires_popap_education_text">Комплексное изучение следующих направлений:</p>
+                    <p class="cycle__esires_popap_education_text">Изучение следующих направлений:</p>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-6 col-12">
                     <ul class="cycle__esires_popap_education_list">
@@ -830,7 +831,7 @@ include_once 'header.php'; ?>
                         <li class="cycle__esires_popap_education_list_item">
                             <img src="img/cycle-desires/check.svg" class="cycle__esires_popap_education_list_item_img" alt="Галочка">
                             <p class="cycle__esires_popap_education_list_item_text">
-                                Арт-терапия;
+                                Иностранный язык;
                             </p>
                         </li>
                     </ul>
@@ -868,7 +869,7 @@ include_once 'header.php'; ?>
                         Дефиле – по желанию
                     </p> -->
                     <p class="cycle__esires_popap_text2">
-                        По окончанию проекта проводится отчетный концерт.
+                        По окончании проекта проводится отчётный концерт.
                     </p>
                 </div>
             </div>
@@ -893,7 +894,7 @@ include_once 'header.php'; ?>
                 <div class="col-lg-4 col-md-12">
                     <div class="cycle__esires_popap_block_lessons" style="border: 7px solid #B769F1;">
                         <h4 class="cycle__esires_popap_block_lessons_head">
-                            Собрание группы<br> с наставником Оn-Line
+                            Собрание группы<br> с наставником
                         </h4>
                         <p class="cycle__esires_popap_block_lessons_text1">
                             Дни на выбор
@@ -906,7 +907,7 @@ include_once 'header.php'; ?>
                 <div class="col-lg-4 col-md-12">
                     <div class="cycle__esires_popap_block_lessons" style="border: 7px solid #B769F1;">
                         <h4 class="cycle__esires_popap_block_lessons_head">
-                            Занятия Оn-Line
+                            Групповые<br> занятия онлайн
                         </h4>
                         <p class="cycle__esires_popap_block_lessons_text1">
                             Дни на выбор
@@ -919,7 +920,7 @@ include_once 'header.php'; ?>
                 <div class="col-lg-4 col-md-12">
                     <div class="cycle__esires_popap_block_lessons" style="border: 7px solid #B769F1;">
                         <h4 class="cycle__esires_popap_block_lessons_head">
-                            Проведение квестов
+                            Проведение квестов<br> при личной встрече
                         </h4>
                         <p class="cycle__esires_popap_block_lessons_text1">
                             Дни на выбор
@@ -930,10 +931,11 @@ include_once 'header.php'; ?>
                     </div>
                 </div>
                 <div class="col-12">
+                    <p class="cycle__esires_popap_education_text_dop">*Индивидуальные занятия – по договорённости.</p>
                     <h3 class="cycle__esires_popap_head2">
                         В рамках данного проекта консультация с наставником бесплатно!
                     </h3>
-                    <p class="cycle__esires_popap_education_text">Комплексное изучение следующих направлений:</p>
+                    <p class="cycle__esires_popap_education_text">Изучение следующих направлений:</p>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-6 col-12">
                     <ul class="cycle__esires_popap_education_list">
@@ -997,7 +999,7 @@ include_once 'header.php'; ?>
                         <li class="cycle__esires_popap_education_list_item">
                             <img src="img/cycle-desires/check.svg" class="cycle__esires_popap_education_list_item_img" alt="Галочка">
                             <p class="cycle__esires_popap_education_list_item_text">
-                                Арт-терапия;
+                                Иностранный язык;
                             </p>
                         </li>
                     </ul>
@@ -1032,7 +1034,7 @@ include_once 'header.php'; ?>
                 </div>
                 <div class="col-12">
                     <p class="cycle__esires_popap_text2">
-                        По окончанию проекта проводится отчетный концерт.
+                        По окончании проекта проводится отчётный концерт.
                     </p>
                 </div>
             </div>
@@ -1057,7 +1059,7 @@ include_once 'header.php'; ?>
                 <div class="col-lg-4 col-md-12">
                     <div class="cycle__esires_popap_block_lessons" style="border: 7px solid #00E6A6;">
                         <h4 class="cycle__esires_popap_block_lessons_head">
-                            Собрание группы<br> с наставником Оn-Line
+                            Собрание группы<br> с наставником
                         </h4>
                         <p class="cycle__esires_popap_block_lessons_text1">
                             Дни на выбор
@@ -1070,7 +1072,7 @@ include_once 'header.php'; ?>
                 <div class="col-lg-4 col-md-12">
                     <div class="cycle__esires_popap_block_lessons" style="border: 7px solid #00E6A6;">
                         <h4 class="cycle__esires_popap_block_lessons_head">
-                            Занятия Оn-Line
+                            Групповые<br> занятия онлайн
                         </h4>
                         <p class="cycle__esires_popap_block_lessons_text1">
                             Дни на выбор
@@ -1083,7 +1085,7 @@ include_once 'header.php'; ?>
                 <div class="col-lg-4 col-md-12">
                     <div class="cycle__esires_popap_block_lessons" style="border: 7px solid #00E6A6;">
                         <h4 class="cycle__esires_popap_block_lessons_head">
-                            Проведение квестов
+                            Проведение квестов<br> при личной встрече
                         </h4>
                         <p class="cycle__esires_popap_block_lessons_text1">
                             Дни на выбор
@@ -1094,10 +1096,11 @@ include_once 'header.php'; ?>
                     </div>
                 </div>
                 <div class="col-12">
+                    <p class="cycle__esires_popap_education_text_dop">*Индивидуальные занятия – по договорённости.</p>
                     <h3 class="cycle__esires_popap_head2">
                         В рамках данного проекта консультация с наставником бесплатно!
                     </h3>
-                    <p class="cycle__esires_popap_education_text">Комплексное изучение следующих направлений:</p>
+                    <p class="cycle__esires_popap_education_text">Изучение следующих направлений:</p>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-6 col-12">
                     <ul class="cycle__esires_popap_education_list">
@@ -1161,7 +1164,7 @@ include_once 'header.php'; ?>
                         <li class="cycle__esires_popap_education_list_item">
                             <img src="img/cycle-desires/check.svg" class="cycle__esires_popap_education_list_item_img" alt="Галочка">
                             <p class="cycle__esires_popap_education_list_item_text">
-                                Арт-терапия;
+                                Иностранный язык;
                             </p>
                         </li>
                     </ul>
@@ -1196,7 +1199,7 @@ include_once 'header.php'; ?>
                 </div>
                 <div class="col-12">
                     <p class="cycle__esires_popap_text2">
-                        По окончанию проекта проводится отчетный концерт.
+                        По окончании проекта проводится отчётный концерт.
                     </p>
                 </div>
             </div>
@@ -1221,7 +1224,7 @@ include_once 'header.php'; ?>
                 <div class="col-lg-4 col-md-12">
                     <div class="cycle__esires_popap_block_lessons" style="border: 7px solid #00C8DF;">
                         <h4 class="cycle__esires_popap_block_lessons_head">
-                            Собрание группы<br> с наставником Оn-Line
+                            Собрание группы<br> с наставником
                         </h4>
                         <p class="cycle__esires_popap_block_lessons_text1">
                             Дни на выбор
@@ -1234,7 +1237,7 @@ include_once 'header.php'; ?>
                 <div class="col-lg-4 col-md-12">
                     <div class="cycle__esires_popap_block_lessons" style="border: 7px solid #00C8DF;">
                         <h4 class="cycle__esires_popap_block_lessons_head">
-                            Занятия Оn-Line
+                            Групповые<br> занятия онлайн
                         </h4>
                         <p class="cycle__esires_popap_block_lessons_text1">
                             Дни на выбор
@@ -1247,7 +1250,7 @@ include_once 'header.php'; ?>
                 <div class="col-lg-4 col-md-12">
                     <div class="cycle__esires_popap_block_lessons" style="border: 7px solid #00C8DF;">
                         <h4 class="cycle__esires_popap_block_lessons_head">
-                            Проведение квестов
+                            Проведение квестов<br> при личной встрече
                         </h4>
                         <p class="cycle__esires_popap_block_lessons_text1">
                             Дни на выбор
@@ -1258,10 +1261,11 @@ include_once 'header.php'; ?>
                     </div>
                 </div>
                 <div class="col-12">
+                    <p class="cycle__esires_popap_education_text_dop">*Индивидуальные занятия – по договорённости.</p>
                     <h3 class="cycle__esires_popap_head2">
                         В рамках данного проекта консультация с наставником бесплатно!
                     </h3>
-                    <p class="cycle__esires_popap_education_text">Комплексное изучение следующих направлений:</p>
+                    <p class="cycle__esires_popap_education_text">Изучение следующих направлений:</p>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-6 col-12">
                     <ul class="cycle__esires_popap_education_list">
@@ -1325,7 +1329,7 @@ include_once 'header.php'; ?>
                         <li class="cycle__esires_popap_education_list_item">
                             <img src="img/cycle-desires/check.svg" class="cycle__esires_popap_education_list_item_img" alt="Галочка">
                             <p class="cycle__esires_popap_education_list_item_text">
-                                Арт-терапия;
+                                Иностранный язык;
                             </p>
                         </li>
                     </ul>
@@ -1360,7 +1364,7 @@ include_once 'header.php'; ?>
                 </div>
                 <div class="col-12">
                     <p class="cycle__esires_popap_text2">
-                        По окончанию проекта проводится отчетный концерт.
+                        По окончании проекта проводится отчётный концерт.
                     </p>
                 </div>
             </div>
