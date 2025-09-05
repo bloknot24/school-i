@@ -25,7 +25,7 @@ include_once 'header.php'; ?>
 				<div class="navi">
 					<div class="navi__breach">
 						<span class="home">
-							<a href="#">
+							<a href="/">
 								Главная
 							</a>					
 						</span>

@@ -1,5 +1,5 @@
-<?php $title = 'Вакансии - Первый Я';
-$description = 'Первый Я - это центр дополнительного образования. Зарабатывать, занимаясь любимым делом, – это мечта многих. Наши вакансии.';
+<?php $title = 'Наставникам - Первый Я';
+$description = 'Наставник – это проводник, обладающий опытом и знаниями, готовый делиться ими с теми, кто только начинает свой путь.';
 include_once 'header.php';
 
 ?>
@@ -56,7 +56,7 @@ include_once 'header.php';
 			<div class="col-lg-7">
 				<div class="navi__breach earnings-navi__breach">
 					<span class="home">
-						<a href="#">
+						<a href="/">
 							Главная
 						</a>
 					</span>
@@ -290,10 +290,22 @@ include_once 'header.php';
 					<p class="form__text">
 						Укажите свой номер телефона, <br>мы свяжемся с вами!
 					</p>
-					<input type="tel" class="phone" name="phone" placeholder="Ваш телефон">
-					<a href="#" class="form__button">
-						Отправить заявку
-					</a>
+					<?php $headMail = 'Письмо - Наставникам';
+					$name_event = 'form_nastavnikam';
+					include_once '../widgets/mail/mail-only-phone.php';
+					if ($isSend) : ?>
+						<p style="color: green;">
+							Письмо успешно отправлено!
+						</p>
+					<? else : ?>
+						<form action="#questions" method="post">
+							<input type="tel" class="phone" name="phone" required placeholder="Ваш телефон" value="<?= $phone ?>">
+							<button type="submit" name="<?= $name_event ?>" class="form__button">
+								Отправить заявку
+							</button>
+						</form>
+					<? endif; ?>
+					<p style="color: red; margin: 15px auto 0px auto;"><?= $error ?></p>
 				</div>
 			</div>
 			<div class="d-md-none col-lg-6">

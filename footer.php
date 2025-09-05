@@ -25,12 +25,12 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="/umnaya-prodlenka">
+                                <a href="/uchastnikam">
                                     Участникам
                                 </a>
                             </li>
                             <li>
-                                <a href="/vacancy">
+                                <a href="/nastavnikam">
                                     Наставникам
                                 </a>
                             </li>

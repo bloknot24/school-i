@@ -51,12 +51,12 @@
                     </a>
                 </li>
                 <li>
-                    <a href="/umnaya-prodlenka" class="menu__link">
+                    <a href="/uchastnikam" class="menu__link">
                         Участникам
                     </a>
                 </li>
                 <li>
-                    <a href="/vacancy" class="menu__link">
+                    <a href="/nastavnikam" class="menu__link">
                         Наставникам
                     </a>
                 </li>
@@ -125,7 +125,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="/camp" class="menu__link">
+                    <a href="/detskij-otdykh" class="menu__link">
                         Детский отдых
                     </a>
                 </li>
@@ -266,12 +266,12 @@
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="/umnaya-prodlenka" class="menu__link">
+                                    <a href="/uchastnikam" class="menu__link">
                                         Участникам
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="/vacancy" class="menu__link">
+                                    <a href="/nastavnikam" class="menu__link">
                                         Наставникам
                                     </a>
                                 </li>
@@ -332,7 +332,7 @@
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="/camp" class="menu__link">
+                                    <a href="/detskij-otdykh" class="menu__link">
                                         Детский отдых
                                     </a>
                                 </li>

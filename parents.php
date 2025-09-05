@@ -1,5 +1,5 @@
 <?php $title = 'Родителям - Первый Я';
-$description = 'Первый Я - Страница для родителей. Интерактивный детский отдых. Обучение через развлечение.';
+$description = 'В основе проекта Первый Я  лежит идея крепкой семьи, где забота и уважение передаются от старших к младшим.';
 include_once 'header.php'; ?>
 
 <!---International--->
@@ -100,7 +100,7 @@ include_once 'header.php'; ?>
                         <h5>
                             Учись и познавай
                         </h5>
-                        <a href="/umnaya-prodlenka">
+                        <a href="/uchastnikam">
                             Читать далее
                         </a>
                     </div>
@@ -354,11 +354,23 @@ include_once 'header.php'; ?>
             </div>
             <div class="col-lg-6">
                 <div class="form">
-                    <input type="name" class="name" name="name" placeholder="Ваше имя">
-                    <input type="tel" class="phone phone2" name="phone" placeholder="Ваш телефон">
-                    <a href="#" class="form__button">
-                        Отправить заявку
-                    </a>
+                    <?php $headMail = 'Письмо - Родителям';
+                    $name_event = 'form_parents';
+                    include_once '../widgets/mail/mail-name-and-phone.php';
+                    if ($isSend) : ?>
+                        <p style="color: green;">
+                            Письмо успешно отправлено!
+                        </p>
+                    <? else : ?>
+                        <form action="#try-it" method="post">
+                            <input type="name" class="name" name="name" placeholder="Ваше имя" required value="<?= $name ?>">
+                            <input type="tel" class="phone" name="phone" placeholder="Ваш телефон" required value="<?= $phone ?>">
+                            <button type="submit" name="<?= $name_event ?>" class="form__button">
+                                Отправить заявку
+                            </button>
+                        </form>
+                    <? endif; ?>
+                    <p style="color: red; margin: 15px auto 0px auto;"><?= $error ?></p>
                 </div>
             </div>
         </div>

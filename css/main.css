@@ -1297,7 +1297,7 @@ header button {
     padding-left: 20px;
 }
 .form__button {
-	max-width: 570px;
+	min-width: 570px;
 	height: 60px;
 	font-family: 'Georgia', sans-serif;
     font-weight: 900;
@@ -1306,7 +1306,8 @@ header button {
     background: #2d2d2d;
     text-align: center;
     margin-right: auto;
-    padding-top: 10px;
+	border: none;
+	cursor: pointer;
 }
 .form__button:hover {
 	box-shadow: 0 0 13px #0000007a;

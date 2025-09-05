@@ -1,5 +1,5 @@
 <?php $title = 'Миссия - Первый Я';
-$description = 'Первый Я - это центр дополнительного образования. Наша миссия - это образовательная среда развития личности ребенка.';
+$description = 'Первый Я - объединение участников и наставников, для роста поколения, способного создать достойное будущее для себя и счастливую жизнь для всех поколений страны.';
 include_once 'header.php'; ?>
 
 <!---International--->
@@ -54,7 +54,7 @@ include_once 'header.php'; ?>
 				<div class="navi">
 					<div class="navi__breach">
 						<span class="home">
-							<a href="#">
+							<a href="/">
 								Главная
 							</a>
 						</span>
@@ -909,10 +909,22 @@ include_once 'header.php'; ?>
 					<p class="form__text">
 						Укажите свой номер телефона, <br>мы свяжемся с вами!
 					</p>
-					<input type="tel" class="phone" name="phone" placeholder="Ваш телефон">
-					<a href="#" class="form__button">
-						Отправить заявку
-					</a>
+					<?php $headMail = 'Письмо - Миссия';
+					$name_event = 'form_mission';
+					include_once '../widgets/mail/mail-only-phone.php';
+					if ($isSend) : ?>
+						<p style="color: green;">
+							Письмо успешно отправлено!
+						</p>
+					<? else : ?>
+						<form action="#questions" method="post">
+							<input type="tel" class="phone" name="phone" placeholder="Ваш телефон" required value="<?= $phone ?>">
+							<button type="submit" name="<?= $name_event ?>" class="form__button">
+								Отправить заявку
+							</button>
+						</form>
+					<? endif; ?>
+					<p style="color: red; margin: 15px auto 0px auto;"><?= $error ?></p>
 				</div>
 			</div>
 			<div class="d-md-none col-lg-6">

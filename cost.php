@@ -127,7 +127,7 @@ include_once 'header.php';
 								да
 							</span>
 						</div>
-					</div>	
+					</div>
 					<span class="package__cost">
 						60 BYN/ в месяц
 					</span>
@@ -247,7 +247,7 @@ include_once 'header.php';
 								да
 							</span>
 						</div>
-					</div>	
+					</div>
 					<span class="package__cost">
 						150 BYN/ в месяц
 					</span>
@@ -287,7 +287,7 @@ include_once 'header.php';
 								да
 							</span>
 						</div>
-					</div>	
+					</div>
 					<span class="package__cost">
 						200 BYN/ в месяц
 					</span>
@@ -327,7 +327,7 @@ include_once 'header.php';
 								4
 							</span>
 						</div>
-					</div>	
+					</div>
 					<span class="package__cost">
 						260 BYN/ в месяц
 					</span>
@@ -373,7 +373,7 @@ include_once 'header.php';
 								Бесплатная экскурсия
 							</span>
 						</div>
-					</div>	
+					</div>
 					<span class="package__cost">
 						320 BYN/ в месяц
 					</span>
@@ -461,7 +461,7 @@ include_once 'header.php';
 								1 человек
 							</span>
 						</div>
-					</div>	
+					</div>
 					<span class="package__cost">
 						25 BYN/ 1 занятие
 					</span>
@@ -554,7 +554,7 @@ include_once 'header.php';
 								8 часов
 							</span>
 						</div>
-					</div>	
+					</div>
 					<span class="package__cost">
 						100 BYN/ в месяц
 					</span>
@@ -647,7 +647,7 @@ include_once 'header.php';
 						<li class="animate__animated ex__item">
 							<img src="img/blue_checkmark.png" alt="">
 							<div>
-								  С высоким уровнем эмоционального интеллекта
+								С высоким уровнем эмоционального интеллекта
 							</div>
 						</li>
 						<li class="animate__animated ex__item">
@@ -691,12 +691,23 @@ include_once 'header.php';
 			</div>
 			<div class="col-lg-6">
 				<div class="form animate__animated">
-					<input type="name" class="name" name="name" placeholder="Ваше имя">
-					<input type="tel" class="phone phone2" name="phone" placeholder="Ваш телефон">
-					<input type="email" class="email" name="email" placeholder="Ваш e-mail">
-					<a href="#" class="form__button">
-						Отправить заявку
-					</a>
+					<?php $headMail = 'Письмо - Стоимость обучения';
+					$name_event = 'form_cost';
+					include_once '../widgets/mail/mail-name-and-phone.php';
+					if ($isSend) : ?>
+						<p style="color: green;">
+							Письмо успешно отправлено!
+						</p>
+					<? else : ?>
+						<form action="#try-it" method="post">
+							<input type="name" class="name" name="name" placeholder="Ваше имя" required value="<?= $name ?>">
+							<input type="tel" class="phone" name="phone" placeholder="Ваш телефон" required value="<?= $phone ?>">
+							<button type="submit" name="<?= $name_event ?>" class="form__button">
+								Отправить заявку
+							</button>
+						</form>
+					<? endif; ?>
+					<p style="color: red; margin: 15px auto 0px auto;"><?= $error ?></p>
 				</div>
 			</div>
 		</div>

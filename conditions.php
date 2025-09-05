@@ -49,14 +49,14 @@ include_once 'header.php'; ?>
 
 <!---Reception--->
 <section id="earnings" class="earnings reception">
-	<div class="container-fluid">
+	<div class="container">
 		<div class="row">
 			<div class="col-12">
 				<div class="navi__breach reception-navi__breach">
 					<span class="home">
-						<a href="#">
+						<a href="/">
 							Главная
-						</a>					
+						</a>
 					</span>
 					/
 					<span class="mission">
@@ -68,7 +68,7 @@ include_once 'header.php'; ?>
 				<h3 class="reception__title">
 					Приёмная кампания 2020
 				</h3>
-			</div>	
+			</div>
 			<div class="col-lg-7">
 				<div class="reception__desc">
 					<p class="reception__text">
@@ -90,7 +90,7 @@ include_once 'header.php'; ?>
 						Цель собеседования –выявить уровень развития ребенка  и составить личную программу развития Вашего ребенка в Международной школе нового формата «Я»
 					</p>
 				</div>
-			</div>	
+			</div>
 			<div class="col-lg-5">
 				<div class="bg_reception"></div>
 			</div>
@@ -137,7 +137,7 @@ include_once 'header.php'; ?>
 						Собеседование
 					</h5>
 					<p class="stage__text">
-						Индивидуальное собеседование с ребенком и родителями. 
+						Индивидуальное собеседование с ребенком и родителями.
 					</p>
 				</div>
 			</div>
@@ -150,7 +150,7 @@ include_once 'header.php'; ?>
 						Подписание договора
 					</h5>
 					<p class="stage__text">
-						Внесение оплаты за обучение. 
+						Внесение оплаты за обучение.
 					</p>
 				</div>
 			</div>
@@ -177,12 +177,23 @@ include_once 'header.php'; ?>
 			</div>
 			<div class="col-lg-6">
 				<div class="animate__animated form">
-					<input type="name" class="name" name="name" placeholder="Ваше имя">
-					<input type="tel" class="phone phone2" name="phone" placeholder="Ваш телефон">
-					<input type="email" class="email" name="email" placeholder="Ваш e-mail">
-					<a href="#" class="form__button">
-						Отправить заявку
-					</a>
+					<?php $headMail = 'Письмо - Условия приема';
+					$name_event = 'form_conditions';
+					include_once '../widgets/mail/mail-name-and-phone.php';
+					if ($isSend) : ?>
+						<p style="color: green;">
+							Письмо успешно отправлено!
+						</p>
+					<? else : ?>
+						<form action="#future" method="post">
+							<input type="name" class="name" name="name" placeholder="Ваше имя" required value="<?= $name ?>">
+							<input type="tel" class="phone" name="phone" placeholder="Ваш телефон" required value="<?= $phone ?>">
+							<button type="submit" name="<?= $name_event ?>" class="form__button">
+								Отправить заявку
+							</button>
+						</form>
+					<? endif; ?>
+					<p style="color: red; margin: 15px auto 0px auto;"><?= $error ?></p>
 				</div>
 			</div>
 			<div class="d-md-none col-lg-6">

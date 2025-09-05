@@ -150,6 +150,4 @@ include_once 'header.php'; ?>
     }
 </style>
 
-
-
 <?php include_once 'footer.php'; ?>

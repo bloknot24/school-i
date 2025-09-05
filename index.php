@@ -1,5 +1,5 @@
 <?php $title = 'Главная - Первый Я';
-$description = 'Первый Я - центр дополнительного образования. Мы собрали в одном месте опытных и креативных педагогов.';
+$description = 'Первый Я - проект, который объединяет детей, родителей и педагогов. Это амбициозная платформа для всестороннего развития личности.';
 include_once 'header.php';
 ?>
 
@@ -19,7 +19,7 @@ include_once 'header.php';
 							<h1 class="training__title1">
 								Создаём будущее вместе!
 							</h1>
-							<a href="/umnaya-prodlenka" class="training__batton btn">
+							<a href="/uchastnikam" class="training__batton btn">
 								Стать участником!
 							</a>
 						</div>
@@ -40,7 +40,7 @@ include_once 'header.php';
 							<h1 class="training__title1">
 								Трудись и путешествуй
 							</h1>
-							<a href="/umnaya-prodlenka" class="training__batton training__batton2 btn">
+							<a href="/uchastnikam" class="training__batton training__batton2 btn">
 								Стать участником!
 							</a>
 						</div>
@@ -147,7 +147,7 @@ include_once 'header.php';
 						<h5>
 							Учись и познавай
 						</h5>
-						<a href="/umnaya-prodlenka">
+						<a href="/uchastnikam">
 							Читать далее
 						</a>
 					</div>
@@ -524,10 +524,10 @@ include_once 'header.php';
 					<p class="read-more-wrap">
 						С момента заезда ребята погружаются в атмосферу таинственности и
 						загадок, находят таинственное послание и в течение смены должны
-						находят нечто особенное. Учатся сами создавать квест
+						находить нечто особенное. Учатся сами создавать квест
 						и импровизировать.
 					</p>
-					<a href="/camp" class="read-more-wrap-description">Читать подробнее</a>
+					<a href="/detskij-otdykh" class="read-more-wrap-description">Читать подробнее</a>
 				</div>
 			</div>
 			<div class="col-md-12 col-lg-4">
@@ -705,10 +705,22 @@ include_once 'header.php';
 					<p class="form__text">
 						Укажите свой номер телефона, <br>мы свяжемся с вами!
 					</p>
-					<input type="tel" class="phone" name="phone" placeholder="Ваш телефон">
-					<a href="#" class="form__button">
-						Отправить заявку
-					</a>
+					<?php $headMail = 'Письмо - Главная';
+					$name_event = 'form_index';
+					include_once '../widgets/mail/mail-only-phone.php';
+					if ($isSend) : ?>
+						<p style="color: green;">
+							Письмо успешно отправлено!
+						</p>
+					<? else : ?>
+						<form action="#questions" method="post">
+							<input type="tel" class="phone" name="phone" required placeholder="Ваш телефон" value="<?= $phone ?>">
+							<button type="submit" name="<?= $name_event ?>" class="form__button">
+								Отправить заявку
+							</button>
+						</form>
+					<? endif; ?>
+					<p style="color: red; margin: 15px auto 0px auto;"><?= $error ?></p>
 				</div>
 			</div>
 			<div class="d-md-none col-lg-6">

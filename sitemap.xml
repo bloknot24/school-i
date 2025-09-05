@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Generated with https://sitemap-xml.ru-->
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/siteindex.xsd">
+    <url>
+        <loc>https://1ya.by/</loc>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://1ya.by/mission</loc>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://1ya.by/uchastnikam</loc>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://1ya.by/nastavnikam</loc>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://1ya.by/parents</loc>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://1ya.by/krugovorot-zhelanij</loc>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://1ya.by/good</loc>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://1ya.by/detskij-otdykh</loc>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://1ya.by/pay</loc>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://1ya.by/programm</loc>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://1ya.by/conditions</loc>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://1ya.by/cooperation</loc>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://1ya.by/cost</loc>
+        <priority>0.9</priority>
+    </url>
+</urlset>

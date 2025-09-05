@@ -3,4 +3,21 @@ RewriteEngine On
 RewriteBase /
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^(.*)$ $1.php
+#RewriteRule ^(.*)$ $1.php
+
+ErrorDocument 404 /404.php
+
+RewriteRule ^conditions$ /conditions.php [L]
+RewriteRule ^cooperation$ /cooperation.php [L]
+RewriteRule ^cost$ /cost.php [L]
+RewriteRule ^detskij-otdykh$ /detskij-otdykh.php [L]
+RewriteRule ^good$ /good.php [L]
+RewriteRule ^krugovorot-zhelanij$ /krugovorot-zhelanij.php [L]
+RewriteRule ^mission$ /mission.php [L]
+RewriteRule ^nastavnikam$ /nastavnikam.php [L]
+RewriteRule ^news$ /news.php [L]
+RewriteRule ^parents$ /parents.php [L]
+RewriteRule ^pay$ /pay.php [L]
+RewriteRule ^podgotovka-k-shkole$ /podgotovka-k-shkole.php [L]
+RewriteRule ^programm$ /programm.php [L]
+RewriteRule ^uchastnikam$ /uchastnikam.php [L]

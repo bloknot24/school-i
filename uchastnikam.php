@@ -1,5 +1,5 @@
 <?php $title = 'Участникам - Первый Я';
-$description = 'Первый Я - Умная продленка. Интерактивный детский отдых. Обучение через развлечение.';
+$description = 'Первый Я — это твоя команда друзей и наставников. Вместе мы учимся быть сильными, ответственными и творческими';
 include_once 'header.php'; ?>
 
 <!-- <div style="margin: 250px auto 50px auto; text-align: center;">
@@ -107,7 +107,7 @@ include_once 'header.php'; ?>
                         <h5>
                             Учись и познавай
                         </h5>
-                        <a href="/umnaya-prodlenka">
+                        <a href="/uchastnikam">
                             Читать далее
                         </a>
                     </div>
@@ -382,11 +382,28 @@ include_once 'header.php'; ?>
             </div>
             <div class="col-lg-6">
                 <div class="form">
-                    <input type="name" class="name" name="name" placeholder="Ваше имя">
+                    <!-- <input type="name" class="name" name="name" placeholder="Ваше имя">
                     <input type="tel" class="phone phone2" name="phone" placeholder="Ваш телефон">
                     <a href="#" class="form__button">
                         Отправить заявку
-                    </a>
+                    </a> -->
+                    <?php $headMail = 'Письмо - Участникам';
+                    $name_event = 'form_uchastnikam';
+                    include_once '../widgets/mail/mail-name-and-phone.php';
+                    if ($isSend) : ?>
+                        <p style="color: green;">
+                            Письмо успешно отправлено!
+                        </p>
+                    <? else : ?>
+                        <form action="#try-it2" method="post">
+                            <input type="name" class="name" name="name" placeholder="Ваше имя" required value="<?= $name ?>">
+                            <input type="tel" class="phone" name="phone" placeholder="Ваш телефон" required value="<?= $phone ?>">
+                            <button type="submit" name="<?= $name_event ?>" class="form__button">
+                                Отправить заявку
+                            </button>
+                        </form>
+                    <? endif; ?>
+                    <p style="color: red; margin: 15px auto 0px auto;"><?= $error ?></p>
                 </div>
             </div>
         </div>

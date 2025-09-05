@@ -1,5 +1,5 @@
 <?php $title = 'Детский отдых - НоваШкола Я';
-$description = 'НоваШкола Я - это Частная школа и Центр дополнительного образования. Интерактивный детский отдых. Обучение через развлечение.';
+$description = 'Приключения в течение всего лета для детей разного возраста и темперамента.';
 include_once 'header.php'; ?>
 
 <section id="international" class="kids-camp-fon-section">
@@ -1368,18 +1368,19 @@ include_once 'header.php'; ?>
             </div>
             <div class="col-lg-6">
                 <div class="form animate__animated">
-                    <?php $headMail = 'Письмо - детский отдых';
-                    include_once '../widgets/mail/mail-camp.php';
+                    <?php $headMail = 'Письмо - Детский отдых';
+                    $name_event = 'form_detskij-otdykh';
+                    include_once '../widgets/mail/mail-name-and-phone.php';
                     if ($isSend) : ?>
                         <p style="color: green;">
                             Письмо успешно отправлено!
                         </p>
                     <? else : ?>
                         <form method="post" action="#try-it">
-                            <input type="name" class="name" name="name" placeholder="Ваше имя" value="<?= $name ?>">
-                            <input type="tel" class="phone phone2" name="phone" placeholder="Ваш телефон" value="<?= $phone ?>">
+                            <input type="name" class="name" name="name" placeholder="Ваше имя" required value="<?= $name ?>">
+                            <input type="tel" class="phone phone2" name="phone" placeholder="Ваш телефон" required value="<?= $phone ?>">
                             <!-- <input type="email" class="email" name="email" placeholder="Ваш e-mail" value="<?= $email ?>"> -->
-                            <button name="formCamp" type="submit" class="camp__form_button">Оставить заявку</button>
+                            <button name="<?= $name_event ?>" type="submit" class="camp__form_button">Оставить заявку</button>
                         </form>
                     <? endif; ?>
                     <p style="color: red;"><?= $error ?></p>

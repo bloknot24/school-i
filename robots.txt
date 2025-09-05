@@ -1,0 +1,25 @@
+User-agent: *
+Allow: *js
+Allow: *css
+Disallow: /cost_of_education.html
+Disallow: /learn-more.html
+Disallow: /news.php
+Disallow: /podgotovka-k-shkole.php
+
+User-agent: Yandex
+Allow: *js
+Allow: *css
+Disallow: /cost_of_education.html
+Disallow: /learn-more.html
+Disallow: /news.php
+Disallow: /podgotovka-k-shkole.php
+
+User-agent: Googlebot
+Allow: *js
+Allow: *css
+Disallow: /cost_of_education.html
+Disallow: /learn-more.html
+Disallow: /news.php
+Disallow: /podgotovka-k-shkole.php
+
+Sitemap: https://1ya.by/sitemap.xml

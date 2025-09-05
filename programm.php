@@ -54,9 +54,9 @@ include_once 'header.php'; ?>
 			<div class="col-12">
 				<div class="navi__breach">
 					<span class="home">
-						<a href="#">
+						<a href="/">
 							Главная
-						</a>					
+						</a>
 					</span>
 					/
 					<span class="mission">
@@ -138,7 +138,7 @@ include_once 'header.php'; ?>
 				<h3 class="reception__title">
 					Программы обучения
 				</h3>
-			</div>	
+			</div>
 			<div class="col-lg-6">
 				<div class="ex ex2">
 					<ul class="animate__animated work__list">
@@ -174,7 +174,7 @@ include_once 'header.php'; ?>
 						</li>
 					</ul>
 				</div>
-			</div>	
+			</div>
 			<div class="col-lg-6">
 				<div class="bg_work">
 					<img src="img/programms_img5.jpg" alt="">
@@ -346,7 +346,7 @@ parent-training">
 				<h3 class="reception__title">
 					Обучение для взрослых
 				</h3>
-			</div>	
+			</div>
 			<div class="col-lg-7">
 				<h4 class="train__title">
 					«Мы вместе»
@@ -357,7 +357,7 @@ parent-training">
 				<a href="learn-more.html" class="train__btn">
 					Узнать подробнее
 				</a>
-			</div>	
+			</div>
 			<div class="col-lg-5">
 				<div class="bg_parent-training">
 					<img src="img/training.jpg" alt="">
@@ -449,7 +449,7 @@ parent-training">
 				<h3 class="reception__title">
 					Бесплатные занятия
 				</h3>
-			</div>	
+			</div>
 			<div class="col-lg-6">
 				<div class="ex ex2">
 					<p class="lessons__text">
@@ -515,7 +515,7 @@ parent-training">
 						Узнать подробнее
 					</a>
 				</div>
-			</div>	
+			</div>
 			<div class="col-lg-6">
 				<div class="bg_work">
 					<img src="img/bg_free_less.jpg" alt="">
@@ -574,7 +574,7 @@ parent-training">
 						<li class="ex__item">
 							<img src="img/blue_checkmark.png" alt="">
 							<div>
-								  С высоким уровнем эмоционального интеллекта
+								С высоким уровнем эмоционального интеллекта
 							</div>
 						</li>
 						<li class="ex__item">
@@ -618,12 +618,23 @@ parent-training">
 			</div>
 			<div class="col-lg-6">
 				<div class="form">
-					<input type="name" class="name" name="name" placeholder="Ваше имя">
-					<input type="tel" class="phone phone2" name="phone" placeholder="Ваш телефон">
-					<input type="email" class="email" name="email" placeholder="Ваш e-mail">
-					<a href="#" class="form__button">
-						Отправить заявку
-					</a>
+					<?php $headMail = 'Письмо - Участникам';
+					$name_event = 'form_programm';
+					include_once '../widgets/mail/mail-name-and-phone.php';
+					if ($isSend) : ?>
+						<p style="color: green;">
+							Письмо успешно отправлено!
+						</p>
+					<? else : ?>
+						<form action="#try-it" method="post">
+							<input type="name" class="name" name="name" placeholder="Ваше имя" required value="<?= $name ?>">
+							<input type="tel" class="phone" name="phone" placeholder="Ваш телефон" required value="<?= $phone ?>">
+							<button type="submit" name="<?= $name_event ?>" class="form__button">
+								Отправить заявку
+							</button>
+						</form>
+					<? endif; ?>
+					<p style="color: red; margin: 15px auto 0px auto;"><?= $error ?></p>
 				</div>
 			</div>
 		</div>
@@ -632,4 +643,3 @@ parent-training">
 <!---End Try-it--->
 
 <?php include_once 'footer.php'; ?>
-

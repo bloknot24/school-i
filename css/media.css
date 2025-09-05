@@ -42,7 +42,7 @@
         display: none;
     }
     .form__button {
-        max-width: 464px;
+        min-width: 464px;
         margin: 15px auto;
     }
     .international,
@@ -1254,6 +1254,8 @@
     .form__button {
         height: auto;
         min-height: 60px;
+        width: auto;
+        min-width: 287px;
     }
     .txt-bottom {
         margin-top: 0;
