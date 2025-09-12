@@ -439,8 +439,8 @@ include_once 'header.php'; ?>
 						У <strong>каждого человека</strong> есть желание или мечта.<br>
 						<strong>Исполнение</strong> каждого <strong>нашего</strong> желания зависит от наших же возможностей.
 						И вся <strong>наша жизнь</strong> направлена на то, чтобы получить те навыки и
-						способности, благодаря которым мы могли бы <strong>достичь своих мечт</strong>.<br>
-						<strong>Трудные времена</strong> приходят к каждому из нас. Но они приходят не для
+						способности, благодаря которым мы можем <strong>добиться исполнения своей мечты</strong>.<br>
+						<strong>Трудные времена</strong> бывают у каждого из нас. Но они приходят не для
 						того, чтобы остаться в вашей жизни навсегда, а для того, чтобы <strong>пройти
 							через них, закалить характер и стать увереннее</strong>.
 					</p>
@@ -765,7 +765,7 @@ include_once 'header.php'; ?>
 		<div class="row">
 			<div class="col-lg-12">
 				<h4 class="animate__animated attention__ttile2">
-					Знания или навыки, чему учить в школе?
+					Знания или навыки, чему учат в школе?
 				</h4>
 			</div>
 		</div>
@@ -918,7 +918,7 @@ include_once 'header.php'; ?>
 						</p>
 					<? else : ?>
 						<form action="#questions" method="post">
-							<input type="tel" class="phone" name="phone" placeholder="Ваш телефон" required value="<?= $phone ?>">
+							<input type="tel" class="phone" name="phone" placeholder="+375 (00) 000-00-00" required value="<?= $phone ?>">
 							<button type="submit" name="<?= $name_event ?>" class="form__button">
 								Отправить заявку
 							</button>

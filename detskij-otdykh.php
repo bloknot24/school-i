@@ -1378,7 +1378,7 @@ include_once 'header.php'; ?>
                     <? else : ?>
                         <form method="post" action="#try-it">
                             <input type="name" class="name" name="name" placeholder="Ваше имя" required value="<?= $name ?>">
-                            <input type="tel" class="phone phone2" name="phone" placeholder="Ваш телефон" required value="<?= $phone ?>">
+                            <input type="tel" class="phone phone2" name="phone" placeholder="+375 (00) 000-00-00" required value="<?= $phone ?>">
                             <!-- <input type="email" class="email" name="email" placeholder="Ваш e-mail" value="<?= $email ?>"> -->
                             <button name="<?= $name_event ?>" type="submit" class="camp__form_button">Оставить заявку</button>
                         </form>

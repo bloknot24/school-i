@@ -255,7 +255,7 @@ include_once 'header.php';
 						<li>
 							<img src="img/blue_checkmark.png" alt="Галочка">
 							<div>
-								<strong>Живой пример ценностей</strong> – честен, добр и ответственен здесь и сейчас. Сам семьянин или готовый им стать.
+								<strong>Живой пример ценностей</strong> – честен, добр и ответственен здесь и сейчас. Сам семьянин или готов им стать.
 							</div>
 						</li>
 						<li>
@@ -299,7 +299,7 @@ include_once 'header.php';
 						</p>
 					<? else : ?>
 						<form action="#questions" method="post">
-							<input type="tel" class="phone" name="phone" required placeholder="Ваш телефон" value="<?= $phone ?>">
+							<input type="tel" class="phone" name="phone" required placeholder="+375 (00) 000-00-00" value="<?= $phone ?>">
 							<button type="submit" name="<?= $name_event ?>" class="form__button">
 								Отправить заявку
 							</button>

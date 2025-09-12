@@ -691,7 +691,7 @@ include_once 'header.php'; ?>
                         </p>
                     <? else : ?>
                         <form method="post" action="#cycle__esires_form" id="cycle__esires_form_block2_form">
-                            <input type="tel" name="phone" placeholder="Ваш телефон" class="cycle__esires_form_block2_input" required value="<?= $phone ?>"><br>
+                            <input type="tel" name="phone" placeholder="+375 (00) 000-00-00" class="cycle__esires_form_block2_input" required value="<?= $phone ?>"><br>
                             <button type="submit" name="<?= $name_event ?>" class="cycle__esires_form_block2_btn upper">Отправить заявку</button>
                         </form>
                     <? endif; ?>

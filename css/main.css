@@ -1309,6 +1309,9 @@ header button {
 	border: none;
 	cursor: pointer;
 }
+.form__button-login {
+	min-width: 100% !important;
+}
 .form__button:hover {
 	box-shadow: 0 0 13px #0000007a;
 	color: #fff;

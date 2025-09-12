@@ -216,32 +216,32 @@
         </a>
         <div class="buttons">
             <a href="#" class="button__student tablink active tablink-1" onclick="openCity(event, '100')">
-                Для учениа
+                Для участника
             </a>
             <a href="#" class="button__teacher tablink tablink-2" onclick="openCity(event, '200')">
-                Для учителя
+                Для наставника
             </a>
         </div>
         <div id="100" class="m-form tabcontent" style="display: block">
             <input type="email" class="mail" name="mail" placeholder="Ваш e-mail">
             <input type="password" class="pass" name="pass" placeholder="Ваш пароль">
-            <a href="#" class="form__button">
+            <button class="form__button form__button-login">
                 Войти
-            </a>
+            </button>
         </div>
         <div id="200" class="m-form tabcontent">
             <input type="email" class="mail" name="mail" placeholder="Ваш e-mail">
             <input type="password" class="pass" name="pass" placeholder="Ваш пароль">
-            <a href="#" class="form__button">
+            <button class="form__button form__button-login">
                 Войти
-            </a>
+            </button>
         </div>
         <div class="pass-reg pass-reg1">
             <a href="#" class="password">
                 Забыли пароль?
             </a>
             <a href="#" class="regist">
-                зарегестрироваться
+                Зарегистрироваться
             </a>
         </div>
     </div>
@@ -257,27 +257,27 @@
         </a>
         <div class="buttons">
             <a href="#" class="button__student tablink active tablink-1" onclick="openCity(event, '101')">
-                Для ученика
+                Для участника
             </a>
             <a href="#" class="button__teacher tablink tablink-2" onclick="openCity(event, '202')">
-                Для учителя
+                Для наставника
             </a>
         </div>
         <div id="101" class="m-form tabcontent" style="display: block;">
             <input type="email" class="mail" name="mail" placeholder="Ваш e-mail">
             <input type="password" class="pass" name="pass" placeholder="Ваш пароль">
             <input type="tel" class="phone tel" name="phone" placeholder="Ваш телефон">
-            <a href="#" class="form__button">
-                Зарегестрироваться
-            </a>
+            <button class="form__button form__button-login">
+                Зарегистрироваться
+            </button>
         </div>
         <div id="202" class="m-form tabcontent">
             <input type="email" class="mail" name="mail" placeholder="Ваш e-mail">
             <input type="password" class="pass" name="pass" placeholder="Ваш пароль">
             <input type="tel" class="phone tel" name="phone" placeholder="Ваш телефон">
-            <a href="#" class="form__button">
-                Зарегестрироваться
-            </a>
+            <button class="form__button form__button-login">
+                Зарегистрироваться
+            </button>
         </div>
         <div class="pass-reg">
             <a href="#" class="password">
@@ -288,7 +288,6 @@
 </div>
 <!---End Box-modal--->
 
-
 <script src="js/jquery-3.3.1.min.js"></script>
 <script src="js/jquery.arcticmodal-0.3.min.js"></script>
 <script src="js/arctikmodal.js"></script>
@@ -296,6 +295,7 @@
 <script src="js/tabs.js"></script>
 <script src="js/tabs2.js"></script>
 <script src="js/slick2.js"></script>
+<script src="js/mask.min.js"></script>
 <script src="js/main.js"></script>
 <!-- Yandex.Metrika counter -->
 <script type="text/javascript">

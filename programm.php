@@ -628,7 +628,7 @@ parent-training">
 					<? else : ?>
 						<form action="#try-it" method="post">
 							<input type="name" class="name" name="name" placeholder="Ваше имя" required value="<?= $name ?>">
-							<input type="tel" class="phone" name="phone" placeholder="Ваш телефон" required value="<?= $phone ?>">
+							<input type="tel" class="phone" name="phone" placeholder="+375 (00) 000-00-00" required value="<?= $phone ?>">
 							<button type="submit" name="<?= $name_event ?>" class="form__button">
 								Отправить заявку
 							</button>

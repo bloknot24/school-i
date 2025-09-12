@@ -303,6 +303,13 @@
 /* -------------- 768-992px ---------------- */
 
 @media screen and (max-width: 992px) {
+    .international {
+        margin-top: 200px;
+        padding-top: 25px;
+        padding-bottom: 30px;
+        background: url('../img/bg_mission_head2.jpg') no-repeat center center;
+        background-size: cover;
+    }
     .menu__item {
         flex-direction: column;
         text-align: center;
@@ -1235,6 +1242,9 @@
 /* ----------------320-576px----------------- */
 
 @media screen and (max-width: 576px) {
+    .menu__collapps {
+        padding-bottom: 0px;
+    }
     .links {
         width: 285px;
         margin: 0 auto;
@@ -1405,7 +1415,11 @@
     }
     .international,
     .kids-camp-fon-section {
-        margin-top: 97px;
+        margin-top: 10px;
+    }
+    .cycle__esires_index,
+    .training {
+        padding-top: 10px !important;
     }
     .contacs {
         flex-direction: column;
@@ -1662,6 +1676,7 @@
     }
     .header {
         width: auto;
+        position: sticky;
     }
     .footer__contacs {
         display: none;
@@ -1807,7 +1822,7 @@
         flex-direction: column;
     }
     .box-modal {
-        height: auto;
+        height: auto !important;
         padding-bottom: 0;
         padding-bottom: 10px;
     }

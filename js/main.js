@@ -201,6 +201,8 @@ $(function(){
             scrollPrev = scrolled;
         }
     })
+
+    $("form .phone").mask("+375 (00) 000-00-00");
 });
 
 

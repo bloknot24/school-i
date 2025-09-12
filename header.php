@@ -6,6 +6,7 @@
     <meta charset="UTF-8">
     <meta http-equiv=»X-UA-Compatible» content=»IE=EmulateIE6″>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"> -->
     <meta name="google-site-verification" content="Usg15f4z8a8toBkGdJQ9HuIhCGeFjTdURvRxJ4dJILU">
     <meta name="yandex-verification" content="ad173a64e4c20704">
     <title><?= $title; ?></title>
@@ -154,7 +155,7 @@
         <div class="container-fluid">
             <div class="container">
                 <div class="row">
-                    <div class="col-9 col-sm-5 col-md-4 col-lg-3">
+                    <div class="col-10 col-sm-5 col-md-4 col-lg-3">
                         <div class="social-links">
                             <ul class="links">
                                 <li class="links__item">
@@ -195,7 +196,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-3 col-sm-2 col-md-4 d-lg-none">
+                    <div class="col-2 col-sm-2 col-md-4 d-lg-none">
                         <button class="menu-open">
                             <i class="fa fa-bars"></i>
                         </button>
