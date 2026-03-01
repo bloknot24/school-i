@@ -5,24 +5,23 @@ include_once 'header.php'; ?>
 <section id="international" class="kids-camp-fon-section">
     <div class="container">
         <div class="row">
-            <div class="col-12">
+            <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
                 <h1 class="kids__camp_box_header text-center upper">
-                    Детский отдых <span>2023</span>
+                    Летний лагерь <span>2026</span>
                 </h1>
             </div>
-            <div class="col-12">
+            <!-- <div class="col-12">
                 <div class="line-blue"></div>
-            </div>
-            <div class="col-12">
-                <!-- <h2 class="kids__camp_box_header_h2 text-center upper">
-                    Летний лагерь 2023 для детей и школьников 3-11<br>
-                    классов с образовательной программой
-                </h2> -->
+            </div> -->
+            <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+                <h2 class="kids__camp_box_header_h2 text-center upper">
+                    Каждый день с пользой для ребенка
+                </h2>
                 <p class="kids__camp_box_header_h2_additionally upper text-center">
-                    <b>Яркие каникулы с пользой для детей 6-16 лет</b>
+                    <b>Для детей 7-16 лет</b>
                 </p>
             </div>
-            <div class="col-12">
+            <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
                 <a href="#try-it" class="rec go upper kids__camp_btn_offer">
                     Записаться
                 </a>
@@ -46,7 +45,7 @@ include_once 'header.php'; ?>
                         На базе усадьбы “ВЯЧКОЙНИ” Ошмянский район, Гродненская область
                     </p> -->
                     <p class="kids__camp_additionally_box_text4 upper">
-                        Смены по 7, 10 и 14 дней.
+                        12 дней, 11 ночей.
                     </p>
                 </div>
             </div>
@@ -66,11 +65,10 @@ include_once 'header.php'; ?>
                 <div class="kids__camp_benefit_box text-center">
                     <img src="img/kids-camp-sum/icon_one.png" alt="Иконка" class="kids__camp_benefit_box_img">
                     <h3 class="kids__camp_benefit_box_head upper">
-                        Смена
+                        Программа
                     </h3>
                     <p class="kids__camp_benefit_box_description">
-                        Тематические смены<br>и разнообразная<br>
-                        программа
+                        Все этапы проходят в стиле<br> спортивно-приключенческой<br> игры «ФОРД БОЯРД»
                     </p>
                 </div>
             </div>
@@ -78,10 +76,10 @@ include_once 'header.php'; ?>
                 <div class="kids__camp_benefit_box text-center">
                     <img src="img/kids-camp-sum/icon_two.png" alt="Иконка" class="kids__camp_benefit_box_img">
                     <h3 class="kids__camp_benefit_box_head upper">
-                        Педагоги
+                        Обучение
                     </h3>
                     <p class="kids__camp_benefit_box_description">
-                        Педагоги разного<br> профиля
+                        Образовательный<br> интеллект–курс
                     </p>
                 </div>
             </div>
@@ -103,7 +101,7 @@ include_once 'header.php'; ?>
                         Гибкость
                     </h3>
                     <p class="kids__camp_benefit_box_description">
-                        Зарядка и фитнес
+                        Йога и фитнес
                     </p>
                 </div>
             </div>
@@ -114,7 +112,7 @@ include_once 'header.php'; ?>
                         Группа
                     </h3>
                     <p class="kids__camp_benefit_box_description">
-                        В группе до 10<br> человек
+                        В группе до 15<br> человек
                     </p>
                 </div>
             </div>
@@ -122,10 +120,10 @@ include_once 'header.php'; ?>
                 <div class="kids__camp_benefit_box text-center">
                     <img src="img/kids-camp-sum/icon_six.png" alt="Иконка" class="kids__camp_benefit_box_img">
                     <h3 class="kids__camp_benefit_box_head upper">
-                        Психология
+                        Селф-менеджмент
                     </h3>
                     <p class="kids__camp_benefit_box_description">
-                        Развитие навыков человека<br>“будущего” с психологами
+                        Курс про управление собой<br> и своим внутренним миром
                     </p>
                 </div>
             </div>
@@ -134,10 +132,10 @@ include_once 'header.php'; ?>
                 <div class="kids__camp_benefit_box text-center">
                     <img src="img/kids-camp-sum/icon_seven.png" alt="Иконка" class="kids__camp_benefit_box_img">
                     <h3 class="kids__camp_benefit_box_head upper">
-                        Фотографии и видео
+                        Фотоотчет
                     </h3>
                     <p class="kids__camp_benefit_box_description">
-                        Интересные сюжеты
+                        Родители всегда будут<br> в курсе событий
                     </p>
                 </div>
             </div>
@@ -145,10 +143,10 @@ include_once 'header.php'; ?>
                 <div class="kids__camp_benefit_box text-center">
                     <img src="img/kids-camp-sum/icon_eight.png" alt="Иконка" class="kids__camp_benefit_box_img">
                     <h3 class="kids__camp_benefit_box_head upper">
-                        Блоггинг
+                        Английский язык
                     </h3>
                     <p class="kids__camp_benefit_box_description">
-                        Английский и блоггинг
+                        10 тематических разделов,<br> посвященных определенной теме
                     </p>
                 </div>
             </div>
@@ -176,9 +174,9 @@ include_once 'header.php'; ?>
                         Занимайтесь своими делами, пока Ваш ребенок<br>
                         приобретает навыки будущего и новых друзей
                     </p>
-                    <p class="kids__camp_call_to_action_box_text2">
+                    <!-- <p class="kids__camp_call_to_action_box_text2">
                         Все дети застрахованы от несчастных случаев и болезней в страховой компании
-                    </p>
+                    </p> -->
                     <div class="kids__camp_call_to_action_box_btn">
                         <a href="#try-it" class="rec go upper kids__camp_btn_offer_two">
                             Записаться
@@ -187,14 +185,14 @@ include_once 'header.php'; ?>
                     <div class="kids__camp_call_to_action_box_phone text-center">
                         <div class="kids__camp_call_to_action_box_phone_block">
                             <img src="img/kids-camp-sum/a1-icon.png" alt="" class="kids__camp_call_to_action_box_phone_block_img">
-                            <a href="tel:+375296403474" class="kids__camp_call_to_action_box_phone_block_link">
-                                +375 29 640-34-74
+                            <a href="tel:+375296442032" class="kids__camp_call_to_action_box_phone_block_link">
+                                +375 29 644-20-32
                             </a>
                         </div>
                         <div class="kids__camp_call_to_action_box_phone_block">
-                            <img src="img/kids-camp-sum/viber-icon.png" alt="" class="kids__camp_call_to_action_box_phone_block_img">
-                            <a href="tel:+375296403474" class="kids__camp_call_to_action_box_phone_block_link">
-                                +375 29 640-34-74
+                            <img src="img/kids-camp-sum/telegram-icon.svg" alt="" class="kids__camp_call_to_action_box_phone_block_img">
+                            <a href="https://t.me/prime1ya" class="kids__camp_call_to_action_box_phone_block_link">
+                                +375 29 644-20-32
                             </a>
                         </div>
                     </div>
@@ -208,8 +206,9 @@ include_once 'header.php'; ?>
     <div class="container">
         <div class="row">
             <div class="col-12">
+                <p class="kids__camp_benefit_head_p text-center">Мы разработали для вашего ребенка интереснейшую программу</p>
                 <h2 class="kids__camp_benefit_head text-center">
-                    Чем будут заняты дети?
+                    «Сокровище мечтают все найти»
                 </h2>
             </div>
             <div class="col-lg-4 col-md-6 col-sm-6">
@@ -290,13 +289,10 @@ include_once 'header.php'; ?>
                             </text>
                         </svg>
                         <h3 class="kids__camp_waiting_block_head upper">
-                            ART
+                            Квесты
                         </h3>
                         <p class="kids__camp_waiting_block_text">
-                            Каждый день - занятия с Art,<br>
-                            развивающие у детей креативное<br>
-                            мышление, творческие способности<br>
-                            и свое видение прекрасного.
+                            Креативные квесты, игры, шоу<br> и мастер–классы.
                         </p>
                     </div>
                 </div>
@@ -313,10 +309,10 @@ include_once 'header.php'; ?>
                             </text>
                         </svg>
                         <h3 class="kids__camp_waiting_block_head upper">
-                            Блоггинг
+                            Оздоровительные<br> процедуры. Бассейн
                         </h3>
                         <p class="kids__camp_waiting_block_text">
-                            Создадим рекламу в твоих блогах.
+                            Комплексные программы санаторно-курортного лечения детей.
                         </p>
                     </div>
                 </div>
@@ -333,10 +329,10 @@ include_once 'header.php'; ?>
                             </text>
                         </svg>
                         <h3 class="kids__camp_waiting_block_head upper">
-                            Фотография
+                            Творческие мероприятия
                         </h3>
                         <p class="kids__camp_waiting_block_text">
-                            Научимся делать креативные<br>фотографии.
+                            Креативное мышление.
                         </p>
                     </div>
                 </div>
@@ -395,10 +391,10 @@ include_once 'header.php'; ?>
                             </text>
                         </svg>
                         <h3 class="kids__camp_waiting_block_head upper">
-                            Инстаграм
+                            Развлекательные<br> мероприятия
                         </h3>
                         <p class="kids__camp_waiting_block_text">
-                            Для начинающих и продвинутых.
+                            Кинофильмы. Шоу.
                         </p>
                     </div>
                 </div>
@@ -435,11 +431,10 @@ include_once 'header.php'; ?>
                             </text>
                         </svg>
                         <h3 class="kids__camp_waiting_block_head upper">
-                            Квесты и лазертаг
+                            Лазертаг
                         </h3>
                         <p class="kids__camp_waiting_block_text">
-                            Ежедневно проходят разные квесты,<br>
-                            супер-приз для победителя.
+                            Супер-приз для победителя!
                         </p>
                     </div>
                 </div>
@@ -480,14 +475,14 @@ include_once 'header.php'; ?>
                 <div class="kids__camp_call_to_action_box_phone text-center">
                     <div class="kids__camp_call_to_action_box_phone_block">
                         <img src="img/kids-camp-sum/a1-icon.png" alt="" class="kids__camp_call_to_action_box_phone_block_img">
-                        <a href="tel:+375296403474" class="kids__camp_call_to_action_box_phone_block_link">
-                            +375 29 640-34-74
+                        <a href="tel:+375296442032" class="kids__camp_call_to_action_box_phone_block_link">
+                            +375 29 644-20-32
                         </a>
                     </div>
                     <div class="kids__camp_call_to_action_box_phone_block">
-                        <img src="img/kids-camp-sum/viber-icon.png" alt="" class="kids__camp_call_to_action_box_phone_block_img">
-                        <a href="tel:+375296403474" class="kids__camp_call_to_action_box_phone_block_link">
-                            +375 29 640-34-74
+                        <img src="img/kids-camp-sum/telegram-icon.svg" alt="" class="kids__camp_call_to_action_box_phone_block_img">
+                        <a href="https://t.me/prime1ya" class="kids__camp_call_to_action_box_phone_block_link">
+                            +375 29 644-20-32
                         </a>
                     </div>
                 </div>
@@ -497,20 +492,21 @@ include_once 'header.php'; ?>
             </div>
             <div class="col-lg-4 col-md-5 col-sm-12">
                 <div class="kids__camp_about_img">
-                    <img src="img/kids-camp-sum/kids-camp-place.png" alt="Усадьба">
+                    <!-- <img src="img/kids-camp-sum/kids-camp-place.png" alt="Усадьба"> -->
+                    <iframe src="https://www.youtube.com/embed/sE4DJ_KuRMQ?si=pkGpBhvBZvDOiD-y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 </div>
             </div>
             <div class="col-lg-8 col-md-7 col-sm-12">
                 <div class="kids__camp_about_place_block">
                     <div class="kids__camp_about_place_block_text1">
-                        Усадьба “ВЯЧКОЙНИ”, Ошмянский район, Гродненская область
+                        ДРОЦ "Пралеска" Гомельская область, Жлобинский район.
                     </div>
                     <div class="kids__camp_about_place_block_text2">
-                        <span>120 км от Минска</span>
-                        <a class="kids__camp_about_place_block_text2_link" target="_blank" href="https://yandex.by/maps/geo/2117064511/?from=tabbar&ll=26.011159%2C54.471569&source=serp_navig&z=17">см. на карте</a>
+                        <span>215 км от Минска</span>
+                        <a class="kids__camp_about_place_block_text2_link" target="_blank" href="https://belargo.ru">см. на сайте</a>
                     </div>
                     <div class="kids__camp_about_place_block_text3">
-                        Летний сезон по 7 и 14 дней
+                        Оздоровление и санаторно-курортное лечение современным медицинским оборудованием.
                     </div>
                 </div>
             </div>
@@ -519,19 +515,19 @@ include_once 'header.php'; ?>
                     <li class="kids__camp_about_place_list_item">
                         <img src="img/kids-camp-sum/star-icon.png" alt="Иконка">
                         <p class="kids__camp_about_place_list_item_text">
-                            Усадьба находится в 5 км. от города Ошмяны.
+                            Проживание в комфортабельных трехместных номерах блочного типа с удобствами в блоке.
                         </p>
                     </li>
                     <li class="kids__camp_about_place_list_item">
                         <img src="img/kids-camp-sum/star-icon.png" alt="Иконка">
                         <p class="kids__camp_about_place_list_item_text">
-                            Проживание – 3-4 человека в номере.
+                            Собственные скважины минеральной воды.
                         </p>
                     </li>
                     <li class="kids__camp_about_place_list_item">
                         <img src="img/kids-camp-sum/star-icon.png" alt="Иконка">
                         <p class="kids__camp_about_place_list_item_text">
-                            В некоторых комнатах душ и туалет в номере.
+                            Тёплый бассейн. Кислородные коктейли.
                         </p>
                     </li>
                 </ul>
@@ -541,21 +537,19 @@ include_once 'header.php'; ?>
                     <li class="kids__camp_about_place_list_item">
                         <img src="img/kids-camp-sum/star-icon.png" alt="Иконка">
                         <p class="kids__camp_about_place_list_item_text">
-                            На территории имеются 2 волейбольные площадки, сцена
-                            для проведения мероприятий и спортивная площадка.
+                            Комплекс оздоровительных процедур.
                         </p>
                     </li>
                     <li class="kids__camp_about_place_list_item">
                         <img src="img/kids-camp-sum/star-icon.png" alt="Иконка">
                         <p class="kids__camp_about_place_list_item_text">
-                            Огражденная территория.
+                            Огражденная территория, круглосуточное дежурство.
                         </p>
                     </li>
                     <li class="kids__camp_about_place_list_item">
                         <img src="img/kids-camp-sum/star-icon.png" alt="Иконка">
                         <p class="kids__camp_about_place_list_item_text">
-                            Все спортивные мероприятия проходят на оборудованных
-                            площадках под наблюдением профессиональных инструкторов.
+                            Все спортивные мероприятия проходят на оборудованных площадках под наблюдением профессиональных инструкторов.
                         </p>
                     </li>
                 </ul>
@@ -571,7 +565,7 @@ include_once 'header.php'; ?>
                 <img src="img/kids-camp-sum/foto-place1.png" alt="Фото">
             </div> -->
             <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
-                <img src="img/kids-camp-sum/foto-place2.png" class="kids-camp-box-foto-img" alt="Фото">
+                <img src="img/kids-camp-sum/foto-place16.png" class="kids-camp-box-foto-img" alt="Фото">
             </div>
             <!-- <div class="col-lg-4">
                 <img src="img/kids-camp-sum/foto-place3.png" alt="Фото">
@@ -586,7 +580,7 @@ include_once 'header.php'; ?>
                 <img src="img/kids-camp-sum/foto-place6.png" alt="Фото">
             </div> -->
             <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
-                <img src="img/kids-camp-sum/foto-place7.png" class="kids-camp-box-foto-img" alt="Фото">
+                <img src="img/kids-camp-sum/foto-place17.png" class="kids-camp-box-foto-img" alt="Фото">
             </div>
             <!-- <div class="col-lg-4">
                 <img src="img/kids-camp-sum/foto-place8.png" alt="Фото">
@@ -601,13 +595,13 @@ include_once 'header.php'; ?>
                 <img src="img/kids-camp-sum/foto-place11.png" alt="Фото">
             </div> -->
             <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
-                <img src="img/kids-camp-sum/foto-place12.png" class="kids-camp-box-foto-img" alt="Фото">
+                <img src="img/kids-camp-sum/foto-place18.png" class="kids-camp-box-foto-img" alt="Фото">
             </div>
         </div>
     </div>
 </section>
 
-<section class="kids-camp-about-camp">
+<!-- <section class="kids-camp-about-camp">
     <div class="container">
         <div class="row">
             <div class="col-lg-4 col-md-5 col-sm-12">
@@ -676,9 +670,9 @@ include_once 'header.php'; ?>
             </div>
         </div>
     </div>
-</section>
+</section> -->
 
-<section class="kids-camp-box-foto">
+<!-- <section class="kids-camp-box-foto">
     <div class="container">
         <div class="row">
             <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
@@ -692,7 +686,7 @@ include_once 'header.php'; ?>
             </div>
         </div>
     </div>
-</section>
+</section> -->
 
 <section class="kids-camp-box-food">
     <div class="container">
@@ -713,7 +707,7 @@ include_once 'header.php'; ?>
                         <li class="kids__camp_box_food_block_list_item">
                             <img src="img/kids-camp-sum/star-icon.png" alt="Иконка">
                             <p>
-                                5-разовое питание;
+                                6-разовое питание;
                             </p>
                         </li>
                         <li class="kids__camp_box_food_block_list_item">
@@ -721,7 +715,7 @@ include_once 'header.php'; ?>
                             <p>
                                 Сбалансированное<br>
                                 согласно возрастным<br>
-                                нормам детское<br>
+                                нормам детского<br>
                                 питание<br>
                             </p>
                         </li>
@@ -729,7 +723,7 @@ include_once 'header.php'; ?>
                             <img src="img/kids-camp-sum/star-icon.png" alt="Иконка">
                             <p>
                                 Питьевая вода в<br>
-                                открытом доступе
+                                свободном доступе
                             </p>
                         </li>
                     </ul>
@@ -745,12 +739,13 @@ include_once 'header.php'; ?>
         <div class="row">
             <div class="col-12">
                 <h2 class="kids__camp_box_food_head text-center">
-                    Даты смен по 7 дней
+                    Даты смен. 12 дней / 11 ночей
                 </h2>
             </div>
-            <div class="col-lg-6 col-md-6 col-sm-12">
+            <!-- <div class="col-lg-6 col-md-6 col-sm-12"> -->
+            <div class="col-12">
                 <div class="kids__camp_box_change_block">
-                    <ul class="kids__camp_box_change_block_list1 text-center">
+                    <ul class="kids__camp_box_change_block_list1 text-center" style="margin-bottom: 25px;">
                         <li class="kids__camp_box_change_block_list_item">
                             <div style="display: flex; justify-content: center;">
                                 <div class="kids__camp_box_change_block_list_item_circle"></div>
@@ -759,7 +754,7 @@ include_once 'header.php'; ?>
                                 </p>
                             </div>
                             <p class="kids__camp_box_change_block_list_item_text2" style="color: red; font-weight: 600;">
-                                Мест нет
+                                21.06. – 2.07
                             </p>
                         </li>
                         <li class="kids__camp_box_change_block_list_item">
@@ -770,7 +765,7 @@ include_once 'header.php'; ?>
                                 </p>
                             </div>
                             <p class="kids__camp_box_change_block_list_item_text2" style="color: red; font-weight: 600;">
-                                Мест нет
+                                05.07 – 16.07
                             </p>
                         </li>
                         <li class="kids__camp_box_change_block_list_item">
@@ -781,10 +776,10 @@ include_once 'header.php'; ?>
                                 </p>
                             </div>
                             <p class="kids__camp_box_change_block_list_item_text2" style="color: red; font-weight: 600;">
-                                Мест нет
+                                19.07 – 30.07
                             </p>
                         </li>
-                        <li class="kids__camp_box_change_block_list_item">
+                        <!-- <li class="kids__camp_box_change_block_list_item">
                             <div style="display: flex; justify-content: center;">
                                 <div class="kids__camp_box_change_block_list_item_circle"></div>
                                 <p class="kids__camp_box_change_block_list_item_text1">
@@ -794,11 +789,11 @@ include_once 'header.php'; ?>
                             <p class="kids__camp_box_change_block_list_item_text2" style="color: red; font-weight: 600;">
                                 Мест нет
                             </p>
-                        </li>
+                        </li> -->
                     </ul>
                 </div>
             </div>
-            <div class="col-lg-6 col-md-6 col-sm-12">
+            <!-- <div class="col-lg-6 col-md-6 col-sm-12">
                 <div class="kids__camp_box_change_block">
                     <ul class="kids__camp_box_change_block_list2 text-center">
                         <li class="kids__camp_box_change_block_list_item">
@@ -847,8 +842,8 @@ include_once 'header.php'; ?>
                         </li>
                     </ul>
                 </div>
-            </div>
-            <div class="col-12">
+            </div> -->
+            <!-- <div class="col-12">
                 <h3 class="kids__camp_box_food_head text-center">
                     СМЕНА 10 дней
                 </h3>
@@ -867,8 +862,8 @@ include_once 'header.php'; ?>
                         </li>
                     </p>
                 </ul>
-            </div>
-            <div class="col-12">
+            </div> -->
+            <!-- <div class="col-12">
                 <h3 class="kids__camp_box_food_head text-center">
                     СМЕНА 14 дней
                 </h3>
@@ -904,7 +899,7 @@ include_once 'header.php'; ?>
                     Вы можете выбрать<br>
                     7 или 10 дней
                 </p>
-            </div>
+            </div> -->
         </div>
     </div>
 </section>
@@ -936,8 +931,9 @@ include_once 'header.php'; ?>
     <div class="container">
         <div class="row">
             <div class="col-12">
+                <p class="kids__camp_benefit_head_p text-center">Познавательно-развлекательная программа</p>
                 <h2 class="kids__camp_box_programms_head upper text-center">
-                    Наши программы
+                    «Сокровище мечтают все найти»
                 </h2>
             </div>
             <div class="col-lg-6 col-md-6 col-sm-12">
@@ -973,16 +969,19 @@ include_once 'header.php'; ?>
             <div class="col-lg-6 col-md-6 col-sm-12">
                 <div class="kids__camp_box_programms_block">
                     <img src="img/kids-camp-sum/kids-camp-programm3.png" class="kids__camp_box_programms_block_img" alt="Картинка">
-                    <h3 class="kids__camp_box_programms_block_head upper" style="color:#87d0f9;">
+                    <!-- <h3 class="kids__camp_box_programms_block_head upper" style="color:#87d0f9;">
                         Quest camp
+                    </h3> -->
+                    <h3 class="kids__camp_box_programms_block_head upper" style="color:#87d0f9;">
+                        Новинка сезона 2026 года
                     </h3>
                 </div>
             </div>
             <div class="col-lg-6 col-md-6 col-sm-12">
                 <div class="kids__camp_box_programms_block_text">
-                    С момента заезда ребята погружаются в атмосферу таинственности и загадок,
-                    находят таинственное послание и в течение смены должны находят нечто особенное.
-                    Английский, учатся сами создавать квест и импровизировать.
+                    С момента заезда ребята погружаются в атмосферу таинственности и загадок, находят таинственное послание
+                    и в течение смены должны найти нечто особенное. Говорим на английском, учимся импровизировать, познаем
+                    мир финансов. Все этапы проходят в стиле спортивно-приключенческой игры «ФОРД БОЯРД».
                 </div>
             </div>
         </div>
@@ -998,7 +997,8 @@ include_once 'header.php'; ?>
                         Как добраться?
                     </h2>
                     <p class="kids__camp_box_transfer_head_text">
-                        Трансфер туда-обратно
+                        Трансфер туда-обратно<br>
+                        Поезд бизнес –класса
                     </p>
                     <img src="img/kids-camp-sum/transfer.png" class="kids__camp_box_transfer_head_img" alt="Трансфер">
                     <div class="kids__camp_call_to_action_box_btn">
@@ -1009,14 +1009,14 @@ include_once 'header.php'; ?>
                     <div class="kids__camp_call_to_action_box_phone text-center">
                         <div class="kids__camp_call_to_action_box_phone_block">
                             <img src="img/kids-camp-sum/a1-icon.png" alt="" class="kids__camp_call_to_action_box_phone_block_img">
-                            <a href="tel:+375296403474" class="kids__camp_call_to_action_box_phone_block_link">
-                                +375 29 640-34-74
+                            <a href="tel:+375296442032" class="kids__camp_call_to_action_box_phone_block_link">
+                                +375 29 644-20-32
                             </a>
                         </div>
                         <div class="kids__camp_call_to_action_box_phone_block">
-                            <img src="img/kids-camp-sum/viber-icon.png" alt="" class="kids__camp_call_to_action_box_phone_block_img">
-                            <a href="tel:+375296403474" class="kids__camp_call_to_action_box_phone_block_link">
-                                +375 29 640-34-74
+                            <img src="img/kids-camp-sum/telegram-icon.svg" alt="Иконка" class="kids__camp_call_to_action_box_phone_block_img">
+                            <a href="https://t.me/prime1ya" class="kids__camp_call_to_action_box_phone_block_link">
+                                +375 29 644-20-32
                             </a>
                         </div>
                     </div>
@@ -1042,12 +1042,12 @@ include_once 'header.php'; ?>
                             Пакет экононом
                         </h3>
                         <p class="kids__camp_box_price_block-head_text">
-                            На 7 дней
+                            12 дней / 11 ночей
                         </p>
                         <ul class="kids__camp_box_price_block_list">
                             <hr>
                             <li class="kids__camp_box_price_block_list_item">
-                                - 5-разовое питание
+                                - 6-разовое питание
                             </li>
                             <hr>
                             <li class="kids__camp_box_price_block_list_item">
@@ -1055,7 +1055,7 @@ include_once 'header.php'; ?>
                             </li>
                             <hr>
                             <li class="kids__camp_box_price_block_list_item">
-                                - страховка
+                                - оздоровительные процедуры
                             </li>
                             <hr>
                             <li class="kids__camp_box_price_block_list_item">
@@ -1073,20 +1073,39 @@ include_once 'header.php'; ?>
                             <li class="kids__camp_box_price_block_list_item">
                                 <b>-</b>
                             </li>
-                            <!-- <hr>
+                            <hr>
                             <li class="kids__camp_box_price_block_list_item">
-                                - 300 рублей — бронирование после <span class="kids__camp_box_price_block_list_item_span">01 июня</span>
+                                <b>-</b>
                             </li>
                             <hr>
                             <li class="kids__camp_box_price_block_list_item">
+                                <b>-</b>
+                            </li>
+                            <hr>
+                            <li class="kids__camp_box_price_block_list_item">
+                                <b>-</b>
+                            </li>
+                            <hr>
+                            <li class="kids__camp_box_price_block_list_item">
+                                <b>1200 рублей</b> - бронирование до <span class="kids__camp_box_price_block_list_item_span">15 апреля 2026г.</span>
+                            </li>
+                            <hr>
+                            <li class="kids__camp_box_price_block_list_item">
+                                <b>1300 рублей</b> - бронирование до <span class="kids__camp_box_price_block_list_item_span">15 мая 2026г.</span>
+                            </li>
+                            <hr>
+                            <li class="kids__camp_box_price_block_list_item">
+                                <b>1500 рублей</b> - бронирование после <span class="kids__camp_box_price_block_list_item_span">15 мая 2026г.</span>
+                            </li>
+                            <!-- <li class="kids__camp_box_price_block_list_item">
                                 + 140 рублей (5-ти разовое питание)
                             </li> -->
                         </ul>
-                        <p class="kids__camp_box_price_block_text">
+                        <!-- <p class="kids__camp_box_price_block_text">
                             Стоимость <span class="kids__camp_box_price_block_list_item_span">450</span> рублей - Усадьба «Березовый двор»<br><br>
-                            <!-- Стоимость <span class="kids__camp_box_price_block_list_item_span">400</span> рублей - -->Усадьба «Вячкойни»<br>
+                            Стоимость <span class="kids__camp_box_price_block_list_item_span">400</span> рублей - Усадьба «Вячкойни»<br>
                             <span style="color: red; font-weight: 700;">Мест нет</span>
-                        </p>
+                        </p> -->
                     </div>
                     <div class="upper kids__camp_box_price_block_text_div_link text-center">
                         <a href="#try-it" class="upper kids__camp_box_price_block_text_link">Заказать</a>
@@ -1101,12 +1120,12 @@ include_once 'header.php'; ?>
                             Пакет lite
                         </h3>
                         <p class="kids__camp_box_price_block-head_text">
-                            На 7 дней
+                            12 дней / 11 ночей
                         </p>
                         <ul class="kids__camp_box_price_block_list">
                             <hr>
                             <li class="kids__camp_box_price_block_list_item">
-                                - 5-разовое питание
+                                - 6-разовое питание
                             </li>
                             <hr>
                             <li class="kids__camp_box_price_block_list_item">
@@ -1114,11 +1133,7 @@ include_once 'header.php'; ?>
                             </li>
                             <hr>
                             <li class="kids__camp_box_price_block_list_item">
-                                - страховка
-                            </li>
-                            <hr>
-                            <li class="kids__camp_box_price_block_list_item">
-                                - сопровождение ребенка
+                                - оздоровительные процедуры
                             </li>
                             <hr>
                             <li class="kids__camp_box_price_block_list_item">
@@ -1126,18 +1141,46 @@ include_once 'header.php'; ?>
                             </li>
                             <hr>
                             <li class="kids__camp_box_price_block_list_item">
+                                <b>- дополнительные процедуры по назначению педиатра</b>
+                            </li>
+                            <hr>
+                            <li class="kids__camp_box_price_block_list_item">
+                                <b>- круглосуточная работа педагогов</b>
+                            </li>
+                            <hr>
+                            <li class="kids__camp_box_price_block_list_item">
+                                <b>- познавательно-развлекательная программа</b>
+                            </li>
+                            <hr>
+                            <li class="kids__camp_box_price_block_list_item">
                                 <b>- английский язык</b>
                             </li>
                             <hr>
                             <li class="kids__camp_box_price_block_list_item">
-                                <b>- катание на лошади</b>
+                                <b>- экскурсии</b>
+                            </li>
+                            <hr>
+                            <li class="kids__camp_box_price_block_list_item">
+                                <b>- подарки</b>
+                            </li>
+                            <hr>
+                            <li class="kids__camp_box_price_block_list_item">
+                                <b>1300 рублей</b> - бронирование до <span class="kids__camp_box_price_block_list_item_span">15 апреля 2026г.</span>
+                            </li>
+                            <hr>
+                            <li class="kids__camp_box_price_block_list_item">
+                                <b>1400 рублей</b> - бронирование до <span class="kids__camp_box_price_block_list_item_span">15 мая 2026г.</span>
+                            </li>
+                            <hr>
+                            <li class="kids__camp_box_price_block_list_item">
+                                <b>1600 рублей</b> - бронирование после <span class="kids__camp_box_price_block_list_item_span">15 мая 2026г.</span>
                             </li>
                         </ul>
-                        <p class="kids__camp_box_price_block_text">
+                        <!-- <p class="kids__camp_box_price_block_text">
                             Стоимость <span class="kids__camp_box_price_block_list_item_span">520</span> рублей - Усадьба «Березовый двор»<br><br>
-                            <!--Стоимость <span class="kids__camp_box_price_block_list_item_span">490</span> рублей - -->Усадьба «Вячкойни»<br>
+                            Стоимость <span class="kids__camp_box_price_block_list_item_span">490</span> рублей - Усадьба «Вячкойни»<br>
                             <span style="color: red; font-weight: 700;">Мест нет</span>
-                        </p>
+                        </p> -->
                     </div>
                     <div class="upper kids__camp_box_price_block_text_div_link text-center">
                         <a href="#try-it" class="upper kids__camp_box_price_block_text_link">Заказать</a>
@@ -1146,10 +1189,11 @@ include_once 'header.php'; ?>
             </div>
             <div class="col-12">
                 <div class="upper kids__camp_box_price_block_text_div_link text-center">
-                    <b>Стоимость на <span class="kids__camp_box_price_block_list_item_span">14</span> дней в <span class="kids__camp_box_price_block_list_item_span">июне</span> – <span class="kids__camp_box_price_block_list_item_span">970</span> рублей.</b><br><br>
+                    <!-- <b>Стоимость на <span class="kids__camp_box_price_block_list_item_span">14</span> дней в <span class="kids__camp_box_price_block_list_item_span">июне</span> – <span class="kids__camp_box_price_block_list_item_span">970</span> рублей.</b><br><br>
                     <b>Стоимость на <span class="kids__camp_box_price_block_list_item_span">14</span> дней в <span class="kids__camp_box_price_block_list_item_span">июле</span> – <span class="kids__camp_box_price_block_list_item_span">1050</span> рублей.</b><br><br>
                     <b>Стоимость на <span class="kids__camp_box_price_block_list_item_span">10</span> дней </span> – <span class="kids__camp_box_price_block_list_item_span">750</span> рублей.</b><br><br>
-                    <span class="kids__camp_box_price_block_list_item_span upper">Экскурсии в стоимость не входят и оплачиваются<br>заказчиком дополнительно.</span>
+                    <span class="kids__camp_box_price_block_list_item_span upper">Экскурсии в стоимость не входят и оплачиваются<br>заказчиком дополнительно.</span> -->
+                    <b>Для участников проекта «Круговорот желаний» - Стоимость <span class="kids__camp_box_price_block_list_item_span">930</span> рублей</b><br><br>
                 </div>
             </div>
             <div class="col-12">
@@ -1160,11 +1204,11 @@ include_once 'header.php'; ?>
                     <p class="kids__camp_box_price_block_conditions_text">
                         * Стоимость указана при бронировании до
                         указанной даты и внесении
-                        предоплаты <!--<span class="kids__camp_box_price_block_conditions_text_span">100 руб.</span> -->
+                        предоплаты в размере <span class="kids__camp_box_price_block_conditions_text_span" style="display: inline">300 руб.</span>
                     </p>
                     <p class="kids__camp_box_price_block_conditions_text">
                         * Основную часть стоимости Вы вносите за <span class="kids__camp_box_price_block_conditions_text_span">2
-                            недели до смены</span>
+                            недели до начала смены</span>
                     </p>
                 </div>
             </div>
@@ -1184,14 +1228,14 @@ include_once 'header.php'; ?>
                 <div class="kids__camp_call_to_action_box_phone text-center">
                     <div class="kids__camp_call_to_action_box_phone_block">
                         <img src="img/kids-camp-sum/a1-icon.png" alt="Иконка" class="kids__camp_call_to_action_box_phone_block_img">
-                        <a href="tel:+375296403474" class="kids__camp_call_to_action_box_phone_block_link">
-                            +375 29 640-34-74
+                        <a href="tel:+375296442032" class="kids__camp_call_to_action_box_phone_block_link">
+                            +375 29 644-20-32
                         </a>
                     </div>
                     <div class="kids__camp_call_to_action_box_phone_block">
-                        <img src="img/kids-camp-sum/viber-icon.png" alt="Иконка" class="kids__camp_call_to_action_box_phone_block_img">
-                        <a href="tel:+375296403474" class="kids__camp_call_to_action_box_phone_block_link">
-                            +375 29 640-34-74
+                        <img src="img/kids-camp-sum/telegram-icon.svg" alt="Иконка" class="kids__camp_call_to_action_box_phone_block_img">
+                        <a href="https://t.me/prime1ya" class="kids__camp_call_to_action_box_phone_block_link">
+                            +375 29 644-20-32
                         </a>
                     </div>
                 </div>
@@ -1210,8 +1254,7 @@ include_once 'header.php'; ?>
                         А так же
                     </h3> -->
                     <p class="kids__camp_box_bonus_text2">
-                        Дети и выполняя задания получают<br>
-                        игровые деньги ШКОЛЯРИКИ.
+                        Игровое приключение с заданиями и наградами за их выполнение.
                     </p>
                     <img src="img/kids-camp-sum/money-schkoliariky.png" class="kids__camp_box_bonus_img" alt="Школярики">
                     <!-- <p class="kids__camp_box_bonus_text2">

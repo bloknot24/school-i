@@ -3692,10 +3692,11 @@ header button {
 	padding-top: 25px;
 }
 .kids__camp_box_header {
-	font-size: 29px;
-	font-weight: 700;
-	margin-top: 70px;
-	margin-bottom: 40px;
+	font-size: 56px;
+	font-weight: 800;
+	margin-top: 50px;
+	margin-bottom: 30px;
+	color: red;
 }
 .kids__camp_box_header span {
 	font-family: 'Montserrat';
@@ -3703,16 +3704,16 @@ header button {
 }
 .kids__camp_box_header_h2 {
 	font-family: 'Georgia', sans-serif;
-	font-size: 24px;
+	font-size: 35px;
 	font-weight: 700;
-	color: #fff;
+	color: #AA60CA;
 	margin-top: 20px;
 }
 .kids__camp_box_header_h2_additionally {
 	font-family: 'Georgia', sans-serif;
-	font-size: 24px;
+	font-size: 28px;
 	font-weight: 100;
-	color: #fff;
+	color: #000;
 	margin: 30px auto 50px auto;
 }
 .kids__camp_btn_offer {
@@ -3729,6 +3730,10 @@ header button {
 	font-size: 23px;
 	font-weight: 700;
 	color: #000;
+}
+.kids__camp_btn_offer {
+	background: #ffcb30;
+	color: white;
 }
 .kids__camp_additionally_box_text2 {
 	font-size: 23px;
@@ -3838,7 +3843,7 @@ header button {
 .kids__camp_about_place_block_text1 {
 	font-size: 20px;
 	font-weight: 700;
-	margin-top: 60px;
+	/* margin-top: 60px; */
 }
 .kids__camp_about_place_block_text2 {
 	font-size: 20px;
@@ -3917,7 +3922,8 @@ header button {
 	background: #fff;
 	border-radius: 20px;
 	padding: 35px 0px 14px 0px;
-	margin: 0px 5px 0px auto;
+	/* margin: 0px 5px 0px auto; */
+	margin: 0px auto 0px auto;
 }
 .kids__camp_box_change_block_list2 {
 	list-style-type: none;
@@ -5126,4 +5132,14 @@ header button {
 	border: 2px solid #86d0fa;
 	color: #86d0fa;
 	padding: 18px 28px;
+}
+
+.kids__camp_benefit_head_p {
+	font-size: 22px;
+	margin: 30px auto 0px auto;
+	line-height: 25px;
+}
+
+.kids__camp_about_img iframe {
+	width: 100%;
 }

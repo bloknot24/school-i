@@ -2054,4 +2054,15 @@
     .block-img-1-text {
         font-size: 30px;
     }
+    .kids__camp_box_header_h2 {
+        font-size: 20px;
+        margin: 0px auto;
+        width: 80%;
+    }
+    .kids__camp_box_header_h2_additionally {
+        font-size: 18px;
+    }
+    .kids__camp_about_img iframe {
+        width: 90%;
+    }
 }
