@@ -268,7 +268,7 @@ include_once 'header.php'; ?>
                             </text>
                         </svg>
                         <h3 class="kids__camp_waiting_block_head upper">
-                            Финансовая пирамида
+                            Финансовая грамотность
                         </h3>
                         <p class="kids__camp_waiting_block_text">
                             Ваш ребенок познает мир финансов,<br>
@@ -1034,7 +1034,7 @@ include_once 'header.php'; ?>
                     Стоимость путевки
                 </h2>
             </div>
-            <div class="col-lg-6 col-md-12 col-sm-12">
+            <!-- <div class="col-lg-6 col-md-12 col-sm-12">
                 <div class="kids__camp_box_price_block1 text-center">
                     <img src="img/kids-camp-sum/price-img1.png" alt="Стоимость">
                     <div class="kids__camp_box_price_block_line">
@@ -1097,28 +1097,26 @@ include_once 'header.php'; ?>
                             <li class="kids__camp_box_price_block_list_item">
                                 <b>1500 рублей</b> - бронирование после <span class="kids__camp_box_price_block_list_item_span">15 мая 2026г.</span>
                             </li>
-                            <!-- <li class="kids__camp_box_price_block_list_item">
-                                + 140 рублей (5-ти разовое питание)
-                            </li> -->
-                        </ul>
-                        <!-- <p class="kids__camp_box_price_block_text">
+                        </ul> -->
+            <!-- <p class="kids__camp_box_price_block_text">
                             Стоимость <span class="kids__camp_box_price_block_list_item_span">450</span> рублей - Усадьба «Березовый двор»<br><br>
                             Стоимость <span class="kids__camp_box_price_block_list_item_span">400</span> рублей - Усадьба «Вячкойни»<br>
                             <span style="color: red; font-weight: 700;">Мест нет</span>
                         </p> -->
-                    </div>
+            <!-- </div>
                     <div class="upper kids__camp_box_price_block_text_div_link text-center">
                         <a href="#try-it" class="upper kids__camp_box_price_block_text_link">Заказать</a>
                     </div>
                 </div>
-            </div>
-            <div class="col-lg-6 col-md-12 col-sm-12">
-                <div class="kids__camp_box_price_block2 text-center">
-                    <img src="img/kids-camp-sum/price-img2.png" alt="Стоимость">
+            </div> -->
+            <!-- <div class="col-lg-6 col-md-12 col-sm-12"> -->
+            <div class="col-lg-12 col-md-12 col-sm-12">
+                <div class="kids__camp_box_price_block2 text-center" style="margin: 40px auto 0px auto;">
+                    <!-- <img src="img/kids-camp-sum/price-img2.png" alt="Стоимость"> -->
                     <div class="kids__camp_box_price_block_line">
-                        <h3 class="kids__camp_box_price_block-head upper">
+                        <!-- <h3 class="kids__camp_box_price_block-head upper">
                             Пакет lite
-                        </h3>
+                        </h3> -->
                         <p class="kids__camp_box_price_block-head_text">
                             12 дней / 11 ночей
                         </p>
@@ -1355,7 +1353,7 @@ include_once 'header.php'; ?>
         </div>
         <div class="col-lg-4 col-md-12 col-sm-12 text-center">
             <div class="kids__camp_download_doc">
-                <a href="documents/pasporiadok.docx" target="_blank" class="kids__camp_download_doc_link text-center upper" style="background: #87d0f9;">Распорядок дня</a>
+                <a href="documents/pravila-prebyvaniya.docx" target="_blank" class="kids__camp_download_doc_link text-center upper" style="background: #87d0f9;">Правила пребывания</a>
             </div>
         </div>
     </div>
