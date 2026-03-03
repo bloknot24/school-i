@@ -298,6 +298,9 @@
     .cycle__esires_form_block2 {
         margin: 100px auto 0px auto;
     }
+    .privacy_policy__section {
+        padding-top: 130px;
+    }
 }
 
 /* -------------- 768-992px ---------------- */
@@ -892,6 +895,39 @@
     .block-img-2-text {
         text-align: center;
     }
+    .privacy_policy__section {
+        padding-top: 80px;
+    }
+    .menu-open {
+        display: block;
+    }
+    .cl-container {
+        padding: 14px 20px;
+    }
+    .cl-message {
+        font-size: 14px;
+    }
+    .cl-button {
+        padding: 9px 20px;
+        font-size: 13px;
+    }
+    .cl-modal-panel {
+        width: 95%;
+        padding: 30px 30px;
+        margin: 4% auto;
+    }
+    .cl-modal-header {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+    .cl-modal-text h3 {
+        font-size: 19px;
+        margin: 20px 0 10px;
+    }
+    .cl-modal-text p,
+    .cl-modal-text li {
+        font-size: 15px;
+    }
 }
 
 /* -------------- 576-768px ---------------- */
@@ -1236,6 +1272,67 @@
     }
     .block-img-1 img {
         width: 100%;
+    }
+    .cl-container {
+        padding: 12px 16px;
+    }
+    .cl-inner {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 12px;
+    }
+    .cl-message {
+        min-width: auto;
+        font-size: 13px;
+        text-align: center;
+        line-height: 1.4;
+    }
+    .cl-buttons {
+        justify-content: center;
+        gap: 8px;
+    }
+    .cl-button {
+        padding: 8px 16px;
+        font-size: 12px;
+        white-space: normal;
+        flex: 0 1 auto;
+    }
+    /* Модальное окно на мобильных */
+    .cl-modal-panel {
+        width: 100%;
+        height: 100%;
+        max-height: 100%;
+        margin: 0;
+        border-radius: 0;
+        padding: 25px 20px;
+        display: flex;
+        flex-direction: column;
+    }
+    .cl-modal-header {
+        font-size: 22px;
+        padding-bottom: 12px;
+        margin-bottom: 15px;
+    }
+    .cl-modal-close {
+        right: 20px;
+        top: 15px;
+        font-size: 30px;
+    }
+    .cl-modal-text {
+        flex: 1;
+    }
+    .cl-modal-text h3 {
+        font-size: 18px;
+        margin: 18px 0 8px;
+    }
+    .cl-modal-text p,
+    .cl-modal-text li {
+        font-size: 14px;
+        line-height: 1.5;
+        margin-bottom: 12px;
+    }
+    .cl-modal-text ul {
+        margin: 10px 0 20px 25px;
     }
 }   
 
@@ -2064,5 +2161,100 @@
     }
     .kids__camp_about_img iframe {
         width: 90%;
+    }
+    .privacy_policy__section {
+        padding-top: 0px;
+    }
+}
+
+/* ===== АДАПТИВ ДЛЯ МАЛЕНЬКИХ ТЕЛЕФОНОВ ===== */
+@media screen and (max-width: 480px) {
+    .cl-container {
+        padding: 10px 12px;
+    }
+    .cl-message {
+        font-size: 12px;
+    }
+    .cl-buttons {
+        flex-direction: column;
+        width: 100%;
+        gap: 6px;
+    }
+    .cl-button {
+        width: 100%;
+        padding: 10px 12px;
+        font-size: 13px;
+        text-align: center;
+    }
+    .cl-modal-panel {
+        padding: 20px 15px;
+    }
+    .cl-modal-header {
+        font-size: 20px;
+        padding-right: 25px;
+    }
+    .cl-modal-close {
+        right: 15px;
+        top: 12px;
+        font-size: 28px;
+    }
+    .cl-modal-text h3 {
+        font-size: 17px;
+    }
+    .cl-modal-text p,
+    .cl-modal-text li {
+        font-size: 13px;
+    }
+}
+
+/* ===== АДАПТИВ ДЛЯ ОЧЕНЬ МАЛЕНЬКИХ ЭКРАНОВ ===== */
+@media screen and (max-width: 360px) {
+    .cl-message {
+        font-size: 11px;
+    }
+    .cl-button {
+        font-size: 12px;
+        padding: 8px 10px;
+    }
+    .cl-modal-header {
+        font-size: 18px;
+    }
+    .cl-modal-text h3 {
+        font-size: 16px;
+    }
+    .cl-modal-text p,
+    .cl-modal-text li {
+        font-size: 12px;
+    }
+}
+
+/* ===== ТЕМНАЯ ТЕМА (ОПЦИОНАЛЬНО) ===== */
+@media (prefers-color-scheme: dark) {
+    .cl-container {
+        background-color: #0f172a;
+        box-shadow: 0 -4px 15px rgba(0, 0, 0, 0.5);
+    }
+    .cl-modal-panel {
+        background-color: #1e293b;
+        color: #e2e8f0;
+    }
+    .cl-modal-header {
+        color: #f1f5f9;
+        border-bottom-color: #334155;
+    }
+    .cl-modal-text {
+        color: #cbd5e1;
+    }
+    .cl-modal-text h3 {
+        color: #e2e8f0;
+    }
+    .cl-modal-text li {
+        color: #cbd5e1;
+    }
+    .cl-modal-close {
+        color: #64748b;
+    }
+    .cl-modal-close:hover {
+        color: #f1f5f9;
     }
 }

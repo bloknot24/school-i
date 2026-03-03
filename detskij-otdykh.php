@@ -910,7 +910,7 @@ include_once 'header.php'; ?>
             <div class="col-lg-7 col-md-6 col-sm-12">
                 <div class="kids__camp_box_viber_chat_block1 text-center">
                     <h3 class="kids__camp_box_viber_chat_block1_head upper">
-                        Вайбер-чат с родителями
+                        Телеграм-чат с родителями
                     </h3>
                     <p class="kids__camp_box_viber_chat_block1_text">
                         Вы вседа будете знать, что делает Ваш ребенок.
@@ -936,7 +936,7 @@ include_once 'header.php'; ?>
                     «Сокровище мечтают все найти»
                 </h2>
             </div>
-            <div class="col-lg-6 col-md-6 col-sm-12">
+            <!-- <div class="col-lg-6 col-md-6 col-sm-12">
                 <div class="kids__camp_box_programms_block">
                     <img src="img/kids-camp-sum/kids-camp-programm1.png" class="kids__camp_box_programms_block_img" alt="Картинка">
                     <h3 class="kids__camp_box_programms_block_head upper" style="color:#a686db;">
@@ -965,7 +965,7 @@ include_once 'header.php'; ?>
                     постановки на английском языке, шоу, мастер - класс по созданию арт объектов.
                     Съёмка видео клипа. Спортивные активности. Катание на лошадях.
                 </div>
-            </div>
+            </div> -->
             <div class="col-lg-6 col-md-6 col-sm-12">
                 <div class="kids__camp_box_programms_block">
                     <img src="img/kids-camp-sum/kids-camp-programm3.png" class="kids__camp_box_programms_block_img" alt="Картинка">
@@ -1031,7 +1031,7 @@ include_once 'header.php'; ?>
         <div class="row">
             <div class="col-12">
                 <h2 class="kids__camp_box_price-head text-center">
-                    Стоимость услуг
+                    Стоимость путевки
                 </h2>
             </div>
             <div class="col-lg-6 col-md-12 col-sm-12">

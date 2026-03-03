@@ -133,9 +133,9 @@
             </ul>
             <div class="contacs1">
                 <div class="contacs__call">
-                    <a href="tel:+375296403474" class="call">
+                    <a href="tel:+375296442032" class="call">
                         <img src="img/phone_whrite.png" alt="call">
-                        +375296403474
+                        +375296442032
                     </a>
                 </div>
                 <div class="contacs__email">
@@ -242,9 +242,9 @@
                                 </a>
                             </div> -->
                             <div class="contacs__call">
-                                <a href="tel:+375296403474" class="call">
+                                <a href="tel:+375296442032" class="call">
                                     <img src="img/call.png" alt="call">
-                                    +375296403474
+                                    +375296442032
                                 </a>
                             </div>
                             <div class="d-xxl-none d-xl-none d-lg-block d-md-none d-sm-none d-none">

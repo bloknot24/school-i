@@ -1,5 +1,5 @@
 <?php $title = 'Круговорот желаний - Первый Я';
-$description = '«КРУГОВОРОТ Желаний» - проектт о том, как воплотить желания в реальность, добиваться своего и идти к цели!';
+$description = '«КРУГОВОРОТ Желаний» - проект о том, как воплотить желания в реальность, добиваться своего и идти к цели!';
 include_once 'header.php'; ?>
 
 <section class="cycle__esires_index">
@@ -219,11 +219,11 @@ include_once 'header.php'; ?>
                     <div class="cycle__esires_we_create_block_link_box">
                         <div class="cycle__esires_we_create_block_link_box2">
                             <img src="img/kids-camp-sum/a1-icon.png" class="cycle__esires_we_create_block_link_img" alt="Иконка">
-                            <a href="tel:+375296403474" class="cycle__esires_we_create_block_link_text">+375 29 640-34-74</a>
+                            <a href="tel:+375296442032" class="cycle__esires_we_create_block_link_text">+375 29 644-20-32</a>
                         </div>
                         <div class="cycle__esires_we_create_block_link_box2">
-                            <img src="img/kids-camp-sum/viber-icon.png" class="cycle__esires_we_create_block_link_img" alt="Иконка">
-                            <a href="viber://chat?number=375296403474" class="cycle__esires_we_create_block_link_text">+375 29 640-34-74</a>
+                            <img src="img/kids-camp-sum/telegram-icon.svg" class="cycle__esires_we_create_block_link_img" alt="Иконка">
+                            <a href="https://t.me/prime1ya" class="cycle__esires_we_create_block_link_text">+375 29 644-20-32</a>
                         </div>
                         <img src="img/cycle-desires/shape4.svg" class="cycle__esires_we_create_block_link_img2" alt="Фигуры">
                         <img src="img/cycle-desires/shape5.svg" class="cycle__esires_we_create_block_link_img3" alt=" Фигуры">
@@ -380,11 +380,11 @@ include_once 'header.php'; ?>
                     <div class="cycle__esires_education_travel_block_box">
                         <div class="cycle__esires_education_travel_block_tel">
                             <img src="img/kids-camp-sum/a1-icon.png" class="cycle__esires_we_create_block_link_img" alt="Иконка">
-                            <a href="tel:+375296403474" class="cycle__esires_we_create_block_link_text">+375 29 640-34-74</a>
+                            <a href="tel:+375296442032" class="cycle__esires_we_create_block_link_text">+375 29 644-20-32</a>
                         </div>
                         <div class="cycle__esires_education_travel_block_tel">
-                            <img src="img/kids-camp-sum/viber-icon.png" class="cycle__esires_we_create_block_link_img" alt="Иконка">
-                            <a href="viber://chat?number=375296403474" class="cycle__esires_we_create_block_link_text">+375 29 640-34-74</a>
+                            <img src="img/kids-camp-sum/telegram-icon.svg" class="cycle__esires_we_create_block_link_img" alt="Иконка">
+                            <a href="https://t.me/prime1ya" class="cycle__esires_we_create_block_link_text">+375 29 644-20-32</a>
                         </div>
                     </div>
                 </div>
@@ -554,11 +554,11 @@ include_once 'header.php'; ?>
                     <div class="cycle__esires_we_create_block_link_box">
                         <div class="cycle__esires_we_create_block_link_box2">
                             <img src="img/kids-camp-sum/a1-icon.png" class="cycle__esires_we_create_block_link_img" alt="Иконка">
-                            <a href="tel:+375296403474" class="cycle__esires_we_create_block_link_text">+375 29 640-34-74</a>
+                            <a href="tel:+375296442032" class="cycle__esires_we_create_block_link_text">+375 29 644-20-32</a>
                         </div>
                         <div class="cycle__esires_we_create_block_link_box2">
-                            <img src="img/kids-camp-sum/viber-icon.png" class="cycle__esires_we_create_block_link_img" alt="Иконка">
-                            <a href="viber://chat?number=375296403474" class="cycle__esires_we_create_block_link_text">+375 29 640-34-74</a>
+                            <img src="img/kids-camp-sum/telegram-icon.svg" class="cycle__esires_we_create_block_link_img" alt="Иконка">
+                            <a href="https://t.me/prime1ya" class="cycle__esires_we_create_block_link_text">+375 29 644-20-32</a>
                         </div>
                     </div>
                 </div>

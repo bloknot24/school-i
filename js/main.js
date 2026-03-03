@@ -205,4 +205,124 @@ $(function(){
     $("form .phone").mask("+375 (00) 000-00-00");
 });
 
-
+// Модалка для cookie
+$(document).ready(function() {
+    // Элементы cookie блока
+    var $cookieContainer = $('#cookieLawBlock');
+    var $acceptButton = $('#clAccept');
+    var $rejectButton = $('#clReject');
+    var $detailsButton = $('#clDetails');
+    
+    // Элементы модального окна
+    var $modalWindow = $('#clModal');
+    var $modalCloseButton = $('#clModalClose');
+    
+    // Проверяем, было ли уже принято/отклонено согласие
+    var userChoice = localStorage.getItem('cookieLawConsent');
+    
+    // Если выбор не был сделан, показываем блок cookie
+    if (!userChoice) {
+        // Используем slideDown с учетом видимости на мобильных
+        $cookieContainer.css('display', 'none').slideDown(400);
+    }
+    
+    // Обработчик кнопки "Принять"
+    $acceptButton.on('click', function() {
+        localStorage.setItem('cookieLawConsent', 'accepted');
+        $cookieContainer.slideUp(400);
+        console.log('[Cookie Law] Согласие получено');
+        
+        // Здесь можно инициализировать аналитику
+        initializeAnalytics();
+    });
+    
+    // Обработчик кнопки "Отклонить"
+    $rejectButton.on('click', function() {
+        localStorage.setItem('cookieLawConsent', 'rejected');
+        $cookieContainer.slideUp(400);
+        console.log('[Cookie Law] Согласие отклонено');
+        
+        // Здесь можно отключить аналитику
+        disableAnalytics();
+    });
+    
+    // Обработчик кнопки "Подробнее" - открыть модальное окно
+    $detailsButton.on('click', function() {
+        openModal();
+    });
+    
+    // Закрыть модальное окно через крестик
+    $modalCloseButton.on('click', function() {
+        closeModal();
+    });
+    
+    // Закрыть модальное окно при клике вне его
+    $modalWindow.on('click', function(event) {
+        if ($(event.target).is($modalWindow)) {
+            closeModal();
+        }
+    });
+    
+    // Закрыть по Esc
+    $(document).on('keydown', function(event) {
+        if (event.key === 'Escape' && $modalWindow.is(':visible')) {
+            closeModal();
+        }
+    });
+    
+    // Обработка изменения ориентации экрана
+    $(window).on('orientationchange', function() {
+        if ($modalWindow.is(':visible')) {
+            // Корректируем позицию модального окна при повороте
+            setTimeout(function() {
+                $modalWindow.scrollTop(0);
+            }, 100);
+        }
+    });
+    
+    // Функция открытия модального окна с учетом устройства
+    function openModal() {
+        $modalWindow.fadeIn(300);
+        $('body').addClass('cl-modal-open').css('overflow', 'hidden');
+        
+        // На мобильных устройствах прокручиваем модальное окно вверх
+        if ($(window).width() <= 768) {
+            $modalWindow.scrollTop(0);
+        }
+    }
+    
+    // Функция закрытия модального окна
+    function closeModal() {
+        $modalWindow.fadeOut(300);
+        $('body').removeClass('cl-modal-open').css('overflow', 'auto');
+    }
+    
+    // Функции для работы с аналитикой (пример)
+    function initializeAnalytics() {
+        // Здесь код для загрузки Google Analytics, Яндекс.Метрики и т.д.
+        console.log('Аналитика включена');
+    }
+    
+    function disableAnalytics() {
+        // Здесь код для отключения аналитики
+        console.log('Аналитика отключена');
+    }
+    
+    // Функция для сброса выбора (можно вызвать из консоли для тестирования)
+    window.resetCookieLaw = function() {
+        localStorage.removeItem('cookieLawConsent');
+        $cookieContainer.slideDown(400);
+    };
+    
+    // Дополнительная проверка видимости на мобильных
+    // function checkMobileView() {
+    //     if ($(window).width() <= 480) {
+    //         // Особые действия для маленьких экранов
+    //         console.log('Мобильная версия');
+    //     }
+    // }
+    
+    // // Вызов при загрузке и изменении размера окна
+    // checkMobileView();
+    // $(window).on('resize', checkMobileView);
+});

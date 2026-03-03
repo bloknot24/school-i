@@ -5027,43 +5027,35 @@ header button {
 	color: #1f1f1f;
 	font-weight: 600;
 }
-
 .read-more-wrap-description::after {
 	content: ' 'url(../img/arrow_more.png);
 }
-
 .method__item_p {
 	font-size: 17px;
 	font-weight: 400;
 	margin: 20px 0px;
 }
-
 .private-school__benefits-head {
 	margin: 50px auto 30px auto;
 }
-
 .private-school__benefits-head-text {
 	font-size: 36px;
 	font-weight: 600;
 }
-
 .private-school__benefits-box {
 	display: flex;
 }
-
 .private-school__benefits-box-numeral {
 	font-size: 100px;
 	font-weight: 800;
 	margin-right: 15px;
 }
-
 .private-school__benefits-box-text {
 	font-size: 20px;
 	font-weight: 600;
 	line-height: 20px;
 	margin-top: 37px;
 }
-
 .private-school__benefits-box-link-text {
 	background: #8ed6cb;
 	padding: 20px 30px;
@@ -5072,22 +5064,18 @@ header button {
 	color: #ffffff;
 	font-weight: bold;
 }
-
 .private-school__benefits-box-link-text:hover {
 	background: #ffffff;
 	border: 2px solid #8ed6cb;
 	color: #8ed6cb;
 }
-
 .private-school__benefits-link {
 	margin-top: 30px;
 	padding-bottom: 60px;
 }
-
 .private-school__benefits-box-link-span {
 	display: inline;
 }
-
 .private-school__benefits-box-link-text-two {
 	background: #da91c1;;
 	padding: 20px 30px;
@@ -5096,14 +5084,12 @@ header button {
 	color: #ffffff;
 	font-weight: bold;
 }
-
 .private-school__benefits-box-link-text-two:hover {
 	background: #ffffff;
 	border: 2px solid #da91c1;;
 	color: #da91c1;
 	padding: 18px 28px;
 }
-
 .block-img-1-text {
 	font-size: 44px;
 	font-weight: 600;
@@ -5111,13 +5097,11 @@ header button {
 	line-height: 48px;
 	margin-top: 133px;
 }
-
 .block-img-2-text {
 	font-size: 19px;
 	font-weight: 600;
 	color: #a687dc;
 }
-
 .private-school__benefits-box-link-text-three {
 	background: #86d0fa;
 	padding: 20px 30px;
@@ -5126,20 +5110,207 @@ header button {
 	color: #ffffff;
 	font-weight: bold;
 }
-
 .private-school__benefits-box-link-text-three:hover {
 	background: #ffffff;
 	border: 2px solid #86d0fa;
 	color: #86d0fa;
 	padding: 18px 28px;
 }
-
 .kids__camp_benefit_head_p {
 	font-size: 22px;
 	margin: 30px auto 0px auto;
 	line-height: 25px;
 }
-
 .kids__camp_about_img iframe {
 	width: 100%;
+}
+.privacy_policy__section {
+	padding-top: 200px;
+}
+.privacy_policy__section h1 {
+	color: #000;
+	font-size: 25px;
+	margin: 20px auto;
+	text-align: center;
+}
+.privacy_policy__section h2 {
+	color: #000;
+	font-size: 19px;
+}
+.privacy_policy__block {
+	margin: 0px 0px 40px 0px;
+}
+.privacy_policy__block a {
+	text-decoration: none;
+	color: #3a82ff;
+	display: inline;
+}
+.privacy_policy__section p {
+	margin-bottom: 0.3rem;
+}
+.privacy_policy__block table td {
+	padding: 10px;
+}
+/* Сброс стилей только для компонента cookie */
+.cl-container *,
+.cl-modal * {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+/* ===== Стили для блока cookie ===== */
+.cl-container {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	background-color: #1a2634;
+	color: #ffffff;
+	padding: 16px 24px;
+	box-shadow: 0 -4px 15px rgba(0, 0, 0, 0.15);
+	z-index: 9999;
+	display: none;
+	font-family: 'Segoe UI', Arial, sans-serif;
+}
+.cl-inner {
+	max-width: 1300px;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+	gap: 20px;
+}
+.cl-message {
+	flex: 1;
+	min-width: 280px;
+	font-size: 15px;
+	line-height: 1.5;
+	margin: 0;
+	color: #f0f0f0;
+}
+.cl-buttons {
+	display: flex;
+	gap: 12px;
+	flex-wrap: wrap;
+}
+.cl-button {
+	padding: 10px 24px;
+	border: none;
+	border-radius: 6px;
+	cursor: pointer;
+	font-size: 14px;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 0.3px;
+	transition: all 0.2s ease;
+	font-family: inherit;
+	white-space: nowrap;
+}
+.cl-button-accept {
+	background-color: #2e7d32;
+	color: white;
+	box-shadow: 0 2px 5px rgba(46, 125, 50, 0.3);
+}
+.cl-button-accept:hover {
+	background-color: #1b5e20;
+	transform: translateY(-2px);
+	box-shadow: 0 4px 8px rgba(46, 125, 50, 0.4);
+}
+.cl-button-reject {
+	background-color: #c62828;
+	color: white;
+	box-shadow: 0 2px 5px rgba(198, 40, 40, 0.3);
+}
+.cl-button-reject:hover {
+	background-color: #b71c1c;
+	transform: translateY(-2px);
+	box-shadow: 0 4px 8px rgba(183, 28, 28, 0.4);
+}
+.cl-button-details {
+	background-color: #1565c0;
+	color: white;
+	box-shadow: 0 2px 5px rgba(21, 101, 192, 0.3);
+}
+.cl-button-details:hover {
+	background-color: #0d47a1;
+	transform: translateY(-2px);
+	box-shadow: 0 4px 8px rgba(13, 71, 161, 0.4);
+}
+/* ===== Стили для модального окна ===== */
+.cl-modal {
+	display: none;
+	position: fixed;
+	z-index: 10000;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	background-color: rgba(0, 0, 0, 0.6);
+	backdrop-filter: blur(3px);
+	font-family: 'Segoe UI', Arial, sans-serif;
+}
+.cl-modal-panel {
+	background-color: #ffffff;
+	margin: 5% auto;
+	padding: 35px 40px;
+	border: none;
+	width: 90%;
+	max-width: 650px;
+	border-radius: 16px;
+	position: relative;
+	color: #2c3e50;
+	max-height: 80vh;
+	overflow-y: auto;
+	box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+}
+.cl-modal-close {
+	color: #94a3b8;
+	position: absolute;
+	right: 25px;
+	top: 20px;
+	font-size: 32px;
+	font-weight: 400;
+	cursor: pointer;
+	line-height: 1;
+	transition: color 0.2s;
+}
+.cl-modal-close:hover {
+	color: #1e293b;
+}
+.cl-modal-header {
+	margin-bottom: 25px;
+	color: #0f172a;
+	font-size: 26px;
+	font-weight: 600;
+	padding-right: 30px;
+	border-bottom: 2px solid #e2e8f0;
+	padding-bottom: 15px;
+}
+.cl-modal-text {
+	color: #334155;
+}
+.cl-modal-text h3 {
+	margin: 25px 0 12px;
+	color: #1e293b;
+	font-size: 20px;
+	font-weight: 600;
+}
+.cl-modal-text p {
+	margin-bottom: 18px;
+	line-height: 1.7;
+	font-size: 16px;
+}
+.cl-modal-text ul {
+	margin: 15px 0 25px 30px;
+}
+.cl-modal-text li {
+	margin-bottom: 10px;
+	line-height: 1.6;
+	font-size: 16px;
+	color: #475569;
+}
+.cl-modal-text li::marker {
+	color: #1565c0;
 }
