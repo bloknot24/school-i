@@ -1163,11 +1163,11 @@ include_once 'header.php'; ?>
                             </li>
                             <hr>
                             <li class="kids__camp_box_price_block_list_item">
-                                <b>1300 рублей</b> - бронирование до <span class="kids__camp_box_price_block_list_item_span">15 апреля 2026г.</span>
+                                <b>1360 рублей</b> - бронирование до <span class="kids__camp_box_price_block_list_item_span">10 апреля 2026г.</span>
                             </li>
                             <hr>
                             <li class="kids__camp_box_price_block_list_item">
-                                <b>1400 рублей</b> - бронирование до <span class="kids__camp_box_price_block_list_item_span">15 мая 2026г.</span>
+                                <b>1460 рублей</b> - бронирование до <span class="kids__camp_box_price_block_list_item_span">15 мая 2026г.</span>
                             </li>
                             <hr>
                             <li class="kids__camp_box_price_block_list_item">
