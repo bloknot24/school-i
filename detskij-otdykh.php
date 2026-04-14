@@ -753,6 +753,7 @@ include_once 'header.php'; ?>
                                     1 смена
                                 </p>
                             </div>
+                            <span class="kids__camp_box_price_block_list_item_span">(осталось 8 мест)</span>
                             <p class="kids__camp_box_change_block_list_item_text2" style="color: red; font-weight: 600;">
                                 21.06. – 2.07
                             </p>
@@ -764,6 +765,7 @@ include_once 'header.php'; ?>
                                     2 смена
                                 </p>
                             </div>
+                            <span class="kids__camp_box_price_block_list_item_span">(осталось 4 места)</span>
                             <p class="kids__camp_box_change_block_list_item_text2" style="color: red; font-weight: 600;">
                                 05.07 – 16.07
                             </p>
@@ -775,6 +777,7 @@ include_once 'header.php'; ?>
                                     3 смена
                                 </p>
                             </div>
+                            <span class="kids__camp_box_price_block_list_item_span">(есть места)</span>
                             <p class="kids__camp_box_change_block_list_item_text2" style="color: red; font-weight: 600;">
                                 19.07 – 30.07
                             </p>
@@ -1161,17 +1164,17 @@ include_once 'header.php'; ?>
                             <li class="kids__camp_box_price_block_list_item">
                                 <b>- подарки</b>
                             </li>
-                            <hr>
+                            <!-- <hr>
                             <li class="kids__camp_box_price_block_list_item">
                                 <b>1380 рублей</b> - бронирование до <span class="kids__camp_box_price_block_list_item_span">10 апреля 2026г.</span>
+                            </li> -->
+                            <hr>
+                            <li class="kids__camp_box_price_block_list_item">
+                                <b>1420 рублей</b> - бронирование <span class="kids__camp_box_price_block_list_item_span">до 1 мая 2026г.</span>
                             </li>
                             <hr>
                             <li class="kids__camp_box_price_block_list_item">
-                                <b>1420 рублей</b> - бронирование до <span class="kids__camp_box_price_block_list_item_span">15 мая 2026г.</span>
-                            </li>
-                            <hr>
-                            <li class="kids__camp_box_price_block_list_item">
-                                <b>1400 рублей</b> - бронирование после <span class="kids__camp_box_price_block_list_item_span">15 мая 2026г.</span>
+                                <b>1450 рублей</b> - бронирование <span class="kids__camp_box_price_block_list_item_span">после 1 мая 2026г.</span>
                             </li>
                             <hr>
                             <li class="kids__camp_box_price_block_list_item">

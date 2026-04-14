@@ -61,8 +61,8 @@
                         </h6>
                         <ul class="menu-left__item">
                             <li>
-                                <a href="/documents/to-investors.pdf">
-                                    Инвесторам
+                                <a href="/documents/to-partners.pdf">
+                                    Партнерам
                                 </a>
                             </li>
                             <li>
