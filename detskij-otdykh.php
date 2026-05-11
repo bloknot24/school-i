@@ -7,7 +7,7 @@ include_once 'header.php'; ?>
         <div class="row">
             <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
                 <h1 class="kids__camp_box_header text-center upper">
-                    Летний лагерь <span>2026</span>
+                    Детский отдых <span>2026</span>
                 </h1>
             </div>
             <!-- <div class="col-12">
