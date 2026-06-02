@@ -284,7 +284,7 @@ include_once 'header.php'; ?>
             <div class="col-xl-6 col-lg-7 col-md-12">
                 <div class="cycle__esires_bonus2_box">
                     <p class="cycle__esires_bonus2_box_text1">
-                        Возможность поехать в летний лагерь бесплатно или со скидкой*
+                        Возможность поехать отдохнуть бесплатно или со скидкой*
                     </p>
                     <div class="cycle__esires_bonus2_box2">
                         <p class="cycle__esires_bonus2_box_text2">
@@ -293,7 +293,7 @@ include_once 'header.php'; ?>
                         <img src="img/cycle-desires/img_bonus5.png" class="cycle__esires_bonus2_box_img alt="">
                 </div>
                 <p class=" cycle__esires_bonus2_box_text3">
-                        *1 наклейка –скидка 10 рублей в летний лагерь
+                        *1 наклейка –скидка 10 рублей
                         </p>
                     </div>
                 </div>

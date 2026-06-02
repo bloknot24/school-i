@@ -572,7 +572,7 @@ include_once 'header.php';
 			<div class="col-lg-5">
 				<div class="animate__animated ticket__free">
 					<h3 class="ticket__title">
-						Путевка в детский лагерь
+						Путевка в детский отдых
 					</h3>
 					<span>
 						<strong>

@@ -53,7 +53,7 @@ include_once 'header.php'; ?>
     </div>
 </section>
 
-<section class="kids-camp-benefit">
+<!-- <section class="kids-camp-benefit">
     <div class="container">
         <div class="row">
             <div class="col-12">
@@ -163,7 +163,7 @@ include_once 'header.php'; ?>
             </div>
         </div>
     </div>
-</section>
+</section> -->
 
 <section class="kids-camp-call-to-action">
     <div class="container">
@@ -753,7 +753,7 @@ include_once 'header.php'; ?>
                                     1 смена
                                 </p>
                             </div>
-                            <span class="kids__camp_box_price_block_list_item_span">(осталось 8 мест)</span>
+                            <span class="kids__camp_box_price_block_list_item_span">(нет мест)</span>
                             <p class="kids__camp_box_change_block_list_item_text2" style="color: red; font-weight: 600;">
                                 21.06. – 2.07
                             </p>
@@ -765,7 +765,7 @@ include_once 'header.php'; ?>
                                     2 смена
                                 </p>
                             </div>
-                            <span class="kids__camp_box_price_block_list_item_span">(осталось 4 места)</span>
+                            <span class="kids__camp_box_price_block_list_item_span">(осталось 2 места)</span>
                             <p class="kids__camp_box_change_block_list_item_text2" style="color: red; font-weight: 600;">
                                 05.07 – 16.07
                             </p>
@@ -777,7 +777,7 @@ include_once 'header.php'; ?>
                                     3 смена
                                 </p>
                             </div>
-                            <span class="kids__camp_box_price_block_list_item_span">(есть места)</span>
+                            <span class="kids__camp_box_price_block_list_item_span">(осталось 8 мест)</span>
                             <p class="kids__camp_box_change_block_list_item_text2" style="color: red; font-weight: 600;">
                                 19.07 – 30.07
                             </p>
@@ -934,9 +934,9 @@ include_once 'header.php'; ?>
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <p class="kids__camp_benefit_head_p text-center">Познавательно-развлекательная программа</p>
-                <h2 class="kids__camp_box_programms_head upper text-center">
-                    «Сокровище мечтают все найти»
+                <!-- <p class="kids__camp_benefit_head_p text-center">Познавательно-развлекательная программа</p> -->
+                <h2 class="kids__camp_box_programms_head upper text-center" style="color: tomato">
+                    На ваш выбор две программы
                 </h2>
             </div>
             <!-- <div class="col-lg-6 col-md-6 col-sm-12">
@@ -969,15 +969,21 @@ include_once 'header.php'; ?>
                     Съёмка видео клипа. Спортивные активности. Катание на лошадях.
                 </div>
             </div> -->
+            <div class="col-12">
+                <p class="kids__camp_benefit_head_p text-center">Познавательно-развлекательная программа</p>
+                <h3 class="kids__camp_box_programms_head upper text-center" style="font-size: 24px;">
+                    «Сокровище мечтают все найти»
+                </h3>
+            </div>
             <div class="col-lg-6 col-md-6 col-sm-12">
                 <div class="kids__camp_box_programms_block">
                     <img src="img/kids-camp-sum/kids-camp-programm3.png" class="kids__camp_box_programms_block_img" alt="Картинка">
                     <!-- <h3 class="kids__camp_box_programms_block_head upper" style="color:#87d0f9;">
                         Quest camp
                     </h3> -->
-                    <h3 class="kids__camp_box_programms_block_head upper" style="color:#87d0f9;">
+                    <h4 class="kids__camp_box_programms_block_head upper" style="color:#87d0f9;">
                         Новинка сезона 2026 года
-                    </h3>
+                    </h4>
                 </div>
             </div>
             <div class="col-lg-6 col-md-6 col-sm-12">
@@ -985,6 +991,30 @@ include_once 'header.php'; ?>
                     С момента заезда ребята погружаются в атмосферу таинственности и загадок, находят таинственное послание
                     и в течение смены должны найти нечто особенное. Говорим на английском, учимся импровизировать, познаем
                     мир финансов. Все этапы проходят в стиле спортивно-приключенческой игры «ФОРТ БОЯРД».
+                </div>
+            </div>
+
+
+            <div class="col-12">
+                <p class="kids__camp_benefit_head_p text-center">Познавательно-развлекательная программа</p>
+                <h3 class="kids__camp_box_programms_head upper text-center" style="font-size: 24px;">
+                    «СамоЛЕТО»
+                </h3>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                <div class="kids__camp_box_programms_block">
+                    <img src="img/kids-camp-sum/kids-camp-programm4.png" class="kids__camp_box_programms_block_img" alt="Картинка">
+                    <h4 class="kids__camp_box_programms_block_head upper" style="color:#8ed6cb;">
+                        Программа пользуется большим успехом
+                    </h4>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                <div class="kids__camp_box_programms_block_text">
+                    Детей ждет насыщенная программа, полная веселья и открытий! Дети смогут проявить себя
+                    в разнообразных играх: от активных и забавных, вроде "Фотоохоты" и "Мокрой эстафеты", 
+                    до интеллектуальных испытаний, таких как "Угадай мелодию" и "Веселая пословица". 
+                    Также предусмотрены игры и командное взаимодействие.
                 </div>
             </div>
         </div>
@@ -1033,16 +1063,17 @@ include_once 'header.php'; ?>
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <h2 class="kids__camp_box_price-head text-center">
-                    Стоимость путевки
+                <h2 class="kids__camp_box_price-head upper text-center">
+                    Стоимость
                 </h2>
             </div>
-            <!-- <div class="col-lg-6 col-md-12 col-sm-12">
+            <div class="col-lg-6 col-md-12 col-sm-12">
                 <div class="kids__camp_box_price_block1 text-center">
-                    <img src="img/kids-camp-sum/price-img1.png" alt="Стоимость">
+                    <!-- <img src="img/kids-camp-sum/price-img1.png" alt="Стоимость"> -->
+                    <img src="img/kids-camp-sum/kids-camp-programm4.png" alt="Стоимость">
                     <div class="kids__camp_box_price_block_line">
-                        <h3 class="kids__camp_box_price_block-head upper">
-                            Пакет экононом
+                        <h3 class="kids__camp_box_price_block-head upper" style="font-size: 23px;">
+                            Познавательно-развлекательная<br> программа<br> «СамоЛЕТО»
                         </h3>
                         <p class="kids__camp_box_price_block-head_text">
                             12 дней / 11 ночей
@@ -1062,6 +1093,25 @@ include_once 'header.php'; ?>
                             </li>
                             <hr>
                             <li class="kids__camp_box_price_block_list_item">
+                                <b>- познавательно-развлекательная программа</b>
+                            </li>
+                            <hr>
+                             <li class="kids__camp_box_price_block_list_item">
+                                <b>- трансфер</b>
+                            </li>
+                            <hr>
+                            <li class="kids__camp_box_price_block_list_item">
+                                <b>-</b>
+                            </li>
+                            <hr>
+                            <li>
+                                - стоимость <span class="kids__camp_box_price_block_list_item_span" style="font-size: 1.2rem;">1250 рублей</span>
+                            </li>
+                            <hr>
+                            <li class="kids__camp_box_price_block_list_item">
+                                <b>40 000 рублей</b> - для граждан <span class="kids__camp_box_price_block_list_item_span">Российской Федерации</span>
+                            </li>
+                            <!-- <li class="kids__camp_box_price_block_list_item">
                                 - сопровождение ребенка
                             </li>
                             <hr>
@@ -1088,8 +1138,8 @@ include_once 'header.php'; ?>
                             <li class="kids__camp_box_price_block_list_item">
                                 <b>-</b>
                             </li>
-                            <hr>
-                            <li class="kids__camp_box_price_block_list_item">
+                            <hr> -->
+                            <!-- <li class="kids__camp_box_price_block_list_item">
                                 <b>1200 рублей</b> - бронирование до <span class="kids__camp_box_price_block_list_item_span">15 апреля 2026г.</span>
                             </li>
                             <hr>
@@ -1099,27 +1149,29 @@ include_once 'header.php'; ?>
                             <hr>
                             <li class="kids__camp_box_price_block_list_item">
                                 <b>1500 рублей</b> - бронирование после <span class="kids__camp_box_price_block_list_item_span">15 мая 2026г.</span>
-                            </li>
-                        </ul> -->
-            <!-- <p class="kids__camp_box_price_block_text">
+                            </li> -->
+                        </ul>
+                        <!-- <p class="kids__camp_box_price_block_text">
                             Стоимость <span class="kids__camp_box_price_block_list_item_span">450</span> рублей - Усадьба «Березовый двор»<br><br>
                             Стоимость <span class="kids__camp_box_price_block_list_item_span">400</span> рублей - Усадьба «Вячкойни»<br>
                             <span style="color: red; font-weight: 700;">Мест нет</span>
                         </p> -->
-            <!-- </div>
+                    </div>
                     <div class="upper kids__camp_box_price_block_text_div_link text-center">
                         <a href="#try-it" class="upper kids__camp_box_price_block_text_link">Заказать</a>
                     </div>
                 </div>
-            </div> -->
+            </div>
             <!-- <div class="col-lg-6 col-md-12 col-sm-12"> -->
-            <div class="col-lg-12 col-md-12 col-sm-12">
-                <div class="kids__camp_box_price_block2 text-center" style="margin: 40px auto 0px auto;">
+            <div class="col-lg-6 col-md-12 col-sm-12">
+                <div class="kids__camp_box_price_block2 text-center">
                     <!-- <img src="img/kids-camp-sum/price-img2.png" alt="Стоимость"> -->
+                    <img src="img/kids-camp-sum/kids-camp-programm3.png" alt="Стоимость">
                     <div class="kids__camp_box_price_block_line">
-                        <!-- <h3 class="kids__camp_box_price_block-head upper">
-                            Пакет lite
-                        </h3> -->
+                        <h3 class="kids__camp_box_price_block-head upper" style="font-size: 23px;">
+                            Познавательно-развлекательная программа
+                            «Сокровище мечтают все найти»
+                        </h3>
                         <p class="kids__camp_box_price_block-head_text">
                             12 дней / 11 ночей
                         </p>
@@ -1138,43 +1190,19 @@ include_once 'header.php'; ?>
                             </li>
                             <hr>
                             <li class="kids__camp_box_price_block_list_item">
-                                - трансфер
-                            </li>
-                            <hr>
-                            <li class="kids__camp_box_price_block_list_item">
-                                <b>- дополнительные процедуры по назначению педиатра</b>
-                            </li>
-                            <hr>
-                            <li class="kids__camp_box_price_block_list_item">
-                                <b>- круглосуточная работа педагогов</b>
-                            </li>
-                            <hr>
-                            <li class="kids__camp_box_price_block_list_item">
                                 <b>- познавательно-развлекательная программа</b>
                             </li>
                             <hr>
                             <li class="kids__camp_box_price_block_list_item">
-                                <b>- английский язык</b>
+                                <b>- игры на английском</b>
                             </li>
                             <hr>
                             <li class="kids__camp_box_price_block_list_item">
-                                <b>- экскурсии</b>
+                                <b>- трансфер</b>
                             </li>
                             <hr>
-                            <li class="kids__camp_box_price_block_list_item">
-                                <b>- подарки</b>
-                            </li>
-                            <!-- <hr>
-                            <li class="kids__camp_box_price_block_list_item">
-                                <b>1380 рублей</b> - бронирование до <span class="kids__camp_box_price_block_list_item_span">10 апреля 2026г.</span>
-                            </li> -->
-                            <hr>
-                            <li class="kids__camp_box_price_block_list_item">
-                                <b>1420 рублей</b> - бронирование <span class="kids__camp_box_price_block_list_item_span">до 1 мая 2026г.</span>
-                            </li>
-                            <hr>
-                            <li class="kids__camp_box_price_block_list_item">
-                                <b>1450 рублей</b> - бронирование <span class="kids__camp_box_price_block_list_item_span">после 1 мая 2026г.</span>
+                            <li>
+                                - стоимость <span class="kids__camp_box_price_block_list_item_span" style="font-size: 1.2rem;">1450 рублей</span>
                             </li>
                             <hr>
                             <li class="kids__camp_box_price_block_list_item">
@@ -1212,11 +1240,11 @@ include_once 'header.php'; ?>
                         предоплаты в размере <span class="kids__camp_box_price_block_conditions_text_span" style="display: inline">300 руб.</span>
                     </p>
                     <p class="kids__camp_box_price_block_conditions_text">
-                        * Основную часть стоимости Вы вносите за <span class="kids__camp_box_price_block_conditions_text_span">2
+                        * Основную часть стоимости Вы вносите за <span class="kids__camp_box_price_block_conditions_text_span">3
                             недели до начала смены</span>
                     </p>
                 </div>
-            </div>
+            <!-- </div> -->
         </div>
     </div>
 </section>
@@ -1322,6 +1350,12 @@ include_once 'header.php'; ?>
                         <li class="kids__camp_box_document_list_item">
                             <img src="img/kids-camp-sum/star-icon.png" alt="Иконка">
                             <p class="kids__camp_box_document_list_item_text">
+                                Справка по форме 079/у, полная выписка
+                            </p>
+                        </li>
+                        <!-- <li class="kids__camp_box_document_list_item">
+                            <img src="img/kids-camp-sum/star-icon.png" alt="Иконка">
+                            <p class="kids__camp_box_document_list_item_text">
                                 Справку-выписку о прививках
                             </p>
                         </li>
@@ -1330,7 +1364,7 @@ include_once 'header.php'; ?>
                             <p class="kids__camp_box_document_list_item_text">
                                 Справку об отсутствии контактов с инфекционными заболеваниями
                             </p>
-                        </li>
+                        </li> -->
                     </ul>
                     <p class="kids__camp_box_document_block_text">
                         * Справки должны быть оформлены не позднее 3-х календарных дней до заезда.

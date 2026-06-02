@@ -4038,6 +4038,11 @@ header button {
 	width: 470px;
 	margin: 40px auto 0px 5px;
 }
+.kids__camp_box_price_block1 img, .kids__camp_box_price_block2 img {
+	width: 342px;
+	height: 213px;
+	margin-bottom: 10px;
+}
 .kids__camp_box_price_block_list {
 	list-style-type: none;
 	margin-top: 40px;
@@ -4045,6 +4050,7 @@ header button {
 .kids__camp_box_price_block-head {
 	font-size: 27px;
 	font-weight: 700;
+	margin: 10px auto 20px auto;
 }
 .kids__camp_box_price_block-head_text {
 	font-size: 21px;
