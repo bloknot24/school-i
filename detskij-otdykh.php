@@ -746,7 +746,7 @@ include_once 'header.php'; ?>
             <div class="col-12">
                 <div class="kids__camp_box_change_block">
                     <ul class="kids__camp_box_change_block_list1 text-center" style="margin-bottom: 25px;">
-                        <li class="kids__camp_box_change_block_list_item">
+                        <!-- <li class="kids__camp_box_change_block_list_item">
                             <div style="display: flex; justify-content: center;">
                                 <div class="kids__camp_box_change_block_list_item_circle"></div>
                                 <p class="kids__camp_box_change_block_list_item_text1">
@@ -769,15 +769,16 @@ include_once 'header.php'; ?>
                             <p class="kids__camp_box_change_block_list_item_text2" style="color: red; font-weight: 600;">
                                 05.07 – 16.07
                             </p>
-                        </li>
+                        </li> -->
                         <li class="kids__camp_box_change_block_list_item">
                             <div style="display: flex; justify-content: center;">
                                 <div class="kids__camp_box_change_block_list_item_circle"></div>
                                 <p class="kids__camp_box_change_block_list_item_text1">
-                                    3 смена
+                                    <!-- 3 смена -->
+                                    В наличии
                                 </p>
                             </div>
-                            <span class="kids__camp_box_price_block_list_item_span">(осталось 8 мест)</span>
+                            <span class="kids__camp_box_price_block_list_item_span">осталось 3 места</span>
                             <p class="kids__camp_box_change_block_list_item_text2" style="color: red; font-weight: 600;">
                                 19.07 – 30.07
                             </p>
