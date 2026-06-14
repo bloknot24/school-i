@@ -165,9 +165,9 @@
                     </a>
                 </div>
                 <div class="contacs__email">
-                    <a href="mailto:prime1ya@yandex.ru" class="call">
+                    <a href="mailto:prime1ya@yandex.by" class="call">
                         <img src="img/email_whrite.png" alt="call">
-                        prime1ya@yandex.ru
+                        prime1ya@yandex.by
                     </a>
                 </div>
             </div>
@@ -279,9 +279,9 @@
                                 </a>
                             </div>
                             <div class="contacs__email">
-                                <a href="mailto:prime1ya@yandex.ru" class="call">
+                                <a href="mailto:prime1ya@yandex.by" class="call">
                                     <img src="img/message.png" alt="call">
-                                    prime1ya@yandex.ru
+                                    prime1ya@yandex.by
                                 </a>
                             </div>
                         </div>

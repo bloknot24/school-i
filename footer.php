@@ -118,9 +118,9 @@
                         </a>
                     </div>
                     <div class="contacs__email contacs__email-footer">
-                        <a href="mailto:prime1ya@yandex.ru" class="call">
+                        <a href="mailto:prime1ya@yandex.by" class="call">
                             <img src="img/message.png" alt="call">
-                            prime1ya@yandex.ru
+                            prime1ya@yandex.by
                         </a>
                     </div>
                     <!-- <div class="contacs__clock">
@@ -140,9 +140,9 @@
                         </div> -->
                     </div>
                     <div class="contacs__email contacs__email-footer">
-                        <a href="mailto:prime1ya@yandex.ru" class="call">
+                        <a href="mailto:prime1ya@yandex.by" class="call">
                             <img src="img/message.png" alt="call">
-                            prime1ya@yandex.ru
+                            prime1ya@yandex.by
                         </a>
                     </div>
                 </div>
@@ -199,7 +199,8 @@
             </div>
             <div class="col-lg-3">
                 <p class="logo-footer__text logo-footer__text2">
-                    Общество с ограниченной ответственностью "Талант система". УНП: 193957252
+                    Общество с ограниченной ответственностью "Талант система". УНП: 193957252<br><br>
+                    Cайт зарегистрирован в  <b>БелГИЭ</b>
                 </p>
             </div>
         </div>
