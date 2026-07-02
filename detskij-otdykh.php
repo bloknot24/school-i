@@ -778,7 +778,7 @@ include_once 'header.php'; ?>
                                     В наличии
                                 </p>
                             </div>
-                            <span class="kids__camp_box_price_block_list_item_span">осталось 3 места</span>
+                            <span class="kids__camp_box_price_block_list_item_span">МЕСТ НЕТ</span>
                             <p class="kids__camp_box_change_block_list_item_text2" style="color: red; font-weight: 600;">
                                 19.07 – 30.07
                             </p>
